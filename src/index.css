@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Inter", sans-serif;
+
+  --color-brand-primary: #FF6B6B; /* Coral */
+  --color-brand-secondary: #4ECDC4; /* Teal */
+  --color-brand-accent: #FFE66D; /* Yellow */
+  --color-paper: #FFFDF5; /* Cream */
+  --color-ink: #2D3436; /* Dark Gray */
+  --color-soft-ink: #636E72; /* Gray */
+}
+
+@layer base {
+  :root {
+    --background: 48 100% 98%; /* #FFFDF5 */
+    --foreground: 0 0% 10%; /* #1A1A1A */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 45 100% 51%; /* #FFC107 - Vibrant Yellow */
+    --primary-foreground: 0 0% 10%;
+    --secondary: 45 100% 96%; /* Very light yellow */
+    --secondary-foreground: 0 0% 10%;
+    --muted: 45 30% 90%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 45 100% 51%;
+    --radius: 32px;
+    --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @theme {
+    --font-sans: "Inter", system-ui, sans-serif;
+    --font-display: "Inter", sans-serif;
+
+    --color-brand-primary: #FFC107;
+    --color-brand-secondary: #FFF9E6;
+    --color-brand-accent: #FF8F00;
+    --color-paper: #FFFFFF;
+    --color-ink: #1A1A1A;
+    --color-soft-ink: #4D4D4D;
+  }
+
+  body {
+    @apply bg-paper text-ink font-sans antialiased selection:bg-brand-primary/30;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-black tracking-tight text-ink;
+  }
+
+  section {
+    @apply py-24 md:py-32 overflow-hidden;
+  }
+}
