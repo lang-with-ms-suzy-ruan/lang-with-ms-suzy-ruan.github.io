@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronLeft, ChevronRight, Rocket, X } from "lucide-react";
+import { ChevronLeft, ChevronRight, Rocket, X, Maximize2, Minimize2, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface MoversLetsTalkAppProps {
@@ -9,6 +9,10 @@ interface MoversLetsTalkAppProps {
 
 export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [isMagnifying, setIsMagnifying] = useState(false);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const containerRef = useRef<HTMLDivElement>(null);
   const totalImages = 8;
 
   // Assuming files are named 1.pdf to 8.pdf in /media/movers_talk/
@@ -22,100 +26,202 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
     setCurrentIndex((prev) => (prev - 1 + totalImages) % totalImages);
   };
 
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (!containerRef.current) return;
+    const rect = containerRef.current.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+  };
+
+  // Keyboard navigation
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") nextImage();
+      if (e.key === "ArrowLeft") prevImage();
+      if (e.key === "Escape") {
+        if (isFullScreen) setIsFullScreen(false);
+        else if (isMagnifying) setIsMagnifying(false);
+      }
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [isFullScreen, isMagnifying]);
+
   return (
-    <div className="fixed inset-0 bg-brand-secondary/10 flex flex-col z-50 overflow-hidden font-sans">
-      {/* Top Navigation */}
-      <div className="bg-white border-b-4 border-ink p-4 flex items-center justify-between shadow-[0_4px_0_0_rgba(45,52,54,1)]">
-        <div className="flex items-center gap-4">
-          <Button 
-            variant="ghost" 
-            size="icon" 
-            onClick={onBack}
-            className="hover:bg-brand-primary/20 text-ink rounded-full"
+    <div className={`fixed inset-0 bg-brand-secondary/10 flex flex-col z-50 overflow-hidden font-sans transition-all duration-500 ${isFullScreen ? 'bg-black' : ''}`}>
+      {/* Top Navigation - Hidden in Full Screen */}
+      <AnimatePresence>
+        {!isFullScreen && (
+          <motion.div
+            initial={{ y: -100 }}
+            animate={{ y: 0 }}
+            exit={{ y: -100 }}
+            className="bg-white border-b-4 border-ink p-4 flex items-center justify-between shadow-[0_4px_0_0_rgba(45,52,54,1)] z-20"
           >
-            <ChevronLeft className="w-6 h-6" />
-          </Button>
-          <div className="bg-brand-primary p-2 rounded-xl border-2 border-ink">
-            <Rocket className="w-5 h-5 text-ink" />
-          </div>
-          <div>
-            <h1 className="font-black text-lg tracking-tight leading-none text-ink uppercase">MOVERS LET'S TALK!</h1>
-            <p className="text-[10px] font-bold text-ink/30 uppercase tracking-widest leading-none mt-1">Admin Panel • Speaking Practice</p>
-          </div>
-        </div>
-        
-        <div className="flex items-center gap-4">
-          <div className="hidden md:flex flex-col items-end mr-2">
-            <span className="text-[10px] font-black text-ink/40 uppercase tracking-tighter">Page</span>
-            <span className="text-xl font-black text-ink leading-none">{currentIndex + 1} / {totalImages}</span>
-          </div>
-          <Button 
-            onClick={onBack}
-            className="bg-ink text-white hover:bg-ink/90 font-black rounded-full px-6 shadow-lg"
+            <div className="flex items-center gap-4">
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={onBack}
+                className="hover:bg-brand-primary/20 text-ink rounded-full"
+              >
+                <ChevronLeft className="w-6 h-6" />
+              </Button>
+              <div className="bg-brand-primary p-2 rounded-xl border-2 border-ink">
+                <Rocket className="w-5 h-5 text-ink" />
+              </div>
+              <div>
+                <h1 className="font-black text-lg tracking-tight leading-none text-ink uppercase">MOVERS LET'S TALK!</h1>
+                <p className="text-[10px] font-bold text-ink/30 uppercase tracking-widest leading-none mt-1">Admin Panel • Speaking Practice</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <div className="hidden md:flex flex-col items-end mr-4">
+                <span className="text-[10px] font-black text-ink/40 uppercase tracking-tighter">Page</span>
+                <span className="text-xl font-black text-ink leading-none">{currentIndex + 1} / {totalImages}</span>
+              </div>
+
+              <Button
+                variant="outline"
+                onClick={() => setIsMagnifying(!isMagnifying)}
+                className={`rounded-xl border-2 border-ink font-black shadow-[2px_2px_0_0_rgba(45,52,54,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all ${isMagnifying ? 'bg-brand-primary' : 'bg-white'}`}
+              >
+                <Search className="w-4 h-4 mr-2" /> MAGNIFY
+              </Button>
+
+              <Button
+                variant="outline"
+                onClick={() => setIsFullScreen(true)}
+                className="rounded-xl border-2 border-ink bg-white font-black shadow-[2px_2px_0_0_rgba(45,52,54,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all"
+              >
+                <Maximize2 className="w-4 h-4 mr-2" /> FULLSCREEN
+              </Button>
+
+              <Button
+                onClick={onBack}
+                className="bg-ink text-white hover:bg-ink/90 font-black rounded-full px-6 shadow-lg ml-2"
+              >
+                <X className="w-4 h-4 mr-2" /> EXIT
+              </Button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Floating Controls for Full Screen */}
+      {isFullScreen && (
+        <div className="fixed top-6 right-6 z-50 flex gap-3">
+          <Button
+            onClick={() => setIsMagnifying(!isMagnifying)}
+            className={`w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all ${isMagnifying ? 'bg-brand-primary text-ink' : ''}`}
           >
-            <X className="w-4 h-4 mr-2" /> EXIT
+            <Search className="w-6 h-6" />
+          </Button>
+          <Button
+            onClick={() => setIsFullScreen(false)}
+            className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-accent transition-all"
+          >
+            <Minimize2 className="w-6 h-6" />
           </Button>
         </div>
-      </div>
+      )}
 
       {/* Main Content Area */}
-      <div className="flex-1 relative flex items-center justify-center p-4 md:p-8 overflow-hidden">
-        {/* Navigation Buttons */}
-        <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 flex justify-between px-4 md:px-8 z-10 pointer-events-none">
-          <Button 
-            onClick={prevImage}
-            className="w-12 h-12 md:w-16 md:h-16 rounded-full border-4 border-ink bg-white text-ink shadow-[4px_4px_0_0_rgba(45,52,54,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all pointer-events-auto"
+      <div
+        ref={containerRef}
+        onMouseMove={handleMouseMove}
+        className={`flex-1 relative flex items-center justify-center overflow-hidden transition-all duration-500 ${isFullScreen ? 'p-0 bg-black' : 'p-4 md:p-8'}`}
+      >
+        {/* PDF Container */}
+        <div className={`w-full h-full flex items-center justify-center relative ${isMagnifying ? 'cursor-none' : ''}`}>
+          <div
+            className={`relative transition-all duration-500 ${isFullScreen
+                ? 'w-screen h-screen rounded-0 border-0 shadow-none'
+                : 'w-full max-w-6xl aspect-[1.414/1] bg-white border-4 border-ink rounded-[40px] shadow-[16px_16px_0_0_rgba(45,52,54,1)] overflow-hidden'
+              }`}
           >
-            <ChevronLeft className="w-8 h-8 md:w-10 md:h-10" />
-          </Button>
-          <Button 
-            onClick={nextImage}
-            className="w-12 h-12 md:w-16 md:h-16 rounded-full border-4 border-ink bg-brand-primary text-ink shadow-[4px_4px_0_0_rgba(45,52,54,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all pointer-events-auto"
-          >
-            <ChevronRight className="w-8 h-8 md:w-10 md:h-10" />
-          </Button>
-        </div>
-
-        {/* Image Container - Aspect Ratio A3 Landscape (approx 1.41) */}
-        <div className="w-full h-full flex items-center justify-center">
-          <div className="relative w-full max-w-6xl aspect-[1.414/1] bg-white border-4 border-ink rounded-[40px] shadow-[16px_16px_0_0_rgba(45,52,54,1)] overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentIndex}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4 }}
                 className="w-full h-full flex items-center justify-center bg-black/5"
               >
-                <iframe 
-                  src={`${files[currentIndex]}#toolbar=0&navpanes=0&scrollbar=0`} 
-                  className="w-full h-full border-none"
+                <iframe
+                  src={`${files[currentIndex]}#view=Fit&toolbar=0&navpanes=0&scrollbar=0`}
+                  className="w-full h-full border-none pointer-events-auto"
                   title={`Movers Let's Talk ${currentIndex + 1}`}
                 />
               </motion.div>
             </AnimatePresence>
-            
-            {/* Page Indicator Overlay */}
-            <div className="absolute bottom-6 right-8 bg-ink/80 backdrop-blur-sm text-white px-4 py-1 rounded-full text-xs font-black tracking-widest border border-white/20 uppercase">
-              Section {currentIndex + 1}
-            </div>
+
+            {/* Page Indicator Overlay - Only show if not in full screen or hover */}
+            {!isFullScreen && (
+              <div className="absolute bottom-6 right-8 bg-ink/80 backdrop-blur-sm text-white px-4 py-1 rounded-full text-xs font-black tracking-widest border border-white/20 uppercase">
+                Section {currentIndex + 1}
+              </div>
+            )}
           </div>
+
+          {/* Magnifying Glass Loupe */}
+          {isMagnifying && (
+            <div
+              className="pointer-events-none fixed z-[60] w-64 h-64 rounded-full border-4 border-brand-primary overflow-hidden shadow-2xl bg-white"
+              style={{
+                left: mousePos.x + (isFullScreen ? 0 : (containerRef.current?.getBoundingClientRect().left || 0)) - 128,
+                top: mousePos.y + (isFullScreen ? 0 : (containerRef.current?.getBoundingClientRect().top || 0)) - 128,
+              }}
+            >
+              {/* This mimics a magnifying glass by showing the same iframe scaled up */}
+              <div
+                className="absolute origin-center"
+                style={{
+                  width: '300%',
+                  height: '300%',
+                  left: -mousePos.x * 3 + 128,
+                  top: -mousePos.y * 3 + 128,
+                }}
+              >
+                <iframe
+                  src={`${files[currentIndex]}#view=Fit&toolbar=0&navpanes=0&scrollbar=0`}
+                  className="w-full h-full border-none"
+                  style={{ pointerEvents: 'none' }}
+                />
+              </div>
+              {/* Overlay Crosshair */}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="w-4 h-4 border-2 border-brand-primary rounded-full" />
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Thumbnails / Bottom Progress */}
-      <div className="bg-white border-t-4 border-ink p-3 flex justify-center gap-2">
-        {Array.from({ length: totalImages }).map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrentIndex(i)}
-            className={`w-10 h-2 rounded-full transition-all border border-ink/20 ${
-              currentIndex === i ? 'bg-brand-primary w-16' : 'bg-ink/10 hover:bg-ink/20'
-            }`}
-          />
-        ))}
-      </div>
+      {/* Thumbnails / Bottom Progress - Hidden in Full Screen */}
+      <AnimatePresence>
+        {!isFullScreen && (
+          <motion.div
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            exit={{ y: 100 }}
+            className="bg-white border-t-4 border-ink p-3 flex justify-center gap-2 z-20"
+          >
+            {Array.from({ length: totalImages }).map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setCurrentIndex(i)}
+                className={`w-10 h-2 rounded-full transition-all border border-ink/20 ${currentIndex === i ? 'bg-brand-primary w-16' : 'bg-ink/10 hover:bg-ink/20'
+                  }`}
+              />
+            ))}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };
