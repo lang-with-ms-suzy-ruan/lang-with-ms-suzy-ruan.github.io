@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronLeft, ChevronRight, Rocket, X, Maximize2, Minimize2, Search } from "lucide-react";
+import { ChevronLeft, ChevronRight, Rocket, X, Maximize2, Minimize2, ZoomIn, ZoomOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface MoversLetsTalkAppProps {
@@ -10,8 +10,7 @@ interface MoversLetsTalkAppProps {
 export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFullScreen, setIsFullScreen] = useState(false);
-  const [isMagnifying, setIsMagnifying] = useState(false);
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [zoom, setZoom] = useState(1);
   const containerRef = useRef<HTMLDivElement>(null);
   const totalImages = 8;
 
@@ -26,13 +25,12 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
     setCurrentIndex((prev) => (prev - 1 + totalImages) % totalImages);
   };
 
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (!containerRef.current) return;
-    const rect = containerRef.current.getBoundingClientRect();
-    setMousePos({
-      x: e.clientX - rect.left,
-      y: e.clientY - rect.top,
-    });
+  const zoomIn = () => setZoom((prev) => Math.min(prev + 0.25, 3));
+  const zoomOut = () => setZoom((prev) => Math.max(prev - 0.25, 0.5));
+
+  const exitFullScreen = () => {
+    setIsFullScreen(false);
+    setZoom(1);
   };
 
   // Keyboard navigation
@@ -41,13 +39,16 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
       if (e.key === "ArrowRight") nextImage();
       if (e.key === "ArrowLeft") prevImage();
       if (e.key === "Escape") {
-        if (isFullScreen) setIsFullScreen(false);
-        else if (isMagnifying) setIsMagnifying(false);
+        if (isFullScreen) exitFullScreen();
+      }
+      if (isFullScreen) {
+        if (e.key === "+" || e.key === "=") zoomIn();
+        if (e.key === "-") zoomOut();
       }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isFullScreen, isMagnifying]);
+  }, [isFullScreen, zoom]);
 
   return (
     <div className={`fixed inset-0 bg-brand-secondary/10 flex flex-col z-50 overflow-hidden font-sans transition-all duration-500 ${isFullScreen ? 'bg-black' : ''}`}>
@@ -86,14 +87,6 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
 
               <Button
                 variant="outline"
-                onClick={() => setIsMagnifying(!isMagnifying)}
-                className={`rounded-xl border-2 border-ink font-black shadow-[2px_2px_0_0_rgba(45,52,54,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all ${isMagnifying ? 'bg-brand-primary' : 'bg-white'}`}
-              >
-                <Search className="w-4 h-4 mr-2" /> MAGNIFY
-              </Button>
-
-              <Button
-                variant="outline"
                 onClick={() => setIsFullScreen(true)}
                 className="rounded-xl border-2 border-ink bg-white font-black shadow-[2px_2px_0_0_rgba(45,52,54,1)] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-none transition-all"
               >
@@ -113,15 +106,26 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
 
       {/* Floating Controls for Full Screen */}
       {isFullScreen && (
-        <div className="fixed top-6 right-6 z-50 flex gap-3">
+        <div className="fixed top-6 right-6 z-50 flex gap-3 items-center">
           <Button
-            onClick={() => setIsMagnifying(!isMagnifying)}
-            className={`w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all ${isMagnifying ? 'bg-brand-primary text-ink' : ''}`}
+            onClick={zoomOut}
+            disabled={zoom <= 0.5}
+            className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all disabled:opacity-30"
           >
-            <Search className="w-6 h-6" />
+            <ZoomOut className="w-6 h-6" />
+          </Button>
+          <span className="text-white font-black text-sm bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/20 min-w-[56px] text-center">
+            {Math.round(zoom * 100)}%
+          </span>
+          <Button
+            onClick={zoomIn}
+            disabled={zoom >= 3}
+            className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all disabled:opacity-30"
+          >
+            <ZoomIn className="w-6 h-6" />
           </Button>
           <Button
-            onClick={() => setIsFullScreen(false)}
+            onClick={exitFullScreen}
             className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-accent transition-all"
           >
             <Minimize2 className="w-6 h-6" />
@@ -132,11 +136,10 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
       {/* Main Content Area */}
       <div
         ref={containerRef}
-        onMouseMove={handleMouseMove}
         className={`flex-1 relative flex items-center justify-center overflow-hidden transition-all duration-500 ${isFullScreen ? 'p-0 bg-black' : 'p-4 md:p-8'}`}
       >
         {/* PDF Container */}
-        <div className={`w-full h-full flex items-center justify-center relative ${isMagnifying ? 'cursor-none' : ''}`}>
+        <div className="w-full h-full flex items-center justify-center relative">
           <div
             className={`relative transition-all duration-500 ${isFullScreen
                 ? 'w-screen h-screen rounded-0 border-0 shadow-none'
@@ -151,6 +154,7 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.4 }}
                 className="w-full h-full flex items-center justify-center bg-black/5"
+                style={isFullScreen ? { transform: `scale(${zoom})`, transformOrigin: 'center center', transition: 'transform 0.2s ease' } : {}}
               >
                 <iframe
                   src={`${files[currentIndex]}#view=Fit&toolbar=0&navpanes=0&scrollbar=0`}
@@ -168,37 +172,6 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
             )}
           </div>
 
-          {/* Magnifying Glass Loupe */}
-          {isMagnifying && (
-            <div
-              className="pointer-events-none fixed z-[60] w-64 h-64 rounded-full border-4 border-brand-primary overflow-hidden shadow-2xl bg-white"
-              style={{
-                left: mousePos.x + (isFullScreen ? 0 : (containerRef.current?.getBoundingClientRect().left || 0)) - 128,
-                top: mousePos.y + (isFullScreen ? 0 : (containerRef.current?.getBoundingClientRect().top || 0)) - 128,
-              }}
-            >
-              {/* This mimics a magnifying glass by showing the same iframe scaled up */}
-              <div
-                className="absolute origin-center"
-                style={{
-                  width: '300%',
-                  height: '300%',
-                  left: -mousePos.x * 3 + 128,
-                  top: -mousePos.y * 3 + 128,
-                }}
-              >
-                <iframe
-                  src={`${files[currentIndex]}#view=Fit&toolbar=0&navpanes=0&scrollbar=0`}
-                  className="w-full h-full border-none"
-                  style={{ pointerEvents: 'none' }}
-                />
-              </div>
-              {/* Overlay Crosshair */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-4 h-4 border-2 border-brand-primary rounded-full" />
-              </div>
-            </div>
-          )}
         </div>
       </div>
 
