@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronLeft, ChevronRight, Rocket, X, Maximize2, Minimize2, ZoomIn, ZoomOut } from "lucide-react";
+import { ChevronLeft, ChevronRight, Rocket, X, Maximize2, Minimize2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface MoversLetsTalkAppProps {
@@ -10,7 +10,6 @@ interface MoversLetsTalkAppProps {
 export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFullScreen, setIsFullScreen] = useState(false);
-  const [zoom, setZoom] = useState(1);
   const containerRef = useRef<HTMLDivElement>(null);
   const totalImages = 8;
 
@@ -25,12 +24,8 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
     setCurrentIndex((prev) => (prev - 1 + totalImages) % totalImages);
   };
 
-  const zoomIn = () => setZoom((prev) => Math.min(prev + 0.25, 3));
-  const zoomOut = () => setZoom((prev) => Math.max(prev - 0.25, 0.5));
-
   const exitFullScreen = () => {
     setIsFullScreen(false);
-    setZoom(1);
   };
 
   // Keyboard navigation
@@ -41,14 +36,10 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
       if (e.key === "Escape") {
         if (isFullScreen) exitFullScreen();
       }
-      if (isFullScreen) {
-        if (e.key === "+" || e.key === "=") zoomIn();
-        if (e.key === "-") zoomOut();
-      }
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isFullScreen, zoom]);
+  }, [isFullScreen]);
 
   return (
     <div className={`fixed inset-0 bg-brand-secondary/10 flex flex-col z-50 overflow-hidden font-sans transition-all duration-500 ${isFullScreen ? 'bg-black' : ''}`}>
@@ -106,24 +97,7 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
 
       {/* Floating Controls for Full Screen */}
       {isFullScreen && (
-        <div className="fixed top-6 right-6 z-50 flex gap-3 items-center">
-          <Button
-            onClick={zoomOut}
-            disabled={zoom <= 0.5}
-            className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all disabled:opacity-30"
-          >
-            <ZoomOut className="w-6 h-6" />
-          </Button>
-          <span className="text-white font-black text-sm bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/20 min-w-[56px] text-center">
-            {Math.round(zoom * 100)}%
-          </span>
-          <Button
-            onClick={zoomIn}
-            disabled={zoom >= 3}
-            className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-primary hover:text-ink transition-all disabled:opacity-30"
-          >
-            <ZoomIn className="w-6 h-6" />
-          </Button>
+        <div className="fixed top-6 right-6 z-50 flex gap-3">
           <Button
             onClick={exitFullScreen}
             className="w-12 h-12 rounded-full border-2 border-white/20 bg-black/40 backdrop-blur-md text-white hover:bg-brand-accent transition-all"
@@ -154,7 +128,6 @@ export const MoversLetsTalkApp: React.FC<MoversLetsTalkAppProps> = ({ onBack }) 
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.4 }}
                 className="w-full h-full flex items-center justify-center bg-black/5"
-                style={isFullScreen ? { transform: `scale(${zoom})`, transformOrigin: 'center center', transition: 'transform 0.2s ease' } : {}}
               >
                 <iframe
                   src={`${files[currentIndex]}#view=Fit&toolbar=0&navpanes=0&scrollbar=0`}
