@@ -63,7 +63,7 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ onBack, isTrial = 
             const parsedWords: VocabularyWord[] = results.data.map((row: any) => {
               const word = row["Word"] || "";
               // Sanitize word for image filename
-              const sanitizedWord = word.trim().replace(/\n/g, " ").replace(/\s+/g, " ");
+              const sanitizedWord = word.trim().replace(/\n/g, " ").replace(/\s+/g, " ").replace(/\//g, "_");
               
               return {
                 no: row["No"],
