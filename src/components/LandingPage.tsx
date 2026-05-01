@@ -11,6 +11,8 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { translations } from "../translations";
 import { VocabularyApp } from "./VocabularyApp";
 import { MoversLetsTalkApp } from "./MoversLetsTalkApp";
+import { StudentManagerApp } from "./StudentManagerApp";
+import studentsData from "../data/students.json";
 
 type Language = "en" | "vi";
 const LanguageContext = createContext<{ 
@@ -1519,9 +1521,15 @@ const AppStoreSection = () => {
   );
 };
 
+async function sha256(text: string): Promise<string> {
+  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
 const AppStoreView = () => {
   const { t, setView } = useTranslation();
-  const [user, setUser] = useState<null | "admin" | "guest">(null);
+  const [user, setUser] = useState<null | "admin" | "student" | "guest">(null);
+  const [loggedInId, setLoggedInId] = useState("");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -1534,21 +1542,33 @@ const AppStoreView = () => {
   const trialFolders = allFolders.filter(folder => folder.endsWith("_trial"));
 
   if (launchedApp) {
+    if (launchedApp.id === "student_manager") {
+      return <StudentManagerApp onBack={() => setLaunchedApp(null)} />;
+    }
     if (launchedApp.id === "movers_talk") {
       return <MoversLetsTalkApp onBack={() => setLaunchedApp(null)} />;
     }
-    return <VocabularyApp 
-      appId={launchedApp.id} 
-      title={launchedApp.title} 
-      isTrial={user === "guest"} 
-      onBack={() => setLaunchedApp(null)} 
+    return <VocabularyApp
+      appId={launchedApp.id}
+      title={launchedApp.title}
+      isTrial={user === "guest"}
+      onBack={() => setLaunchedApp(null)}
     />;
   }
 
-  const handleLogin = (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     if (username === process.env.ADMIN_USERNAME && password === process.env.ADMIN_PASSWORD) {
       setUser("admin");
+      setLoggedInId(username);
+      setError("");
+      return;
+    }
+    const hash = await sha256(password);
+    const student = studentsData.students.find(s => s.id === username && s.hash === hash);
+    if (student) {
+      setUser("student");
+      setLoggedInId(username);
       setError("");
     } else {
       setError(t.appStore.loginError);
@@ -1569,18 +1589,25 @@ const AppStoreView = () => {
     };
   });
 
-  const visibleApps = user === "admin" 
+  const visibleApps = user === "admin"
     ? [
         ...availableApps,
         {
+          id: "student_manager",
+          name: "Student Manager",
+          desc: "Add and remove student accounts."
+        },
+        {
           id: "movers_talk",
           name: "Movers Let's Talk!",
-          desc: "Interactive speaking practice for Movers level (Admin Only)."
+          desc: "Interactive speaking practice for Movers level."
         }
       ]
-    : user === "guest" 
-      ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
-      : [];
+    : user === "student"
+      ? availableApps
+      : user === "guest"
+        ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
+        : [];
 
   return (
     <div className="min-h-screen bg-brand-secondary/10 pt-24 pb-12 px-6">
@@ -1615,7 +1642,7 @@ const AppStoreView = () => {
                     type="text" 
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
-                    placeholder="SuzyScottAdmin"
+                    placeholder="Student ID"
                     className="w-full h-14 bg-ink/5 border-4 border-ink rounded-2xl px-6 font-bold outline-none focus:border-brand-primary transition-colors"
                   />
                 </div>
@@ -1660,14 +1687,14 @@ const AppStoreView = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <Badge className="bg-brand-primary text-ink font-black mb-2">
-                    {user === "admin" ? "Admin Access" : t.appStore.guestTrial}
+                    {user === "admin" ? "Admin Access" : user === "student" ? `Student: ${loggedInId}` : t.appStore.guestTrial}
                   </Badge>
                   <h2 className="text-4xl font-black tracking-tighter">{t.appStore.appsLabel}</h2>
                 </div>
                 <Button 
                   variant="ghost" 
                   className="font-black text-ink/60 hover:text-ink"
-                  onClick={() => setUser(null)}
+                  onClick={() => { setUser(null); setLoggedInId(""); }}
                 >
                   Logout
                 </Button>
@@ -1690,6 +1717,7 @@ const AppStoreView = () => {
                       {(app.id === "movers" || app.id === 1) ? <Rocket className="w-6 h-6 text-ink" /> :
                        (app.id === "ielts" || app.id === 2) ? <GraduationCap className="w-6 h-6 text-ink" /> :
                        (app.id === "movers_talk") ? <Smile className="w-6 h-6 text-ink" /> :
+                       (app.id === "student_manager") ? <Users className="w-6 h-6 text-ink" /> :
                        <BookOpen className="w-6 h-6 text-ink" />}
                     </div>
                     <h3 className="text-xl font-black mb-2">{app.name}</h3>
