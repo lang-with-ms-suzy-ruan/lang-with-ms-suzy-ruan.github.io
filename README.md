@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# English with Ms. Suzy Ruan
 
-# Run and deploy your AI Studio app
+A premium online English learning platform focused on communication and personalized growth.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/2d14cb3a-b6ea-42fe-a742-3aaf664795bb
+- **Movers Vocabulary** — Flashcard-style vocabulary practice with images, IPA, and Vietnamese translations
+- **Movers Let's Talk** — PDF-based speaking practice with fullscreen presentation mode
+- **Admin panel** — Password-protected access to the full word set and teaching tools
+
+## Tech Stack
+
+- React + TypeScript
+- Vite
+- Tailwind CSS
+- Deployed via GitHub Pages
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```
+   npm install
+   ```
+
+2. Run the development server:
+   ```
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000)
+
+## Build
+
+```
+npm run build
+```
+
+The output is in the `dist/` folder. Deployment to GitHub Pages is handled automatically via GitHub Actions on every push to `main`.

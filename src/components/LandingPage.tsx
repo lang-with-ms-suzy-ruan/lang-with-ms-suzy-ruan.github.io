@@ -1547,7 +1547,7 @@ const AppStoreView = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === "SuzyScottAdmin" && password === "admin123") {
+    if (username === process.env.ADMIN_USERNAME && password === process.env.ADMIN_PASSWORD) {
       setUser("admin");
       setError("");
     } else {
