@@ -1475,38 +1475,74 @@ const AppStoreSection = () => {
             </motion.div>
             
             <motion.div
-              initial={{ opacity: 0, scale: 0.9, rotate: 5 }}
-              whileInView={{ opacity: 1, scale: 1, rotate: 0 }}
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="relative hidden lg:block"
+              className="relative hidden lg:flex items-center justify-center"
             >
-              <div className="relative w-full aspect-square max-w-md mx-auto">
-                <div className="absolute inset-0 bg-brand-primary/20 border-2 border-ink/10 rounded-[60px] -rotate-6" />
-                <div className="absolute inset-0 bg-brand-accent/20 border-2 border-ink/10 rounded-[60px] rotate-3" />
-                <div className="relative z-10 bg-white p-8 rounded-[60px] border-4 border-ink shadow-2xl h-full flex flex-col justify-center items-center text-ink">
-                  <div className="grid grid-cols-3 gap-6">
-                    {[
-                      { icon: <Rocket className="w-8 h-8 text-ink" />, bg: "bg-brand-primary" },
-                      { icon: <GraduationCap className="w-8 h-8 text-ink" />, bg: "bg-brand-secondary" },
-                      { icon: <Sparkles className="w-8 h-8 text-ink" />, bg: "bg-brand-accent" },
-                      { icon: <Mic className="w-8 h-8 text-ink" />, bg: "bg-brand-secondary/30" },
-                      { icon: <PenTool className="w-8 h-8 text-ink" />, bg: "bg-brand-primary/30" },
-                      { icon: <BookOpen className="w-8 h-8 text-ink" />, bg: "bg-brand-accent/30" }
-                    ].map((app, i) => (
-                      <motion.div 
-                        key={i} 
-                        whileHover={{ scale: 1.1, rotate: -5 }}
-                        className={`w-16 h-16 ${app.bg} rounded-2xl border-2 border-ink flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(45,52,54,1)]`}
-                      >
-                        {app.icon}
-                      </motion.div>
-                    ))}
+              <div className="relative w-full max-w-sm mx-auto">
+                {/* Stacked background layers */}
+                <div className="absolute inset-2 bg-brand-primary rounded-[44px] border-4 border-ink rotate-[-5deg] shadow-[6px_6px_0px_0px_rgba(45,52,54,1)]" />
+                <div className="absolute inset-2 bg-ink rounded-[44px] border-4 border-ink rotate-[3deg]" />
+
+                {/* Main vocabulary card */}
+                <div className="relative z-10 bg-white border-4 border-ink rounded-[44px] shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] p-8 flex flex-col gap-5">
+                  {/* Card header */}
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <div className="w-8 h-8 bg-brand-primary rounded-xl flex items-center justify-center border-2 border-ink">
+                        <Rocket className="w-4 h-4 text-ink" />
+                      </div>
+                      <span className="font-black text-[10px] uppercase tracking-widest text-ink/40">Movers Vocabulary</span>
+                    </div>
+                    <span className="bg-ink text-white font-black text-[10px] px-3 py-1 rounded-full">681 words</span>
                   </div>
-                  <div className="mt-12 text-center">
-                    <div className="w-12 h-1 bg-ink/10 rounded-full mx-auto mb-4" />
-                    <span className="font-black text-xl uppercase tracking-tighter">Ms. Suzy Apps</span>
+
+                  {/* Word */}
+                  <div>
+                    <p className="text-[10px] font-black uppercase tracking-widest text-ink/25 mb-1">Word #315</p>
+                    <h3 className="text-5xl font-black tracking-tighter text-ink leading-none mb-2">waterfall</h3>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-brand-primary font-bold">/ˈwɔːtərfɔːl/</span>
+                      <span className="bg-ink/10 text-ink/50 font-black text-[10px] uppercase px-2 py-0.5 rounded-lg border border-ink/10">n.</span>
+                    </div>
+                  </div>
+
+                  {/* Vietnamese */}
+                  <div className="bg-brand-primary/20 border-4 border-brand-primary/40 rounded-2xl px-4 py-3">
+                    <p className="text-[9px] font-black uppercase tracking-widest text-ink/30 mb-0.5">Definition</p>
+                    <p className="text-2xl font-black text-ink">thác nước</p>
+                  </div>
+
+                  {/* Example */}
+                  <div className="bg-ink/5 rounded-2xl px-4 py-3 border-l-4 border-brand-primary">
+                    <p className="text-xs font-bold italic text-ink/50 leading-relaxed">
+                      "The waterfall is very high and beautiful."
+                    </p>
                   </div>
                 </div>
+
+                {/* Floating quiz score card */}
+                <motion.div
+                  animate={{ y: [0, -10, 0] }}
+                  transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+                  className="absolute -top-6 -right-10 z-20 bg-ink text-white rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(255,204,0,1)] p-4 min-w-[110px]"
+                >
+                  <Trophy className="w-5 h-5 text-brand-primary mb-1" />
+                  <p className="font-black text-3xl leading-none">9/10</p>
+                  <p className="text-[10px] font-bold text-white/40 uppercase tracking-wider mt-0.5">Quiz Score</p>
+                </motion.div>
+
+                {/* Floating quiz modes card */}
+                <motion.div
+                  animate={{ y: [0, 10, 0] }}
+                  transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
+                  className="absolute -bottom-6 -left-10 z-20 bg-brand-primary rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(45,52,54,1)] p-4 min-w-[120px]"
+                >
+                  <Sparkles className="w-5 h-5 text-ink mb-1" />
+                  <p className="font-black text-sm text-ink leading-tight">3 Quiz Modes</p>
+                  <p className="text-[10px] font-bold text-ink/50 uppercase tracking-wider mt-0.5">Picture · Word · VI</p>
+                </motion.div>
               </div>
             </motion.div>
           </div>
