@@ -12,6 +12,7 @@ import { translations } from "../translations";
 import { VocabularyApp } from "./VocabularyApp";
 import { MoversLetsTalkApp } from "./MoversLetsTalkApp";
 import { StudentManagerApp } from "./StudentManagerApp";
+import { MoversQuizApp } from "./MoversQuizApp";
 import studentsData from "../data/students.json";
 
 type Language = "en" | "vi";
@@ -1545,6 +1546,9 @@ const AppStoreView = () => {
     if (launchedApp.id === "student_manager") {
       return <StudentManagerApp onBack={() => setLaunchedApp(null)} />;
     }
+    if (launchedApp.id === "movers_quiz") {
+      return <MoversQuizApp onBack={() => setLaunchedApp(null)} />;
+    }
     if (launchedApp.id === "movers_talk") {
       return <MoversLetsTalkApp onBack={() => setLaunchedApp(null)} />;
     }
@@ -1589,9 +1593,12 @@ const AppStoreView = () => {
     };
   });
 
+  const quizApp = { id: "movers_quiz", name: "Movers Quiz", desc: "Test your Movers vocabulary with picture and word quizzes." };
+
   const visibleApps = user === "admin"
     ? [
         ...availableApps,
+        quizApp,
         {
           id: "student_manager",
           name: "Student Manager",
@@ -1604,7 +1611,7 @@ const AppStoreView = () => {
         }
       ]
     : user === "student"
-      ? availableApps
+      ? [...availableApps, quizApp]
       : user === "guest"
         ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
         : [];
@@ -1717,6 +1724,7 @@ const AppStoreView = () => {
                       {(app.id === "movers" || app.id === 1) ? <Rocket className="w-6 h-6 text-ink" /> :
                        (app.id === "ielts" || app.id === 2) ? <GraduationCap className="w-6 h-6 text-ink" /> :
                        (app.id === "movers_talk") ? <Smile className="w-6 h-6 text-ink" /> :
+                       (app.id === "movers_quiz") ? <Trophy className="w-6 h-6 text-ink" /> :
                        (app.id === "student_manager") ? <Users className="w-6 h-6 text-ink" /> :
                        <BookOpen className="w-6 h-6 text-ink" />}
                     </div>
