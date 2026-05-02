@@ -2,7 +2,7 @@ import React, { useState, createContext, useContext, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import * as d3 from 'd3';
 import { feature } from 'topojson-client';
-import { BookOpen, GraduationCap, Users, User, MessageCircle, CheckCircle2, ArrowRight, Instagram, Facebook, Mail, Phone, MapPin, Globe, Briefcase, Mic, Smile, PenTool, Trophy, MessageSquare, X, Smartphone, Wifi, Clock, CheckSquare, Heart, Sparkles, Laptop, Calendar, Code, Rocket, PlayCircle, Play, Menu, ChevronLeft, ChevronRight, FileText } from "lucide-react";
+import { BookOpen, GraduationCap, Users, User, MessageCircle, CheckCircle2, ArrowRight, Instagram, Facebook, Mail, Phone, MapPin, Globe, Briefcase, Mic, Smile, PenTool, Trophy, MessageSquare, X, Smartphone, Wifi, Clock, CheckSquare, Heart, Sparkles, Laptop, Calendar, Code, Rocket, PlayCircle, Play, Menu, ChevronLeft, ChevronRight, FileText, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -1426,14 +1426,8 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100054401312922" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-primary transition-colors">
               <Facebook className="w-6 h-6" />
             </a>
-            <a href="mailto:suzynguyenhoangdiem@gmail.com" className="text-white/40 hover:text-brand-primary transition-colors">
-              <Mail className="w-6 h-6" />
-            </a>
-            <a href="https://join.skype.com/invite/UCNut3K6rX5X" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-primary transition-colors">
-              <MessageSquare className="w-6 h-6" />
-            </a>
-            <a href="https://zalo.me/s/suzyruan" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-primary transition-colors">
-              <MessageCircle className="w-6 h-6" />
+            <a href="https://www.youtube.com/channel/UCQqQpt07_QXexJUKScE3xFw" target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-brand-primary transition-colors">
+              <Youtube className="w-6 h-6" />
             </a>
           </div>
         </div>
