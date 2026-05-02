@@ -9,6 +9,7 @@ type Phase = "setup" | "quiz" | "result";
 type AnswerState = "idle" | "correct" | "wrong";
 
 interface Word {
+  no: number;
   word: string;
   ipa: string;
   vietnamese: string;
@@ -20,61 +21,58 @@ interface Question {
   options: Word[];
 }
 
+interface Preset { label: string; from: number; to: number }
+
+const PRESETS: Preset[] = [
+  { label: "All",     from: 1,   to: 9999 },
+  { label: "1–100",   from: 1,   to: 100  },
+  { label: "101–200", from: 101, to: 200  },
+  { label: "201–300", from: 201, to: 300  },
+  { label: "301–400", from: 301, to: 400  },
+  { label: "401–500", from: 401, to: 500  },
+  { label: "501+",    from: 501, to: 9999 },
+];
+
 function shuffled<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
-function buildQuestions(words: Word[], mode: QuizMode, count: number): Question[] {
-  return shuffled(words).slice(0, count).map(correct => {
-    const wrong = shuffled(words.filter(w => w.word !== correct.word)).slice(0, 3);
+function buildQuestions(rangedWords: Word[], pool: Word[], count: number): Question[] {
+  return shuffled(rangedWords).slice(0, count).map(correct => {
+    const wrong = shuffled(pool.filter(w => w.word !== correct.word)).slice(0, 3);
     return { correct, options: shuffled([correct, ...wrong]) };
   });
 }
 
 const MODES: { id: QuizMode; label: string; desc: string; icon: React.ReactNode }[] = [
-  {
-    id: "picture",
-    label: "Picture Quiz",
-    desc: "See the image → pick the word",
-    icon: <ImageIcon className="w-5 h-5" />,
-  },
-  {
-    id: "word-vi",
-    label: "Word → Vietnamese",
-    desc: "See English → pick Vietnamese",
-    icon: <Globe className="w-5 h-5" />,
-  },
-  {
-    id: "vi-word",
-    label: "Vietnamese → Word",
-    desc: "See Vietnamese → pick English",
-    icon: <BookOpen className="w-5 h-5" />,
-  },
+  { id: "picture", label: "Picture Quiz",        desc: "See the image → pick the word",    icon: <ImageIcon className="w-5 h-5" /> },
+  { id: "word-vi", label: "Word → Vietnamese",   desc: "See English → pick Vietnamese",    icon: <Globe className="w-5 h-5" /> },
+  { id: "vi-word", label: "Vietnamese → Word",   desc: "See Vietnamese → pick English",    icon: <BookOpen className="w-5 h-5" /> },
 ];
 
 const COUNTS = [10, 20, 30];
 
 function scoreEmoji(score: number, total: number) {
   const pct = score / total;
-  if (pct === 1) return { emoji: "🏆", msg: "Perfect!" };
-  if (pct >= 0.8) return { emoji: "🌟", msg: "Excellent!" };
-  if (pct >= 0.6) return { emoji: "👍", msg: "Good job!" };
-  if (pct >= 0.4) return { emoji: "💪", msg: "Keep practising!" };
-  return { emoji: "📚", msg: "Study more!" };
+  if (pct === 1)    return { emoji: "🏆", msg: "Perfect!" };
+  if (pct >= 0.8)   return { emoji: "🌟", msg: "Excellent!" };
+  if (pct >= 0.6)   return { emoji: "👍", msg: "Good job!" };
+  if (pct >= 0.4)   return { emoji: "💪", msg: "Keep practising!" };
+  return              { emoji: "📚", msg: "Study more!" };
 }
 
-interface Props {
-  onBack: () => void;
-}
+interface Props { onBack: () => void }
 
 export function MoversQuizApp({ onBack }: Props) {
-  const [allWords, setAllWords] = useState<Word[]>([]);
-  const [phase, setPhase] = useState<Phase>("setup");
-  const [mode, setMode] = useState<QuizMode>("picture");
-  const [count, setCount] = useState(10);
-  const [questions, setQuestions] = useState<Question[]>([]);
-  const [index, setIndex] = useState(0);
-  const [score, setScore] = useState(0);
+  const [allWords, setAllWords]     = useState<Word[]>([]);
+  const [phase, setPhase]           = useState<Phase>("setup");
+  const [mode, setMode]             = useState<QuizMode>("picture");
+  const [count, setCount]           = useState(10);
+  const [rangeFrom, setRangeFrom]   = useState(1);
+  const [rangeTo, setRangeTo]       = useState(9999);
+  const [questions, setQuestions]   = useState<Question[]>([]);
+  const [index, setIndex]           = useState(0);
+  const [score, setScore]           = useState(0);
   const [answerState, setAnswerState] = useState<AnswerState>("idle");
   const [chosenIndex, setChosenIndex] = useState<number | null>(null);
 
@@ -87,10 +85,11 @@ export function MoversQuizApp({ onBack }: Props) {
           skipEmptyLines: true,
           complete: ({ data }: { data: any[] }) => {
             setAllWords(
-              data.map(row => {
+              data.map((row, idx) => {
                 const word = (row["Word"] || "").trim();
                 const sanitized = word.replace(/\n/g, " ").replace(/\s+/g, " ").replace(/\//g, "_");
                 return {
+                  no: parseInt(row["No"]) || idx + 1,
                   word,
                   ipa: row["IPA"] || "",
                   vietnamese: row["Vietnamese"] || "",
@@ -103,14 +102,18 @@ export function MoversQuizApp({ onBack }: Props) {
       });
   }, []);
 
+  const rangedWords = allWords.filter(w => w.no >= rangeFrom && w.no <= rangeTo);
+  const activePreset = PRESETS.find(p => p.from === rangeFrom && p.to === rangeTo) ?? null;
+
   const startQuiz = useCallback(() => {
-    setQuestions(buildQuestions(allWords, mode, Math.min(count, allWords.length)));
+    const pool = rangedWords.length >= 4 ? rangedWords : allWords;
+    setQuestions(buildQuestions(rangedWords, pool, Math.min(count, rangedWords.length)));
     setIndex(0);
     setScore(0);
     setAnswerState("idle");
     setChosenIndex(null);
     setPhase("quiz");
-  }, [allWords, mode, count]);
+  }, [allWords, rangedWords, mode, count]);
 
   const handleAnswer = (optionIndex: number) => {
     if (answerState !== "idle") return;
@@ -118,7 +121,6 @@ export function MoversQuizApp({ onBack }: Props) {
     setChosenIndex(optionIndex);
     setAnswerState(isCorrect ? "correct" : "wrong");
     if (isCorrect) setScore(s => s + 1);
-
     setTimeout(() => {
       if (index + 1 >= questions.length) {
         setPhase("result");
@@ -137,6 +139,7 @@ export function MoversQuizApp({ onBack }: Props) {
 
   /* ── Setup ── */
   if (phase === "setup") {
+    const canStart = rangedWords.length >= 1;
     return (
       <div className="min-h-screen bg-brand-secondary/10 pt-10 pb-16 px-6">
         <div className="max-w-lg mx-auto">
@@ -180,7 +183,59 @@ export function MoversQuizApp({ onBack }: Props) {
             ))}
           </div>
 
-          {/* Count */}
+          {/* Word Range */}
+          <p className="font-black uppercase text-xs tracking-widest text-ink/40 mb-3">Word Range</p>
+          <div className="bg-white border-4 border-ink/10 rounded-2xl p-4 mb-8">
+            {/* Preset chips */}
+            <div className="flex flex-wrap gap-2 mb-4">
+              {PRESETS.map(p => (
+                <button
+                  key={p.label}
+                  onClick={() => { setRangeFrom(p.from); setRangeTo(p.to); }}
+                  className={`h-9 px-4 rounded-xl border-2 font-black text-sm transition-all ${
+                    activePreset?.label === p.label
+                      ? "border-ink bg-brand-primary shadow-[3px_3px_0px_0px_rgba(45,52,54,1)]"
+                      : "border-ink/20 hover:border-ink"
+                  }`}
+                >
+                  {p.label}
+                </button>
+              ))}
+            </div>
+
+            {/* Custom range inputs */}
+            <div className="flex items-center gap-3">
+              <div className="flex-1">
+                <label className="block text-xs font-black text-ink/40 uppercase mb-1">From #</label>
+                <input
+                  type="number"
+                  min={1}
+                  max={allWords.length || 681}
+                  value={rangeFrom}
+                  onChange={e => setRangeFrom(Math.max(1, parseInt(e.target.value) || 1))}
+                  className="w-full h-11 border-2 border-ink/20 rounded-xl px-3 font-black text-center focus:border-ink outline-none transition-colors"
+                />
+              </div>
+              <span className="font-black text-ink/30 mt-5">–</span>
+              <div className="flex-1">
+                <label className="block text-xs font-black text-ink/40 uppercase mb-1">To #</label>
+                <input
+                  type="number"
+                  min={1}
+                  max={allWords.length || 681}
+                  value={rangeTo === 9999 ? (allWords.length || 681) : rangeTo}
+                  onChange={e => setRangeTo(Math.max(rangeFrom, parseInt(e.target.value) || rangeFrom))}
+                  className="w-full h-11 border-2 border-ink/20 rounded-xl px-3 font-black text-center focus:border-ink outline-none transition-colors"
+                />
+              </div>
+            </div>
+
+            <p className="text-xs font-bold text-ink/40 mt-3 text-center">
+              {rangedWords.length} word{rangedWords.length !== 1 ? "s" : ""} in range
+            </p>
+          </div>
+
+          {/* Questions */}
           <p className="font-black uppercase text-xs tracking-widest text-ink/40 mb-3">Questions</p>
           <div className="flex gap-3 mb-10">
             {COUNTS.map(c => (
@@ -200,11 +255,14 @@ export function MoversQuizApp({ onBack }: Props) {
 
           <Button
             onClick={startQuiz}
-            disabled={allWords.length === 0}
-            className="w-full h-16 bg-ink text-white rounded-2xl font-black text-xl hover:bg-brand-primary hover:text-ink border-4 border-ink transition-all shadow-[6px_6px_0px_0px_rgba(45,52,54,1)]"
+            disabled={!canStart}
+            className="w-full h-16 bg-ink text-white rounded-2xl font-black text-xl hover:bg-brand-primary hover:text-ink border-4 border-ink transition-all shadow-[6px_6px_0px_0px_rgba(45,52,54,1)] disabled:opacity-40"
           >
             Start Quiz
           </Button>
+          {!canStart && (
+            <p className="text-center text-red-500 font-bold text-sm mt-3">No words in selected range.</p>
+          )}
         </div>
       </div>
     );
@@ -255,7 +313,7 @@ export function MoversQuizApp({ onBack }: Props) {
 
   /* ── Quiz ── */
   const q = questions[index];
-  const progress = ((index) / questions.length) * 100;
+  const progress = (index / questions.length) * 100;
 
   return (
     <div className="min-h-screen bg-ink flex flex-col">
@@ -320,9 +378,9 @@ export function MoversQuizApp({ onBack }: Props) {
               {q.options.map((opt, i) => {
                 let style = "bg-white/5 border-white/20 text-white hover:bg-white/10 hover:border-white/40";
                 if (answerState !== "idle") {
-                  if (i === correctIndex) style = "bg-green-400 border-green-400 text-ink";
+                  if (i === correctIndex)   style = "bg-green-400 border-green-400 text-ink";
                   else if (i === chosenIndex) style = "bg-red-400 border-red-400 text-white";
-                  else style = "bg-white/5 border-white/10 text-white/30";
+                  else                       style = "bg-white/5 border-white/10 text-white/30";
                 }
                 return (
                   <motion.button
