@@ -1497,7 +1497,7 @@ const AppStoreSection = () => {
                       <span className="font-black text-white text-sm tracking-tight">Ms. Suzy Apps</span>
                     </div>
                     <span className="bg-brand-primary text-ink font-black text-[10px] px-3 py-1 rounded-full border-2 border-brand-primary/60">
-                      4 apps
+                      6 apps
                     </span>
                   </div>
 
@@ -1523,27 +1523,20 @@ const AppStoreSection = () => {
                     </div>
 
                     {/* Divider */}
-                    <div className="flex items-center gap-3">
-                      <div className="flex-1 border-t-2 border-dashed border-ink/10" />
-                      <span className="text-[9px] font-black uppercase tracking-widest text-ink/25">Coming Soon</span>
-                      <div className="flex-1 border-t-2 border-dashed border-ink/10" />
-                    </div>
+                    <div className="border-t-2 border-dashed border-ink/10" />
 
-                    {/* Coming soon apps */}
+                    {/* More apps */}
                     <div className="grid grid-cols-3 gap-3">
                       {[
-                        { icon: <PenTool className="w-6 h-6" />,  name: "Grammar"   },
-                        { icon: <Mic className="w-6 h-6" />,      name: "Listening" },
-                        { icon: <BookOpen className="w-6 h-6" />, name: "Reading"   },
+                        { icon: <PenTool className="w-6 h-6" />,  bg: "bg-brand-primary/40",   name: "Grammar"   },
+                        { icon: <Mic className="w-6 h-6" />,      bg: "bg-brand-secondary/40", name: "Listening" },
+                        { icon: <BookOpen className="w-6 h-6" />, bg: "bg-brand-accent/40",    name: "Reading"   },
                       ].map((app, i) => (
-                        <div key={i} className="flex flex-col items-center gap-1.5 opacity-35">
-                          <div className="relative w-14 h-14 bg-ink/8 rounded-2xl border-2 border-dashed border-ink/20 flex items-center justify-center text-ink/50">
+                        <div key={i} className="flex flex-col items-center gap-1.5">
+                          <div className={`w-14 h-14 ${app.bg} rounded-2xl border-2 border-ink flex items-center justify-center text-ink shadow-[3px_3px_0px_0px_rgba(45,52,54,1)]`}>
                             {app.icon}
-                            <span className="absolute -top-1.5 -right-1.5 bg-ink text-white text-[8px] font-black px-1.5 py-0.5 rounded-full leading-none">
-                              Soon
-                            </span>
                           </div>
-                          <span className="font-black text-[10px] text-ink/50 text-center leading-tight">{app.name}</span>
+                          <span className="font-black text-[10px] text-ink text-center leading-tight">{app.name}</span>
                         </div>
                       ))}
                     </div>
