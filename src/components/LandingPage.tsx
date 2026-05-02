@@ -1482,66 +1482,94 @@ const AppStoreSection = () => {
             >
               <div className="relative w-full max-w-sm mx-auto">
                 {/* Stacked background layers */}
-                <div className="absolute inset-2 bg-brand-primary rounded-[44px] border-4 border-ink rotate-[-5deg] shadow-[6px_6px_0px_0px_rgba(45,52,54,1)]" />
-                <div className="absolute inset-2 bg-ink rounded-[44px] border-4 border-ink rotate-[3deg]" />
+                <div className="absolute inset-2 bg-brand-primary rounded-[44px] border-4 border-ink rotate-[-4deg] shadow-[6px_6px_0px_0px_rgba(45,52,54,1)]" />
+                <div className="absolute inset-2 bg-ink rounded-[44px] border-4 border-ink rotate-[2deg]" />
 
-                {/* Main vocabulary card */}
-                <div className="relative z-10 bg-white border-4 border-ink rounded-[44px] shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] p-8 flex flex-col gap-5">
-                  {/* Card header */}
-                  <div className="flex items-center justify-between">
+                {/* Main app store card */}
+                <div className="relative z-10 bg-white border-4 border-ink rounded-[44px] shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] overflow-hidden">
+
+                  {/* Header bar */}
+                  <div className="bg-ink px-6 py-4 flex items-center justify-between">
                     <div className="flex items-center gap-2">
-                      <div className="w-8 h-8 bg-brand-primary rounded-xl flex items-center justify-center border-2 border-ink">
-                        <Rocket className="w-4 h-4 text-ink" />
+                      <div className="w-7 h-7 bg-brand-primary rounded-lg flex items-center justify-center border-2 border-white/20">
+                        <Smartphone className="w-3.5 h-3.5 text-ink" />
                       </div>
-                      <span className="font-black text-[10px] uppercase tracking-widest text-ink/40">Movers Vocabulary</span>
+                      <span className="font-black text-white text-sm tracking-tight">Ms. Suzy Apps</span>
                     </div>
-                    <span className="bg-ink text-white font-black text-[10px] px-3 py-1 rounded-full">681 words</span>
+                    <span className="bg-brand-primary text-ink font-black text-[10px] px-3 py-1 rounded-full border-2 border-brand-primary/60">
+                      4 apps
+                    </span>
                   </div>
 
-                  {/* Word */}
-                  <div>
-                    <p className="text-[10px] font-black uppercase tracking-widest text-ink/25 mb-1">Word #315</p>
-                    <h3 className="text-5xl font-black tracking-tighter text-ink leading-none mb-2">waterfall</h3>
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <span className="text-brand-primary font-bold">/ˈwɔːtərfɔːl/</span>
-                      <span className="bg-ink/10 text-ink/50 font-black text-[10px] uppercase px-2 py-0.5 rounded-lg border border-ink/10">n.</span>
+                  <div className="p-6 space-y-5">
+                    {/* Available apps */}
+                    <div>
+                      <p className="text-[9px] font-black uppercase tracking-widest text-ink/30 mb-3">Available Now</p>
+                      <div className="grid grid-cols-3 gap-3">
+                        {[
+                          { icon: <Rocket className="w-6 h-6" />,   bg: "bg-brand-primary",    name: "Vocabulary", sub: "681 words" },
+                          { icon: <Trophy className="w-6 h-6" />,   bg: "bg-brand-secondary",  name: "Quiz",       sub: "3 modes"  },
+                          { icon: <Smile className="w-6 h-6" />,    bg: "bg-brand-accent",     name: "Let's Talk", sub: "Speaking" },
+                        ].map((app, i) => (
+                          <div key={i} className="flex flex-col items-center gap-1.5">
+                            <div className={`w-14 h-14 ${app.bg} rounded-2xl border-2 border-ink flex items-center justify-center text-ink shadow-[3px_3px_0px_0px_rgba(45,52,54,1)]`}>
+                              {app.icon}
+                            </div>
+                            <span className="font-black text-[10px] text-ink text-center leading-tight">{app.name}</span>
+                            <span className="font-bold text-[9px] text-ink/40 text-center">{app.sub}</span>
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Vietnamese */}
-                  <div className="bg-brand-primary/20 border-4 border-brand-primary/40 rounded-2xl px-4 py-3">
-                    <p className="text-[9px] font-black uppercase tracking-widest text-ink/30 mb-0.5">Definition</p>
-                    <p className="text-2xl font-black text-ink">thác nước</p>
-                  </div>
+                    {/* Divider */}
+                    <div className="flex items-center gap-3">
+                      <div className="flex-1 border-t-2 border-dashed border-ink/10" />
+                      <span className="text-[9px] font-black uppercase tracking-widest text-ink/25">Coming Soon</span>
+                      <div className="flex-1 border-t-2 border-dashed border-ink/10" />
+                    </div>
 
-                  {/* Example */}
-                  <div className="bg-ink/5 rounded-2xl px-4 py-3 border-l-4 border-brand-primary">
-                    <p className="text-xs font-bold italic text-ink/50 leading-relaxed">
-                      "The waterfall is very high and beautiful."
-                    </p>
+                    {/* Coming soon apps */}
+                    <div className="grid grid-cols-3 gap-3">
+                      {[
+                        { icon: <PenTool className="w-6 h-6" />,  name: "Grammar"   },
+                        { icon: <Mic className="w-6 h-6" />,      name: "Listening" },
+                        { icon: <BookOpen className="w-6 h-6" />, name: "Reading"   },
+                      ].map((app, i) => (
+                        <div key={i} className="flex flex-col items-center gap-1.5 opacity-35">
+                          <div className="relative w-14 h-14 bg-ink/8 rounded-2xl border-2 border-dashed border-ink/20 flex items-center justify-center text-ink/50">
+                            {app.icon}
+                            <span className="absolute -top-1.5 -right-1.5 bg-ink text-white text-[8px] font-black px-1.5 py-0.5 rounded-full leading-none">
+                              Soon
+                            </span>
+                          </div>
+                          <span className="font-black text-[10px] text-ink/50 text-center leading-tight">{app.name}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
 
-                {/* Floating quiz score card */}
+                {/* Floating: new badge */}
                 <motion.div
                   animate={{ y: [0, -10, 0] }}
                   transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                  className="absolute -top-6 -right-10 z-20 bg-ink text-white rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(255,204,0,1)] p-4 min-w-[110px]"
+                  className="absolute -top-5 -right-10 z-20 bg-ink text-white rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(255,204,0,1)] px-4 py-3 min-w-[108px]"
                 >
-                  <Trophy className="w-5 h-5 text-brand-primary mb-1" />
-                  <p className="font-black text-3xl leading-none">9/10</p>
-                  <p className="text-[10px] font-bold text-white/40 uppercase tracking-wider mt-0.5">Quiz Score</p>
+                  <Sparkles className="w-4 h-4 text-brand-primary mb-1" />
+                  <p className="font-black text-sm leading-tight">✨ New!</p>
+                  <p className="text-[10px] font-bold text-white/40 mt-0.5">Movers Quiz</p>
                 </motion.div>
 
-                {/* Floating quiz modes card */}
+                {/* Floating: student access */}
                 <motion.div
                   animate={{ y: [0, 10, 0] }}
                   transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut", delay: 0.8 }}
-                  className="absolute -bottom-6 -left-10 z-20 bg-brand-primary rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(45,52,54,1)] p-4 min-w-[120px]"
+                  className="absolute -bottom-5 -left-10 z-20 bg-brand-primary rounded-2xl border-4 border-ink shadow-[4px_4px_0px_0px_rgba(45,52,54,1)] px-4 py-3 min-w-[120px]"
                 >
-                  <Sparkles className="w-5 h-5 text-ink mb-1" />
-                  <p className="font-black text-sm text-ink leading-tight">3 Quiz Modes</p>
-                  <p className="text-[10px] font-bold text-ink/50 uppercase tracking-wider mt-0.5">Picture · Word · VI</p>
+                  <Users className="w-4 h-4 text-ink mb-1" />
+                  <p className="font-black text-sm text-ink leading-tight">Students</p>
+                  <p className="text-[10px] font-bold text-ink/50 mt-0.5">Login to access</p>
                 </motion.div>
               </div>
             </motion.div>
