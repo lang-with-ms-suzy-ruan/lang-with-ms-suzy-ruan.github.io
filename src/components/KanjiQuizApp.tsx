@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 
 interface QuizItem {
   kanjiChar: string;
+  kanjiOrdinal: number;
   word: string;
   reading: string;
   meaning: string;
@@ -36,11 +37,13 @@ export const KanjiQuizApp: React.FC<KanjiQuizAppProps> = ({ onBack }) => {
       .then(r => r.json())
       .then((data: any[]) => {
         const items: QuizItem[] = [];
-        for (const kanji of data) {
+        for (let ki = 0; ki < data.length; ki++) {
+          const kanji = data[ki];
           for (const v of [...kanji.vocabulary, ...kanji.phrases]) {
             if (v.reading || v.meaning || v.meaningVi) {
               items.push({
                 kanjiChar: kanji.char,
+                kanjiOrdinal: ki + 1,
                 word: v.word,
                 reading: v.reading ?? '',
                 meaning: v.meaning ?? '',
@@ -223,7 +226,7 @@ export const KanjiQuizApp: React.FC<KanjiQuizAppProps> = ({ onBack }) => {
                     </div>
                   )}
                   <Badge className="mt-3 bg-ink/10 text-ink border-0 font-black text-[10px] px-3">
-                    {current.kanjiChar}
+                    #{current.kanjiOrdinal} {current.kanjiChar}
                   </Badge>
                 </div>
               </motion.div>
