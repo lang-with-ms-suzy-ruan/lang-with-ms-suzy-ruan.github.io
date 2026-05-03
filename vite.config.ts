@@ -16,5 +16,10 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
+    server: {
+      watch: {
+        ignored: ['**/scripts/**'],
+      },
+    },
   };
 });

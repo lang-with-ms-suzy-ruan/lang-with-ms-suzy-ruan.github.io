@@ -13,6 +13,7 @@ import { VocabularyApp } from "./VocabularyApp";
 import { MoversLetsTalkApp } from "./MoversLetsTalkApp";
 import { StudentManagerApp } from "./StudentManagerApp";
 import { MoversQuizApp } from "./MoversQuizApp";
+import { KanjiApp } from "./KanjiApp";
 import studentsData from "../data/students.json";
 
 type Language = "en" | "vi";
@@ -1603,6 +1604,9 @@ const AppStoreView = () => {
     if (launchedApp.id === "movers_talk") {
       return <MoversLetsTalkApp onBack={() => setLaunchedApp(null)} />;
     }
+    if (launchedApp.id === "kanji") {
+      return <KanjiApp onBack={() => setLaunchedApp(null)} />;
+    }
     return <VocabularyApp
       appId={launchedApp.id}
       title={launchedApp.title}
@@ -1645,10 +1649,12 @@ const AppStoreView = () => {
   });
 
   const quizApp = { id: "movers_quiz", name: "Movers Quiz", desc: "Test your Movers vocabulary with picture and word quizzes." };
+  const kanjiApp = { id: "kanji", name: "Kanji Study", desc: "Study 1000+ kanji with vocabulary, furigana, and meanings. Interactive reveal mode." };
 
   const visibleApps = user === "admin"
     ? [
         ...availableApps,
+        kanjiApp,
         quizApp,
         {
           id: "student_manager",
@@ -1662,7 +1668,7 @@ const AppStoreView = () => {
         }
       ]
     : user === "student"
-      ? [...availableApps, quizApp]
+      ? [...availableApps, kanjiApp, quizApp]
       : user === "guest"
         ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
         : [];
