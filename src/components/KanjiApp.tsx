@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { ChevronLeft, X, EyeOff, Eye, Search, Rocket } from "lucide-react";
+import { ChevronLeft, X, EyeOff, Eye, Search, Rocket, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
@@ -8,6 +8,7 @@ interface VocabItem {
   word: string;
   reading: string;
   meaning: string;
+  meaningVi?: string;
 }
 
 interface KanjiEntry {
@@ -32,10 +33,11 @@ const VocabCard: React.FC<{
   const mKey = `${id}-m`;
   const showR = !interactive || !!revealed[rKey];
   const showM = !interactive || !!revealed[mKey];
+  const displayMeaning = item.meaningVi || item.meaning;
 
   return (
     <div className="bg-ink/[0.02] border-2 border-ink/10 rounded-2xl p-4 flex flex-col items-center gap-1.5">
-      {/* Furigana row — click to reveal in interactive mode */}
+      {/* Furigana — click to reveal in interactive mode */}
       <div
         className={`h-5 w-full text-center ${interactive && !showR && item.reading ? 'cursor-pointer' : ''}`}
         onClick={() => interactive && item.reading && onToggle(rKey)}
@@ -54,7 +56,7 @@ const VocabCard: React.FC<{
         {item.word}
       </div>
 
-      {/* Meaning row — click to reveal in interactive mode */}
+      {/* Meaning — click to reveal in interactive mode */}
       <div
         className={`w-full mt-1 px-2 py-1 text-[11px] font-medium text-center rounded-lg transition-all ${
           interactive && !showM
@@ -64,10 +66,10 @@ const VocabCard: React.FC<{
         onClick={() => interactive && onToggle(mKey)}
       >
         {showM ? (
-          item.meaning || <span className="text-ink/20 italic">—</span>
+          displayMeaning || <span className="text-ink/20 italic">—</span>
         ) : (
           <span className="inline-flex items-center justify-center gap-1">
-            <Eye className="w-2.5 h-2.5" /> meaning
+            <Eye className="w-2.5 h-2.5" /> nghĩa
           </span>
         )}
       </div>
@@ -81,6 +83,7 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
   const [isInteractive, setIsInteractive] = useState(false);
   const [isListOpen, setIsListOpen] = useState(false);
   const [search, setSearch] = useState('');
+  const [componentFilter, setComponentFilter] = useState<string | null>(null);
   const [revealedFields, setRevealedFields] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
@@ -97,18 +100,31 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
     setRevealedFields(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
-  const filteredEntries = search.trim()
-    ? entries.filter(e =>
-        e.char.includes(search) ||
-        e.vocabulary.some(v => v.word.includes(search) || v.meaning.toLowerCase().includes(search.toLowerCase())) ||
-        e.phrases.some(v => v.word.includes(search))
-      )
-    : entries;
+  const filteredEntries = entries.filter(e => {
+    const matchesComponent = !componentFilter || e.related.includes(componentFilter);
+    const q = search.trim();
+    const matchesSearch = !q ||
+      e.char.includes(q) ||
+      e.vocabulary.some(v => v.word.includes(q) || v.meaning.toLowerCase().includes(q.toLowerCase()) || (v.meaningVi ?? '').toLowerCase().includes(q.toLowerCase())) ||
+      e.phrases.some(v => v.word.includes(q));
+    return matchesComponent && matchesSearch;
+  });
 
   const selectEntry = (e: KanjiEntry) => {
     setSelected(e);
     setRevealedFields({});
     setIsListOpen(false);
+  };
+
+  const handleComponentClick = (component: string) => {
+    const next = componentFilter === component ? null : component;
+    setComponentFilter(next);
+    setIsListOpen(true);
+  };
+
+  const clearFilter = () => {
+    setComponentFilter(null);
+    setSearch('');
   };
 
   const currentIdx = entries.findIndex(e => e.char === selected?.char);
@@ -146,6 +162,16 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
         </div>
 
         <div className="flex items-center gap-3">
+          {componentFilter && (
+            <button
+              onClick={clearFilter}
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 bg-brand-primary border-2 border-ink rounded-xl text-[10px] font-black uppercase tracking-wider hover:bg-brand-accent transition-colors"
+            >
+              <Filter className="w-3 h-3" />
+              {componentFilter}
+              <X className="w-3 h-3 ml-0.5" />
+            </button>
+          )}
           <div className="hidden sm:flex items-center gap-1 bg-ink/5 p-1 rounded-xl border border-ink/5">
             <Button
               variant={!isInteractive ? "secondary" : "ghost"}
@@ -194,7 +220,7 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
                 exit={{ x: -320, opacity: 0 }}
                 className="absolute left-4 top-4 bottom-4 w-72 bg-white rounded-3xl border-4 border-ink shadow-2xl z-40 overflow-hidden flex flex-col"
               >
-                <div className="p-4 border-b-2 border-ink/5 shrink-0">
+                <div className="p-4 border-b-2 border-ink/5 shrink-0 space-y-2">
                   <div className="relative">
                     <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-ink/30" />
                     <input
@@ -205,11 +231,29 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
                       className="w-full h-10 pl-9 pr-3 bg-ink/5 border-2 border-ink/10 rounded-xl text-sm font-bold outline-none focus:border-brand-primary transition-colors"
                     />
                   </div>
-                  <div className="mt-2 flex justify-between text-[10px] font-black uppercase tracking-widest text-ink/30">
+
+                  {/* Active component filter indicator */}
+                  {componentFilter && (
+                    <div className="flex items-center justify-between bg-brand-primary/20 border-2 border-brand-primary/40 rounded-xl px-3 py-1.5">
+                      <span className="text-[10px] font-black uppercase tracking-widest text-ink/60 flex items-center gap-1.5">
+                        <Filter className="w-3 h-3" />
+                        Component: <span className="text-xl font-black" style={{ fontFamily: 'serif' }}>{componentFilter}</span>
+                      </span>
+                      <button
+                        onClick={clearFilter}
+                        className="text-ink/40 hover:text-ink transition-colors"
+                      >
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  )}
+
+                  <div className="flex justify-between text-[10px] font-black uppercase tracking-widest text-ink/30">
                     <span>Kanji Index</span>
                     <Badge variant="outline" className="border-ink/20 font-black text-[10px]">{filteredEntries.length}</Badge>
                   </div>
                 </div>
+
                 <div className="flex-1 overflow-y-auto p-2 space-y-0.5">
                   {filteredEntries.map(e => (
                     <button
@@ -256,18 +300,25 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
                     >
                       {selected.char}
                     </div>
+
+                    {/* Clickable component chips */}
                     {selected.related.length > 0 && (
                       <div className="flex flex-wrap gap-1.5 justify-center mt-4">
                         <span className="text-[9px] font-black uppercase tracking-widest text-ink/30 w-full text-center">Components</span>
                         {selected.related.map(r => (
-                          <Badge
+                          <button
                             key={r}
-                            variant="outline"
-                            className="text-lg font-black border-2 border-ink/20 px-2 py-0"
+                            onClick={() => handleComponentClick(r)}
+                            title={`Show all kanji with component ${r}`}
+                            className={`text-lg font-black border-2 px-2 py-0.5 rounded-lg transition-all hover:scale-110 active:scale-95 ${
+                              componentFilter === r
+                                ? 'bg-brand-primary border-ink shadow-md'
+                                : 'border-ink/20 hover:border-brand-primary hover:bg-brand-primary/10'
+                            }`}
                             style={{ fontFamily: 'serif' }}
                           >
                             {r}
-                          </Badge>
+                          </button>
                         ))}
                       </div>
                     )}

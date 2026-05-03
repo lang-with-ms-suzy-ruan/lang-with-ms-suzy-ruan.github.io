@@ -7,3 +7,4 @@ coverage/
 .env*
 !.env.example
 scripts/.jisho-cache.json
+scripts/.vi-cache.json
