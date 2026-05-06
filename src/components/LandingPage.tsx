@@ -15,6 +15,7 @@ import { StudentManagerApp } from "./StudentManagerApp";
 import { MoversQuizApp } from "./MoversQuizApp";
 import { KanjiApp } from "./KanjiApp";
 import { KanjiQuizApp } from "./KanjiQuizApp";
+import { EverydayActivitiesApp } from "./EverydayActivitiesApp";
 import studentsData from "../data/students.json";
 
 type Language = "en" | "vi";
@@ -1611,6 +1612,9 @@ const AppStoreView = () => {
     if (launchedApp.id === "kanji_quiz") {
       return <KanjiQuizApp onBack={() => setLaunchedApp(null)} />;
     }
+    if (launchedApp.id === "everyday_activities") {
+      return <EverydayActivitiesApp onBack={() => setLaunchedApp(null)} />;
+    }
     return <VocabularyApp
       appId={launchedApp.id}
       title={launchedApp.title}
@@ -1655,12 +1659,14 @@ const AppStoreView = () => {
   const quizApp = { id: "movers_quiz", name: "Movers Quiz", desc: "Test your Movers vocabulary with picture and word quizzes." };
   const kanjiApp = { id: "kanji", name: "Kanji Study", desc: "Study 1000+ kanji with vocabulary, furigana, and meanings. Interactive reveal mode." };
   const kanjiQuizApp = { id: "kanji_quiz", name: "Kanji Quiz", desc: "Flashcard quiz through 2900+ vocabulary items. Tap to reveal reading and meaning." };
+  const everydayApp = { id: "everyday_activities", name: "Everyday Activities", desc: "61 picture-process lessons with audio. Follow along with the book and listen." };
 
   const visibleApps = user === "admin"
     ? [
         ...availableApps,
         kanjiApp,
         kanjiQuizApp,
+        everydayApp,
         quizApp,
         {
           id: "student_manager",
@@ -1674,7 +1680,7 @@ const AppStoreView = () => {
         }
       ]
     : user === "student"
-      ? [...availableApps, kanjiApp, kanjiQuizApp, quizApp]
+      ? [...availableApps, kanjiApp, kanjiQuizApp, everydayApp, quizApp]
       : user === "guest"
         ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
         : [];
