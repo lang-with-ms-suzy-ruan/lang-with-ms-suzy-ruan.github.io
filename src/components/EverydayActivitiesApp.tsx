@@ -85,6 +85,13 @@ const CHAPTERS: Chapter[] = [
 
 const SECTIONS = [...new Set(CHAPTERS.map(c => c.section))];
 
+interface VocabItem {
+  term: string;
+  section: string;
+  vi: string;
+  ipa: string;
+}
+
 function pdfUrl(page: number) {
   return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=0`;
 }
@@ -94,19 +101,42 @@ function audioUrl(num: number) {
   return `${AUDIO_DIR}/English%20for%20Everyday%20Activities%20${n}.mp3`;
 }
 
+function decodeHtml(s: string): string {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 interface Props {
   onBack: () => void;
 }
 
 export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const [idx, setIdx] = useState(0);
+  const [vocab, setVocab] = useState<Record<number, VocabItem[]>>({});
+  const [selectedTerm, setSelectedTerm] = useState<VocabItem | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const chapterRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   const chapter = CHAPTERS[idx];
+  const chapterVocab = vocab[chapter.num] ?? [];
+
+  useEffect(() => {
+    fetch("/media/everyday/vocab.json")
+      .then(r => r.json())
+      .then(setVocab)
+      .catch(() => {});
+  }, []);
 
   const goTo = useCallback((i: number) => {
     setIdx(i);
+    setSelectedTerm(null);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -132,6 +162,13 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   useEffect(() => {
     audioRef.current?.load();
   }, [idx]);
+
+  // Group vocab by section
+  const vocabBySec = chapterVocab.reduce<Record<string, VocabItem[]>>((acc, item) => {
+    (acc[item.section] ??= []).push(item);
+    return acc;
+  }, {});
+  const vocabSections = Object.keys(vocabBySec);
 
   return (
     <div className="h-screen bg-white flex flex-col overflow-hidden font-sans">
@@ -162,7 +199,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
 
       {/* Body */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Sidebar */}
+        {/* Left sidebar — chapter list */}
         <aside className="w-52 shrink-0 border-r-2 border-ink/10 overflow-y-auto bg-ink/[0.015]">
           {SECTIONS.map(section => (
             <div key={section}>
@@ -197,7 +234,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
         </aside>
 
         {/* Main */}
-        <main className="flex-1 flex flex-col overflow-hidden">
+        <main className="flex-1 flex flex-col overflow-hidden min-w-0">
           {/* PDF pages */}
           <div className="flex-1 flex gap-2 p-3 min-h-0">
             {chapter.pages.map(page => (
@@ -240,6 +277,56 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
             </Button>
           </div>
         </main>
+
+        {/* Right panel — vocabulary */}
+        {chapterVocab.length > 0 && (
+          <aside className="w-44 shrink-0 border-l-2 border-ink/10 flex flex-col overflow-hidden bg-ink/[0.015]">
+            {/* Term list */}
+            <div className="flex-1 overflow-y-auto">
+              <p className="px-3 pt-3 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30 sticky top-0 bg-ink/[0.015]">
+                Key Vocabulary
+              </p>
+              {vocabSections.map(sec => (
+                <div key={sec}>
+                  <p className="px-3 pt-2 pb-0.5 text-[8px] font-black uppercase tracking-widest text-ink/20">
+                    {sec}
+                  </p>
+                  {vocabBySec[sec].map(item => {
+                    const active = selectedTerm?.term === item.term;
+                    return (
+                      <button
+                        key={item.term}
+                        onClick={() => setSelectedTerm(active ? null : item)}
+                        className={`w-full text-left px-3 py-1.5 text-[11px] font-medium leading-tight transition-colors ${
+                          active
+                            ? "bg-brand-primary text-ink font-bold"
+                            : "text-ink/70 hover:bg-ink/5 hover:text-ink"
+                        }`}
+                      >
+                        {item.term}
+                      </button>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+
+            {/* Detail card */}
+            {selectedTerm && (
+              <div className="shrink-0 border-t-2 border-ink/10 p-3 bg-white">
+                <p className="text-[11px] font-black text-ink leading-tight">{selectedTerm.term}</p>
+                {selectedTerm.ipa && (
+                  <p className="text-[10px] text-ink/40 font-medium mt-0.5">{selectedTerm.ipa}</p>
+                )}
+                {selectedTerm.vi && (
+                  <p className="text-[11px] text-ink/80 font-medium mt-1 leading-snug">
+                    {decodeHtml(selectedTerm.vi)}
+                  </p>
+                )}
+              </div>
+            )}
+          </aside>
+        )}
       </div>
     </div>
   );
