@@ -1,9 +1,10 @@
 #!/usr/bin/env node
-// Extracts vocabulary from each Everyday Activities chapter via OCR,
-// enriches with Vietnamese (MyMemory) and IPA (Free Dictionary API),
-// outputs public/media/everyday/vocab.json.
+// Extracts vocabulary and "For Special Attention" notes from each Everyday
+// Activities chapter via OCR, enriches with Vietnamese + IPA, and writes:
+//   public/media/everyday/vocab.json  — per-chapter vocabulary
+//   public/media/everyday/notes.json  — per-chapter special-attention notes
 // Run: node scripts/generate-everyday-vocab.mjs
-// Safe to re-run — cached results are skipped.
+// Safe to re-run — all API results are cached in scripts/.everyday-cache.json.
 
 import { spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
@@ -14,14 +15,15 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PDF = path.join(ROOT, 'public/media/everyday/english-for-everyday-activities-pdf-free.pdf');
 const VOCAB_OUT = path.join(ROOT, 'public/media/everyday/vocab.json');
+const NOTES_OUT = path.join(ROOT, 'public/media/everyday/notes.json');
 const CACHE_FILE = path.join(ROOT, 'scripts/.everyday-cache.json');
 const TMP = tmpdir();
 
 const cache = existsSync(CACHE_FILE) ? JSON.parse(readFileSync(CACHE_FILE, 'utf-8')) : {};
 const saveCache = () => writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
 const wait = ms => new Promise(r => setTimeout(r, ms));
+let quotaExhausted = false;
 
-// Only the FIRST page of each chapter has the Key Vocabulary box.
 const CHAPTERS = [
   { num: 1,  firstPage: 4  },
   { num: 2,  firstPage: 6  },
@@ -88,56 +90,56 @@ const CHAPTERS = [
 
 const SECTION_LABELS = new Set(['VERBS', 'NOUNS', 'ADJECTIVES', 'ADVERBS', 'OTHERS', 'OTHER', 'EXPRESSIONS', 'PHRASES']);
 
-// Crop: left vocabulary box. Offset (60,330) from original 1240x1753 image.
-const CROP = '380x820+60+330';
-// Column split: gap > 20px between word right-edge and next word left-edge.
-const COL_GAP = 20;
-// Min confidence to include a word.
-const MIN_CONF = 50;
+// Vocab box: left strip, upper portion
+const VOCAB_CROP = '380x820+60+330';
+// Special attention: left strip, lower portion (y=1195 to bottom)
+const ATTN_CROP = '380x558+60+1195';
 
-function ocrChapterPage(pageNum) {
+const MIN_CONF_VOCAB = 50;
+const MIN_CONF_ATTN = 40;
+const COL_GAP = 20;
+
+// --- Page image helper (shared between vocab and notes OCR) ---
+
+function ensurePageImage(pageNum) {
   const imgBase = path.join(TMP, `ea_p${pageNum}`);
   const paddedNum = String(pageNum).padStart(2, '0');
   const imgPath = `${imgBase}-${paddedNum}.png`;
-
-  spawnSync('pdftoppm', ['-r', '150', '-png', '-f', String(pageNum), '-l', String(pageNum), PDF, imgBase]);
   if (!existsSync(imgPath)) {
-    console.warn(`  Image not created for page ${pageNum}`);
-    return [];
+    spawnSync('pdftoppm', ['-r', '150', '-png', '-f', String(pageNum), '-l', String(pageNum), PDF, imgBase]);
   }
+  return existsSync(imgPath) ? imgPath : null;
+}
 
-  const cropPath = path.join(TMP, `ea_crop${pageNum}.png`);
-  spawnSync('convert', [imgPath, '-crop', CROP, cropPath]);
+// --- Vocabulary extraction ---
 
-  const tsvBase = path.join(TMP, `ea_tsv${pageNum}`);
+function ocrVocabPage(pageNum) {
+  const imgPath = ensurePageImage(pageNum);
+  if (!imgPath) { console.warn(`  Image not created for page ${pageNum}`); return []; }
+
+  const cropPath = path.join(TMP, `ea_vocab${pageNum}.png`);
+  spawnSync('convert', [imgPath, '-crop', VOCAB_CROP, cropPath]);
+
+  const tsvBase = path.join(TMP, `ea_vocab_tsv${pageNum}`);
   spawnSync('tesseract', [cropPath, tsvBase, '-l', 'eng', 'tsv']);
   const tsvPath = `${tsvBase}.tsv`;
   if (!existsSync(tsvPath)) return [];
 
-  return parseTSV(readFileSync(tsvPath, 'utf-8'));
+  return parseVocabTSV(readFileSync(tsvPath, 'utf-8'));
 }
 
-function parseTSV(tsv) {
-  // Collect level-5 (word) entries
+function parseVocabTSV(tsv) {
   const words = [];
   for (const row of tsv.trim().split('\n')) {
     const c = row.split('\t');
     if (c[0] !== '5') continue;
     const conf = parseInt(c[10]);
-    if (isNaN(conf) || conf < MIN_CONF) continue;
+    if (isNaN(conf) || conf < MIN_CONF_VOCAB) continue;
     const text = (c[11] ?? '').trim();
     if (!text) continue;
-    words.push({
-      block: parseInt(c[2]),
-      par: parseInt(c[3]),
-      lineIdx: parseInt(c[4]),
-      x: parseInt(c[6]),
-      w: parseInt(c[8]),
-      text,
-    });
+    words.push({ block: parseInt(c[2]), par: parseInt(c[3]), lineIdx: parseInt(c[4]), x: parseInt(c[6]), w: parseInt(c[8]), text });
   }
 
-  // Group by (block, par, lineIdx)
   const lineMap = new Map();
   for (const w of words) {
     const key = `${w.block}:${w.par}:${w.lineIdx}`;
@@ -145,67 +147,146 @@ function parseTSV(tsv) {
     lineMap.get(key).push(w);
   }
 
-  const items = []; // { section, term }
+  const items = [];
   let currentSection = 'VERBS';
 
   for (const lineWords of lineMap.values()) {
     lineWords.sort((a, b) => a.x - b.x);
-
-    // Split into columns at gaps > COL_GAP
     const cols = [[lineWords[0]]];
     for (let i = 1; i < lineWords.length; i++) {
       const prev = lineWords[i - 1];
-      const gap = lineWords[i].x - (prev.x + prev.w);
-      if (gap > COL_GAP) cols.push([]);
+      if (lineWords[i].x - (prev.x + prev.w) > COL_GAP) cols.push([]);
       cols[cols.length - 1].push(lineWords[i]);
     }
 
     for (const col of cols) {
       const raw = col.map(w => w.text).join(' ');
-      const cleaned = cleanTerm(raw);
+      const cleaned = cleanVocabTerm(raw);
       if (!cleaned) continue;
-
       if (SECTION_LABELS.has(cleaned.toUpperCase())) {
-        currentSection = cleaned.toUpperCase() === 'VERBS' ? 'VERBS'
-          : cleaned.toUpperCase() === 'NOUNS' ? 'NOUNS'
-          : cleaned.toUpperCase() === 'ADJECTIVES' ? 'ADJECTIVES'
-          : cleaned.toUpperCase() === 'ADVERBS' ? 'ADVERBS'
-          : 'OTHERS';
+        currentSection = normalized(cleaned.toUpperCase());
         continue;
       }
-
-      // Skip the "Key Vocabulary" heading
       if (/^key\s+vocabulary$/i.test(cleaned)) continue;
-
       items.push({ section: currentSection, term: cleaned });
     }
   }
-
   return items;
 }
 
-function cleanTerm(raw) {
+function normalized(label) {
+  if (label === 'VERBS') return 'VERBS';
+  if (label === 'NOUNS') return 'NOUNS';
+  if (label === 'ADJECTIVES') return 'ADJECTIVES';
+  if (label === 'ADVERBS') return 'ADVERBS';
+  return 'OTHERS';
+}
+
+function cleanVocabTerm(raw) {
   return raw
-    .replace(/\[.*?\]/g, '')          // remove [alternate forms]
-    .replace(/^[^a-zA-Z(]+/, '')      // strip leading non-alpha (except open paren)
-    .replace(/[.,;:!?—–|]+$/, '')     // strip trailing punctuation
+    .replace(/\[.*?\]/g, '')
+    .replace(/^[^a-zA-Z(]+/, '')
+    .replace(/[.,;:!?—–|]+$/, '')
     .replace(/\s+/g, ' ')
     .trim();
 }
 
+// --- Special attention extraction ---
+
+function ocrSpecialAttention(pageNum) {
+  const imgPath = ensurePageImage(pageNum);
+  if (!imgPath) return [];
+
+  const cropPath = path.join(TMP, `ea_attn${pageNum}.png`);
+  spawnSync('convert', [imgPath, '-crop', ATTN_CROP, cropPath]);
+
+  const tsvBase = path.join(TMP, `ea_attn_tsv${pageNum}`);
+  spawnSync('tesseract', [cropPath, tsvBase, '-l', 'eng', 'tsv']);
+  const tsvPath = `${tsvBase}.tsv`;
+  if (!existsSync(tsvPath)) return [];
+
+  return parseAttentionTSV(readFileSync(tsvPath, 'utf-8'));
+}
+
+function parseAttentionTSV(tsv) {
+  // Each Tesseract paragraph (block, par) is one bullet point.
+  // block=1 contains the "For Special Attention" heading — skip it.
+  const words = [];
+  for (const row of tsv.trim().split('\n')) {
+    const c = row.split('\t');
+    if (c[0] !== '5') continue;
+    const conf = parseInt(c[10]);
+    if (isNaN(conf) || conf < MIN_CONF_ATTN) continue;
+    const text = (c[11] ?? '').trim();
+    if (!text) continue;
+    const block = parseInt(c[2]);
+    if (block === 1) continue; // skip heading block
+    words.push({
+      block,
+      par: parseInt(c[3]),
+      lineIdx: parseInt(c[4]),
+      wordNum: parseInt(c[5]),
+      x: parseInt(c[6]),
+      y: parseInt(c[7]),
+      text,
+    });
+  }
+  if (words.length === 0) return [];
+
+  // Group by (block, par) → bullet; within that group by lineIdx
+  const bulletMap = new Map();
+  for (const w of words) {
+    const bKey = `${w.block}:${w.par}`;
+    if (!bulletMap.has(bKey)) bulletMap.set(bKey, new Map());
+    const lineMap = bulletMap.get(bKey);
+    const lKey = w.lineIdx;
+    if (!lineMap.has(lKey)) lineMap.set(lKey, []);
+    lineMap.get(lKey).push(w);
+  }
+
+  const bullets = [];
+  for (const [, lineMap] of bulletMap) {
+    // Sort lines by lineIdx, words by wordNum
+    const lines = [...lineMap.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([, ws]) => ws.sort((a, b) => a.wordNum - b.wordNum).map(w => w.text).join(' '));
+
+    const fullText = lines.join(' ').replace(/\s+/g, ' ').trim();
+    if (fullText.length < 8) continue; // skip noise
+
+    // Detect and normalize the bullet marker (* / +) at the start
+    const firstLine = lines[0] ?? '';
+    const firstWord = firstLine.trim().split(/\s+/)[0];
+    let marker = '*';
+    let content = fullText;
+
+    if (/^[*«x+>|]/.test(firstWord) && firstWord.length <= 2) {
+      marker = firstWord.includes('+') ? '+' : '*';
+      content = fullText.slice(firstWord.length).trim();
+    }
+
+    if (content.length >= 8) {
+      bullets.push({ marker, en: content });
+    }
+  }
+
+  return bullets;
+}
+
 // --- API lookups ---
 
-async function lookupVi(term) {
-  const key = `vi:${term}`;
+async function lookupVi(text) {
+  const key = `vi:${text}`;
   if (cache[key] !== undefined) return cache[key];
   try {
-    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(term)}&langpair=en|vi`;
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=en|vi`;
     const res = await fetch(url);
     const data = await res.json();
     if (data.responseStatus === 429) {
-      console.log('\nQuota exhausted — re-run tomorrow.');
+      console.log('\nQuota exhausted — writing partial output and exiting.');
+      quotaExhausted = true;
       saveCache();
-      process.exit(0);
+      return '';
     }
     const t = data.responseData?.translatedText ?? '';
     const clean = t.toUpperCase().startsWith('MYMEMORY') ? '' : t;
@@ -219,7 +300,6 @@ async function lookupVi(term) {
 }
 
 async function lookupIpa(term) {
-  // IPA is only reliable for single words from the Free Dictionary API
   const word = term.split(/\s+/)[0].replace(/[^a-zA-Z]/g, '').toLowerCase();
   if (!word) return '';
   const key = `ipa:${word}`;
@@ -240,32 +320,28 @@ async function lookupIpa(term) {
 
 // --- Main ---
 
-// Phase 1: OCR all chapter pages
-console.log('Phase 1: OCR vocabulary from each chapter page\n');
-const rawVocab = {}; // chapterNum → [{section, term}]
+// Phase 1: OCR all chapter pages (vocab + notes)
+console.log('Phase 1: OCR vocabulary and special-attention notes\n');
+const rawVocab = {};
+const rawNotes = {};
 
 for (const ch of CHAPTERS) {
   process.stdout.write(`Chapter ${String(ch.num).padStart(2)} (page ${ch.firstPage})... `);
-  const items = ocrChapterPage(ch.firstPage);
-  rawVocab[ch.num] = items;
-  console.log(`${items.length} terms`);
+  rawVocab[ch.num] = ocrVocabPage(ch.firstPage);
+  rawNotes[ch.num] = ocrSpecialAttention(ch.firstPage);
+  console.log(`${rawVocab[ch.num].length} vocab | ${rawNotes[ch.num].length} notes`);
 }
 
-// Phase 2: Collect unique terms and enrich
-console.log('\nPhase 2: Translate and look up IPA\n');
+// Phase 2: Collect unique strings and translate
+console.log('\nPhase 2: Translate vocabulary terms\n');
 
-const allTerms = [...new Set(
-  Object.values(rawVocab).flat().map(v => v.term)
-)];
-
-console.log(`Unique terms: ${allTerms.length}`);
+const allTerms = [...new Set(Object.values(rawVocab).flat().map(v => v.term))];
+console.log(`Vocab terms: ${allTerms.length}`);
 let done = 0;
 for (const term of allTerms) {
-  const vi = await lookupVi(term);
-  const ipa = await lookupIpa(term);
-  if (vi || ipa) {
-    // store in cache (already done by lookup functions)
-  }
+  if (quotaExhausted) break;
+  await lookupVi(term);
+  await lookupIpa(term);
   done++;
   if (done % 20 === 0) saveCache();
   process.stdout.write(`\r${done}/${allTerms.length}`);
@@ -273,7 +349,23 @@ for (const term of allTerms) {
 saveCache();
 console.log('\n');
 
-// Phase 3: Assemble output
+console.log('Phase 3: Translate special-attention notes\n');
+const allNoteTexts = [...new Set(
+  Object.values(rawNotes).flat().map(b => b.en)
+)];
+console.log(`Note bullets: ${allNoteTexts.length}`);
+done = 0;
+for (const text of allNoteTexts) {
+  if (quotaExhausted) break;
+  await lookupVi(text);
+  done++;
+  if (done % 20 === 0) saveCache();
+  process.stdout.write(`\r${done}/${allNoteTexts.length}`);
+}
+saveCache();
+console.log('\n');
+
+// Phase 4: Assemble and write output files
 const vocab = {};
 for (const ch of CHAPTERS) {
   vocab[ch.num] = rawVocab[ch.num].map(({ section, term }) => ({
@@ -284,6 +376,17 @@ for (const ch of CHAPTERS) {
   }));
 }
 
+const notes = {};
+for (const ch of CHAPTERS) {
+  notes[ch.num] = rawNotes[ch.num].map(({ marker, en }) => ({
+    marker,
+    en,
+    vi: cache[`vi:${en}`] ?? '',
+  }));
+}
+
 writeFileSync(VOCAB_OUT, JSON.stringify(vocab));
+writeFileSync(NOTES_OUT, JSON.stringify(notes));
 console.log(`Wrote ${VOCAB_OUT}`);
-console.log('Remember to: git add public/media/everyday/vocab.json && git commit && git push');
+console.log(`Wrote ${NOTES_OUT}`);
+console.log('Remember to commit and push both files.');

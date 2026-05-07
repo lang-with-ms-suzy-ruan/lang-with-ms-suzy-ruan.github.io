@@ -92,6 +92,12 @@ interface VocabItem {
   ipa: string;
 }
 
+interface NoteBullet {
+  marker: string;
+  en: string;
+  vi: string;
+}
+
 function pdfUrl(page: number) {
   return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=0`;
 }
@@ -120,17 +126,23 @@ interface Props {
 export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const [idx, setIdx] = useState(0);
   const [vocab, setVocab] = useState<Record<number, VocabItem[]>>({});
+  const [notes, setNotes] = useState<Record<number, NoteBullet[]>>({});
   const [selectedTerm, setSelectedTerm] = useState<VocabItem | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const chapterRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   const chapter = CHAPTERS[idx];
   const chapterVocab = vocab[chapter.num] ?? [];
+  const chapterNotes = notes[chapter.num] ?? [];
 
   useEffect(() => {
     fetch("/media/everyday/vocab.json")
       .then(r => r.json())
       .then(setVocab)
+      .catch(() => {});
+    fetch("/media/everyday/notes.json")
+      .then(r => r.json())
+      .then(setNotes)
       .catch(() => {});
   }, []);
 
@@ -278,40 +290,67 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
           </div>
         </main>
 
-        {/* Right panel — vocabulary */}
-        {chapterVocab.length > 0 && (
+        {/* Right panel — vocabulary + notes */}
+        {(chapterVocab.length > 0 || chapterNotes.length > 0) && (
           <aside className="w-44 shrink-0 border-l-2 border-ink/10 flex flex-col overflow-hidden bg-ink/[0.015]">
-            {/* Term list */}
+            {/* Scrollable content */}
             <div className="flex-1 overflow-y-auto">
-              <p className="px-3 pt-3 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30 sticky top-0 bg-ink/[0.015]">
-                Key Vocabulary
-              </p>
-              {vocabSections.map(sec => (
-                <div key={sec}>
-                  <p className="px-3 pt-2 pb-0.5 text-[8px] font-black uppercase tracking-widest text-ink/20">
-                    {sec}
+              {/* Vocabulary */}
+              {chapterVocab.length > 0 && (
+                <>
+                  <p className="px-3 pt-3 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30">
+                    Key Vocabulary
                   </p>
-                  {vocabBySec[sec].map(item => {
-                    const active = selectedTerm?.term === item.term;
-                    return (
-                      <button
-                        key={item.term}
-                        onClick={() => setSelectedTerm(active ? null : item)}
-                        className={`w-full text-left px-3 py-1.5 text-[11px] font-medium leading-tight transition-colors ${
-                          active
-                            ? "bg-brand-primary text-ink font-bold"
-                            : "text-ink/70 hover:bg-ink/5 hover:text-ink"
-                        }`}
-                      >
-                        {item.term}
-                      </button>
-                    );
-                  })}
-                </div>
-              ))}
+                  {vocabSections.map(sec => (
+                    <div key={sec}>
+                      <p className="px-3 pt-2 pb-0.5 text-[8px] font-black uppercase tracking-widest text-ink/20">
+                        {sec}
+                      </p>
+                      {vocabBySec[sec].map(item => {
+                        const active = selectedTerm?.term === item.term;
+                        return (
+                          <button
+                            key={item.term}
+                            onClick={() => setSelectedTerm(active ? null : item)}
+                            className={`w-full text-left px-3 py-1.5 text-[11px] font-medium leading-tight transition-colors ${
+                              active
+                                ? "bg-brand-primary text-ink font-bold"
+                                : "text-ink/70 hover:bg-ink/5 hover:text-ink"
+                            }`}
+                          >
+                            {item.term}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  ))}
+                </>
+              )}
+
+              {/* Special attention notes */}
+              {chapterNotes.length > 0 && (
+                <>
+                  <p className="px-3 pt-4 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30 border-t-2 border-ink/10 mt-2">
+                    Special Attention
+                  </p>
+                  {chapterNotes.map((note, i) => (
+                    <div key={i} className="px-3 py-2 border-b border-ink/5">
+                      <p className="text-[10px] font-medium text-ink/60 leading-snug">
+                        <span className="font-black text-ink/40">{note.marker}</span>{" "}
+                        {note.en}
+                      </p>
+                      {note.vi && (
+                        <p className="text-[10px] text-brand-secondary font-semibold mt-1 leading-snug">
+                          {decodeHtml(note.vi)}
+                        </p>
+                      )}
+                    </div>
+                  ))}
+                </>
+              )}
             </div>
 
-            {/* Detail card */}
+            {/* Vocab detail card */}
             {selectedTerm && (
               <div className="shrink-0 border-t-2 border-ink/10 p-3 bg-white">
                 <p className="text-[11px] font-black text-ink leading-tight">{selectedTerm.term}</p>
