@@ -51,8 +51,9 @@ const Navbar = () => {
         <nav className="hidden lg:block">
           <ul className="flex items-center gap-10 text-sm font-bold text-ink/70">
             <li><a href="#about" className="hover:text-brand-primary transition-colors">{t.nav.home}</a></li>
-            <li><a href="#programs" className="hover:text-brand-primary transition-colors">{t.nav.courses}</a></li>
             <li><a href="#app-store" className="hover:text-brand-primary transition-colors">{t.nav.appStore}</a></li>
+            <li><a href="#programs" className="hover:text-brand-primary transition-colors">{t.nav.courses}</a></li>
+            <li><a href="#careers" className="hover:text-brand-primary transition-colors">{t.nav.jobs}</a></li>
             <li><a href="#contact" className="hover:text-brand-primary transition-colors">{t.nav.contact}</a></li>
           </ul>
         </nav>
@@ -111,17 +112,8 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a 
-                      href="#programs" 
-                      onClick={() => setIsMenuOpen(false)}
-                      className="hover:text-brand-primary transition-colors"
-                    >
-                      {t.nav.courses}
-                    </a>
-                  </li>
-                  <li>
-                    <a 
-                      href="#app-store" 
+                    <a
+                      href="#app-store"
                       onClick={() => setIsMenuOpen(false)}
                       className="hover:text-brand-primary transition-colors"
                     >
@@ -129,8 +121,26 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a 
-                      href="#contact" 
+                    <a
+                      href="#programs"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="hover:text-brand-primary transition-colors"
+                    >
+                      {t.nav.courses}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#careers"
+                      onClick={() => setIsMenuOpen(false)}
+                      className="hover:text-brand-primary transition-colors"
+                    >
+                      {t.nav.jobs}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#contact"
                       onClick={() => setIsMenuOpen(false)}
                       className="hover:text-brand-primary transition-colors"
                     >

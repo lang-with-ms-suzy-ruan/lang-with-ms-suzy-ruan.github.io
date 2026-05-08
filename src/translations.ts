@@ -2,9 +2,10 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
-      courses: "Courses",
-      contact: "Contact",
       appStore: "App Store",
+      courses: "Courses",
+      jobs: "Jobs",
+      contact: "Contact",
       join: "Join Now",
     },
     hero: {
@@ -469,9 +470,10 @@ export const translations = {
   vi: {
     nav: {
       home: "Trang chủ",
-      courses: "Khóa học",
-      contact: "Liên hệ",
       appStore: "Cửa hàng ứng dụng",
+      courses: "Khóa học",
+      jobs: "Việc làm",
+      contact: "Liên hệ",
       join: "Tham gia ngay",
     },
     hero: {
