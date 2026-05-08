@@ -106,17 +106,18 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ onBack, isTrial = 
   };
 
   const speak = (text: string) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    const voices = window.speechSynthesis.getVoices();
-    // Prefer male US voice (e.g. David, Mark, etc.)
-    const maleVoice = voices.find(v => (v.name.includes("Male") || v.name.includes("David") || v.name.includes("Mark") || v.name.includes("Guy")) && v.lang.includes("en-US"));
-    const usVoice = voices.find(v => v.lang.includes("en-US") || v.name.includes("Google US English"));
-    
-    if (maleVoice) utterance.voice = maleVoice;
-    else if (usVoice) utterance.voice = usVoice;
-    
-    utterance.rate = 0.85;
-    window.speechSynthesis.speak(utterance);
+    const word = text.trim().toLowerCase();
+    const fallback = () => {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = "en-US";
+      window.speechSynthesis.speak(u);
+    };
+    if (word.includes(" ")) { fallback(); return; }
+    const url = `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${word[0]}/${word.slice(0, 3)}/${word}/${word}__us_1.mp3`;
+    const audio = new Audio(url);
+    audio.onerror = fallback;
+    audio.play().catch(fallback);
   };
 
   if (words.length === 0) {

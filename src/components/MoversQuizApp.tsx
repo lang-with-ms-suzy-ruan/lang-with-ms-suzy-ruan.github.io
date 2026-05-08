@@ -55,14 +55,18 @@ function getExampleParts(example: string) {
 }
 
 function speak(text: string) {
-  const utterance = new SpeechSynthesisUtterance(text);
-  const voices = window.speechSynthesis.getVoices();
-  const preferred = voices.find(v =>
-    (v.name.includes("David") || v.name.includes("Mark") || v.name.includes("Guy")) && v.lang.includes("en-US")
-  ) || voices.find(v => v.lang.includes("en-US"));
-  if (preferred) utterance.voice = preferred;
-  utterance.rate = 0.85;
-  window.speechSynthesis.speak(utterance);
+  const word = text.trim().toLowerCase();
+  const fallback = () => {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    window.speechSynthesis.speak(u);
+  };
+  if (word.includes(" ")) { fallback(); return; }
+  const url = `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${word[0]}/${word.slice(0, 3)}/${word}/${word}__us_1.mp3`;
+  const audio = new Audio(url);
+  audio.onerror = fallback;
+  audio.play().catch(fallback);
 }
 
 const MODES: { id: QuizMode; label: string; desc: string; icon: React.ReactNode }[] = [
