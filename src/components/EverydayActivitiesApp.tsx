@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { X, ChevronLeft, ChevronRight, BookOpen, Volume2 } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, BookOpen, Volume2, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 const PDF_PATH = "/media/everyday/english-for-everyday-activities-pdf-free.pdf";
 const AUDIO_DIR =
@@ -134,7 +136,8 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const [idx, setIdx] = useState(0);
   const [vocab, setVocab] = useState<Record<number, VocabItem[]>>({});
   const [notes, setNotes] = useState<Record<number, NoteBullet[]>>({});
-  const [lessonNotes, setLessonNotes] = useState<Record<number, string>>({});
+  const [lessonMd, setLessonMd] = useState<Record<number, string>>({});
+  const [showLessonNote, setShowLessonNote] = useState(false);
   const [selectedTerm, setSelectedTerm] = useState<VocabItem | null>(null);
   const audioRef = useRef<HTMLAudioElement>(null);
   const chapterRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -142,7 +145,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const chapter = CHAPTERS[idx];
   const chapterVocab = vocab[chapter.num] ?? [];
   const chapterNotes = notes[chapter.num] ?? [];
-  const chapterLessonNote = lessonNotes[chapter.num] ?? "";
+  const chapterLessonMd = lessonMd[chapter.num] ?? "";
 
   useEffect(() => {
     fetch("/media/everyday/vocab.json")
@@ -153,15 +156,22 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
       .then(r => r.json())
       .then(setNotes)
       .catch(() => {});
-    fetch("/media/everyday/lesson-notes.json")
-      .then(r => r.json())
-      .then(setLessonNotes)
-      .catch(() => {});
   }, []);
+
+  // Load lesson markdown for the current chapter on demand (cached)
+  useEffect(() => {
+    const num = chapter.num;
+    if (lessonMd[num] !== undefined) return;
+    fetch(`/media/everyday/lesson-notes-${num}.md`)
+      .then(r => r.ok ? r.text() : "")
+      .then(text => setLessonMd(prev => ({ ...prev, [num]: text })))
+      .catch(() => setLessonMd(prev => ({ ...prev, [num]: "" })));
+  }, [chapter.num]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const goTo = useCallback((i: number) => {
     setIdx(i);
     setSelectedTerm(null);
+    setShowLessonNote(false);
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
@@ -196,7 +206,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const vocabSections = Object.keys(vocabBySec);
 
   return (
-    <div className="h-screen bg-white flex flex-col overflow-hidden font-sans">
+    <div className="relative h-screen bg-white flex flex-col overflow-hidden font-sans">
       {/* Header */}
       <header className="h-14 bg-white border-b-2 border-ink/10 flex items-center justify-between px-4 shrink-0">
         <div className="flex items-center gap-3">
@@ -304,7 +314,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
         </main>
 
         {/* Right panel — vocabulary + notes */}
-        {(chapterVocab.length > 0 || chapterNotes.length > 0 || chapterLessonNote) && (
+        {(chapterVocab.length > 0 || chapterNotes.length > 0 || chapterLessonMd) && (
           <aside className="w-44 shrink-0 border-l-2 border-ink/10 flex flex-col overflow-hidden bg-ink/[0.015]">
             {/* Scrollable content */}
             <div className="flex-1 overflow-y-auto">
@@ -366,18 +376,17 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                 </>
               )}
 
-              {/* Lesson notes */}
-              {chapterLessonNote && (
-                <>
-                  <p className="px-3 pt-4 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30 border-t-2 border-ink/10 mt-2">
+              {/* Lesson notes button */}
+              {chapterLessonMd && (
+                <div className="px-3 pt-4 pb-3 border-t-2 border-ink/10 mt-2">
+                  <button
+                    onClick={() => setShowLessonNote(true)}
+                    className="w-full flex items-center gap-2 px-3 py-2 bg-brand-primary border-2 border-ink rounded-xl font-black text-[10px] uppercase tracking-wider shadow-[2px_2px_0px_0px_rgba(45,52,54,1)] hover:translate-x-px hover:translate-y-px hover:shadow-none transition-all"
+                  >
+                    <FileText className="w-3 h-3 shrink-0" />
                     Lesson Notes
-                  </p>
-                  <div className="px-3 py-2">
-                    {chapterLessonNote.split("\n").map((line, i) => (
-                      <p key={i} className="text-[10px] text-ink/80 leading-snug">{line}</p>
-                    ))}
-                  </div>
-                </>
+                  </button>
+                </div>
               )}
             </div>
 
@@ -407,6 +416,51 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
           </aside>
         )}
       </div>
+
+      {/* Lesson notes modal */}
+      {showLessonNote && chapterLessonMd && (
+        <div
+          className="absolute inset-0 bg-ink/40 flex items-center justify-center p-6 z-50"
+          onClick={() => setShowLessonNote(false)}
+        >
+          <div
+            className="bg-white border-4 border-ink rounded-3xl shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] w-full max-w-2xl max-h-full flex flex-col"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Modal header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b-2 border-ink/10 shrink-0">
+              <div className="flex items-center gap-2">
+                <FileText className="w-4 h-4" />
+                <span className="font-black text-sm uppercase tracking-tight">
+                  Lesson Notes — {chapter.num}. {chapter.title}
+                </span>
+              </div>
+              <button
+                onClick={() => setShowLessonNote(false)}
+                className="w-8 h-8 flex items-center justify-center rounded-lg hover:bg-ink/5 transition-colors"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            {/* Modal body — rendered markdown */}
+            <div className="overflow-y-auto px-6 py-5 prose prose-sm max-w-none
+              [&_h1]:text-xl [&_h1]:font-black [&_h1]:mt-0 [&_h1]:mb-3
+              [&_h2]:text-base [&_h2]:font-black [&_h2]:mt-5 [&_h2]:mb-2
+              [&_h3]:text-sm [&_h3]:font-bold [&_h3]:mt-4 [&_h3]:mb-1
+              [&_p]:text-sm [&_p]:leading-relaxed [&_p]:my-1
+              [&_strong]:font-black
+              [&_hr]:border-ink/10 [&_hr]:my-4
+              [&_table]:w-full [&_table]:border-collapse [&_table]:text-sm
+              [&_th]:text-left [&_th]:font-black [&_th]:px-3 [&_th]:py-2 [&_th]:bg-ink/5 [&_th]:border [&_th]:border-ink/10
+              [&_td]:px-3 [&_td]:py-2 [&_td]:border [&_td]:border-ink/10 [&_td]:align-top">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {chapterLessonMd}
+              </ReactMarkdown>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
