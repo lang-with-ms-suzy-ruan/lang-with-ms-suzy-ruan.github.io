@@ -340,7 +340,15 @@ export const VocabularyApp: React.FC<VocabularyAppProps> = ({ onBack, isTrial = 
                       {/* Example Block */}
                       <div className="space-y-3 lg:space-y-4">
                         <div>
-                          <h4 className="text-[9px] lg:text-[10px] font-black uppercase tracking-[0.2em] mb-1 lg:mb-2 opacity-40">Usage Example</h4>
+                          <div className="flex items-center gap-2 mb-1 lg:mb-2">
+                            <h4 className="text-[9px] lg:text-[10px] font-black uppercase tracking-[0.2em] opacity-40">Usage Example</h4>
+                            <button
+                              onClick={() => speak(exampleParts.eng)}
+                              className="text-ink/30 hover:text-brand-primary transition-colors"
+                            >
+                              <Volume2 className="w-3 h-3 lg:w-4 lg:h-4" />
+                            </button>
+                          </div>
                           <p className="text-base lg:text-xl font-bold leading-tight text-ink/70 bg-ink/5 p-4 rounded-2xl border-l-4 border-brand-primary italic">
                             "{exampleParts.eng}"
                           </p>
