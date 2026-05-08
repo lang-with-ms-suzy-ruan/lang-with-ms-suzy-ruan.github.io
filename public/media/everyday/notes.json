@@ -48,7 +48,33 @@
             "vi": "Bạn “slip” (trượt) một cái gì đó vào đâu đó bằng cách di chuyển nó nhẹ nhàng vào một không gian nhỏ."
         }
     ],
-    "3": [],
+    "3": [
+        {
+            "marker": "•",
+            "en": "Use dry off only if the water stays on top of the thing that is wet. You don’t “dry off” your hair or a towel. You “dry” them or “dry them out.”",
+            "vi": "Chỉ dùng “dry off” khi nước ở trên bề mặt của vật bị ướt. Bạn không nói “dry off” tóc hoặc khăn. Bạn nói “dry” hoặc “dry them out”."
+        },
+        {
+            "marker": "•",
+            "en": "Pull something shut = pull it until it is shut.",
+            "vi": "“Pull something shut” = kéo thứ gì đó cho đến khi nó đóng lại."
+        },
+        {
+            "marker": "•",
+            "en": "Take some students out of your classroom. The others (those still in the room) are the rest of the class.",
+            "vi": "Đưa một vài học sinh ra khỏi lớp học. Những người còn lại (những người vẫn ở trong phòng) là phần còn lại (the rest of) của lớp."
+        },
+        {
+            "marker": "•",
+            "en": "After you “turn something on”, it runs or works. After you “turn it off”, it stops.",
+            "vi": "Sau khi bạn bật thứ gì đó lên (“turn something on”), nó sẽ chạy hoặc hoạt động. Sau khi bạn tắt nó đi (“turn it off”), nó sẽ dừng lại."
+        },
+        {
+            "marker": "•",
+            "en": "A deodorant is something that takes away bad smells.",
+            "vi": "Deodorant là thứ giúp khử mùi hôi."
+        }
+    ],
     "4": [
         {
             "marker": "*",
@@ -57,55 +83,50 @@
         },
         {
             "marker": "*",
-            "en": "Some items of clothing are called a pair even though they seem like 1 thing : “a Pair of pants.”",
-            "vi": "Một số mặt hàng quần áo được gọi là một đôi mặc dù chúng có vẻ giống như một thứ : “một đôi quần”."
+            "en": "Some items of clothing are called a pair even though they seem like 1 thing : “a pair of pants.”",
+            "vi": "Một số mặt hàng quần áo được gọi là một đôi mặc dù chúng có vẻ giống như một thứ : “a pair of pants.” (vì một cái quần có 2 ống nên gọi là “a pair”)."
         }
     ],
     "5": [
         {
             "marker": "*",
-            "en": "casual (adj.)",
-            "vi": "bình thường (adj)"
+            "en": "Someone who goes barefoot walks around with no shoes or socks on his/her feet. His/Her feet are bare.",
+            "vi": "Người đi chân trần là người đi lại mà không mang giày hoặc vớ trên chân. Chân của họ để trần."
         },
         {
             "marker": "*",
-            "en": "cold (adj.)",
-            "vi": "lạnh (adj.)"
+            "en": "If something keeps her cool, it helps her stay cool.",
+            "vi": "Nếu thứ gì đó giúp cô ấy mát mẻ, thì nó giúp cô ấy giữ cơ thể mát mẻ."
         },
         {
-            "marker": "*",
-            "en": "cool (adj.)",
-            "vi": "mát mẻ (adj.)"
+            "marker": "1.",
+            "en": "Use it + BE + an adjective:",
+            "vi": "Dùng it + BE + tính từ:"
         },
         {
-            "marker": "*",
-            "en": "heavy (adj.)",
-            "vi": "<ph x=\"1\" type=\"7229\"/><bpt i=\"2\" type=\"7232\" x=\"2\"/>nặng(adj)<ept i=\"2\"/>"
+            "marker": "-",
+            "en": "It's hot.",
+            "vi": "Trời nóng."
         },
         {
-            "marker": "*",
-            "en": "hot (adj.)",
-            "vi": "nóng (adj)"
+            "marker": "-",
+            "en": "It's hot outside.",
+            "vi": "Ngoài trời nóng."
         },
         {
-            "marker": "*",
-            "en": "indoors (ady.) light (adj.)",
-            "vi": "trong nhà (ady.) ánh sáng (adj.)"
+            "marker": "2.",
+            "en": "Use it + BE + the -ing form of a weather verb:",
+            "vi": "Dùng it + BE + dạng -ing của động từ chỉ thời tiết:"
         },
         {
-            "marker": "*",
-            "en": "long (adj.) long-sleeved outdoors (adv.) short-sleeved (adj.) thick (adj.)",
-            "vi": "long (adj.) long-sleeved outdoors (adv.) short-sleeved (adj.) thick (adj.)"
+            "marker": "-",
+            "en": "It's raining.",
+            "vi": "Trời đang mưa."
         },
         {
-            "marker": "*",
-            "en": "thin (adj.)",
-            "vi": "mỏng (adj.)"
-        },
-        {
-            "marker": "*",
-            "en": "warm (adj.)",
-            "vi": "ấm áp (adj)"
+            "marker": "-",
+            "en": "It's snowing.",
+            "vi": "Trời đang có tuyết rơi."
         }
     ],
     "6": [
