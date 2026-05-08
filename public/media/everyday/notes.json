@@ -28,29 +28,24 @@
     ],
     "2": [
         {
-            "marker": "+",
-            "en": "You run water over something by using water from a faucet or pipe and letting the water s flow away after | the thing.",
-            "vi": "Bạn chảy nước trên một cái gì đó bằng cách sử dụng nước từ vòi hoặc đường ống và để nước chảy đi sau | điều đó."
+            "marker": "*",
+            "en": "You “run water over” something by using water from a faucet or pipe and letting the water flow away after hitting the thing.",
+            "vi": "Cụm từ “run water over something” có nghĩa là để nước chảy lên hoặc chảy qua một vật nào đó, thường từ vòi nước, ống nước hoặc vòi xịt. Khi bạn “run water over” một vật, bạn sử dụng nước từ vòi hoặc ống và để nước chảy đi sau khi chạm vào vật đó."
         },
         {
             "marker": "*",
-            "en": ". Something goes, a ‘and . forth by going from one side to another and many times.",
-            "vi": ". Một cái gì đó đi, một ‘và . ra bằng cách đi từ bên này sang bên khác và nhiều lần."
-        },
-        {
-            "marker": "+",
-            "en": "Something goes up and down by going in these directions",
-            "vi": "Một cái gì đó đi lên và xuống bằng cách đi theo các hướng này"
+            "en": "Something goes “back and forth” by going from one side to another (left and right) many times.",
+            "vi": "Một cái gì đó đi “qua lại” bằng cách đi từ bên này sang bên kia (trái và phải) nhiều lần."
         },
         {
             "marker": "*",
-            "en": "and }) many times.",
-            "vi": "và }) nhiều lần."
+            "en": "Something goes “up and down” by going in these directions (up and down) many times.",
+            "vi": "Một cái gì đó đi “lên xuống” bằng cách đi theo các hướng này (lên và xuống) nhiều lần."
         },
         {
             "marker": "*",
-            "en": "You slip something some- F where by moving it gently into a small space.",
-            "vi": "Bạn trượt một cái gì đó ở đâu đó bằng cách di chuyển nó nhẹ nhàng vào một không gian nhỏ."
+            "en": "You “slip” something somewhere by moving it gently into a small space.",
+            "vi": "Bạn “slip” (trượt) một cái gì đó vào đâu đó bằng cách di chuyển nó nhẹ nhàng vào một không gian nhỏ."
         }
     ],
     "3": [],

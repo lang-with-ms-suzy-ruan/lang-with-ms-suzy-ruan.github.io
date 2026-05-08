@@ -185,7 +185,7 @@
         {
             "term": "floss",
             "section": "VERBS",
-            "vi": "Có hình dâu tây ấy.",
+            "vi": "dùng chỉ nha khoa để xỉa răng",
             "ipa": "/flɑs/"
         },
         {
@@ -197,14 +197,14 @@
         {
             "term": "pull out",
             "section": "VERBS",
-            "vi": "ra khỏi giếng",
-            "ipa": "/pʊl/"
+            "vi": "kéo ra",
+            "ipa": "/pʊl aʊt/"
         },
         {
             "term": "put back",
             "section": "VERBS",
             "vi": "đặt lại",
-            "ipa": "/pʊt/"
+            "ipa": "/pʊt bæk/"
         },
         {
             "term": "rinse",
@@ -233,7 +233,7 @@
         {
             "term": "spit",
             "section": "VERBS",
-            "vi": "que xiên",
+            "vi": "nhổ, khạc",
             "ipa": "/spɪt/"
         },
         {
@@ -245,7 +245,7 @@
         {
             "term": "swish",
             "section": "VERBS",
-            "vi": "Ào ào",
+            "vi": "vẩy, rửa miệng bằng nước súc miệng",
             "ipa": "/swɪʃ/"
         },
         {
@@ -282,18 +282,18 @@
             "term": "a piece of",
             "section": "NOUNS",
             "vi": "một mẩu",
-            "ipa": "/æɪ/"
+            "ipa": "/ə piːs əv/"
         },
         {
             "term": "rack",
             "section": "NOUNS",
             "vi": "Giá đỡ",
-            "ipa": "/ɹæk/"
+            "ipa": "/ræk/"
         },
         {
             "term": "sink",
             "section": "NOUNS",
-            "vi": "chìm, lún, đắm",
+            "vi": "bồn rửa mặt, bồn rửa chén",
             "ipa": "/sɪŋk/"
         },
         {

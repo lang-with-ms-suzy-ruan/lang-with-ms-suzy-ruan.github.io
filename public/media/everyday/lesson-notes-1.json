@@ -1,0 +1,54 @@
+{
+    "topic": "Simple Present Verbs",
+    "description_en": "Use the simple present tense to talk about habits or things people usually do.",
+    "description_vi": "Dùng thì hiện tại đơn để nói về thói quen hoặc những việc thường xảy ra.",
+    "examples": [
+        {
+            "english": "I brush my teeth every day.",
+            "vietnamese": "Tôi đánh răng mỗi ngày."
+        },
+        {
+            "english": "On Saturdays, Dan sleeps late.",
+            "vietnamese": "Vào các ngày thứ Bảy, Dan ngủ dậy muộn."
+        },
+        {
+            "english": "I usually eat cereal for breakfast.",
+            "vietnamese": "Tôi thường ăn ngũ cốc vào bữa sáng."
+        }
+    ],
+    "time_expressions": [
+        {
+            "english": "every day / every morning",
+            "vietnamese": "mỗi ngày / mỗi sáng"
+        },
+        {
+            "english": "in the morning / in the afternoon / at night",
+            "vietnamese": "vào buổi sáng / buổi chiều / buổi tối"
+        },
+        {
+            "english": "once a week / once a month",
+            "vietnamese": "một tuần một lần / một tháng một lần"
+        },
+        {
+            "english": "on Sundays / on Mondays",
+            "vietnamese": "vào các ngày Chủ nhật / Thứ Hai"
+        }
+    ],
+    "frequency_adverbs": [
+        {
+            "word": "usually",
+            "percentage": "80-90%",
+            "vietnamese": "thường"
+        },
+        {
+            "word": "often",
+            "percentage": "60-70%",
+            "vietnamese": "thường xuyên"
+        },
+        {
+            "word": "sometimes",
+            "percentage": "30-40%",
+            "vietnamese": "thỉnh thoảng"
+        }
+    ]
+}
