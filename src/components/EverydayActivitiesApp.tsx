@@ -109,11 +109,26 @@ function audioUrl(num: number) {
   return `${AUDIO_DIR}/English%20for%20Everyday%20Activities%20${n}.mp3`;
 }
 
-function speak(text: string) {
+function speakTTS(text: string) {
   window.speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
   u.lang = "en-US";
   window.speechSynthesis.speak(u);
+}
+
+function speak(text: string) {
+  const word = text.trim().toLowerCase();
+  // Multi-word phrases: use TTS directly
+  if (word.includes(" ")) {
+    speakTTS(text);
+    return;
+  }
+  const prefix1 = word[0];
+  const prefix3 = word.slice(0, 3);
+  const url = `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${prefix1}/${prefix3}/${word}/${word}__us_1.mp3`;
+  const audio = new Audio(url);
+  audio.onerror = () => speakTTS(text);
+  audio.play().catch(() => speakTTS(text));
 }
 
 function decodeHtml(s: string): string {
