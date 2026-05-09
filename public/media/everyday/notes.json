@@ -1,49 +1,49 @@
 {
     "1": [
         {
-            "marker": "*",
+            "marker": "•",
             "en": "wake up = stop sleeping",
             "vi": "“wake up” = ngừng ngủ"
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "wake up + get out of bed = “get up,” as in “What time did you get up?” “At 7:00.”",
             "vi": "thức dậy + ra khỏi giường = “get up”, như trong “Bạn thức dậy lúc mấy giờ?\" Lúc 7:00. \""
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "take a shower = wash yourself in a shower. You can also take a bath.",
             "vi": "tắm vòi sen = tắm bằng vòi sen. Bạn cũng có thể “take a bath” = tắm."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Other polite ways to say use the toilet are “go to the bathroom” and “use the bathroom,”",
             "vi": "Các cách lịch sự khác để nói sử dụng nhà vệ sinh là “go to the bathroom” (đi nhà tắm = nhà vệ sinh) và “use the bathroom” (sử dụng nhà vệ sinh),"
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "When you flush a toilet, water cleans the toilet bowl.",
             "vi": "Khi bạn xả nước bồn cầu (“flush a toilet”), nước sẽ làm sạch bồn cầu."
         }
     ],
     "2": [
         {
-            "marker": "*",
+            "marker": "•",
             "en": "You “run water over” something by using water from a faucet or pipe and letting the water flow away after hitting the thing.",
             "vi": "Cụm từ “run water over something” có nghĩa là để nước chảy lên hoặc chảy qua một vật nào đó, thường từ vòi nước, ống nước hoặc vòi xịt. Khi bạn “run water over” một vật, bạn sử dụng nước từ vòi hoặc ống và để nước chảy đi sau khi chạm vào vật đó."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Something goes “back and forth” by going from one side to another (left and right) many times.",
             "vi": "Một cái gì đó đi “qua lại” bằng cách đi từ bên này sang bên kia (trái và phải) nhiều lần."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Something goes “up and down” by going in these directions (up and down) many times.",
             "vi": "Một cái gì đó đi “lên xuống” bằng cách đi theo các hướng này (lên và xuống) nhiều lần."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "You “slip” something somewhere by moving it gently into a small space.",
             "vi": "Bạn “slip” (trượt) một cái gì đó vào đâu đó bằng cách di chuyển nó nhẹ nhàng vào một không gian nhỏ."
         }
@@ -77,24 +77,24 @@
     ],
     "4": [
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Usually a pair of something means 2. “A pair of cats” means “2 cats.”",
             "vi": "Thông thường, một cặp thứ gì đó có nghĩa là 2. “Một cặp mèo” có nghĩa là “2 con mèo”."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Some items of clothing are called a pair even though they seem like 1 thing : “a pair of pants.”",
             "vi": "Một số mặt hàng quần áo được gọi là một đôi mặc dù chúng có vẻ giống như một thứ : “a pair of pants.” (vì một cái quần có 2 ống nên gọi là “a pair”)."
         }
     ],
     "5": [
         {
-            "marker": "*",
+            "marker": "•",
             "en": "Someone who goes barefoot walks around with no shoes or socks on his/her feet. His/Her feet are bare.",
             "vi": "Người đi chân trần là người đi lại mà không mang giày hoặc vớ trên chân. Chân của họ để trần."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "If something keeps her cool, it helps her stay cool.",
             "vi": "Nếu thứ gì đó giúp cô ấy mát mẻ, thì nó giúp cô ấy giữ cơ thể mát mẻ."
         },
@@ -131,19 +131,39 @@
     ],
     "6": [
         {
-            "marker": "*",
-            "en": "pillow pillowcase",
+            "marker": "•",
+            "en": "To “pull something tight” is to pull it until it is tight.",
+            "vi": "Kéo một thứ gì đó căng nghĩa là kéo nó cho đến khi nó căng."
+        },
+        {
+            "marker": "•",
+            "en": "When you lie on a bed, you put your head near the head of the bed and your feet near the foot of the bed.",
+            "vi": "Khi bạn nằm trên giường, bạn đặt đầu gần phía đầu giường và chân gần phía cuối giường."
+        },
+        {
+            "marker": "•",
+            "en": "A pillow goes inside a pillowcase.",
+            "vi": "Một chiếc gối được đặt bên trong vỏ gối."
+        },
+        {
+            "marker": "-",
+            "en": "pillow",
+            "vi": "gối"
+        },
+        {
+            "marker": "-",
+            "en": "pillowcase",
             "vi": "vỏ gối"
         },
         {
-            "marker": "+",
+            "marker": "•",
             "en": "The corners of a fitted sheet are made to fit over the corners of a mattress. Fitted sheets are used only as bottom sheets, not as top sheets.",
-            "vi": "Các góc của một tấm ga trải giường vừa khít với các góc của một tấm nệm. Các tấm được trang bị chỉ được sử dụng làm tấm dưới cùng, không phải là tấm trên cùng."
+            "vi": "Các góc của ga trải giường ôm nệm được làm để phủ vừa các góc của nệm. Ga ôm chỉ được dùng làm ga dưới, không dùng làm ga phủ bên trên."
         },
         {
-            "marker": "*",
+            "marker": "•",
             "en": "You smooth out a sheet by removing wrinkles.",
-            "vi": "Bạn làm phẳng một tờ giấy bằng cách loại bỏ các nếp nhăn."
+            "vi": "Bạn làm phẳng ga giường bằng cách loại bỏ các nếp nhăn."
         }
     ],
     "7": [],

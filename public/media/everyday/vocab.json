@@ -1199,166 +1199,142 @@
     ],
     "6": [
         {
-            "term": "Key Vocabula",
-            "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "fluff up",
             "section": "VERBS",
-            "vi": "fluff up",
-            "ipa": "/flʌf/"
-        },
-        {
-            "term": "slip",
-            "section": "VERBS",
-            "vi": "trượt, tuột, trôi qua",
-            "ipa": "/slɪp/"
+            "vi": "làm phồng lên, giũ cho xốp",
+            "ipa": "/flʌf ʌp/"
         },
         {
             "term": "have",
             "section": "VERBS",
             "vi": "có",
-            "ipa": ""
-        },
-        {
-            "term": "smooth out",
-            "section": "VERBS",
-            "vi": "làm mịn",
-            "ipa": "/smuːð/"
+            "ipa": "/hæv/"
         },
         {
             "term": "lay",
             "section": "VERBS",
-            "vi": "xếp, đặt, bố tri",
+            "vi": "đặt, trải",
             "ipa": "/leɪ/"
         },
         {
-            "term": "spread",
+            "term": "make a bed",
             "section": "VERBS",
-            "vi": "trải, căng ra, bày ra; chênh lệch",
-            "ipa": "/sprɛd/"
-        },
-        {
-            "term": "makeabed",
-            "section": "VERBS",
-            "vi": "makeabed",
-            "ipa": ""
-        },
-        {
-            "term": "tuck",
-            "section": "VERBS",
-            "vi": "Nếp gấp",
-            "ipa": "/tʌk/"
+            "vi": "dọn giường",
+            "ipa": "/meɪk ə bed/"
         },
         {
             "term": "pull",
             "section": "VERBS",
-            "vi": "lôi, kéo, giật",
+            "vi": "kéo",
             "ipa": "/pʊl/"
         },
         {
             "term": "put",
             "section": "VERBS",
-            "vi": "tắt, dập tắt",
+            "vi": "đặt, để",
             "ipa": "/pʊt/"
+        },
+        {
+            "term": "slip",
+            "section": "VERBS",
+            "vi": "trượt, luồn",
+            "ipa": "/slɪp/"
+        },
+        {
+            "term": "smooth out",
+            "section": "VERBS",
+            "vi": "làm phẳng",
+            "ipa": "/smuːð aʊt/"
+        },
+        {
+            "term": "spread",
+            "section": "VERBS",
+            "vi": "trải ra",
+            "ipa": "/spred/"
+        },
+        {
+            "term": "tuck",
+            "section": "VERBS",
+            "vi": "nhét gọn, giắt vào",
+            "ipa": "/tʌk/"
         },
         {
             "term": "bed",
             "section": "NOUNS",
-            "vi": "phòng ngủ",
+            "vi": "giường",
             "ipa": "/bed/"
-        },
-        {
-            "term": "sheet",
-            "section": "NOUNS",
-            "vi": "lá, tấm, phiến, tờ",
-            "ipa": "/ʃiːt/"
         },
         {
             "term": "bedspread",
             "section": "NOUNS",
-            "vi": "Ga",
-            "ipa": ""
-        },
-        {
-            "term": "top",
-            "section": "NOUNS",
-            "vi": "trên cùng",
-            "ipa": "/tɒp/"
+            "vi": "khăn phủ giường",
+            "ipa": "/ˈbedspred/"
         },
         {
             "term": "blanket",
             "section": "NOUNS",
-            "vi": "cái chăn",
+            "vi": "chăn",
             "ipa": "/ˈblæŋkɪt/"
         },
         {
             "term": "bottom",
             "section": "NOUNS",
-            "vi": "dưới cùng",
+            "vi": "phần dưới",
             "ipa": "/ˈbɒtəm/"
         },
         {
             "term": "foot",
             "section": "NOUNS",
-            "vi": "chân trang",
-            "ipa": "[fʊt̚]"
+            "vi": "phía chân giường",
+            "ipa": "/fʊt/"
         },
         {
             "term": "head",
             "section": "NOUNS",
-            "vi": "cái đầu ; chỉ huy, lãnh đạo, dẫn đầu",
-            "ipa": "/hɛd/"
+            "vi": "phía đầu giường",
+            "ipa": "/hed/"
         },
         {
             "term": "mattress",
             "section": "NOUNS",
-            "vi": "Nệm",
-            "ipa": "/ˈmætrɪs/"
+            "vi": "nệm",
+            "ipa": "/ˈmætrəs/"
         },
         {
             "term": "pillow",
             "section": "NOUNS",
-            "vi": "Gối",
+            "vi": "gối",
             "ipa": "/ˈpɪləʊ/"
+        },
+        {
+            "term": "sheet",
+            "section": "NOUNS",
+            "vi": "ga trải giường",
+            "ipa": "/ʃiːt/"
+        },
+        {
+            "term": "top",
+            "section": "NOUNS",
+            "vi": "phần trên",
+            "ipa": "/tɒp/"
         },
         {
             "term": "fitted",
             "section": "ADJECTIVES",
-            "vi": "Khít",
-            "ipa": "/ˈfɪtəd/"
+            "vi": "vừa khít",
+            "ipa": "/ˈfɪtɪd/"
         },
         {
             "term": "flat",
             "section": "ADJECTIVES",
-            "vi": "mặt bằng",
+            "vi": "phẳng",
             "ipa": "/flæt/"
         },
         {
             "term": "tight",
             "section": "ADJECTIVES",
-            "vi": "kín, chặt, chật",
-            "ipa": ""
-        },
-        {
-            "term": "For Special Attention",
-            "section": "ADJECTIVES",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": ""
-        },
-        {
-            "term": "To pull something tight is to",
-            "section": "ADJECTIVES",
-            "vi": "Kéo một cái gì đó chặt chẽ là để",
-            "ipa": "/tʊː/"
-        },
-        {
-            "term": "null it until it ic",
-            "section": "ADJECTIVES",
-            "vi": "vô hiệu hóa nó cho đến khi nó ic",
-            "ipa": "/nʌl/"
+            "vi": "chặt, căng",
+            "ipa": "/taɪt/"
         }
     ],
     "7": [
