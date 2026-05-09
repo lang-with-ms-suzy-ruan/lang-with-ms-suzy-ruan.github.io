@@ -17,6 +17,7 @@ import { KanjiApp } from "./KanjiApp";
 import { KanjiQuizApp } from "./KanjiQuizApp";
 import { EverydayActivitiesApp } from "./EverydayActivitiesApp";
 import studentsData from "../data/students.json";
+import appsConfig from "../data/apps.json";
 
 type Language = "en" | "vi";
 const LanguageContext = createContext<{ 
@@ -1591,6 +1592,30 @@ async function sha256(text: string): Promise<string> {
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
+const ICON_MAP: Record<string, React.ReactNode> = {
+  Rocket:       <Rocket className="w-6 h-6 text-ink" />,
+  GraduationCap:<GraduationCap className="w-6 h-6 text-ink" />,
+  Trophy:       <Trophy className="w-6 h-6 text-ink" />,
+  Smile:        <Smile className="w-6 h-6 text-ink" />,
+  BookOpen:     <BookOpen className="w-6 h-6 text-ink" />,
+  Sparkles:     <Sparkles className="w-6 h-6 text-ink" />,
+  FileText:     <FileText className="w-6 h-6 text-ink" />,
+  Users:        <Users className="w-6 h-6 text-ink" />,
+  MessageSquare:<MessageSquare className="w-6 h-6 text-ink" />,
+  Globe:        <Globe className="w-6 h-6 text-ink" />,
+  Mic:          <Mic className="w-6 h-6 text-ink" />,
+  PenTool:      <PenTool className="w-6 h-6 text-ink" />,
+  Laptop:       <Laptop className="w-6 h-6 text-ink" />,
+  Calendar:     <Calendar className="w-6 h-6 text-ink" />,
+  Briefcase:    <Briefcase className="w-6 h-6 text-ink" />,
+};
+
+const BG_MAP: Record<string, string> = {
+  primary:   "bg-brand-primary",
+  secondary: "bg-brand-secondary",
+  accent:    "bg-brand-accent",
+};
+
 const AppStoreView = () => {
   const { t, setView } = useTranslation();
   const [user, setUser] = useState<null | "admin" | "student" | "guest">(null);
@@ -1600,11 +1625,9 @@ const AppStoreView = () => {
   const [error, setError] = useState("");
   const [launchedApp, setLaunchedApp] = useState<{ id: string; title: string } | null>(null);
 
-  // Dynamically find available apps from /public/media/*/words.csv
+  // Detect which trial folders exist (for guest access check)
   const globPaths = Object.keys(import.meta.glob("/public/media/*/words.csv"));
-  const allFolders = globPaths.map(path => path.split("/")[3]);
-  const mediaApps = allFolders.filter(folder => !folder.endsWith("_trial"));
-  const trialFolders = allFolders.filter(folder => folder.endsWith("_trial"));
+  const trialFolders = globPaths.map(p => p.split("/")[3]).filter(f => f.endsWith("_trial"));
 
   if (launchedApp) {
     if (launchedApp.id === "student_manager") {
@@ -1656,44 +1679,12 @@ const AppStoreView = () => {
     setUser("guest");
   };
 
-  // Combine folder discovery with translations
-  const availableApps = mediaApps.map(folder => {
-    const translatedApp = t.appStore.appList.find(a => a.id.toString() === folder || a.name.toLowerCase().includes(folder));
-    return {
-      id: folder,
-      name: translatedApp ? translatedApp.name : folder.charAt(0).toUpperCase() + folder.slice(1) + " Vocabulary",
-      desc: translatedApp ? translatedApp.desc : `Interactive vocabulary for ${folder}.`
-    };
+  const visibleApps = appsConfig.filter(app => {
+    if (user === "admin") return true;
+    if (user === "student") return app.access === "all" || app.access === "student";
+    if (user === "guest") return app.access === "all" && trialFolders.includes(`${app.id}_trial`);
+    return false;
   });
-
-  const quizApp = { id: "movers_quiz", name: "Movers Quiz", desc: "Test your Movers vocabulary with picture and word quizzes." };
-  const kanjiApp = { id: "kanji", name: "Kanji Study", desc: "Study 1000+ kanji with vocabulary, furigana, and meanings. Interactive reveal mode." };
-  const kanjiQuizApp = { id: "kanji_quiz", name: "Kanji Quiz", desc: "Flashcard quiz through 2900+ vocabulary items. Tap to reveal reading and meaning." };
-  const everydayApp = { id: "everyday_activities", name: "Everyday Activities", desc: "61 picture-process lessons with audio. Follow along with the book and listen." };
-
-  const visibleApps = user === "admin"
-    ? [
-        ...availableApps,
-        kanjiApp,
-        kanjiQuizApp,
-        everydayApp,
-        quizApp,
-        {
-          id: "student_manager",
-          name: "Student Manager",
-          desc: "Add and remove student accounts."
-        },
-        {
-          id: "movers_talk",
-          name: "Movers Let's Talk!",
-          desc: "Interactive speaking practice for Movers level."
-        }
-      ]
-    : user === "student"
-      ? [...availableApps, kanjiApp, kanjiQuizApp, everydayApp, quizApp]
-      : user === "guest"
-        ? availableApps.filter(app => trialFolders.includes(`${app.id}_trial`))
-        : [];
 
   return (
     <div className="min-h-screen bg-brand-secondary/10 pt-24 pb-12 px-6">
@@ -1787,36 +1778,20 @@ const AppStoreView = () => {
               </div>
 
               <div className="grid sm:grid-cols-2 gap-6">
-                {visibleApps.map((app: any) => (
+                {visibleApps.map((app) => (
                   <motion.div
                     key={app.id}
                     layoutId={`app-${app.id}`}
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    className="bg-white p-6 rounded-3xl border-4 border-ink shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all group"
+                    className="bg-white p-6 rounded-3xl border-4 border-ink shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-pointer"
+                    onClick={() => setLaunchedApp({ id: app.id, title: app.name })}
                   >
-                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 border-2 border-ink transition-colors ${
-                      app.id === "movers" ? 'bg-brand-primary group-hover:bg-brand-accent' : 
-                      app.id === "ielts" ? 'bg-brand-secondary group-hover:bg-brand-primary' :
-                      'bg-brand-accent/20 group-hover:bg-brand-primary'
-                    }`}>
-                      {(app.id === "movers" || app.id === 1) ? <Rocket className="w-6 h-6 text-ink" /> :
-                       (app.id === "ielts" || app.id === 2) ? <GraduationCap className="w-6 h-6 text-ink" /> :
-                       (app.id === "movers_talk") ? <Smile className="w-6 h-6 text-ink" /> :
-                       (app.id === "movers_quiz") ? <Trophy className="w-6 h-6 text-ink" /> :
-                       (app.id === "student_manager") ? <Users className="w-6 h-6 text-ink" /> :
-                       <BookOpen className="w-6 h-6 text-ink" />}
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 border-2 border-ink ${BG_MAP[app.bg] ?? "bg-brand-accent"}`}>
+                      {ICON_MAP[app.icon] ?? <BookOpen className="w-6 h-6 text-ink" />}
                     </div>
                     <h3 className="text-xl font-black mb-2">{app.name}</h3>
                     <p className="text-sm text-ink/60 font-bold leading-relaxed">{app.desc}</p>
-                    <Button 
-                      className="mt-6 w-full bg-ink text-white rounded-xl font-black shadow-lg"
-                      onClick={() => {
-                        setLaunchedApp({ id: app.id, title: app.name });
-                      }}
-                    >
-                      {t.programs.learnMore}
-                    </Button>
                   </motion.div>
                 ))}
               </div>

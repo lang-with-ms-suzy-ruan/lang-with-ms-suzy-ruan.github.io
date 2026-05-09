@@ -1,0 +1,66 @@
+[
+  {
+    "id": "movers",
+    "name": "Movers Vocabulary",
+    "desc": "Master 681 words with pictures and audio.",
+    "icon": "Rocket",
+    "bg": "primary",
+    "access": "all"
+  },
+  {
+    "id": "ielts",
+    "name": "IELTS Vocabulary",
+    "desc": "Curated word lists for IELTS high-score success.",
+    "icon": "GraduationCap",
+    "bg": "secondary",
+    "access": "all"
+  },
+  {
+    "id": "movers_quiz",
+    "name": "Movers Quiz",
+    "desc": "Test your Movers vocabulary with picture and word quizzes.",
+    "icon": "Trophy",
+    "bg": "accent",
+    "access": "student"
+  },
+  {
+    "id": "movers_talk",
+    "name": "Movers Let's Talk!",
+    "desc": "Interactive speaking practice for Movers level.",
+    "icon": "Smile",
+    "bg": "primary",
+    "access": "admin"
+  },
+  {
+    "id": "kanji",
+    "name": "Kanji Study",
+    "desc": "Browse 1130 kanji with vocabulary, furigana, and meanings.",
+    "icon": "BookOpen",
+    "bg": "secondary",
+    "access": "student"
+  },
+  {
+    "id": "kanji_quiz",
+    "name": "Kanji Quiz",
+    "desc": "Flashcard quiz through 2900+ vocabulary items with 3D flip animation.",
+    "icon": "Sparkles",
+    "bg": "accent",
+    "access": "student"
+  },
+  {
+    "id": "everyday_activities",
+    "name": "Everyday Activities",
+    "desc": "61 picture-process lessons with audio, vocabulary, and lesson notes.",
+    "icon": "FileText",
+    "bg": "primary",
+    "access": "student"
+  },
+  {
+    "id": "student_manager",
+    "name": "Student Manager",
+    "desc": "Add and remove student accounts.",
+    "icon": "Users",
+    "bg": "accent",
+    "access": "admin"
+  }
+]
