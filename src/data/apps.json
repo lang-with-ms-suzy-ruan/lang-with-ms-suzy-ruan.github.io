@@ -40,14 +40,6 @@
     "access": "student"
   },
   {
-    "id": "kanji_quiz",
-    "name": "Kanji Quiz",
-    "desc": "Flashcard quiz through 2900+ vocabulary items with 3D flip animation.",
-    "icon": "Sparkles",
-    "bg": "accent",
-    "access": "student"
-  },
-  {
     "id": "everyday_activities",
     "name": "Everyday Activities",
     "desc": "61 picture-process lessons with audio, vocabulary, and lesson notes.",
