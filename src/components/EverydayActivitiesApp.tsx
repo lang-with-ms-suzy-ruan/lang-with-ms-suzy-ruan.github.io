@@ -100,6 +100,11 @@ interface NoteBullet {
   vi: string;
 }
 
+function renderBold(text: string): React.ReactNode {
+  const parts = text.split(/\*\*(.*?)\*\*/g);
+  return parts.map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
+}
+
 function pdfUrl(page: number, zoom: number) {
   return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=${zoom > 100 ? 1 : 0}&zoom=${zoom}`;
 }
@@ -415,11 +420,11 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                     <div key={i} className="px-3 py-2 border-b border-ink/5">
                       <p className="font-medium text-ink/60 leading-snug" style={{ fontSize: `${vocabFontSize}px` }}>
                         <span className="font-black text-ink/40">{note.marker}</span>{" "}
-                        {note.en}
+                        {renderBold(note.en)}
                       </p>
                       {note.vi && (
                         <p className="text-ink font-semibold mt-1 leading-snug" style={{ fontSize: `${vocabFontSize}px` }}>
-                          {decodeHtml(note.vi)}
+                          {renderBold(decodeHtml(note.vi))}
                         </p>
                       )}
                     </div>
