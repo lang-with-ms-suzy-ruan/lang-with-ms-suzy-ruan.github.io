@@ -158,6 +158,7 @@ export function MoversQuizApp({ onBack }: Props) {
     setChosenIndex(optionIndex);
     setAnswerState(isCorrect ? "correct" : "wrong");
     if (isCorrect) setScore(s => s + 1);
+    speak(questions[index].correct.word);
 
     // picture mode: user advances manually; other modes: auto-advance
     if (mode !== "picture") {
@@ -513,7 +514,12 @@ export function MoversQuizApp({ onBack }: Props) {
               <div className="w-full max-w-xs bg-white/5 border border-white/10 rounded-[32px] p-8 text-center">
                 {mode === "word-vi" ? (
                   <>
-                    <p className="text-4xl font-black text-white mb-2">{q.correct.word}</p>
+                    <div className="flex items-center justify-center gap-3 mb-2">
+                      <p className="text-4xl font-black text-white">{q.correct.word}</p>
+                      <button onClick={() => speak(q.correct.word)} className="text-white/40 hover:text-brand-primary transition-colors">
+                        <Volume2 className="w-5 h-5" />
+                      </button>
+                    </div>
                     <p className="text-brand-primary font-bold">{q.correct.ipa}</p>
                   </>
                 ) : (
@@ -535,10 +541,19 @@ export function MoversQuizApp({ onBack }: Props) {
                   <motion.button
                     key={i}
                     whileTap={!answered ? { scale: 0.97 } : {}}
-                    onClick={() => handleAnswer(i)}
+                    onClick={() => {
+                      if (answered) {
+                        if (i === correctIndex) speak(q.correct.word);
+                        return;
+                      }
+                      handleAnswer(i);
+                    }}
                     className={`h-16 rounded-2xl border-2 font-black text-sm px-3 transition-all ${style}`}
                   >
-                    {getOptionLabel(opt)}
+                    <span className="flex items-center justify-center gap-1">
+                      {getOptionLabel(opt)}
+                      {answered && i === correctIndex && <Volume2 className="w-4 h-4 opacity-60" />}
+                    </span>
                   </motion.button>
                 );
               })}
