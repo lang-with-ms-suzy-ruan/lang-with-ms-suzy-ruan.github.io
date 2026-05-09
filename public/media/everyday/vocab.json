@@ -2571,216 +2571,258 @@
     ],
     "14": [
         {
-            "term": "Key Vocabula",
+            "term": "let [let] up on",
             "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
+            "vi": "thả lỏng, giảm áp lực lên",
+            "ipa": "/let ʌp ɒn/"
         },
         {
-            "term": "upon",
+            "term": "operate",
             "section": "VERBS",
-            "vi": "ở trên",
-            "ipa": "/əˈpɒn/"
+            "vi": "vận hành, điều khiển",
+            "ipa": "/ˈɒpəreɪt/"
+        },
+        {
+            "term": "press",
+            "section": "VERBS",
+            "vi": "nhấn, ấn",
+            "ipa": "/pres/"
+        },
+        {
+            "term": "put [put] on",
+            "section": "VERBS",
+            "vi": "mặc vào, bật lên",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "rain",
+            "section": "VERBS",
+            "vi": "mưa",
+            "ipa": "/reɪn/"
+        },
+        {
+            "term": "shift",
+            "section": "VERBS",
+            "vi": "sang số, chuyển số",
+            "ipa": "/ʃɪft/"
+        },
+        {
+            "term": "slow down",
+            "section": "VERBS",
+            "vi": "đi chậm lại, giảm tốc độ",
+            "ipa": "/sləʊ daʊn/"
         },
         {
             "term": "speed up",
             "section": "VERBS",
-            "vi": "tăng tiến độ",
-            "ipa": "/spiːd/"
+            "vi": "tăng tốc",
+            "ipa": "/spiːd ʌp/"
         },
         {
             "term": "step",
             "section": "VERBS",
-            "vi": "bước",
-            "ipa": "/stɛp/"
+            "vi": "giẫm lên, bước",
+            "ipa": "/step/"
         },
         {
             "term": "stop",
             "section": "VERBS",
-            "vi": "ngừng",
+            "vi": "dừng lại",
             "ipa": "/stɒp/"
         },
         {
-            "term": "take off",
+            "term": "take [took] off",
             "section": "VERBS",
-            "vi": "take off",
-            "ipa": "/teɪk/"
+            "vi": "cởi ra, khởi hành",
+            "ipa": "/teɪk ɒf/ [/tʊk ɒf/]"
         },
         {
             "term": "turn",
             "section": "VERBS",
-            "vi": "vòng quay",
+            "vi": "rẽ, quay",
             "ipa": "/tɜːn/"
         },
         {
             "term": "turn on",
             "section": "VERBS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
+            "vi": "bật",
+            "ipa": "/tɜːn ɒn/"
         },
         {
-            "term": "steering",
-            "section": "VERBS",
-            "vi": "Silk Steering Wheel",
-            "ipa": ""
+            "term": "accelerator",
+            "section": "NOUNS",
+            "vi": "chân ga",
+            "ipa": "/əkˈseləreɪtə(r)/"
         },
         {
-            "term": "wheel",
-            "section": "VERBS",
-            "vi": "bánh xe",
-            "ipa": "/ʍiːl/"
+            "term": "brake",
+            "section": "NOUNS",
+            "vi": "phanh, thắng",
+            "ipa": "/breɪk/"
+        },
+        {
+            "term": "car",
+            "section": "NOUNS",
+            "vi": "xe hơi",
+            "ipa": "/kɑː(r)/"
+        },
+        {
+            "term": "clutch",
+            "section": "NOUNS",
+            "vi": "bộ ly hợp (côn)",
+            "ipa": "/klʌtʃ/"
+        },
+        {
+            "term": "foot",
+            "section": "NOUNS",
+            "vi": "bàn chân",
+            "ipa": "/fʊt/"
+        },
+        {
+            "term": "gear",
+            "section": "NOUNS",
+            "vi": "bánh răng, số (xe)",
+            "ipa": "/ɡɪə(r)/"
+        },
+        {
+            "term": "gearshift",
+            "section": "NOUNS",
+            "vi": "cần gạt số",
+            "ipa": "/ˈɡɪəʃɪft/"
+        },
+        {
+            "term": "light",
+            "section": "NOUNS",
+            "vi": "đèn",
+            "ipa": "/laɪt/"
+        },
+        {
+            "term": "neutral",
+            "section": "NOUNS",
+            "vi": "số không (số mo)",
+            "ipa": "/ˈnjuːtrəl/"
+        },
+        {
+            "term": "pedal",
+            "section": "NOUNS",
+            "vi": "bàn đạp",
+            "ipa": "/ˈpedl/"
+        },
+        {
+            "term": "reverse",
+            "section": "NOUNS",
+            "vi": "số lùi",
+            "ipa": "/rɪˈvɜːs/"
+        },
+        {
+            "term": "steering wheel",
+            "section": "NOUNS",
+            "vi": "vô lăng",
+            "ipa": "/ˈstɪərɪŋ wiːl/"
         },
         {
             "term": "turn signal",
-            "section": "VERBS",
-            "vi": "đèn báo rẽ",
-            "ipa": "/tɜːn/"
+            "section": "NOUNS",
+            "vi": "đèn xi nhan",
+            "ipa": "/ˈtɜːn ˈsɪɡnəl/"
         },
         {
-            "term": "windshield",
-            "section": "VERBS",
-            "vi": "Hiệu ứng Quét Trang trình diễn",
-            "ipa": ""
+            "term": "windshield wiper",
+            "section": "NOUNS",
+            "vi": "cần gạt nước kính chắn gió",
+            "ipa": "/ˈwɪndʃiːld ˈwaɪpə(r)/"
         },
         {
-            "term": "wiper",
-            "section": "VERBS",
-            "vi": "khăn lau",
-            "ipa": "/ˈwaɪpɚ/"
+            "term": "dark",
+            "section": "ADJECTIVES",
+            "vi": "tối",
+            "ipa": "/dɑːk/"
+        },
+        {
+            "term": "fast(er)",
+            "section": "ADJECTIVES",
+            "vi": "nhanh (hơn)",
+            "ipa": "/fɑːst/"
+        },
+        {
+            "term": "high(er)",
+            "section": "ADJECTIVES",
+            "vi": "cao (hơn)",
+            "ipa": "/haɪ/"
+        },
+        {
+            "term": "low(er)",
+            "section": "ADJECTIVES",
+            "vi": "thấp (hơn)",
+            "ipa": "/ləʊ/"
         }
     ],
     "15": [
         {
-            "term": "Key Vocabular",
-            "section": "VERBS",
-            "vi": "Key Vocabular",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "change",
             "section": "VERBS",
-            "vi": "thay đổi",
+            "vi": "thay đổi, chuyển (làn)",
             "ipa": "/tʃeɪndʒ/"
-        },
-        {
-            "term": "pass",
-            "section": "VERBS",
-            "vi": "qua, vượt qua, ngang qua",
-            "ipa": "[pʰäːs]"
         },
         {
             "term": "check",
             "section": "VERBS",
-            "vi": "kiếm tra",
-            "ipa": "/t͡ʃɛk/"
+            "vi": "kiểm tra",
+            "ipa": "/tʃek/"
         },
         {
-            "term": "pay",
+            "term": "drive [drove]",
             "section": "VERBS",
-            "vi": "trả, thanh toán, nộp; tiền lương",
-            "ipa": "/peɪ/"
-        },
-        {
-            "term": "drive",
-            "section": "VERBS",
-            "vi": "lái, đua xe; cuộc đua xe (điểu khiến)",
-            "ipa": "/draɪv/"
-        },
-        {
-            "term": "pull into",
-            "section": "VERBS",
-            "vi": "kéo vào",
-            "ipa": "/pʊl/"
+            "vi": "lái xe",
+            "ipa": "/draɪv/ [/drəʊv/]"
         },
         {
             "term": "enter",
             "section": "VERBS",
-            "vi": "nhập cảnh",
-            "ipa": "/ˈɛntə(r)/"
-        },
-        {
-            "term": "pull over",
-            "section": "VERBS",
-            "vi": "- Mà là ông ta. - Tấp vào lề.",
-            "ipa": "/pʊl/"
+            "vi": "đi vào",
+            "ipa": "/ˈentə(r)/"
         },
         {
             "term": "exit",
             "section": "VERBS",
-            "vi": "lối ra, thoát ra",
-            "ipa": "/ˈɛksɪt/"
+            "vi": "ra khỏi, thoát ra",
+            "ipa": "/ˈeksɪt/"
         },
         {
-            "term": "pull up",
+            "term": "get [got] on",
             "section": "VERBS",
-            "vi": "dịch lên",
-            "ipa": "/pʊl/"
+            "vi": "lên (xe)",
+            "ipa": "/ɡet ɒn/ [/ɡɒt ɒn/]"
         },
         {
-            "term": "get on",
+            "term": "get [got] off",
             "section": "VERBS",
-            "vi": "trèo lên",
-            "ipa": "/ɡɛt/"
+            "vi": "xuống (xe)",
+            "ipa": "/ɡet ɒf/ [/ɡɒt ɒf/]"
         },
         {
-            "term": "pump",
+            "term": "get [got] out of",
             "section": "VERBS",
-            "vi": "bơm",
-            "ipa": "/pʌmp/"
+            "vi": "ra khỏi (xe ô tô)",
+            "ipa": "/ɡet aʊt əv/ [/ɡɒt aʊt əv/]"
         },
         {
-            "term": "get off",
+            "term": "give [gave]",
             "section": "VERBS",
-            "vi": "ra khỏi, thoát khỏi",
-            "ipa": "/ɡɛt/"
+            "vi": "cho, đưa",
+            "ipa": "/ɡɪv/ [/ɡeɪv/]"
         },
         {
-            "term": "stop",
-            "section": "VERBS",
-            "vi": "ngừng",
-            "ipa": "/stɒp/"
-        },
-        {
-            "term": "get out of tell",
-            "section": "VERBS",
-            "vi": "có được ra khỏi nói",
-            "ipa": "/ɡɛt/"
-        },
-        {
-            "term": "give",
-            "section": "VERBS",
-            "vi": "cho, biếu, tặng",
-            "ipa": "/ɡɪv/"
-        },
-        {
-            "term": "turn",
-            "section": "VERBS",
-            "vi": "vòng quay",
-            "ipa": "/tɜːn/"
-        },
-        {
-            "term": "go",
+            "term": "go [went]",
             "section": "VERBS",
             "vi": "đi",
-            "ipa": "/ɡəʊ/"
+            "ipa": "/ɡəʊ/ [/went/]"
         },
         {
-            "term": "turn off",
+            "term": "go [went] over",
             "section": "VERBS",
-            "vi": "Tắt",
-            "ipa": "/tɜːn/"
-        },
-        {
-            "term": "go over",
-            "section": "VERBS",
-            "vi": "Đến kia. ",
-            "ipa": "/ɡəʊ/"
-        },
-        {
-            "term": "want",
-            "section": "VERBS",
-            "vi": "muốn",
-            "ipa": "/wɔnt/"
+            "vi": "vượt quá, đi qua",
+            "ipa": "/ɡəʊ ˈəʊvə(r)/ [/went ˈəʊvə(r)/]"
         },
         {
             "term": "lock",
@@ -2789,22 +2831,160 @@
             "ipa": "/lɒk/"
         },
         {
-            "term": "yield",
-            "section": "VERBS",
-            "vi": "sản lượng hoặc năng suất, tài chính: lợi tức&#10;\"Yield\" v. sản xuất, cho ra kết quả hoặc năng suất. Ví dụ: \"The apple tree yields a lot of fruit every year.\"&#10;Trong giao thông, \"yield\" có nghĩa là nhường đường hoặc dừng lại để nhường quyền ưu tiên cho phương tiện khác.&#10;\"Yield\" cũng có thể có nghĩa là chịu đầu hàng, nhượng bộ hoặc đồng ý với yêu cầu, áp lực hoặc thỏa thuận của người khác.",
-            "ipa": "/jiːld/"
-        },
-        {
             "term": "park",
             "section": "VERBS",
-            "vi": "công viên, vườn hoa",
-            "ipa": "[paːk]"
+            "vi": "đỗ xe",
+            "ipa": "/pɑːk/"
+        },
+        {
+            "term": "pass",
+            "section": "VERBS",
+            "vi": "vượt, băng qua",
+            "ipa": "/pɑːs/"
+        },
+        {
+            "term": "pay [paid]",
+            "section": "VERBS",
+            "vi": "thanh toán",
+            "ipa": "/peɪ/ [/peɪd/]"
+        },
+        {
+            "term": "pull into",
+            "section": "VERBS",
+            "vi": "tấp vào (trạm xăng, bãi đỗ)",
+            "ipa": "/pʊl ˈɪntə/"
+        },
+        {
+            "term": "pull over",
+            "section": "VERBS",
+            "vi": "tấp xe vào lề đường",
+            "ipa": "/pʊl ˈəʊvə(r)/"
+        },
+        {
+            "term": "pull up",
+            "section": "VERBS",
+            "vi": "dừng xe lại",
+            "ipa": "/pʊl ʌp/"
+        },
+        {
+            "term": "pump",
+            "section": "VERBS",
+            "vi": "bơm (xăng)",
+            "ipa": "/pʌmp/"
+        },
+        {
+            "term": "stop",
+            "section": "VERBS",
+            "vi": "dừng lại",
+            "ipa": "/stɒp/"
+        },
+        {
+            "term": "tell [told]",
+            "section": "VERBS",
+            "vi": "kể, nói",
+            "ipa": "/tel/ [/təʊld/]"
+        },
+        {
+            "term": "turn",
+            "section": "VERBS",
+            "vi": "rẽ, quay",
+            "ipa": "/tɜːn/"
+        },
+        {
+            "term": "turn off",
+            "section": "VERBS",
+            "vi": "tắt",
+            "ipa": "/tɜːn ɒf/"
+        },
+        {
+            "term": "want",
+            "section": "VERBS",
+            "vi": "muốn",
+            "ipa": "/wɒnt/"
+        },
+        {
+            "term": "yield",
+            "section": "VERBS",
+            "vi": "nhường đường",
+            "ipa": "/jiːld/"
         },
         {
             "term": "attendant",
             "section": "NOUNS",
-            "vi": "NGƯỜI CÓ MẶT",
-            "ipa": "/əˈtɛndənt/"
+            "vi": "nhân viên phục vụ",
+            "ipa": "/əˈtendənt/"
+        },
+        {
+            "term": "car",
+            "section": "NOUNS",
+            "vi": "xe hơi",
+            "ipa": "/kɑː(r)/"
+        },
+        {
+            "term": "driver",
+            "section": "NOUNS",
+            "vi": "tài xế",
+            "ipa": "/ˈdraɪvə(r)/"
+        },
+        {
+            "term": "end",
+            "section": "NOUNS",
+            "vi": "điểm kết thúc",
+            "ipa": "/end/"
+        },
+        {
+            "term": "freeway",
+            "section": "NOUNS",
+            "vi": "đường cao tốc",
+            "ipa": "/ˈfriːweɪ/"
+        },
+        {
+            "term": "friend",
+            "section": "NOUNS",
+            "vi": "bạn bè",
+            "ipa": "/frend/"
+        },
+        {
+            "term": "gas",
+            "section": "NOUNS",
+            "vi": "xăng",
+            "ipa": "/ɡæs/"
+        },
+        {
+            "term": "gas station",
+            "section": "NOUNS",
+            "vi": "trạm xăng",
+            "ipa": "/ˈɡæs steɪʃn/"
+        },
+        {
+            "term": "intersection",
+            "section": "NOUNS",
+            "vi": "ngã tư, giao lộ",
+            "ipa": "/ˌɪntəˈsekʃn/"
+        },
+        {
+            "term": "kind",
+            "section": "NOUNS",
+            "vi": "loại",
+            "ipa": "/kaɪnd/"
+        },
+        {
+            "term": "lane",
+            "section": "NOUNS",
+            "vi": "làn đường",
+            "ipa": "/leɪn/"
+        },
+        {
+            "term": "light",
+            "section": "NOUNS",
+            "vi": "đèn, ánh sáng",
+            "ipa": "/laɪt/"
+        },
+        {
+            "term": "officer",
+            "section": "NOUNS",
+            "vi": "viên chức, cảnh sát",
+            "ipa": "/ˈɒfɪsə(r)/"
         },
         {
             "term": "oil",
@@ -2813,130 +2993,64 @@
             "ipa": "/ɔɪl/"
         },
         {
-            "term": "car",
-            "section": "NOUNS",
-            "vi": "xe",
-            "ipa": "/kɑː/"
-        },
-        {
             "term": "police",
             "section": "NOUNS",
-            "vi": "cảnh sát, công an",
-            "ipa": "[pəˈliːs]"
-        },
-        {
-            "term": "driver",
-            "section": "NOUNS",
-            "vi": "driver&#10;Bộ xử lý",
-            "ipa": "/ˈdraɪ.və(r)/"
+            "vi": "cảnh sát",
+            "ipa": "/pəˈliːs/"
         },
         {
             "term": "pump",
             "section": "NOUNS",
-            "vi": "bơm",
+            "vi": "máy bơm",
             "ipa": "/pʌmp/"
-        },
-        {
-            "term": "end",
-            "section": "NOUNS",
-            "vi": "giới hạn; kết thúc, chấm dứt",
-            "ipa": "/ɛnd/"
         },
         {
             "term": "right of way",
             "section": "NOUNS",
-            "vi": "quyền đi qua",
-            "ipa": "/ˈraɪt/"
-        },
-        {
-            "term": "freeway",
-            "section": "NOUNS",
-            "vi": "đường cao ốc",
-            "ipa": "/ˈfriː.wei/"
+            "vi": "quyền ưu tiên đường",
+            "ipa": "/ˌraɪt əv ˈweɪ/"
         },
         {
             "term": "road",
             "section": "NOUNS",
-            "vi": "đường bộ",
+            "vi": "con đường",
             "ipa": "/rəʊd/"
-        },
-        {
-            "term": "friend",
-            "section": "NOUNS",
-            "vi": "người bạn",
-            "ipa": "/frɛnd/"
         },
         {
             "term": "side",
             "section": "NOUNS",
-            "vi": "mặt phẳng",
+            "vi": "phía, bên",
             "ipa": "/saɪd/"
-        },
-        {
-            "term": "gas",
-            "section": "NOUNS",
-            "vi": "khí, hơi đốt",
-            "ipa": "/ɡæs/"
         },
         {
             "term": "sign",
             "section": "NOUNS",
-            "vi": "đánh dấu, viết ký hiệu",
+            "vi": "biển báo",
             "ipa": "/saɪn/"
-        },
-        {
-            "term": "gas station",
-            "section": "NOUNS",
-            "vi": "cây xăng",
-            "ipa": "/ɡæs/"
         },
         {
             "term": "speeding",
             "section": "NOUNS",
-            "vi": "gọi ý",
+            "vi": "việc chạy quá tốc độ",
             "ipa": "/ˈspiːdɪŋ/"
-        },
-        {
-            "term": "intersection",
-            "section": "NOUNS",
-            "vi": "giao cắt",
-            "ipa": "/ˈɪntərˌsɛkʃən/"
         },
         {
             "term": "speed limit",
             "section": "NOUNS",
             "vi": "giới hạn tốc độ",
-            "ipa": "/spiːd/"
-        },
-        {
-            "term": "kind",
-            "section": "NOUNS",
-            "vi": "loại, giống; tử tế, có lòng tốt",
-            "ipa": "/kaɪnd/"
+            "ipa": "/ˈspiːd lɪmɪt/"
         },
         {
             "term": "ticket",
             "section": "NOUNS",
-            "vi": "vé",
+            "vi": "vé, phiếu phạt",
             "ipa": "/ˈtɪkɪt/"
-        },
-        {
-            "term": "lane",
-            "section": "NOUNS",
-            "vi": "lane",
-            "ipa": "/leɪn/"
         },
         {
             "term": "traffic light",
             "section": "NOUNS",
-            "vi": "Đèn giao thông",
-            "ipa": "/ˈtræfɪk/"
-        },
-        {
-            "term": "light",
-            "section": "NOUNS",
-            "vi": "ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng",
-            "ipa": "/lʌɪt/"
+            "vi": "đèn giao thông",
+            "ipa": "/ˈtræfɪk laɪt/"
         },
         {
             "term": "trip",
@@ -2945,10 +3059,46 @@
             "ipa": "/trɪp/"
         },
         {
-            "term": "officer",
-            "section": "NOUNS",
-            "vi": "viên chức, cảnh sát, sĩ quan",
-            "ipa": "/ˈɑfɪsɚ/"
+            "term": "ahead",
+            "section": "OTHERS",
+            "vi": "phía trước (adj.)",
+            "ipa": "/əˈhed/"
+        },
+        {
+            "term": "green",
+            "section": "OTHERS",
+            "vi": "màu xanh lá (adj.)",
+            "ipa": "/ɡriːn/"
+        },
+        {
+            "term": "left",
+            "section": "OTHERS",
+            "vi": "bên trái (adv.)",
+            "ipa": "/left/"
+        },
+        {
+            "term": "once",
+            "section": "OTHERS",
+            "vi": "một lần (adv.)",
+            "ipa": "/wʌns/"
+        },
+        {
+            "term": "red",
+            "section": "OTHERS",
+            "vi": "màu đỏ (adj.)",
+            "ipa": "/red/"
+        },
+        {
+            "term": "right",
+            "section": "OTHERS",
+            "vi": "bên phải (adv.)",
+            "ipa": "/raɪt/"
+        },
+        {
+            "term": "straight",
+            "section": "OTHERS",
+            "vi": "thẳng (adv.)",
+            "ipa": "/streɪt/"
         }
     ],
     "16": [
