@@ -2037,174 +2037,312 @@
     ],
     "11": [
         {
-            "term": "wallet",
-            "section": "NOUNS",
-            "vi": "Ví tiền",
-            "ipa": "/ˈwɒlɪt/"
-        },
-        {
-            "term": "ADVERB",
-            "section": "NOUNS",
-            "vi": "Trạng từ",
-            "ipa": "/ˈæd.vɜːb/"
-        },
-        {
-            "term": "outside",
-            "section": "NOUNS",
-            "vi": "bể ngoài,ở ngoài; ngoài",
-            "ipa": ""
-        },
-        {
-            "term": "He",
-            "section": "NOUNS",
-            "vi": "Anh ấy",
-            "ipa": "/hi/"
-        },
-        {
-            "term": "tie",
-            "section": "NOUNS",
-            "vi": "hòa",
-            "ipa": "/taɪ/"
-        },
-        {
-            "term": "po",
-            "section": "NOUNS",
-            "vi": "đường uống",
-            "ipa": "/pəʊ/"
-        }
-    ],
-    "12": [
-        {
-            "term": "Key Vocabula",
+            "term": "leave",
             "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
-            "term": "arrive",
-            "section": "VERBS",
-            "vi": "đến, tới nơi",
-            "ipa": "/əˈraɪv/"
-        },
-        {
-            "term": "ride",
-            "section": "VERBS",
-            "vi": "đi, cưỡi",
-            "ipa": "/raɪd/"
-        },
-        {
-            "term": "check",
-            "section": "VERBS",
-            "vi": "kiếm tra",
-            "ipa": "/t͡ʃɛk/"
-        },
-        {
-            "term": "ring",
-            "section": "VERBS",
-            "vi": "chiếc nhẫn, đeo nhẫn cho ai",
-            "ipa": "/rɪŋ/"
-        },
-        {
-            "term": "drop",
-            "section": "VERBS",
-            "vi": "chảy nhỏ giọt, giọt",
-            "ipa": "/drɒp/"
-        },
-        {
-            "term": "show",
-            "section": "VERBS",
-            "vi": "hiện",
-            "ipa": "/ʃəʊ/"
-        },
-        {
-            "term": "get off",
-            "section": "VERBS",
-            "vi": "ra khỏi, thoát khỏi",
-            "ipa": "/ɡɛt/"
-        },
-        {
-            "term": "sit down",
-            "section": "VERBS",
-            "vi": "ngồỉ xuống",
-            "ipa": "/sɪt/"
-        },
-        {
-            "term": "get on",
-            "section": "VERBS",
-            "vi": "trèo lên",
-            "ipa": "/ɡɛt/"
-        },
-        {
-            "term": "stand",
-            "section": "VERBS",
-            "vi": "đứng",
-            "ipa": "/stænd/"
-        },
-        {
-            "term": "hold",
-            "section": "VERBS",
-            "vi": "cầm, nắm, giữ",
-            "ipa": "/həʊld/"
-        },
-        {
-            "term": "wait",
-            "section": "VERBS",
-            "vi": "chờ đợi",
-            "ipa": "/weɪt/"
+            "vi": "rời khỏi, bỏ lại",
+            "ipa": "/liːv/"
         },
         {
             "term": "open",
             "section": "VERBS",
-            "vi": "mở, ngỏ; bắt đầu, khai mạc",
-            "ipa": "/ˈəʊ.pən/"
+            "vi": "mở",
+            "ipa": "/ˈəʊpən/"
         },
         {
-            "term": "walk",
+            "term": "pick up",
             "section": "VERBS",
-            "vi": "đi bộ, đi dạo",
-            "ipa": "/wɔːk/"
+            "vi": "nhặt lên, lấy",
+            "ipa": "/pɪk ʌp/"
         },
         {
-            "term": "pay",
+            "term": "put in",
             "section": "VERBS",
-            "vi": "trả, thanh toán, nộp; tiền lương",
-            "ipa": "/peɪ/"
+            "vi": "cho vào, để vào",
+            "ipa": "/pʊt ɪn/"
+        },
+        {
+            "term": "put on",
+            "section": "VERBS",
+            "vi": "mặc vào, đeo vào",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "say goodbye",
+            "section": "VERBS",
+            "vi": "nói lời tạm biệt",
+            "ipa": "/seɪ ˌɡʊdˈbaɪ/"
+        },
+        {
+            "term": "shut",
+            "section": "VERBS",
+            "vi": "đóng lại",
+            "ipa": "/ʃʌt/"
+        },
+        {
+            "term": "step",
+            "section": "VERBS",
+            "vi": "bước",
+            "ipa": "/step/"
+        },
+        {
+            "term": "tie",
+            "section": "VERBS",
+            "vi": "buộc, thắt",
+            "ipa": "/taɪ/"
+        },
+        {
+            "term": "zip up",
+            "section": "VERBS",
+            "vi": "kéo khóa lên",
+            "ipa": "/zɪp ʌp/"
+        },
+        {
+            "term": "backpack",
+            "section": "NOUNS",
+            "vi": "ba lô",
+            "ipa": "/ˈbækpæk/"
+        },
+        {
+            "term": "door",
+            "section": "NOUNS",
+            "vi": "cánh cửa",
+            "ipa": "/dɔː(r)/"
+        },
+        {
+            "term": "house",
+            "section": "NOUNS",
+            "vi": "ngôi nhà",
+            "ipa": "/haʊs/"
+        },
+        {
+            "term": "jacket",
+            "section": "NOUNS",
+            "vi": "áo khoác",
+            "ipa": "/ˈdʒækɪt/"
+        },
+        {
+            "term": "key",
+            "section": "NOUNS",
+            "vi": "chìa khóa",
+            "ipa": "/kiː/"
+        },
+        {
+            "term": "pocket",
+            "section": "NOUNS",
+            "vi": "túi áo/quần",
+            "ipa": "/ˈpɒkɪt/"
+        },
+        {
+            "term": "shoe",
+            "section": "NOUNS",
+            "vi": "chiếc giày",
+            "ipa": "/ʃuː/"
+        },
+        {
+            "term": "wallet",
+            "section": "NOUNS",
+            "vi": "ví tiền",
+            "ipa": "/ˈwɒlɪt/"
+        },
+        {
+            "term": "outside",
+            "section": "ADVERB",
+            "vi": "bên ngoài",
+            "ipa": "/ˌaʊtˈsaɪd/"
+        }
+    ],
+    "12": [
+        {
+            "term": "arrive",
+            "section": "VERBS",
+            "vi": "đến nơi",
+            "ipa": "/əˈraɪv/"
+        },
+        {
+            "term": "check",
+            "section": "VERBS",
+            "vi": "kiểm tra",
+            "ipa": "/tʃek/"
+        },
+        {
+            "term": "drop",
+            "section": "VERBS",
+            "vi": "thả, làm rơi",
+            "ipa": "/drɒp/"
+        },
+        {
+            "term": "get [got] off",
+            "section": "VERBS",
+            "vi": "xuống (xe, tàu)",
+            "ipa": "/ɡet ɒf/ [/ɡɒt ɒf/]"
+        },
+        {
+            "term": "get [got] on",
+            "section": "VERBS",
+            "vi": "lên (xe, tàu)",
+            "ipa": "/ɡet ɒn/ [/ɡɒt ɒn/]"
+        },
+        {
+            "term": "hold [held]",
+            "section": "VERBS",
+            "vi": "cầm, nắm, giữ",
+            "ipa": "/həʊld/ [/held/]"
+        },
+        {
+            "term": "open",
+            "section": "VERBS",
+            "vi": "mở",
+            "ipa": "/ˈəʊpən/"
+        },
+        {
+            "term": "pay [paid]",
+            "section": "VERBS",
+            "vi": "thanh toán, trả tiền",
+            "ipa": "/peɪ/ [/peɪd/]"
         },
         {
             "term": "press",
             "section": "VERBS",
-            "vi": "ép, nén, bóp, ấn",
-            "ipa": "/prɛs/"
+            "vi": "nhấn, ấn",
+            "ipa": "/pres/"
         },
         {
-            "term": "put into",
+            "term": "put [put] into",
             "section": "VERBS",
-            "vi": "nạp vào",
-            "ipa": "/pʊt/"
+            "vi": "đặt vào, bỏ vào",
+            "ipa": "/pʊt ˈɪntə/ [/pʊt ˈɪntə/]"
         },
         {
-            "term": "read",
+            "term": "read [read]",
             "section": "VERBS",
             "vi": "đọc",
-            "ipa": "/riːd/"
+            "ipa": "/riːd/ [/red/]"
+        },
+        {
+            "term": "ride [rode]",
+            "section": "VERBS",
+            "vi": "đi (xe), cưỡi",
+            "ipa": "/raɪd/ [/rəʊd/]"
+        },
+        {
+            "term": "ring [rang]",
+            "section": "VERBS",
+            "vi": "rung chuông, reo",
+            "ipa": "/rɪŋ/ [/ræŋ/]"
+        },
+        {
+            "term": "show",
+            "section": "VERBS",
+            "vi": "cho xem, trình ra",
+            "ipa": "/ʃəʊ/"
+        },
+        {
+            "term": "sit [sat] down",
+            "section": "VERBS",
+            "vi": "ngồi xuống",
+            "ipa": "/sɪt daʊn/ [/sæt daʊn/]"
+        },
+        {
+            "term": "stand [stood]",
+            "section": "VERBS",
+            "vi": "đứng",
+            "ipa": "/stænd/ [/stʊd/]"
+        },
+        {
+            "term": "wait",
+            "section": "VERBS",
+            "vi": "đợi, chờ",
+            "ipa": "/weɪt/"
+        },
+        {
+            "term": "walk",
+            "section": "VERBS",
+            "vi": "đi bộ",
+            "ipa": "/wɔːk/"
         },
         {
             "term": "aisle",
             "section": "NOUNS",
-            "vi": "cánh (nhà), gian bên",
-            "ipa": "/aɪ̯l/"
-        },
-        {
-            "term": "machine",
-            "section": "NOUNS",
-            "vi": "máy móc&#10;",
-            "ipa": "/məˈʃin/"
+            "vi": "lối đi (giữa các hàng ghế)",
+            "ipa": "/aɪl/"
         },
         {
             "term": "bar",
             "section": "NOUNS",
-            "vi": "bar",
-            "ipa": "/bɑː/"
+            "vi": "thanh chắn, tay vịn",
+            "ipa": "/bɑː(r)/"
+        },
+        {
+            "term": "bench",
+            "section": "NOUNS",
+            "vi": "ghế dài",
+            "ipa": "/bentʃ/"
+        },
+        {
+            "term": "book",
+            "section": "NOUNS",
+            "vi": "cuốn sách",
+            "ipa": "/bʊk/"
+        },
+        {
+            "term": "box",
+            "section": "NOUNS",
+            "vi": "cái hộp, thùng",
+            "ipa": "/bɒks/"
+        },
+        {
+            "term": "bus",
+            "section": "NOUNS",
+            "vi": "xe buýt",
+            "ipa": "/bʌs/"
+        },
+        {
+            "term": "button",
+            "section": "NOUNS",
+            "vi": "nút bấm",
+            "ipa": "/ˈbʌtn/"
+        },
+        {
+            "term": "card",
+            "section": "NOUNS",
+            "vi": "thẻ",
+            "ipa": "/kɑːd/"
+        },
+        {
+            "term": "conductor",
+            "section": "NOUNS",
+            "vi": "người soát vé",
+            "ipa": "/kənˈdʌktə(r)/"
+        },
+        {
+            "term": "door",
+            "section": "NOUNS",
+            "vi": "cửa",
+            "ipa": "/dɔː(r)/"
+        },
+        {
+            "term": "driver",
+            "section": "NOUNS",
+            "vi": "tài xế",
+            "ipa": "/ˈdraɪvə(r)/"
+        },
+        {
+            "term": "exit",
+            "section": "NOUNS",
+            "vi": "lối thoát, lối ra",
+            "ipa": "/ˈeksɪt/"
+        },
+        {
+            "term": "fare",
+            "section": "NOUNS",
+            "vi": "tiền vé",
+            "ipa": "/feə(r)/"
+        },
+        {
+            "term": "machine",
+            "section": "NOUNS",
+            "vi": "máy móc",
+            "ipa": "/məˈʃiːn/"
         },
         {
             "term": "money",
@@ -2213,130 +2351,100 @@
             "ipa": "/ˈmʌni/"
         },
         {
-            "term": "bench",
-            "section": "NOUNS",
-            "vi": "Băng ghế",
-            "ipa": "/bɛntʃ/"
-        },
-        {
             "term": "pass",
             "section": "NOUNS",
-            "vi": "qua, vượt qua, ngang qua",
-            "ipa": "[pʰäːs]"
-        },
-        {
-            "term": "book",
-            "section": "NOUNS",
-            "vi": "sách; ghi chép",
-            "ipa": "/buːk/"
+            "vi": "thẻ thông hành, vé tháng",
+            "ipa": "/pɑːs/"
         },
         {
             "term": "passenger",
             "section": "NOUNS",
             "vi": "hành khách",
-            "ipa": "/ˈpæsənd͡ʒə/"
-        },
-        {
-            "term": "box",
-            "section": "NOUNS",
-            "vi": "hộp, thùng",
-            "ipa": "/bɒks/"
+            "ipa": "/ˈpæsɪndʒə(r)/"
         },
         {
             "term": "people",
             "section": "NOUNS",
-            "vi": "người",
-            "ipa": "/ˈpiːpəl/"
-        },
-        {
-            "term": "bus",
-            "section": "NOUNS",
-            "vi": "xe buýt",
-            "ipa": "/bɐs/"
+            "vi": "người, mọi người",
+            "ipa": "/ˈpiːpl/"
         },
         {
             "term": "receipt",
             "section": "NOUNS",
-            "vi": "biên lai 222",
+            "vi": "biên lai, hóa đơn",
             "ipa": "/rɪˈsiːt/"
-        },
-        {
-            "term": "button",
-            "section": "NOUNS",
-            "vi": "cái nút, cái khuy, cúc",
-            "ipa": "/ˈbʌtn̩/"
         },
         {
             "term": "schedule",
             "section": "NOUNS",
-            "vi": "schedule",
-            "ipa": "/ˈskɛ.dʒu.əl/"
-        },
-        {
-            "term": "card",
-            "section": "NOUNS",
-            "vi": "thẻ, thiếp",
-            "ipa": "/kaːd/"
+            "vi": "lịch trình",
+            "ipa": "/ˈʃedjuːl/"
         },
         {
             "term": "seat",
             "section": "NOUNS",
-            "vi": "ghế, chỗ ngồi",
+            "vi": "chỗ ngồi",
             "ipa": "/siːt/"
-        },
-        {
-            "term": "conductor",
-            "section": "NOUNS",
-            "vi": "vật dẫn",
-            "ipa": "/kənˈdʌktɚ/"
         },
         {
             "term": "signal",
             "section": "NOUNS",
-            "vi": "dấu hiệu",
+            "vi": "tín hiệu",
             "ipa": "/ˈsɪɡnəl/"
-        },
-        {
-            "term": "door",
-            "section": "NOUNS",
-            "vi": "cửa ",
-            "ipa": "/dɔː/"
         },
         {
             "term": "stop",
             "section": "NOUNS",
-            "vi": "ngừng",
+            "vi": "điểm dừng",
             "ipa": "/stɒp/"
-        },
-        {
-            "term": "driver",
-            "section": "NOUNS",
-            "vi": "driver&#10;Bộ xử lý",
-            "ipa": "/ˈdraɪ.və(r)/"
         },
         {
             "term": "strap",
             "section": "NOUNS",
-            "vi": "đo",
+            "vi": "quai cầm, dây đai",
             "ipa": "/stræp/"
         },
         {
-            "term": "exit",
-            "section": "NOUNS",
-            "vi": "lối ra, thoát ra",
-            "ipa": "/ˈɛksɪt/"
-        },
-        {
-            "term": "fare",
-            "section": "NOUNS",
-            "vi": "thức ăn",
-            "ipa": "/fɛə(r)/"
-        },
-        {
-            "term": "due (adij.)",
+            "term": "due",
             "section": "OTHERS",
-            "vi": "đến hạn (adij.)",
-            "ipa": "/dʒʊː/"
+            "vi": "đến hạn, sắp đến",
+            "ipa": "/djuː/"
+        },
+        {
+            "term": "empty",
+            "section": "OTHERS",
+            "vi": "trống rỗng",
+            "ipa": "/ˈempti/"
+        },
+        {
+            "term": "full",
+            "section": "OTHERS",
+            "vi": "đầy",
+            "ipa": "/fʊl/"
+        },
+        {
+            "term": "on time",
+            "section": "OTHERS",
+            "vi": "đúng giờ",
+            "ipa": "/ɒn taɪm/"
+        },
+        {
+            "term": "other",
+            "section": "OTHERS",
+            "vi": "khác",
+            "ipa": "/ˈʌðə(r)/"
+        },
+        {
+            "term": "overhead",
+            "section": "OTHERS",
+            "vi": "ở trên đầu",
+            "ipa": "/ˌəʊvəˈhed/"
+        },
+        {
+            "term": "soon",
+            "section": "OTHERS",
+            "vi": "sớm",
+            "ipa": "/suːn/"
         }
     ],
     "13": [
@@ -2349,110 +2457,116 @@
         {
             "term": "back out of",
             "section": "VERBS",
-            "vi": "trở lại trong số",
-            "ipa": "/bæk/"
+            "vi": "lùi xe ra khỏi",
+            "ipa": "/bæk aʊt əv/"
         },
         {
             "term": "buckle",
             "section": "VERBS",
-            "vi": "khóa cài",
-            "ipa": "/ˈbʌk(ə)l/"
+            "vi": "thắt dây an toàn",
+            "ipa": "/ˈbʌkl/"
         },
         {
             "term": "look",
             "section": "VERBS",
-            "vi": "mong đợi một cách hân hoan",
-            "ipa": ""
+            "vi": "nhìn",
+            "ipa": "/lʊk/"
         },
         {
-            "term": "put into",
+            "term": "put [put] into",
             "section": "VERBS",
-            "vi": "nạp vào",
-            "ipa": "/pʊt/"
+            "vi": "cho vào, đút vào",
+            "ipa": "/pʊt ˈɪntə/"
         },
         {
-            "term": "sit",
+            "term": "sit [sat]",
             "section": "VERBS",
-            "vi": "xuống",
-            "ipa": "/sɪt/"
+            "vi": "ngồi",
+            "ipa": "/sɪt/ [/sæt/]"
         },
         {
             "term": "start",
             "section": "VERBS",
-            "vi": "Khởi động",
+            "vi": "khởi động, bắt đầu",
             "ipa": "/stɑːt/"
         },
         {
             "term": "start out",
             "section": "VERBS",
-            "vi": "Bắt đầu",
-            "ipa": "/stɑːt/"
+            "vi": "bắt đầu khởi hành",
+            "ipa": "/stɑːt aʊt/"
         },
         {
             "term": "turn",
             "section": "VERBS",
-            "vi": "vòng quay",
+            "vi": "xoay, quay",
             "ipa": "/tɜːn/"
         },
         {
             "term": "car",
             "section": "NOUNS",
-            "vi": "xe",
-            "ipa": "/kɑː/"
+            "vi": "xe hơi",
+            "ipa": "/kɑː(r)/"
         },
         {
             "term": "driver",
             "section": "NOUNS",
-            "vi": "driver&#10;Bộ xử lý",
-            "ipa": "/ˈdraɪ.və(r)/"
+            "vi": "tài xế",
+            "ipa": "/ˈdraɪvə(r)/"
         },
         {
             "term": "driveway",
             "section": "NOUNS",
-            "vi": "Đường lái xe",
-            "ipa": ""
+            "vi": "đường lái xe vào nhà",
+            "ipa": "/ˈdraɪvweɪ/"
         },
         {
             "term": "friend",
             "section": "NOUNS",
-            "vi": "người bạn",
-            "ipa": "/frɛnd/"
+            "vi": "bạn bè",
+            "ipa": "/frend/"
         },
         {
             "term": "ignition",
             "section": "NOUNS",
-            "vi": "Khởi động",
-            "ipa": "/ɪɡˈnɪʃən/"
+            "vi": "ổ cắm chìa khóa khởi động",
+            "ipa": "/ɪɡˈnɪʃn/"
+        },
+        {
+            "term": "key",
+            "section": "NOUNS",
+            "vi": "chìa khóa",
+            "ipa": "/kiː/"
         },
         {
             "term": "passenger",
             "section": "NOUNS",
             "vi": "hành khách",
-            "ipa": "/ˈpæsənd͡ʒə/"
+            "ipa": "/ˈpæsɪndʒə(r)/"
         },
         {
             "term": "rear-view mirror",
             "section": "NOUNS",
             "vi": "gương chiếu hậu",
-            "ipa": ""
+            "ipa": "/ˌrɪə vjuː ˈmɪrə(r)/"
         },
         {
             "term": "seat",
             "section": "NOUNS",
-            "vi": "ghế, chỗ ngồi",
+            "vi": "ghế ngồi",
             "ipa": "/siːt/"
         },
         {
             "term": "seat belt",
             "section": "NOUNS",
-            "vi": "Dây an toàn ",
-            "ipa": "/siːt/"
+            "vi": "dây an toàn",
+            "ipa": "/ˈsiːt belt/"
         },
         {
             "term": "shoulder",
             "section": "NOUNS",
             "vi": "vai",
-            "ipa": "/ˈʃəʊldə/"
+            "ipa": "/ˈʃəʊldə(r)/"
         }
     ],
     "14": [
