@@ -413,12 +413,12 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                   </p>
                   {chapterNotes.map((note, i) => (
                     <div key={i} className="px-3 py-2 border-b border-ink/5">
-                      <p className="text-[10px] font-medium text-ink/60 leading-snug">
+                      <p className="font-medium text-ink/60 leading-snug" style={{ fontSize: `${vocabFontSize}px` }}>
                         <span className="font-black text-ink/40">{note.marker}</span>{" "}
                         {note.en}
                       </p>
                       {note.vi && (
-                        <p className="text-[10px] text-ink font-semibold mt-1 leading-snug">
+                        <p className="text-ink font-semibold mt-1 leading-snug" style={{ fontSize: `${vocabFontSize}px` }}>
                           {decodeHtml(note.vi)}
                         </p>
                       )}
