@@ -1346,103 +1346,264 @@
     ],
     "51": [
         {
-            "marker": "*",
-            "en": "= Phone is a short way of saying “telephone.”",
-            "vi": "= Điện thoại là một cách nói ngắn gọn của “điện thoại”."
+            "marker": "•",
+            "en": "**Phone** is a short way of saying \"telephone.\"",
+            "vi": "**Phone** là cách gọi ngắn gọn của từ \"telephone\" (điện thoại)."
         },
         {
-            "marker": "*",
-            "en": "Receiver means the part of the telephone that you put near your ear and mouth.",
-            "vi": "Người nhận có nghĩa là bộ phận của điện thoại mà quý vị đặt gần tai và miệng."
+            "marker": "•",
+            "en": "**Receiver** means the part of the telephone that you put near your ear and mouth.",
+            "vi": "**Ống nghe** là bộ phận của điện thoại mà bạn đặt gần tai và miệng."
         },
         {
-            "marker": "*",
-            "en": "Most modern telephones are push-button phones — you dial by pushing buttons.",
-            "vi": "Hầu hết các điện thoại hiện đại là điện thoại bấm nút — bạn quay số bằng cách nhấn nút."
+            "marker": "•",
+            "en": "Most modern telephones are push-button phones — you **dial** by pushing buttons.",
+            "vi": "Hầu hết các điện thoại hiện đại là điện thoại nút bấm — bạn **quay số** bằng cách nhấn các nút."
         },
         {
-            "marker": "+",
-            "en": "A dial tone is a sound that tells you the phone is ready to use. If you pick up the receiver and you don’t hear one, the phone might be “dead”— not working.",
-            "vi": "Âm báo quay số là âm thanh cho bạn biết điện thoại đã sẵn sàng để sử dụng. Nếu bạn nhấc máy và không nghe thấy máy, điện thoại có thể \"chết\"— không hoạt động."
+            "marker": "•",
+            "en": "A **dial tone** is a sound that tells you the phone is ready to use. If you pick up the receiver and you don't hear one, the phone might be \"dead\"— not working.",
+            "vi": "**Tín hiệu mời quay số** là âm thanh cho biết điện thoại đã sẵn sàng để sử dụng. Nếu bạn nhấc ống nghe lên mà không nghe thấy âm thanh này, điện thoại có thể đã bị \"hỏng\"— không hoạt động."
         }
     ],
     "52": [
         {
-            "marker": "*",
-            "en": "«To let someone speak you stay silent,",
-            "vi": "«Để cho ai đó nói, bạn giữ im lặng,"
+            "marker": "•",
+            "en": "To **let someone speak** you stay silent.",
+            "vi": "Để **để ai đó nói**, bạn nên giữ im lặng."
         },
         {
-            "marker": "*",
-            "en": "«The person who answers a phone usually speaks first.",
-            "vi": "«Người trả lời điện thoại thường nói trước."
+            "marker": "•",
+            "en": "The person who answers a phone usually speaks first.",
+            "vi": "Người trả lời điện thoại thường là người nói trước."
         },
         {
-            "marker": "*",
-            "en": "The caller usually says goodbye first.",
-            "vi": "Người gọi thường nói lời tạm biệt trước."
+            "marker": "•",
+            "en": "The **caller** usually says goodbye first.",
+            "vi": "**Người gọi** thường là người nói lời tạm biệt trước."
         }
     ],
-    "53": [],
-    "54": [],
+    "53": [
+        {
+            "marker": "•",
+            "en": "Someone who is **available** is able to see you or speak with you. If he is **not** available, he may be somewhere else or too busy to speak to you.",
+            "vi": "Người nào đó đang **sẵn sàng** là người có thể gặp hoặc nói chuyện với bạn. Nếu người đó **không** sẵn sàng, họ có thể đang ở nơi khác hoặc quá bận để nói chuyện với bạn."
+        },
+        {
+            "marker": "•",
+            "en": "When you **leave** your message, you tell it to whoever is taking the message.",
+            "vi": "Khi bạn **để lại** lời nhắn, bạn nói lời nhắn đó cho bất kỳ ai đang nhận lời nhắn."
+        },
+        {
+            "marker": "•",
+            "en": "To **repeat** something is to say it again.",
+            "vi": "**Nhắc lại** một điều gì đó là nói lại điều đó một lần nữa."
+        },
+        {
+            "marker": "•",
+            "en": "Alex Rivera’s **first name** is “Alex.” His **last name** is “Rivera.” For most people of European descent, the last name is a family name. It is also called a “surname.”",
+            "vi": "**Tên** của Alex Rivera là “Alex.” **Họ** của anh ấy là “Rivera.” Đối với hầu hết những người có nguồn gốc Châu Âu, họ là tên của gia đình. Nó còn được gọi là “surname.”"
+        }
+    ],
+    "54": [
+        {
+            "marker": "•",
+            "en": "Pam says “He can’t come to the phone.” This is a way of not giving too much information about Dan.",
+            "vi": "Pam nói “Anh ấy không thể nghe điện thoại.” Đây là một cách để không đưa ra quá nhiều thông tin về Dan."
+        },
+        {
+            "marker": "•",
+            "en": "The caller **left a message for Dan with Pam**.",
+            "vi": "Người gọi đã **để lại lời nhắn cho Dan thông qua Pam**."
+        },
+        {
+            "marker": "•",
+            "en": "**Notepaper** is usually small, especially for taking short messages. Many sheets of notepaper joined together make up a notepad.",
+            "vi": "**Giấy ghi chú** thường nhỏ, đặc biệt dùng để ghi lại những lời nhắn ngắn. Nhiều tờ giấy ghi chú kết hợp lại với nhau tạo thành một cuốn sổ tay."
+        },
+        {
+            "marker": "•",
+            "en": "If you **return a call**, you call back someone who left a message for you.",
+            "vi": "Nếu bạn **gọi lại**, bạn gọi điện lại cho người đã để lại lời nhắn cho mình."
+        },
+        {
+            "marker": "•",
+            "en": "Pam offered to take a message by saying, “Can I take a message?” Other ways to say this are: “Would you like to leave a message?” and “Is there any message?”",
+            "vi": "Pam đề nghị nhận lời nhắn bằng cách nói, “Tôi có thể nhận lời nhắn không?” Các cách khác để nói điều này là: “Bạn có muốn để lại lời nhắn không?” và “Có lời nhắn nào không?”"
+        }
+    ],
     "55": [
         {
-            "marker": "*",
-            "en": "«When you record a message, you put it on a tape. When you erase a message, you take it off a tape.",
-            "vi": "«Khi bạn ghi lại một tin nhắn, bạn đặt nó vào một cuộn băng. Khi bạn xóa một tin nhắn, bạn lấy nó ra khỏi một cuộn băng."
+            "marker": "•",
+            "en": "When you **record** a message, you put it on a tape. When you **erase** a message, you take it off a tape.",
+            "vi": "Khi bạn **ghi âm** một tin nhắn, bạn đưa nó vào băng. Khi bạn **xóa** một tin nhắn, bạn gỡ bỏ nó khỏi băng."
         },
         {
-            "marker": "*",
-            "en": "An outgoing message is what someone hears when a machine answers the phone.",
-            "vi": "Tin nhắn gửi đi là những gì ai đó nghe thấy khi máy trả lời điện thoại."
+            "marker": "•",
+            "en": "An **outgoing message** is what someone hears when a machine answers the phone.",
+            "vi": "Một **lời nhắn thoại đi** là những gì ai đó nghe thấy khi máy trả lời điện thoại."
         },
         {
-            "marker": "*",
-            "en": "«When there is a message recorded on the answering machine, the light shows you it is there to listen to.",
-            "vi": "«Khi có một tin nhắn được ghi lại trên máy trả lời, ánh sáng cho bạn thấy nó ở đó để lắng nghe."
+            "marker": "•",
+            "en": "When there is a message recorded on the answering machine, the light shows you it is **there** to listen to.",
+            "vi": "Khi có một tin nhắn được ghi lại trên máy trả lời, đèn sẽ cho bạn biết rằng tin nhắn **đang ở đó** để nghe."
         }
     ],
-    "56": [],
-    "57": [],
-    "58": [],
+    "56": [
+        {
+            "marker": "•",
+            "en": "**Stationery** is paper especially for writing letters.",
+            "vi": "**Giấy viết thư** là loại giấy chuyên dùng để viết thư."
+        },
+        {
+            "marker": "•",
+            "en": "When you **re-read** something, you read it again — not for the first time.",
+            "vi": "Khi bạn **đọc lại** thứ gì đó, bạn đọc lại nó một lần nữa — không phải lần đầu tiên."
+        },
+        {
+            "marker": "•",
+            "en": "What I **had been doing** means what I did during a period of time before I wrote the letter.",
+            "vi": "Cụm từ **had been doing** có nghĩa là những gì tôi đã làm trong một khoảng thời gian trước khi tôi viết lá thư."
+        },
+        {
+            "marker": "•",
+            "en": "A **personal letter** is a letter to a friend or relative. It is written differently from a business letter.",
+            "vi": "Một **lá thư cá nhân** là lá thư gửi cho bạn bè hoặc người thân. Nó được viết khác với một lá thư công việc."
+        },
+        {
+            "marker": "•",
+            "en": "The **greeting** in a letter usually starts with “Dear,” e.g., “Dear Mom,” “Dear Jim,” etc.",
+            "vi": "**Lời chào** trong một lá thư thường bắt đầu bằng “Dear,” ví dụ: “Dear Mom,” “Dear Jim,” v.v."
+        },
+        {
+            "marker": "•",
+            "en": "The **closing** of a letter comes just before your signature.",
+            "vi": "**Lời kết** của một lá thư nằm ngay trước chữ ký của bạn."
+        }
+    ],
+    "57": [
+        {
+            "marker": "•",
+            "en": "**Stand in line** — usually without “a” or “the.” When you **stand in line**, you wait for your **turn** — your chance to be served.",
+            "vi": "**Stand in line** — thường không có “a” hoặc “the.” Khi bạn **xếp hàng**, bạn chờ đến **lượt** mình — cơ hội để bạn được phục vụ."
+        },
+        {
+            "marker": "•",
+            "en": "Many Americans **lick stamps**. In other cultures, people prefer to get the stamp wet by putting it on a wet sponge.",
+            "vi": "Nhiều người Mỹ **liếm tem**. Ở những nền văn hóa khác, người ta thích làm ướt tem bằng cách đặt nó lên một miếng bọt biển ướt."
+        },
+        {
+            "marker": "•",
+            "en": "When the clerk asks “regular or express?” he wants to know if the letter should be delivered fast. **Express** mail goes fast and costs more. **Regular** means “usual” or “normal.”",
+            "vi": "Khi nhân viên hỏi “gửi thường hay gửi nhanh?” anh ấy muốn biết liệu lá thư có nên được chuyển phát nhanh hay không. Thư **hỏa tốc** đi nhanh và tốn kém hơn. **Bình thường** có nghĩa là “thông thường” hoặc “như thường lệ.”"
+        },
+        {
+            "marker": "•",
+            "en": "A **scale** is a machine for **weighing** things — finding out how heavy they are.",
+            "vi": "**Cái cân** là một loại máy dùng để **cân** đồ vật — xem chúng nặng bao nhiêu."
+        }
+    ],
+    "58": [
+        {
+            "marker": "•",
+            "en": "A **present** is a gift for a special occasion (a birthday, Christmas, etc.)",
+            "vi": "Một **món quà** là một tặng phẩm cho một dịp đặc biệt (sinh nhật, Giáng sinh, v.v.)"
+        },
+        {
+            "marker": "•",
+            "en": "You **wrap** a present in wrapping paper.",
+            "vi": "Bạn **gói** một món quà bằng giấy gói quà."
+        },
+        {
+            "marker": "•",
+            "en": "You **open** a present by taking off the wrapping paper.",
+            "vi": "Bạn **mở** một món quà bằng cách tháo lớp giấy gói ra."
+        },
+        {
+            "marker": "•",
+            "en": "You **light** a candle by making the wick burn.",
+            "vi": "Bạn **thắp** nến bằng cách làm cho bấc cháy. (wick: sợi bấc của nến, wax: sáp nến)"
+        },
+        {
+            "marker": "•",
+            "en": "When you **blow out** a candle, the fire stops burning.",
+            "vi": "Khi bạn **thổi tắt** nến, ngọn lửa sẽ ngừng cháy."
+        }
+    ],
     "59": [
         {
-            "marker": "*",
-            "en": "polite in America for a guest at an adult party to bring a bottle of wine. It’s also polite for a host to say that the gift is unnecessary.",
-            "vi": "lịch sự ở Mỹ cho một vị khách tại một bữa tiệc dành cho người lớn mang theo một chai rượu vang. Chủ nhà cũng nên lịch sự khi nói rằng món quà đó là không cần thiết."
+            "marker": "•",
+            "en": "It’s polite in America for a guest at an adult party to bring a bottle of wine. It’s also polite for a host to say that the gift is unnecessary.",
+            "vi": "Ở Mỹ, việc một vị khách mang theo một chai rượu đến một bữa tiệc của người lớn là lịch sự. Việc chủ nhà nói rằng món quà đó là không cần thiết cũng là một cử chỉ lịch sự."
         },
         {
-            "marker": "*",
-            "en": "Small talk is talk about some unimportant topic like the weather or sports. You “make small talk” and “make conversation.”",
-            "vi": "Nói chuyện phiếm là nói về một số chủ đề không quan trọng như thời tiết hoặc thể thao. Bạn \"nói chuyện phiếm\" và \"trò chuyện\"."
+            "marker": "•",
+            "en": "**Small talk** is talk about some unimportant topic like the weather or sports. You “**make small talk**” and “**make conversation**.”",
+            "vi": "**Nói chuyện phiếm** là nói về một số chủ đề không quan trọng như thời tiết hoặc thể thao. Bạn “**nói chuyện phiếm**” và “**bắt chuyện**.”"
         },
         {
-            "marker": "*",
-            "en": "The evening is the time from about sundown until about midnight.",
-            "vi": "Buổi tối là khoảng thời gian từ lúc mặt trời lặn cho đến khoảng nửa đêm."
+            "marker": "•",
+            "en": "The **evening** is the time from about sundown until about midnight.",
+            "vi": "**Buổi tối** là khoảng thời gian từ lúc mặt trời lặn cho đến khoảng nửa đêm."
         }
     ],
-    "60": [],
+    "60": [
+        {
+            "marker": "•",
+            "en": "**Coming attractions** are movies that will soon be shown.",
+            "vi": "**Phim sắp chiếu** là những bộ phim sẽ sớm được trình chiếu."
+        },
+        {
+            "marker": "•",
+            "en": "**The movie is showing** means “the movie is being shown.”",
+            "vi": "**Phim đang chiếu** có nghĩa là “bộ phim đang được trình chiếu.”"
+        },
+        {
+            "marker": "•",
+            "en": "**The box office** is the place where tickets to movies are sold. It can also be called a “ticket window.”",
+            "vi": "**Quầy bán vé** là nơi bán vé xem phim. Nó cũng có thể được gọi là “cửa bán vé.”"
+        },
+        {
+            "marker": "•",
+            "en": "A **stub** is a small piece. A ticket stub is a piece torn off a ticket.",
+            "vi": "**Cuống vé** là một mẩu nhỏ. Cuống vé xem phim là một phần được xé ra từ chiếc vé."
+        },
+        {
+            "marker": "•",
+            "en": "If you see a **preview**, you will see a small part of something you can see completely later.",
+            "vi": "Nếu bạn xem một đoạn **xem trước**, bạn sẽ thấy một phần nhỏ của thứ mà bạn có thể xem trọn vẹn sau đó."
+        },
+        {
+            "marker": "•",
+            "en": "The **main feature** is the movie you have come to see.",
+            "vi": "**Phim chính** là bộ phim mà bạn đến để xem."
+        },
+        {
+            "marker": "•",
+            "en": "**Credits** tell who worked on the movie.",
+            "vi": "**Danh sách đoàn làm phim** cho biết những ai đã tham gia thực hiện bộ phim."
+        }
+    ],
     "61": [
         {
-            "marker": "+",
-            "en": "Ina fast-food restaurant, the menu is usually on a large board on the wall.",
+            "marker": "•",
+            "en": "In a fast-food restaurant, the **menu** is usually on a large board on the wall.",
             "vi": "Trong một nhà hàng thức ăn nhanh, thực đơn thường nằm trên một tấm bảng lớn trên tường."
         },
         {
-            "marker": "+",
+            "marker": "•",
             "en": "Jenny orders her food “for here.” That means she will eat itin the restaurant.",
-            "vi": "Jenny gọi đồ ăn “đến đây.” Điều đó có nghĩa là cô ấy sẽ ăn nó trong nhà hàng."
+            "vi": "Jenny gọi đồ ăn “ở đây” (for here). Điều đó có nghĩa là cô ấy sẽ ăn nó trong nhà hàng."
         },
         {
-            "marker": "*",
-            "en": "People who get their food to go will eat it outside the restaurant. You can also say “to take away” or “to take out.”",
-            "vi": "Những người chuẩn bị thức ăn sẽ ăn bên ngoài nhà hàng. Bạn cũng có thể nói “to take away” hoặc “to take out”."
+            "marker": "•",
+            "en": "People who get their food **to go** will eat it outside the restaurant. You can also say “to take away” or “to take out.”",
+            "vi": "Bạn lấy thức ăn “to go” (mang đi) thì bạn sẽ ăn bên ngoài nhà hàng. Bạn cũng có thể nói “to take away” hoặc “to take out”."
         },
         {
-            "marker": "*",
-            "en": "Wrappers are paper or boxes that go around the food to keep it fresh until it’s eaten.",
-            "vi": "Giấy gói là giấy hoặc hộp đi xung quanh thực phẩm để giữ cho nó tươi cho đến khi ăn."
+            "marker": "•",
+            "en": "**Wrappers** are paper or boxes that go around the food to keep it fresh until it’s eaten.",
+            "vi": "Giấy gói là giấy hoặc hộp bao quanh thực phẩm để giữ cho nó tươi cho đến khi ăn."
         }
     ]
 }
