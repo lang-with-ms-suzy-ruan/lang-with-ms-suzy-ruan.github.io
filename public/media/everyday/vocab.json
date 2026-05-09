@@ -5767,12 +5767,6 @@
     ],
     "31": [
         {
-            "term": "y Vocabulary",
-            "section": "VERBS",
-            "vi": "y Từ vựng",
-            "ipa": ""
-        },
-        {
             "term": "change",
             "section": "VERBS",
             "vi": "thay đổi",
@@ -5781,86 +5775,86 @@
         {
             "term": "end",
             "section": "VERBS",
-            "vi": "giới hạn; kết thúc, chấm dứt",
-            "ipa": "/ɛnd/"
+            "vi": "kết thúc",
+            "ipa": "/end/"
         },
         {
-            "term": "Z0 to",
+            "term": "go [went] to",
             "section": "VERBS",
-            "vi": "Z0 đến",
-            "ipa": ""
+            "vi": "đi đến",
+            "ipa": "/ɡəʊ tuː/"
         },
         {
-            "term": "hear",
+            "term": "hear [heard]",
             "section": "VERBS",
             "vi": "nghe",
-            "ipa": "/hɪə(r)/"
+            "ipa": "/hɪər/"
         },
         {
             "term": "pick up",
             "section": "VERBS",
-            "vi": "bán tải",
-            "ipa": "/pɪk/"
+            "vi": "nhặt lên, đón",
+            "ipa": "/pɪk ʌp/"
         },
         {
             "term": "turn off",
             "section": "VERBS",
-            "vi": "Tắt",
-            "ipa": "/tɜːn/"
+            "vi": "tắt",
+            "ipa": "/tɜːrn ɒf/"
         },
         {
             "term": "turn on",
             "section": "VERBS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
+            "vi": "mở, bật",
+            "ipa": "/tɜːrn ɒn/"
         },
         {
-            "term": "up",
+            "term": "turn up",
             "section": "VERBS",
-            "vi": "ở trên",
-            "ipa": "/ap/"
+            "vi": "vặn to lên",
+            "ipa": "/tɜːrn ʌp/"
         },
         {
             "term": "use",
             "section": "VERBS",
             "vi": "sử dụng",
-            "ipa": ""
+            "ipa": "/juːz/"
         },
         {
             "term": "want",
             "section": "VERBS",
             "vi": "muốn",
-            "ipa": "/wɔnt/"
+            "ipa": "/wɒnt/"
         },
         {
             "term": "watch",
             "section": "VERBS",
-            "vi": "nhìn",
-            "ipa": "/wɒt͡ʃ/"
+            "vi": "xem",
+            "ipa": "/wɒtʃ/"
         },
         {
             "term": "channel",
             "section": "NOUNS",
-            "vi": "kênh (TV, radio), eo biến",
-            "ipa": "/ˈtʃænəl/"
+            "vi": "kênh truyền hình",
+            "ipa": "/ˈtʃænl/"
         },
         {
             "term": "commercial",
             "section": "NOUNS",
-            "vi": "buôn bán, thương mại",
-            "ipa": "/kəˈmɜːʃəl/"
+            "vi": "quảng cáo",
+            "ipa": "/kəˈmɜːrʃl/"
         },
         {
             "term": "game show",
             "section": "NOUNS",
-            "vi": "game show:",
-            "ipa": "/ɡeɪm/"
+            "vi": "trò chơi truyền hình",
+            "ipa": "/ˈɡeɪm ʃəʊ/"
         },
         {
             "term": "kitchen",
             "section": "NOUNS",
-            "vi": "bếp",
-            "ipa": "/ˈkɪt͡ʃən/"
+            "vi": "nhà bếp",
+            "ipa": "/ˈkɪtʃɪn/"
         },
         {
             "term": "news",
@@ -5871,318 +5865,270 @@
         {
             "term": "remote",
             "section": "NOUNS",
-            "vi": "xa, xa xôi, xa cách",
-            "ipa": "[rəˈməʊt]"
+            "vi": "điều khiển từ xa",
+            "ipa": "/rɪˈməʊt/"
         },
         {
             "term": "snack",
             "section": "NOUNS",
-            "vi": "món ăn nhẹ",
+            "vi": "đồ ăn nhẹ",
             "ipa": "/snæk/"
         },
         {
             "term": "television",
             "section": "NOUNS",
-            "vi": "truyền hình",
-            "ipa": "/ˈtɛləˌvɪʒən/"
-        },
-        {
-            "term": "Tor",
-            "section": "NOUNS",
-            "vi": "ToR",
-            "ipa": "/tɔː(r)/"
+            "vi": "vô tuyến, ti vi",
+            "ipa": "/ˈtelɪvɪʒn/"
         },
         {
             "term": "TV",
             "section": "NOUNS",
-            "vi": "TV",
-            "ipa": ""
-        },
-        {
-            "term": "wat",
-            "section": "NOUNS",
-            "vi": "Cái gì?",
-            "ipa": "/wat/"
+            "vi": "ti vi",
+            "ipa": "/ˌtiː ˈviː/"
         },
         {
             "term": "volume",
             "section": "NOUNS",
-            "vi": "thế tích",
-            "ipa": "/ˈvɒl.juːm/"
+            "vi": "âm lượng",
+            "ipa": "/ˈvɒljuːm/"
         },
         {
-            "term": "better (adv.)",
-            "section": "OTHERS",
-            "vi": "tốt hơn (adv.)",
-            "ipa": "[ˈbeɾə]"
-        },
-        {
-            "term": "Ton",
-            "section": "OTHERS",
-            "vi": "Tân",
-            "ipa": "/tʌn/"
-        },
-        {
-            "term": "rer",
-            "section": "OTHERS",
-            "vi": "rer",
-            "ipa": ""
+            "term": "better (adv.) [comparative of \"well\"]",
+            "section": "OTHER",
+            "vi": "tốt hơn",
+            "ipa": "/ˈbetər/"
         }
     ],
     "32": [
         {
-            "term": "Key Vocabula",
-            "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "eject",
             "section": "VERBS",
-            "vi": "Đẩy ra",
-            "ipa": "/ɪˈdʒɛkt/"
+            "vi": "đẩy ra, lấy băng ra",
+            "ipa": "/iˈdʒekt/"
         },
         {
-            "term": "leave",
+            "term": "leave [left]",
             "section": "VERBS",
-            "vi": "thai sản",
-            "ipa": "/liːv/"
+            "vi": "rời khỏi, để lại",
+            "ipa": "/liːv/ [/left/]"
         },
         {
             "term": "load",
             "section": "VERBS",
-            "vi": "chất, chở",
+            "vi": "nạp, đưa băng vào",
             "ipa": "/ləʊd/"
         },
         {
             "term": "pause",
             "section": "VERBS",
-            "vi": "tạm nghỉ, dừng",
+            "vi": "tạm dừng",
             "ipa": "/pɔːz/"
         },
         {
             "term": "rent",
             "section": "VERBS",
-            "vi": "cho thuê, thuê",
-            "ipa": "/rɛnt/"
+            "vi": "thuê",
+            "ipa": "/rent/"
         },
         {
             "term": "return",
             "section": "VERBS",
-            "vi": "Trở lại",
-            "ipa": "/rɪˈtɜːn/"
+            "vi": "trả lại",
+            "ipa": "/rɪˈtɜːrn/"
         },
         {
-            "term": "rewind",
+            "term": "rewind [rewound]",
             "section": "VERBS",
-            "vi": "Tua lại",
-            "ipa": "/riːˈwaɪnd/"
+            "vi": "tua lại",
+            "ipa": "/ˌriːˈwaɪnd/ [/ˌriːˈwaʊnd/]"
         },
         {
             "term": "start",
             "section": "VERBS",
-            "vi": "Khởi động",
-            "ipa": "/stɑːt/"
+            "vi": "bắt đầu",
+            "ipa": "/stɑːrt/"
         },
         {
             "term": "stop",
             "section": "VERBS",
-            "vi": "ngừng",
+            "vi": "dừng lại",
             "ipa": "/stɒp/"
         },
         {
             "term": "switch",
             "section": "VERBS",
-            "vi": "switch",
+            "vi": "chuyển đổi, bật tắt",
             "ipa": "/swɪtʃ/"
         },
         {
-            "term": "take out",
+            "term": "take [took] out",
             "section": "VERBS",
-            "vi": "vay phòng xa",
-            "ipa": "/teɪk/"
+            "vi": "lấy ra",
+            "ipa": "/teɪk aʊt/ [/tʊk aʊt/]"
         },
         {
             "term": "turn on",
             "section": "VERBS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
+            "vi": "bật, mở (thiết bị)",
+            "ipa": "/tɜːrn ɒn/"
         },
         {
             "term": "watch",
             "section": "VERBS",
-            "vi": "nhìn",
-            "ipa": "/wɒt͡ʃ/"
+            "vi": "xem",
+            "ipa": "/wɒtʃ/"
         },
         {
             "term": "case",
             "section": "NOUNS",
-            "vi": "...",
+            "vi": "vỏ, hộp đựng",
             "ipa": "/keɪs/"
         },
         {
             "term": "end",
             "section": "NOUNS",
-            "vi": "giới hạn; kết thúc, chấm dứt",
-            "ipa": "/ɛnd/"
+            "vi": "kết thúc, điểm cuối",
+            "ipa": "/end/"
         },
         {
             "term": "home",
             "section": "NOUNS",
-            "vi": "trang chủ",
-            "ipa": "/(h)əʊm/"
+            "vi": "nhà",
+            "ipa": "/həʊm/"
         },
         {
             "term": "remote",
             "section": "NOUNS",
-            "vi": "xa, xa xôi, xa cách",
-            "ipa": "[rəˈməʊt]"
+            "vi": "điều khiển từ xa",
+            "ipa": "/rɪˈməʊt/"
         },
         {
             "term": "setting",
             "section": "NOUNS",
-            "vi": "cài đặt",
-            "ipa": "/ˈsɛtɪŋ/"
+            "vi": "cài đặt, thiết lập",
+            "ipa": "/ˈsetɪŋ/"
         },
         {
             "term": "store",
             "section": "NOUNS",
-            "vi": "cửa hàng; tích trữ",
-            "ipa": "/stɔː/"
+            "vi": "cửa hàng",
+            "ipa": "/stɔːr/"
         },
         {
             "term": "tape",
             "section": "NOUNS",
-            "vi": "băng dán ",
-            "ipa": "/teɪ̯p/"
+            "vi": "băng (băng hình, băng keo)",
+            "ipa": "/teɪp/"
         },
         {
             "term": "VCR",
             "section": "NOUNS",
-            "vi": "VCR",
-            "ipa": ""
+            "vi": "máy xem băng hình",
+            "ipa": "/ˌviː siː ˈɑːr/"
         },
         {
             "term": "video",
             "section": "NOUNS",
-            "vi": "video",
-            "ipa": "/ˈvɪ.di.əʊ/"
+            "vi": "video, đoạn phim",
+            "ipa": "/ˈvɪdiəʊ/"
         },
         {
-            "term": "for a minute (adverbial)",
+            "term": "for a minute",
             "section": "OTHERS",
-            "vi": "trong một phút (trạng từ)",
-            "ipa": ""
+            "vi": "trong một phút",
+            "ipa": "/fɔːr ə ˈmɪnɪt/"
         },
         {
-            "term": "later (adv.)",
+            "term": "later",
             "section": "OTHERS",
-            "vi": "sau (adv.)",
-            "ipa": "/ˈleɪtə/"
+            "vi": "sau đó, muộn hơn",
+            "ipa": "/ˈleɪtər/"
         }
     ],
     "33": [
         {
-            "term": "Key",
+            "term": "babysit [babysat]",
             "section": "VERBS",
-            "vi": "Ký hiệu",
-            "ipa": "/kiː/"
-        },
-        {
-            "term": "Vocabula",
-            "section": "VERBS",
-            "vi": "Từ vựng",
-            "ipa": ""
-        },
-        {
-            "term": "babysit",
-            "section": "VERBS",
-            "vi": "Bảo mẫu",
-            "ipa": "/ˈbeɪbiː.sɪt/"
+            "vi": "trông trẻ",
+            "ipa": "/ˈbeɪbisɪt/ [/ˈbeɪbisæt/]"
         },
         {
             "term": "change",
             "section": "VERBS",
-            "vi": "thay đổi",
+            "vi": "thay (tã/quần áo)",
             "ipa": "/tʃeɪndʒ/"
         },
         {
-            "term": "draw",
+            "term": "draw [drew]",
             "section": "VERBS",
-            "vi": "vẽ, kéo",
-            "ipa": "/drɔː/"
+            "vi": "vẽ",
+            "ipa": "/drɔː/ [/druː/]"
         },
         {
             "term": "drop off",
             "section": "VERBS",
-            "vi": "Đi nghủ",
-            "ipa": "/drɒp/"
+            "vi": "cho xuống xe / đưa đến",
+            "ipa": "/drɒp ɒf/"
         },
         {
             "term": "pick up",
             "section": "VERBS",
-            "vi": "bán tải",
-            "ipa": "/pɪk/"
+            "vi": "đón / nhặt lên",
+            "ipa": "/pɪk ʌp/"
         },
         {
             "term": "play",
             "section": "VERBS",
-            "vi": "chơi ; trò chơi, trận đấu",
+            "vi": "chơi",
             "ipa": "/pleɪ/"
         },
         {
-            "term": "put to bed",
+            "term": "put [put] to bed",
             "section": "VERBS",
-            "vi": "đi ngủ",
-            "ipa": "/pʊt/"
+            "vi": "cho đi ngủ",
+            "ipa": "/pʊt tuː bed/"
         },
         {
-            "term": "put together",
+            "term": "put [put] together",
             "section": "VERBS",
-            "vi": "kết hợp lại với nhau",
-            "ipa": "/pʊt/"
+            "vi": "lắp ráp / xếp cùng nhau",
+            "ipa": "/pʊt təˈɡeðər/"
         },
         {
-            "term": "read",
+            "term": "read [read]",
             "section": "VERBS",
             "vi": "đọc",
-            "ipa": "/riːd/"
+            "ipa": "/riːd/ [/red/]"
         },
         {
-            "term": "take",
+            "term": "take [took]",
             "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "cầm, nắm, lấy",
+            "ipa": "/teɪk/ [/tʊk/]"
         },
         {
-            "term": "take a bath",
+            "term": "take [took] a bath",
             "section": "VERBS",
-            "vi": "thất cơ lỡ vận",
-            "ipa": "/teɪk/"
+            "vi": "đi tắm",
+            "ipa": "/teɪk ə bɑːθ/ [/tʊk ə bæθ/]"
         },
         {
-            "term": "take care of",
+            "term": "take [took] care of",
             "section": "VERBS",
-            "vi": "chăm sóc;xoa dịu",
-            "ipa": "/teɪk/"
+            "vi": "chăm sóc",
+            "ipa": "/teɪk keər əv/ [/tʊk keər əv/]"
         },
         {
             "term": "watch",
             "section": "VERBS",
-            "vi": "nhìn",
-            "ipa": "/wɒt͡ʃ/"
+            "vi": "xem / trông coi",
+            "ipa": "/wɒtʃ/"
         },
         {
             "term": "aunt",
             "section": "NOUNS",
-            "vi": "cô, dì",
-            "ipa": "/ɑ(ː)nt/"
-        },
-        {
-            "term": "picture",
-            "section": "NOUNS",
-            "vi": "hình ảnh",
-            "ipa": "/ˈpɪktʃə/"
+            "vi": "cô, dì, bác gái",
+            "ipa": "/ɑːnt/"
         },
         {
             "term": "baby",
@@ -6191,300 +6137,318 @@
             "ipa": "/ˈbeɪbi/"
         },
         {
-            "term": "(a) piece (of)",
-            "section": "NOUNS",
-            "vi": "Một mẩu",
-            "ipa": "/æɪ/"
-        },
-        {
             "term": "block",
             "section": "NOUNS",
-            "vi": "chặn",
+            "vi": "khối đồ chơi",
             "ipa": "/blɒk/"
-        },
-        {
-            "term": "playground",
-            "section": "NOUNS",
-            "vi": "Playground",
-            "ipa": "/ˈpleɪɡraʊnd/"
         },
         {
             "term": "cartoon",
             "section": "NOUNS",
             "vi": "phim hoạt hình",
-            "ipa": "/kɑːˈtuːn/"
+            "ipa": "/kɑːrˈtuːn/"
         },
         {
-            "term": "puzzle",
+            "term": "child [children]",
             "section": "NOUNS",
-            "vi": "Ghép hình",
-            "ipa": "/ˈpʌzəl/"
-        },
-        {
-            "term": "child sandbox",
-            "section": "NOUNS",
-            "vi": "hộp cát trẻ em",
-            "ipa": "/t͡ʃaɪld/"
+            "vi": "đứa trẻ",
+            "ipa": "/tʃaɪld/ [/ˈtʃɪldrən/]"
         },
         {
             "term": "cousin",
             "section": "NOUNS",
-            "vi": "anh em họ",
-            "ipa": "/ˈkʌz.n̩/"
-        },
-        {
-            "term": "slide",
-            "section": "NOUNS",
-            "vi": "trượt, chuyến động nhẹ, lướt qua",
-            "ipa": "/slaɪd/"
+            "vi": "anh chị em họ",
+            "ipa": "/ˈkʌzn/"
         },
         {
             "term": "crayon",
             "section": "NOUNS",
-            "vi": "Bút chì màu",
-            "ipa": "/ˈkreɪ.ɒ̃/"
-        },
-        {
-            "term": "story",
-            "section": "NOUNS",
-            "vi": "câu chuyện",
-            "ipa": "/ˈstɔː.ri/"
+            "vi": "bút màu sáp",
+            "ipa": "/ˈkreɪən/"
         },
         {
             "term": "crib",
             "section": "NOUNS",
-            "vi": "lều, nhà nhỏ",
+            "vi": "cái cũi",
             "ipa": "/krɪb/"
-        },
-        {
-            "term": "swing",
-            "section": "NOUNS",
-            "vi": "đu đưa, lúc lắc",
-            "ipa": "/ˈswɪŋ/"
         },
         {
             "term": "diaper",
             "section": "NOUNS",
             "vi": "tã lót",
-            "ipa": "/ˈdaɪ(ə)pə/"
-        },
-        {
-            "term": "TV",
-            "section": "NOUNS",
-            "vi": "TV",
-            "ipa": ""
+            "ipa": "/ˈdaɪpər/"
         },
         {
             "term": "house",
             "section": "NOUNS",
-            "vi": "nhà, căn nhà, toàn nhà",
-            "ipa": "/hʌʊs/"
-        },
-        {
-            "term": "uncle",
-            "section": "NOUNS",
-            "vi": "chủ, bác",
-            "ipa": "/ˈʌŋ.kəl/"
+            "vi": "ngôi nhà",
+            "ipa": "/haʊs/"
         },
         {
             "term": "parent",
             "section": "NOUNS",
-            "vi": "cha, mẹ",
-            "ipa": "/ˈpɛərənt/"
+            "vi": "bố hoặc mẹ",
+            "ipa": "/ˈpeərənt/"
         },
         {
-            "term": "later (adv.)",
-            "section": "OTHERS",
-            "vi": "sau (adv.)",
-            "ipa": "/ˈleɪtə/"
+            "term": "picture",
+            "section": "NOUNS",
+            "vi": "bức tranh",
+            "ipa": "/ˈpɪktʃər/"
         },
         {
-            "term": "back (adv.)",
+            "term": "(a) piece (of)",
+            "section": "NOUNS",
+            "vi": "một mảnh / một mẩu",
+            "ipa": "/piːs/"
+        },
+        {
+            "term": "playground",
+            "section": "NOUNS",
+            "vi": "sân chơi",
+            "ipa": "/ˈpleɪɡraʊnd/"
+        },
+        {
+            "term": "puzzle",
+            "section": "NOUNS",
+            "vi": "trò chơi ghép hình",
+            "ipa": "/ˈpʌzl/"
+        },
+        {
+            "term": "sandbox",
+            "section": "NOUNS",
+            "vi": "hố cát",
+            "ipa": "/ˈsændbɒks/"
+        },
+        {
+            "term": "slide",
+            "section": "NOUNS",
+            "vi": "cầu trượt",
+            "ipa": "/slaɪd/"
+        },
+        {
+            "term": "story",
+            "section": "NOUNS",
+            "vi": "câu chuyện",
+            "ipa": "/ˈstɔːri/"
+        },
+        {
+            "term": "swing",
+            "section": "NOUNS",
+            "vi": "cái xích đu",
+            "ipa": "/swɪŋ/"
+        },
+        {
+            "term": "TV",
+            "section": "NOUNS",
+            "vi": "ti vi",
+            "ipa": "/ˌtiː ˈviː/"
+        },
+        {
+            "term": "uncle",
+            "section": "NOUNS",
+            "vi": "chú, bác trai",
+            "ipa": "/ˈʌŋkl/"
+        },
+        {
+            "term": "later",
             "section": "OTHERS",
-            "vi": "lưng (adv.)",
+            "vi": "sau đó / muộn hơn",
+            "ipa": "/ˈleɪtər/"
+        },
+        {
+            "term": "back",
+            "section": "OTHERS",
+            "vi": "trở lại",
             "ipa": "/bæk/"
         },
         {
-            "term": "Tol",
+            "term": "other",
             "section": "OTHERS",
-            "vi": "Tol.",
-            "ipa": ""
-        },
-        {
-            "term": "ch",
-            "section": "OTHERS",
-            "vi": "ch",
-            "ipa": ""
-        },
-        {
-            "term": "th",
-            "section": "OTHERS",
-            "vi": "th",
-            "ipa": ""
+            "vi": "khác",
+            "ipa": "/ˈʌðər/"
         }
     ],
     "34": [
         {
-            "term": "Key Vocabular",
-            "section": "VERBS",
-            "vi": "Key Vocabular",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "brush",
             "section": "VERBS",
-            "vi": "chải, quét",
+            "vi": "chải, đánh (răng)",
             "ipa": "/brʌʃ/"
-        },
-        {
-            "term": "turn off",
-            "section": "VERBS",
-            "vi": "Tắt",
-            "ipa": "/tɜːn/"
         },
         {
             "term": "change",
             "section": "VERBS",
-            "vi": "thay đổi",
+            "vi": "thay đổi, thay (quần áo)",
             "ipa": "/tʃeɪndʒ/"
+        },
+        {
+            "term": "fall [fell] asleep",
+            "section": "VERBS",
+            "vi": "ngủ thiếp đi",
+            "ipa": "/fɔːl əˈsliːp/ [/fel əˈsliːp/]"
+        },
+        {
+            "term": "get [got] into",
+            "section": "VERBS",
+            "vi": "đi vào, leo vào (giường)",
+            "ipa": "/ɡet ˈɪntə/ [/ɡɒt ˈɪntə/]"
+        },
+        {
+            "term": "go [went]",
+            "section": "VERBS",
+            "vi": "đi",
+            "ipa": "/ɡəʊ/ [/went/]"
+        },
+        {
+            "term": "hang [hung] up",
+            "section": "VERBS",
+            "vi": "treo lên",
+            "ipa": "/hæŋ ʌp/ [/hʌŋ ʌp/]"
+        },
+        {
+            "term": "lie [lay] down",
+            "section": "VERBS",
+            "vi": "nằm xuống",
+            "ipa": "/laɪ daʊn/ [/leɪ daʊn/]"
+        },
+        {
+            "term": "pull back",
+            "section": "VERBS",
+            "vi": "kéo lại, lật (chăn) ra",
+            "ipa": "/pʊl bæk/"
+        },
+        {
+            "term": "put [put] in",
+            "section": "VERBS",
+            "vi": "cho vào, bỏ vào",
+            "ipa": "/pʊt ɪn/"
+        },
+        {
+            "term": "put [put] on",
+            "section": "VERBS",
+            "vi": "mặc vào, đeo vào",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "read [read]",
+            "section": "VERBS",
+            "vi": "đọc",
+            "ipa": "/riːd/ [/red/]"
+        },
+        {
+            "term": "say [said] goodnight",
+            "section": "VERBS",
+            "vi": "chúc ngủ ngon",
+            "ipa": "/seɪ ˌɡʊdˈnaɪt/ [/sed ˌɡʊdˈnaɪt/]"
+        },
+        {
+            "term": "set [set]",
+            "section": "VERBS",
+            "vi": "đặt, thiết lập (báo thức)",
+            "ipa": "/set/"
+        },
+        {
+            "term": "turn off",
+            "section": "VERBS",
+            "vi": "tắt",
+            "ipa": "/tɜːrn ɒf/"
         },
         {
             "term": "turn on",
             "section": "VERBS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
+            "vi": "bật, mở",
+            "ipa": "/tɜːrn ɒn/"
         },
         {
-            "term": "fall asleep use",
+            "term": "use",
             "section": "VERBS",
-            "vi": "thiếp đi",
-            "ipa": "/fɔːl/"
-        },
-        {
-            "term": "get into",
-            "section": "VERBS",
-            "vi": "tham gia",
-            "ipa": "/ɡɛt/"
+            "vi": "sử dụng",
+            "ipa": "/juːz/"
         },
         {
             "term": "wash",
             "section": "VERBS",
             "vi": "rửa, giặt",
-            "ipa": "/wɑʃ/"
-        },
-        {
-            "term": "go",
-            "section": "VERBS",
-            "vi": "đi",
-            "ipa": "/ɡəʊ/"
+            "ipa": "/wɒʃ/"
         },
         {
             "term": "yawn",
             "section": "VERBS",
-            "vi": "há miệng; ngáp",
+            "vi": "ngáp",
             "ipa": "/jɔːn/"
-        },
-        {
-            "term": "hang up",
-            "section": "VERBS",
-            "vi": "treo máy",
-            "ipa": "[heɪŋ]"
-        },
-        {
-            "term": "lie down",
-            "section": "VERBS",
-            "vi": "Nằm xuống đi.",
-            "ipa": "/laɪ̯/"
-        },
-        {
-            "term": "pull back",
-            "section": "VERBS",
-            "vi": "Dag!",
-            "ipa": "/pʊl/"
-        },
-        {
-            "term": "put in",
-            "section": "VERBS",
-            "vi": "Tiền vào bàn:",
-            "ipa": "/pʊt/"
-        },
-        {
-            "term": "put on",
-            "section": "VERBS",
-            "vi": "tho vao",
-            "ipa": "/pʊt/"
-        },
-        {
-            "term": "read",
-            "section": "VERBS",
-            "vi": "đọc",
-            "ipa": "/riːd/"
-        },
-        {
-            "term": "say goodnight",
-            "section": "VERBS",
-            "vi": "chúc ngủ ngon",
-            "ipa": "/seɪ/"
-        },
-        {
-            "term": "set",
-            "section": "VERBS",
-            "vi": "Bộ",
-            "ipa": "/sɛt/"
         },
         {
             "term": "alarm clock",
             "section": "NOUNS",
-            "vi": "Đồng hồ báo thức",
-            "ipa": "/əˈlɑːm/"
-        },
-        {
-            "term": "light",
-            "section": "NOUNS",
-            "vi": "ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng",
-            "ipa": "/lʌɪt/"
+            "vi": "đồng hồ báo thức",
+            "ipa": "/əˈlɑːrm klɒk/"
         },
         {
             "term": "bed",
             "section": "NOUNS",
-            "vi": "phòng ngủ",
+            "vi": "cái giường",
             "ipa": "/bed/"
-        },
-        {
-            "term": "nightgown",
-            "section": "NOUNS",
-            "vi": "áo ngủ",
-            "ipa": "/ˈnaɪtˌɡaʊn/"
         },
         {
             "term": "closet",
             "section": "NOUNS",
-            "vi": "phòng kho",
+            "vi": "tủ quần áo",
             "ipa": "/ˈklɒzɪt/"
-        },
-        {
-            "term": "nightstand",
-            "section": "NOUNS",
-            "vi": "tủ đầu giường",
-            "ipa": ""
         },
         {
             "term": "clothes",
             "section": "NOUNS",
             "vi": "quần áo",
-            "ipa": "/kləʊ(ð)z/"
-        },
-        {
-            "term": "parents",
-            "section": "NOUNS",
-            "vi": "phụ huynh",
-            "ipa": "/ˈpɛərənts/"
+            "ipa": "/kləʊðz/"
         },
         {
             "term": "covers",
             "section": "NOUNS",
-            "vi": "bìa.",
-            "ipa": "/ˈkʌvəz/"
+            "vi": "chăn mền, ga trải giường",
+            "ipa": "/ˈkʌvərz/"
+        },
+        {
+            "term": "face",
+            "section": "NOUNS",
+            "vi": "khuôn mặt",
+            "ipa": "/feɪs/"
+        },
+        {
+            "term": "lamp",
+            "section": "NOUNS",
+            "vi": "đèn bàn",
+            "ipa": "/læmp/"
+        },
+        {
+            "term": "laundry basket",
+            "section": "NOUNS",
+            "vi": "giỏ đựng đồ giặt",
+            "ipa": "/ˈlɔːndri ˈbæskɪt/"
+        },
+        {
+            "term": "light",
+            "section": "NOUNS",
+            "vi": "ánh sáng, đèn",
+            "ipa": "/laɪt/"
+        },
+        {
+            "term": "nightgown",
+            "section": "NOUNS",
+            "vi": "áo ngủ",
+            "ipa": "/ˈnaɪtɡaʊn/"
+        },
+        {
+            "term": "nightstand",
+            "section": "NOUNS",
+            "vi": "tủ đầu giường",
+            "ipa": "/ˈnaɪtstænd/"
+        },
+        {
+            "term": "parents",
+            "section": "NOUNS",
+            "vi": "bố mẹ",
+            "ipa": "/ˈpeərənts/"
         },
         {
             "term": "room",
@@ -6493,64 +6457,58 @@
             "ipa": "/ruːm/"
         },
         {
-            "term": "face",
-            "section": "NOUNS",
-            "vi": "thế diện; đương đầu, đối phó, đối mặt",
-            "ipa": "/feɪs/"
-        },
-        {
             "term": "stairs",
             "section": "NOUNS",
             "vi": "cầu thang",
-            "ipa": "/ˈstɛəz/"
+            "ipa": "/sterz/"
         },
         {
-            "term": "lamp",
+            "term": "tooth [teeth]",
             "section": "NOUNS",
-            "vi": "đèn",
-            "ipa": "/læmp/"
+            "vi": "răng",
+            "ipa": "/tuːθ/ [/tiːθ/]"
         },
         {
-            "term": "tooth",
+            "term": "toilet",
             "section": "NOUNS",
-            "vi": "răng (số ít)",
-            "ipa": "/tuːθ/"
+            "vi": "nhà vệ sinh, bồn cầu",
+            "ipa": "/ˈtɔɪlət/"
         },
         {
-            "term": "teeth",
-            "section": "NOUNS",
-            "vi": "răng (số nhiều)",
-            "ipa": "/tiːθ/"
-        },
-        {
-            "term": "laundry basket toilet",
-            "section": "NOUNS",
-            "vi": "giỏ đựng đồ giặt nhà vệ sinh",
-            "ipa": "/ˈlɑn.dri/"
-        },
-        {
-            "term": "bedside (adj.)",
+            "term": "bedside",
             "section": "OTHERS",
-            "vi": "đầu giường (adj.)",
-            "ipa": "/ˈbɛdˌsaɪd/"
+            "vi": "cạnh giường",
+            "ipa": "/ˈbedsaɪd/"
         },
         {
-            "term": "dirty (adj.)",
+            "term": "dirty",
             "section": "OTHERS",
-            "vi": "bẩn (adj)",
-            "ipa": "/ˈdɜːti/"
+            "vi": "bẩn, dơ",
+            "ipa": "/ˈdɜːrti/"
         },
         {
-            "term": "finally (adv.)",
+            "term": "finally",
             "section": "OTHERS",
-            "vi": "cuối cùng (adv.)",
-            "ipa": "/ˈfaɪ.nəl.i/"
+            "vi": "cuối cùng",
+            "ipa": "/ˈfaɪnəli/"
         },
         {
-            "term": "fora while (adverbial)",
+            "term": "for a while",
             "section": "OTHERS",
-            "vi": "fora while (trạng từ)",
-            "ipa": ""
+            "vi": "trong chốc lát, một lúc",
+            "ipa": "/fər ə waɪl/"
+        },
+        {
+            "term": "late",
+            "section": "OTHERS",
+            "vi": "muộn, trễ",
+            "ipa": "/leɪt/"
+        },
+        {
+            "term": "upstairs",
+            "section": "OTHERS",
+            "vi": "ở trên gác, trên lầu",
+            "ipa": "/ˌʌpˈsterz/"
         }
     ],
     "35": [
@@ -6563,284 +6521,296 @@
         {
             "term": "be going to",
             "section": "VERBS",
-            "vi": "sẽ",
+            "vi": "sắp, sẽ (trợ động từ)",
             "ipa": ""
-        },
-        {
-            "term": "(auxiliary verb)",
-            "section": "VERBS",
-            "vi": "(trợ động từ)",
-            "ipa": "/ɔːkˈsɪli.əri/"
         },
         {
             "term": "check",
             "section": "VERBS",
-            "vi": "kiếm tra",
-            "ipa": "/t͡ʃɛk/"
+            "vi": "kiểm tra",
+            "ipa": "/tʃek/"
         },
         {
             "term": "carry",
             "section": "VERBS",
-            "vi": "mang, vác, khuân chở",
-            "ipa": "/ˈkæ.ri/"
+            "vi": "mang, vác",
+            "ipa": "/ˈkæri/"
         },
         {
             "term": "do laundry",
             "section": "VERBS",
-            "vi": "Tr#249;m v#224;o. - l#224;m g#236; v#7853;y - #272;#226;u c#243;.",
-            "ipa": "/dʊː/"
+            "vi": "giặt quần áo",
+            "ipa": "/duː ˈlɔːndri/"
         },
         {
             "term": "dry",
             "section": "VERBS",
-            "vi": "khô, cạn; sấy khô",
+            "vi": "làm khô, sấy khô",
             "ipa": "/draɪ/"
         },
         {
             "term": "find",
             "section": "VERBS",
-            "vi": "tìm, tìm thấy",
+            "vi": "tìm thấy",
             "ipa": "/faɪnd/"
         },
         {
             "term": "fold",
             "section": "VERBS",
-            "vi": "gấp, vén, xắn; nếp gấp",
+            "vi": "gấp, xếp",
             "ipa": "/fəʊld/"
         },
         {
             "term": "hang out",
             "section": "VERBS",
-            "vi": "Rong chơi",
-            "ipa": "[heɪŋ]"
+            "vi": "phơi quần áo",
+            "ipa": "/hæŋ aʊt/"
         },
         {
             "term": "hang up",
             "section": "VERBS",
-            "vi": "treo máy",
-            "ipa": "[heɪŋ]"
+            "vi": "treo lên",
+            "ipa": "/hæŋ ʌp/"
         },
         {
             "term": "heat",
             "section": "VERBS",
-            "vi": "hơi nóng, sức nóng",
-            "ipa": "/hit/"
+            "vi": "làm nóng",
+            "ipa": "/hiːt/"
         },
         {
             "term": "iron",
             "section": "VERBS",
-            "vi": "sắt; bọc sắt",
+            "vi": "là, ủi",
             "ipa": "/ˈaɪən/"
+        },
+        {
+            "term": "put into",
+            "section": "VERBS",
+            "vi": "cho vào, bỏ vào",
+            "ipa": "/pʊt ˈɪntuː/"
+        },
+        {
+            "term": "rinse",
+            "section": "VERBS",
+            "vi": "xả nước, giũ sạch",
+            "ipa": "/rɪns/"
+        },
+        {
+            "term": "separate",
+            "section": "VERBS",
+            "vi": "tách ra, phân loại",
+            "ipa": "/ˈsepəreɪt/"
+        },
+        {
+            "term": "sort",
+            "section": "VERBS",
+            "vi": "phân loại",
+            "ipa": "/sɔːrt/"
+        },
+        {
+            "term": "spin",
+            "section": "VERBS",
+            "vi": "vắt (trong máy giặt)",
+            "ipa": "/spɪn/"
+        },
+        {
+            "term": "take out",
+            "section": "VERBS",
+            "vi": "lấy ra",
+            "ipa": "/teɪk aʊt/"
+        },
+        {
+            "term": "tumble",
+            "section": "VERBS",
+            "vi": "đảo (trong máy sấy)",
+            "ipa": "/ˈtʌmbl/"
+        },
+        {
+            "term": "turn on",
+            "section": "VERBS",
+            "vi": "bật, mở (máy)",
+            "ipa": "/tɜːrn ɒn/"
+        },
+        {
+            "term": "wash",
+            "section": "VERBS",
+            "vi": "giặt",
+            "ipa": "/wɒʃ/"
+        },
+        {
+            "term": "will ['ll]",
+            "section": "VERBS",
+            "vi": "sẽ (trợ động từ)",
+            "ipa": "/wɪl/"
         },
         {
             "term": "basket",
             "section": "NOUNS",
-            "vi": "rổ",
-            "ipa": "/ˈbaːskət/"
+            "vi": "cái rổ, giỏ",
+            "ipa": "/ˈbɑːskɪt/"
         },
         {
             "term": "closet",
             "section": "NOUNS",
-            "vi": "phòng kho",
+            "vi": "tủ quần áo",
             "ipa": "/ˈklɒzɪt/"
         },
         {
             "term": "clothes",
             "section": "NOUNS",
             "vi": "quần áo",
-            "ipa": "/kləʊ(ð)z/"
+            "ipa": "/kləʊðz/"
         },
         {
             "term": "clothesline",
             "section": "NOUNS",
-            "vi": "Dây phơi quần áo",
+            "vi": "dây phơi đồ",
             "ipa": "/ˈkləʊðzlaɪn/"
         },
         {
             "term": "clothespin",
             "section": "NOUNS",
-            "vi": "kẹp quần áo",
-            "ipa": ""
+            "vi": "kẹp phơi đồ",
+            "ipa": "/ˈkləʊðzpɪn/"
         },
         {
             "term": "color",
             "section": "NOUNS",
             "vi": "màu sắc",
-            "ipa": "/ˈkʌl.ə(r)/"
+            "ipa": "/ˈkʌlər/"
         },
         {
             "term": "detergent",
             "section": "NOUNS",
-            "vi": "chất tẩy rửa",
-            "ipa": "/dɪˈtɜːdʒənt/"
+            "vi": "bột giặt, nước giặt",
+            "ipa": "/dɪˈtɜːrdʒənt/"
         },
         {
             "term": "drawer",
             "section": "NOUNS",
-            "vi": "người vẽ, người kéo",
-            "ipa": "/drɔː(r)/"
+            "vi": "ngăn kéo",
+            "ipa": "/drɔːr/"
         },
         {
             "term": "dryer",
             "section": "NOUNS",
             "vi": "máy sấy",
-            "ipa": "/ˈdraɪə/"
+            "ipa": "/ˈdraɪər/"
         },
         {
             "term": "hanger",
             "section": "NOUNS",
-            "vi": "thiết bị treo",
-            "ipa": ""
+            "vi": "móc treo đồ",
+            "ipa": "/ˈhæŋər/"
         },
         {
             "term": "iron",
             "section": "NOUNS",
-            "vi": "sắt; bọc sắt",
+            "vi": "bàn là, bàn ủi",
             "ipa": "/ˈaɪən/"
         },
         {
-            "term": "dark (adj.)",
-            "section": "OTHERS",
-            "vi": "tối (adj.)",
-            "ipa": "/dɑːk/"
-        },
-        {
-            "term": "put into",
-            "section": "OTHERS",
-            "vi": "nạp vào",
-            "ipa": "/pʊt/"
-        },
-        {
-            "term": "rinse",
-            "section": "OTHERS",
-            "vi": "rửa",
-            "ipa": "/rɛns/"
-        },
-        {
-            "term": "separate",
-            "section": "OTHERS",
-            "vi": "riêng",
-            "ipa": "/ˈsɛpərət/"
-        },
-        {
-            "term": "sort",
-            "section": "OTHERS",
-            "vi": "thứ, hạng loại; phân loại",
-            "ipa": "/sɔːt/"
-        },
-        {
-            "term": "spin",
-            "section": "OTHERS",
-            "vi": "quay, quay tròn",
-            "ipa": "/spɪn/"
-        },
-        {
-            "term": "take out",
-            "section": "OTHERS",
-            "vi": "vay phòng xa",
-            "ipa": "/teɪk/"
-        },
-        {
-            "term": "tumble",
-            "section": "OTHERS",
-            "vi": "sấy kh",
-            "ipa": "/ˈtʌmbl̩/"
-        },
-        {
-            "term": "turn on",
-            "section": "OTHERS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
-        },
-        {
-            "term": "wash",
-            "section": "OTHERS",
-            "vi": "rửa, giặt",
-            "ipa": "/wɑʃ/"
-        },
-        {
-            "term": "will",
-            "section": "OTHERS",
-            "vi": "sẽ",
-            "ipa": "/wɪl/"
-        },
-        {
-            "term": "(auxiliary verb)",
-            "section": "OTHERS",
-            "vi": "(trợ động từ)",
-            "ipa": "/ɔːkˈsɪli.əri/"
-        },
-        {
             "term": "ironing board",
-            "section": "OTHERS",
-            "vi": "Bàn là",
-            "ipa": ""
+            "section": "NOUNS",
+            "vi": "cầu là, ván để ủi đồ",
+            "ipa": "/ˈaɪənɪŋ bɔːrd/"
         },
         {
             "term": "laundry",
-            "section": "OTHERS",
-            "vi": "Giặt ủi",
-            "ipa": "/ˈlɑn.dri/"
+            "section": "NOUNS",
+            "vi": "quần áo cần giặt / tiệm giặt",
+            "ipa": "/ˈlɔːndri/"
         },
         {
             "term": "load",
-            "section": "OTHERS",
-            "vi": "chất, chở",
+            "section": "NOUNS",
+            "vi": "mẻ giặt",
             "ipa": "/ləʊd/"
         },
         {
             "term": "machine",
-            "section": "OTHERS",
-            "vi": "máy móc&#10;",
-            "ipa": "/məˈʃin/"
+            "section": "NOUNS",
+            "vi": "máy móc",
+            "ipa": "/məˈʃiːn/"
         },
         {
             "term": "pants",
-            "section": "OTHERS",
-            "vi": "quần",
+            "section": "NOUNS",
+            "vi": "quần dài",
             "ipa": "/pænts/"
         },
         {
             "term": "pocket",
-            "section": "OTHERS",
-            "vi": "túi ; túi tiền",
+            "section": "NOUNS",
+            "vi": "túi quần, túi áo",
             "ipa": "/ˈpɒkɪt/"
         },
         {
             "term": "room",
-            "section": "OTHERS",
+            "section": "NOUNS",
             "vi": "phòng",
             "ipa": "/ruːm/"
         },
         {
             "term": "setting",
-            "section": "OTHERS",
-            "vi": "cài đặt",
-            "ipa": "/ˈsɛtɪŋ/"
+            "section": "NOUNS",
+            "vi": "chế độ cài đặt",
+            "ipa": "/ˈsetɪŋ/"
         },
         {
             "term": "shirt",
-            "section": "OTHERS",
+            "section": "NOUNS",
             "vi": "áo sơ mi",
-            "ipa": "/ʃɜːt/"
+            "ipa": "/ʃɜːrt/"
         },
         {
-            "term": "washing",
-            "section": "OTHERS",
-            "vi": "tắm rửa, giặt",
-            "ipa": "/ˈwɒʃɪŋ/"
+            "term": "washing machine",
+            "section": "NOUNS",
+            "vi": "máy giặt",
+            "ipa": "/ˈwɒʃɪŋ məˈʃiːn/"
         },
         {
-            "term": "machine",
+            "term": "dark",
             "section": "OTHERS",
-            "vi": "máy móc&#10;",
-            "ipa": "/məˈʃin/"
+            "vi": "tối màu",
+            "ipa": "/dɑːrk/"
         },
         {
-            "term": "other (adj.)",
+            "term": "dry",
             "section": "OTHERS",
-            "vi": "khác (adj.)",
-            "ipa": "/ˈɐðə/"
+            "vi": "khô",
+            "ipa": "/draɪ/"
+        },
+        {
+            "term": "later",
+            "section": "OTHERS",
+            "vi": "sau đó",
+            "ipa": "/ˈleɪtər/"
+        },
+        {
+            "term": "light",
+            "section": "OTHERS",
+            "vi": "sáng màu",
+            "ipa": "/laɪt/"
+        },
+        {
+            "term": "other",
+            "section": "OTHERS",
+            "vi": "khác",
+            "ipa": "/ˈʌðər/"
+        },
+        {
+            "term": "today",
+            "section": "OTHERS",
+            "vi": "hôm nay",
+            "ipa": "/təˈdeɪ/"
+        },
+        {
+            "term": "wet",
+            "section": "OTHERS",
+            "vi": "ướt",
+            "ipa": "/wet/"
         }
     ],
     "36": [
