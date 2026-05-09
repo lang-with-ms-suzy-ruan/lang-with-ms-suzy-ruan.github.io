@@ -16,6 +16,8 @@ interface KanjiEntry {
   related: string[];
   phrases: VocabItem[];
   vocabulary: VocabItem[];
+  pinyin?: string;
+  hanViet?: string;
 }
 
 interface KanjiAppProps {
@@ -33,7 +35,6 @@ const VocabCard: React.FC<{
   const mKey = `${id}-m`;
   const showR = !interactive || !!revealed[rKey];
   const showM = !interactive || !!revealed[mKey];
-  const displayMeaning = item.meaningVi || item.meaning;
 
   return (
     <div className="bg-ink/[0.02] border-2 border-ink/10 rounded-2xl p-4 flex flex-col items-center gap-1.5">
@@ -56,7 +57,7 @@ const VocabCard: React.FC<{
         {item.word}
       </div>
 
-      {/* Meaning — click to reveal in interactive mode */}
+      {/* Vietnamese meaning — click to reveal in interactive mode */}
       <div
         className={`w-full mt-1 px-2 py-1 text-[11px] font-medium text-center rounded-lg transition-all ${
           interactive && !showM
@@ -66,7 +67,7 @@ const VocabCard: React.FC<{
         onClick={() => interactive && onToggle(mKey)}
       >
         {showM ? (
-          displayMeaning || <span className="text-ink/20 italic">—</span>
+          item.meaningVi || <span className="text-ink/20 italic">—</span>
         ) : (
           <span className="inline-flex items-center justify-center gap-1">
             <Eye className="w-2.5 h-2.5" /> nghĩa
@@ -300,6 +301,14 @@ export const KanjiApp: React.FC<KanjiAppProps> = ({ onBack }) => {
                     >
                       {selected.char}
                     </div>
+
+                    {/* Pinyin and Hán Việt */}
+                    {(selected.pinyin || selected.hanViet) && (
+                      <div className="flex flex-col items-center gap-0.5 mt-2">
+                        {selected.pinyin && <span className="text-sm font-medium text-ink/50">{selected.pinyin}</span>}
+                        {selected.hanViet && <span className="text-xs font-black uppercase tracking-widest text-ink/30">{selected.hanViet}</span>}
+                      </div>
+                    )}
 
                     {/* Clickable component chips */}
                     {selected.related.length > 0 && (

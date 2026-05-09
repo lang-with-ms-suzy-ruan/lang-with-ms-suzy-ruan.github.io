@@ -22,6 +22,8 @@ Deployed as a static site on **GitHub Pages**. No backend — all data is in `pu
 
 Routing is **state-based** — no router library. `LandingPage` owns all top-level state and renders sub-apps by switching a `view` string. Each sub-app receives `onBack: () => void`.
 
+**App store config:** `src/data/apps.json` — defines all app cards (id, name, desc, icon, bg color, access level). Edit this file to change what appears on the app store without touching component code. Access levels: `"all"` (guests too), `"student"`, `"admin"`.
+
 **Auth levels:**
 | Level | How |
 |---|---|
@@ -40,7 +42,7 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 | VocabularyApp | `src/components/VocabularyApp.tsx` | Flashcard vocab from CSV files under `public/media/`. Has trial mode for guests. |
 | MoversLetsTalkApp | `src/components/MoversLetsTalkApp.tsx` | PDF slides (1–8) for speaking practice with arrow-key navigation + fullscreen. |
 | MoversQuizApp | `src/components/MoversQuizApp.tsx` | Multiple-choice quiz over vocabulary CSVs. Modes: picture / word→VI / VI→word. |
-| KanjiApp | `src/components/KanjiApp.tsx` | Browse kanji with vocabulary + phrases. Data from `KanjiData.json`. |
+| KanjiApp | `src/components/KanjiApp.tsx` | Browse kanji with vocabulary + phrases. Data from `KanjiData.json`. Displays `pinyin` and `hanViet` below the character if present. Shows only Vietnamese meanings. |
 | KanjiQuizApp | `src/components/KanjiQuizApp.tsx` | Flashcard quiz over all KanjiData vocab (2900+ cards). Fisher-Yates shuffle, 3D flip animation, keyboard navigation. |
 | EverydayActivitiesApp | `src/components/EverydayActivitiesApp.tsx` | 61-chapter picture-process book with PDF viewer, audio player, vocabulary sidebar, and lesson notes. See details below. |
 | StudentManagerApp | `src/components/StudentManagerApp.tsx` | Admin only. Add/remove students. Changes must be downloaded and committed. |
@@ -62,8 +64,10 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 | `notes.json` | Per-chapter "For Special Attention" bullets (150 total) with `marker`, `en`, `vi` |
 | `lesson-notes-{N}.md` | Optional per-chapter teacher notes in Markdown (e.g., `lesson-notes-1.md`) |
 
+**Audio:** Oxford Learner's Dictionary male US pronunciation (`us_pron` MP3s) with Web Speech API TTS fallback for multi-word phrases or missing entries. Same pattern used in VocabularyApp and MoversQuizApp.
+
 **Right panel features:**
-1. **Key Vocabulary** — clickable terms, speaker (TTS) button per term, detail card shows IPA + Vietnamese when selected
+1. **Key Vocabulary** — clickable terms, speaker button per term, detail card shows IPA + Vietnamese when selected
 2. **Special Attention** — OCR'd explanatory notes with English + Vietnamese
 3. **Lesson Notes** — yellow button appears when `lesson-notes-{N}.md` exists; opens a modal with rendered Markdown (tables, headings supported via `react-markdown` + `remark-gfm`)
 
@@ -87,7 +91,9 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 
 **File:** `public/media/kanji/KanjiData.json`
 - 1130 kanji, ~2929 vocab+phrase entries
-- Each entry: `{ word, reading, meaning, meaningVi }`
+- Each kanji entry: `{ char, related[], phrases[], vocabulary[], pinyin?, hanViet? }`
+- Each vocab/phrase item: `{ word, reading, meaning, meaningVi? }`
+- `pinyin` and `hanViet` are added manually by editing the JSON directly
 - Vietnamese coverage: ~2070/2929 (70%) — remaining items are untranslatable Japanese-specific terms
 
 **Script:** `scripts/add-vietnamese.mjs`
