@@ -1086,115 +1086,264 @@
             "vi": "Bạn **xả/rửa sạch** xe ô tô để loại bỏ nước xà phòng."
         }
     ],
-    "42": [],
-    "43": [
+    "42": [
         {
-            "marker": "*",
-            "en": "spare thing is extra— something you don't usually need,",
-            "vi": "phụ tùng bổ sung - thứ mà bạn thường không cần,"
+            "marker": "•",
+            "en": "**for repairs** = for actions that correct problems.",
+            "vi": "**để sửa chữa** = cho các hành động khắc phục sự cố."
         },
         {
-            "marker": "*",
-            "en": "You can jack something up but you cannot “jack it down.” Instead, you lower it.",
-            "vi": "Bạn có thể kích một cái gì đó lên nhưng bạn không thể \"kích nó xuống.\" Thay vào đó, bạn hạ thấp nó."
+            "marker": "•",
+            "en": "When you **get something fixed**, you arrange for someone else to fix it. You don't fix it yourself.",
+            "vi": "Khi bạn **mang thứ gì đó đi sửa**, bạn sắp xếp để người khác sửa nó. Bạn không tự mình sửa."
         },
         {
-            "marker": "*",
-            "en": "the ground means to the surface of the earth.",
-            "vi": "mặt đất có nghĩa là mặt đất."
+            "marker": "•",
+            "en": "To **diagnose** a problem is to figure out what it is by noticing what it has caused. A doctor diagnoses illnesses.",
+            "vi": "Để **chẩn đoán** một vấn đề là tìm ra nó là gì bằng cách chú ý đến những vấn đề nó đã gây ra. Bác sĩ chẩn đoán bệnh tật."
         },
         {
-            "marker": "+",
-            "en": "nut goes on a bolt. (See p. 61.)",
-            "vi": "đai ốc đi trên một bu lông. (Xem tr. 61.)"
+            "marker": "•",
+            "en": "An **estimate** is a guess about an amount (of money, time, etc.).",
+            "vi": "Một bản **ước tính** là một sự dự đoán về một lượng (tiền bạc, thời gian, v.v.)."
+        },
+        {
+            "marker": "•",
+            "en": "To **call for an appointment** is to telephone someone and set up a time when you can meet.",
+            "vi": "**Gọi điện đặt lịch hẹn** là gọi điện cho ai đó và thiết lập thời gian mà bạn có thể gặp mặt."
+        },
+        {
+            "marker": "•",
+            "en": "**\"Ouch\"** is something people say when they've been hurt.",
+            "vi": "**\"Ouch\" (Ái/Oái)** là câu mọi người thường nói khi họ bị đau."
         }
     ],
-    "44": [],
+    "43": [
+        {
+            "marker": "•",
+            "en": "A **spare** thing is extra—something you don't usually need.",
+            "vi": "Một món đồ **dự phòng** là đồ thêm vào—thứ mà bạn thường không cần đến."
+        },
+        {
+            "marker": "•",
+            "en": "You can **jack something up** but you **cannot** \"jack it down.\" Instead, you **lower** it.",
+            "vi": "Bạn có thể **kích thứ gì đó lên** nhưng **không thể** nói là \"kích nó xuống.\" Thay vào đó, bạn **hạ** nó xuống."
+        },
+        {
+            "marker": "•",
+            "en": "**To the ground** means to the surface of the earth.",
+            "vi": "**Xuống đất** nghĩa là xuống bề mặt của trái đất."
+        },
+        {
+            "marker": "•",
+            "en": "A **nut** goes on a bolt. (See p. 61.)",
+            "vi": "Một con **đai ốc** đi cùng với một cái bu lông. (Xem trang 61. = Chapter 46)"
+        }
+    ],
+    "44": [
+        {
+            "marker": "•",
+            "en": "Here, **power** means \"electric power.\"",
+            "vi": "Ở đây, **power** có nghĩa là \"năng lượng điện.\""
+        },
+        {
+            "marker": "•",
+            "en": "**Circuit breakers** look like switches. They **trip**—switch off—if too much electric power hits them.",
+            "vi": "**Cầu dao (Aptomat)** trông giống như những cái công tắc. Chúng sẽ **ngắt**—tự động tắt—nếu có quá nhiều năng lượng điện chạy qua."
+        },
+        {
+            "marker": "•",
+            "en": "Some houses have **fuses** instead of circuit breakers.",
+            "vi": "Một số ngôi nhà sử dụng **cầu chì** thay vì cầu dao."
+        },
+        {
+            "marker": "•",
+            "en": "**Breaker** is a short form of \"circuit-breaker.\"",
+            "vi": "**Breaker** là cách gọi ngắn gọn của \"circuit-breaker\" (cầu dao)."
+        },
+        {
+            "marker": "•",
+            "en": "In a **thunderstorm**, there are bright flashes of light called **lightning**. The sound that follows lightning is called \"thunder.\"",
+            "vi": "Trong một **cơn giông**, có những tia sáng rực rỡ được gọi là **chớp**. Âm thanh đi sau tia chớp được gọi là \"sấm\"."
+        },
+        {
+            "marker": "•",
+            "en": "To **deal with** a power failure is to do the right things after one happens.",
+            "vi": "**Đối mặt/Xử lý** một sự cố mất điện là làm những việc đúng đắn sau khi sự cố đó xảy ra."
+        }
+    ],
     "45": [
         {
-            "marker": "*",
-            "en": "You pound a nail with a hammer.",
-            "vi": "Bạn dùng búa đóng đinh."
+            "marker": "•",
+            "en": "A **board** is a wide, flat piece of wood.",
+            "vi": "Một **tấm ván** là một miếng gỗ rộng và phẳng."
         },
         {
-            "marker": "*",
-            "en": "*Some things you can measure a board with:",
-            "vi": "*Một số điều bạn có thể đo lường một bảng với:"
+            "marker": "•",
+            "en": "You **pound** a **nail** with a **hammer**.",
+            "vi": "Bạn **đóng** một chiếc **đinh** bằng một cái **búa**."
         },
         {
-            "marker": "*",
-            "en": "This is usually 12 inches long. This is 1 yard",
-            "vi": "Chiều dài này thường là 12 inch. Đây là 1 yard"
+            "marker": "•",
+            "en": "Some things you can measure a board with:",
+            "vi": "Một số thứ bạn có thể dùng để đo một tấm ván:"
         },
         {
-            "marker": "*",
-            "en": "(36 inches) long.",
-            "vi": "(36 inch) dài."
+            "marker": " ",
+            "en": "**ruler (rule)**: This is usually 12 inches long.",
+            "vi": "**thước kẻ**: Cái này thường dài 12 inch."
         },
         {
-            "marker": "*",
-            "en": "This can measure",
-            "vi": "Điều này có thể đo lường"
+            "marker": " ",
+            "en": "**yardstick**: This is 1 yard (36 inches) long.",
+            "vi": "**thước yard**: Cái này dài 1 yard (36 inch)."
         },
         {
-            "marker": "*",
-            "en": "longer distances,",
-            "vi": "khoảng cách xa hơn,"
+            "marker": " ",
+            "en": "**tape measure**: This can measure longer distances.",
+            "vi": "**thước dây**: Cái này có thể đo được những khoảng cách dài hơn."
         },
         {
-            "marker": "*",
-            "en": "To join things is to put them together.",
-            "vi": "Tham gia mọi thứ là đặt chúng lại với nhau."
+            "marker": "•",
+            "en": "To **join** things is to put them together.",
+            "vi": "**Gắn kết** các thứ lại là đặt chúng cùng với nhau."
         },
         {
-            "marker": "*",
-            "en": "You glue things together with glue, nail them together with nails, and screw them together with screws.",
-            "vi": "Bạn dán mọi thứ lại với nhau bằng keo, đóng đinh chúng lại với nhau bằng đinh và vặn chúng lại với nhau bằng ốc vít."
-        },
-        {
-            "marker": "*",
-            "en": "ruler (rule)",
-            "vi": "thước kẻ (quy tắc)"
-        },
-        {
-            "marker": "*",
-            "en": "tape measure",
-            "vi": "Thước dây"
+            "marker": "•",
+            "en": "You **glue** things together with **glue**, **nail** them together with **nails**, and **screw** them together with **screws**.",
+            "vi": "Bạn **dán** các thứ lại với nhau bằng **keo**, **đóng đinh** chúng lại với nhau bằng **đinh**, và **bắt vít** chúng lại với nhau bằng **vít**."
         }
     ],
     "46": [
         {
-            "marker": "*",
-            "en": "It’s always pliers—with an “s.” * Clockwise means “in the same direction as the hands of a clock move.” * Counter-clockwise is the opposite. * You drill holes with a drill. You bolt things together with Y",
-            "vi": "Nó luôn luôn là kìm - với một \"s.\" * Theo chiều kim đồng hồ có nghĩa là \"cùng hướng với kim đồng hồ di chuyển.” * Ngược chiều kim đồng hồ là ngược lại. * Bạn khoan lỗ bằng máy khoan. Bạn bắt vít mọi thứ cùng với Y"
+            "marker": "•",
+            "en": "It's always **pliers**—with an \"s.\"",
+            "vi": "Luôn luôn phải là **pliers** (kìm)—có chữ \"s.\""
         },
         {
-            "marker": "*",
-            "en": "bolts and serew them together u with screws.",
-            "vi": "bu lông và serew chúng lại với nhau u với ốc vít."
+            "marker": "•",
+            "en": "**Clockwise** means \"in the same direction as the hands of a clock move.\"",
+            "vi": "**Theo chiều kim đồng hồ** nghĩa là \"theo cùng hướng di chuyển của các kim đồng hồ.\""
+        },
+        {
+            "marker": "•",
+            "en": "**Counter-clockwise** is the opposite.",
+            "vi": "**Ngược chiều kim đồng hồ** là hướng ngược lại."
+        },
+        {
+            "marker": "•",
+            "en": "You **drill** holes with a **drill**. You **bolt** things together with **bolts** and **screw** them together with **screws**.",
+            "vi": "Bạn **khoan** lỗ bằng một cái **máy khoan**. Bạn **bắt bu lông** các thứ lại với nhau bằng **bu lông** và **bắt vít** chúng lại với nhau bằng **vít**."
         }
     ],
     "47": [
         {
-            "marker": "*",
-            "en": "canned (adj.) cheap (adj.) finally (adv.) free (adj.) fresh (adj.) frozen (adj.) plastic (adj.)",
-            "vi": "đóng hộp (adj.) giá rẻ (adj.) cuối cùng (adv.) miễn phí (adj.) tươi (adj.) đông lạnh (adj.) nhựa (adj.)"
+            "marker": "•",
+            "en": "A **section** is a part of something — here it's part of a store.",
+            "vi": "Một **khu vực (quầy)** là một phần của thứ gì đó — ở đây nó là một phần của cửa hàng."
+        },
+        {
+            "marker": "•",
+            "en": "**Cold cuts** are already cooked meats that you eat cold in a sandwich.",
+            "vi": "**Thịt nguội** là các loại thịt đã được nấu chín mà bạn ăn lạnh trong bánh mì sandwich."
+        },
+        {
+            "marker": "•",
+            "en": "Tom **checks** his list — looks quickly at it to see what it says.",
+            "vi": "Tom **kiểm tra** danh sách của mình — nhìn lướt qua nó để xem nội dung ghi gì."
+        },
+        {
+            "marker": "•",
+            "en": "Tom **checks** the fruit — looks at it, smells it, and feels it quickly to see if it's good.",
+            "vi": "Tom **kiểm tra** trái cây — quan sát, ngửi và chạm nhanh vào nó để xem nó có tươi ngon không."
+        },
+        {
+            "marker": "•",
+            "en": "Something that is **on special** is at a lower price than usual. This lower price is called a **special**.",
+            "vi": "Thứ gì đó **được giảm giá đặc biệt** (on special) có mức giá thấp hơn bình thường. Mức giá thấp hơn này được gọi là một **món hàng giảm giá** (special)."
         }
     ],
     "48": [
         {
-            "marker": "*",
-            "en": "The money I give the cashier is more than the total price. The difference is my change.",
-            "vi": "Số tiền tôi đưa cho nhân viên thu ngân nhiều hơn tổng giá tiền. Sự khác biệt là sự thay đổi của tôi."
+            "marker": "•",
+            "en": "To **ring something up** means to make a machine record its price.",
+            "vi": "**Tính tiền** nghĩa là làm cho một chiếc máy ghi lại giá của món hàng đó."
         },
         {
-            "marker": "+",
-            "en": "A code is a set of symbols that has a meaning, Usually, this meaning is clear only if you have special knowledge. A bar code uses dark bars as its symbols. An approval code uses numbers.",
-            "vi": "Mã là một tập hợp các biểu tượng có ý nghĩa, Thông thường, ý nghĩa này chỉ rõ ràng nếu bạn có kiến thức đặc biệt. Mã vạch sử dụng các thanh tối làm biểu tượng của nó. Mã phê duyệt sử dụng số."
+            "marker": "•",
+            "en": "A machine **scans** a bar code by shining light quickly on it.",
+            "vi": "Một chiếc máy **quét** mã vạch bằng cách chiếu ánh sáng nhanh lên nó."
+        },
+        {
+            "marker": "•",
+            "en": "The money I give the cashier is more than the total price. The difference is my **change**.",
+            "vi": "Số tiền tôi đưa cho thu ngân nhiều hơn tổng giá tiền. Số tiền chênh lệch là **tiền thừa** của tôi."
+        },
+        {
+            "marker": "•",
+            "en": "A **code** is a set of symbols that has a meaning. Usually, this meaning is clear only if you have special knowledge. A **bar code** uses dark bars as its symbols. An **approval code** uses numbers.",
+            "vi": "Một **mã** là một tập hợp các biểu tượng có ý nghĩa. Thông thường, ý nghĩa này chỉ rõ ràng nếu bạn có kiến thức chuyên môn. Một **mã vạch** sử dụng các thanh tối màu làm biểu tượng. Một **mã phê duyệt** sử dụng các con số."
         }
     ],
-    "49": [],
-    "50": [],
+    "49": [
+        {
+            "marker": "•",
+            "en": "Paul's **account** is the bank's record of how much of his money they have.",
+            "vi": "**Tài khoản** của Paul là hồ sơ của ngân hàng ghi lại số tiền của anh ấy mà họ đang giữ."
+        },
+        {
+            "marker": "•",
+            "en": "When he **deposits** money, he **puts it into** the account. If he **takes** money **out** of his account, he **withdraws** it — or \"makes a withdrawal.\"",
+            "vi": "Khi anh ấy **gửi** tiền, anh ấy **nộp tiền vào** tài khoản. Nếu anh ấy **lấy** tiền **ra** khỏi tài khoản của mình, anh ấy **rút** nó — hay còn gọi là \"thực hiện việc rút tiền.\""
+        },
+        {
+            "marker": "•",
+            "en": "A **deposit slip** is a kind of **form** — a piece of paper with spaces for certain information.",
+            "vi": "Một **giấy nộp tiền** là một loại **biểu mẫu** — một mảnh giấy có các khoảng trống để điền một số thông tin nhất định."
+        },
+        {
+            "marker": "•",
+            "en": "You **fill out** a form by writing information in the spaces.",
+            "vi": "Bạn **điền** vào một biểu mẫu bằng cách viết thông tin vào các khoảng trống."
+        },
+        {
+            "marker": "•",
+            "en": "Paul uses a **passbook** at his bank, but some banks use a different system. They send customers a **statement** every month to tell them how much is in their account.",
+            "vi": "Paul sử dụng một cuốn **sổ tiết kiệm** tại ngân hàng của mình, nhưng một số ngân hàng sử dụng hệ thống khác. Họ gửi cho khách hàng một bản **sao kê** hàng tháng để cho họ biết có bao nhiêu tiền trong tài khoản."
+        },
+        {
+            "marker": "•",
+            "en": "A **teller** is a bank worker who helps people put money into their accounts and take it out.",
+            "vi": "**Giao dịch viên** là một nhân viên ngân hàng, người giúp mọi người nộp tiền vào tài khoản và rút tiền ra."
+        }
+    ],
+    "50": [
+        {
+            "marker": "•",
+            "en": "An **ATM** is an **A**utomated **T**eller **M**achine. Another name for it is \"cash machine.\"",
+            "vi": "**ATM** là từ viết tắt của **Máy giao dịch tự động**. Một tên gọi khác của nó là \"máy rút tiền.\""
+        },
+        {
+            "marker": "•",
+            "en": "**Cash** is money in the form of notes and coins (not checks).",
+            "vi": "**Tiền mặt** là tiền dưới dạng tiền giấy và tiền xu (không phải séc)."
+        },
+        {
+            "marker": "•",
+            "en": "A **PIN** is a **P**ersonal **I**dentification **N**umber.",
+            "vi": "**Mã PIN** là **Mã số định danh cá nhân**."
+        },
+        {
+            "marker": "•",
+            "en": "You **enter** a number by typing it into a machine or writing it on a form.",
+            "vi": "Bạn **nhập** một con số bằng cách gõ nó vào máy hoặc viết nó vào một biểu mẫu."
+        },
+        {
+            "marker": "•",
+            "en": "**Insert something into** means \"put something in.\" You insert something into an opening (a hole, a slot, etc.).",
+            "vi": "**Cho thứ gì đó vào** nghĩa là \"đặt thứ gì đó vào bên trong.\" Bạn cho một thứ gì đó vào một khe hở (một cái lỗ, một khe cắm, v.v.)."
+        }
+    ],
     "51": [
         {
             "marker": "*",
