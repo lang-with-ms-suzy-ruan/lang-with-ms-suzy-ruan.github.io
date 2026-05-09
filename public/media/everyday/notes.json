@@ -564,129 +564,256 @@
             "vi": "Bạn **đi thang máy** cũng giống như khi bạn **đi xe buýt**; bạn sử dụng nó để đi đến một nơi nào đó."
         }
     ],
-    "21": [],
-    "22": [
+    "21": [
         {
-            "marker": "*",
-            "en": "*When you steam something, you put it above—but not in— boiling water. The steam rises and cooks the food.",
-            "vi": "*Khi bạn hấp một cái gì đó, bạn đặt nó ở trên - nhưng không phải trong nước sôi. Hơi nước bốc lên và nấu thức ăn."
+            "marker": "•",
+            "en": "**on top** means \"on the top of\" something that we already know about. For example, in \"I saw a bus with a sign **on top**,\" it means \"on top of the bus.\"",
+            "vi": "**on top** có nghĩa là \"ở trên đỉnh của\" một vật gì đó mà chúng ta đã biết rồi. Ví dụ, trong câu \"Tôi thấy một chiếc xe buýt có biển hiệu **ở trên đỉnh**,\" nó có nghĩa là \"trên nóc xe buýt.\""
         },
         {
-            "marker": "*",
-            "en": "*When you slice something, you Cut it into thin, flat pieces, You use a smooth and gentle cutting motion. When you chop something, you cut it into pieces that are not flat and thin. You cut forcefully.",
-            "vi": "*Khi bạn cắt một cái gì đó, bạn Cắt nó thành những mảnh mỏng, phẳng, Bạn sử dụng một chuyển động cắt mịn và nhẹ nhàng. Khi bạn chặt một cái gì đó, bạn cắt nó thành những mảnh không phẳng và mỏng. Bạn cắt mạnh mẽ."
+            "marker": "•",
+            "en": "Paul **rinsed** ... lettuce. You can also say \"Paul washed some lettuce.\"",
+            "vi": "Paul đã **xả nước** ... xà lách. Bạn cũng có thể nói \"Paul đã rửa một ít xà lách.\""
+        },
+        {
+            "marker": "•",
+            "en": "You **drain** something by letting water go off it or out of it.",
+            "vi": "Bạn **làm ráo nước** thứ gì đó bằng cách để nước chảy khỏi hoặc thoát ra khỏi nó."
+        },
+        {
+            "marker": "•",
+            "en": "**Grated** cheese has been cut or shaved into very small pieces with a grater.",
+            "vi": "Phô mai **bào** đã được cắt hoặc nạo thành những miếng rất nhỏ bằng dụng cụ bào."
+        },
+        {
+            "marker": "•",
+            "en": "When you **sprinkle** something somewhere, you spread small amounts of a liquid or solid over a wide area.",
+            "vi": "Khi bạn **rắc** thứ gì đó vào đâu đó, bạn rải những lượng nhỏ chất lỏng hoặc chất rắn trên một diện rộng."
+        }
+    ],
+    "22": [
+        {
+            "marker": "•",
+            "en": "When you **steam** something, you put it above—but **not in**—boiling water. The steam rises and cooks the food.",
+            "vi": "Khi bạn **hấp** thứ gì đó, bạn đặt nó phía trên—nhưng **không phải ở trong**—nước sôi. Hơi nước bốc lên và làm chín thức ăn."
+        },
+        {
+            "marker": "•",
+            "en": "When you **slice** something, you cut it into thin, flat pieces. You use a smooth and gentle cutting motion. When you **chop** something, you cut it into pieces that are not flat and thin. You cut forcefully.",
+            "vi": "Khi bạn **thái lát** thứ gì đó, bạn cắt nó thành những miếng mỏng và phẳng. Bạn cắt mượt mà và nhẹ nhàng. Khi bạn **chặt/băm** thứ gì đó, bạn cắt nó thành những miếng không phẳng và mỏng. Bạn cắt một cách dứt khoát."
         }
     ],
     "23": [
         {
-            "marker": "*",
-            "en": "ADJECTIVES",
-            "vi": "Tính từ"
+            "marker": "•",
+            "en": "**Ground beef** is meat from a cow. It has been **ground** into small pieces.",
+            "vi": "**Thịt bò xay** là thịt từ con bò. Nó đã được **xay** thành những miếng nhỏ."
         },
         {
-            "marker": "*",
-            "en": "another brown melted tender",
-            "vi": "một đấu thầu tan chảy màu nâu khác"
+            "marker": "•",
+            "en": "**Fat** is an oily part of meat. It becomes a liquid when the meat cooks.",
+            "vi": "**Mỡ** là phần chứa dầu của thịt. Nó trở thành chất lỏng khi thịt được nấu chín."
+        },
+        {
+            "marker": "•",
+            "en": "To separate a liquid from a solid you can **pour off** the liquid or **drain** the solid.",
+            "vi": "Để tách chất lỏng ra khỏi chất rắn, bạn có thể **chắt** chất lỏng hoặc **làm ráo** chất rắn."
+        },
+        {
+            "marker": "•",
+            "en": "**Spaghetti** is a kind of **noodle**.",
+            "vi": "**Mì Ý** là một loại **mì**."
+        },
+        {
+            "marker": "•",
+            "en": "Some **spices** often used in spaghetti sauce are oregano and basil. They add taste to the sauce.",
+            "vi": "Một số loại **gia vị** thường được dùng trong nước sốt mì Ý là lá kinh giới và húng quế. Chúng tạo thêm hương vị cho nước sốt."
+        },
+        {
+            "marker": "•",
+            "en": "A liquid **simmers** when it cooks slowly and gently.",
+            "vi": "Chất lỏng **simmer** (kẹo lại) khi nó được nấu chậm và nhẹ nhàng."
+        },
+        {
+            "marker": "•",
+            "en": "If spaghetti is **tender**, it is soft enough to eat.",
+            "vi": "Nếu mì Ý **mềm**, nghĩa là nó đủ mềm để ăn."
+        },
+        {
+            "marker": "•",
+            "en": "Possible ways to use **fry** and **boil**:",
+            "vi": "Các cách có thể dùng từ **chiên (rán)** và **luộc (đun sôi)**:"
+        },
+        {
+            "marker": "-",
+            "en": "Kate fried the meat.",
+            "vi": "Kate đã chiên thịt."
+        },
+        {
+            "marker": "-",
+            "en": "The meat fried.",
+            "vi": "Thịt đã được chiên."
+        },
+        {
+            "marker": "-",
+            "en": "Kate boiled the water.",
+            "vi": "Kate đã đun sôi nước."
+        },
+        {
+            "marker": "-",
+            "en": "The water boiled.",
+            "vi": "Nước đã sôi."
+        },
+        {
+            "marker": "-",
+            "en": "The noodles boiled in the water.",
+            "vi": "Mì đã được luộc trong nước."
+        },
+        {
+            "marker": "•",
+            "en": "You **ladle** sauce onto spaghetti when you use a ladle to pour it on.",
+            "vi": "Bạn **múc** nước sốt lên mì Ý khi bạn dùng một chiếc vá để đổ nó lên."
         }
     ],
     "24": [
         {
-            "marker": "+",
-            "en": "You measure out an exact amount of something.",
-            "vi": "Bạn đo lường chính xác số lượng của một thứ gì đó."
+            "marker": "•",
+            "en": "You **measure out** an exact amount of something.",
+            "vi": "Bạn **đong/đo** chính xác một lượng của thứ gì đó."
         },
         {
-            "marker": "*",
-            "en": "is the skin around a grain of rice. husk. grain",
-            "vi": "là lớp vỏ xung quanh một hạt gạo. vỏ trấu. hạt"
+            "marker": "•",
+            "en": "A **husk** is the skin around a grain of rice.",
+            "vi": "**Vỏ trấu** là lớp vỏ bao quanh một hạt gạo."
         },
         {
-            "marker": "*",
-            "en": "be done = be finished Food that is done is fully cooked,",
-            "vi": "được thực hiện = được hoàn thành Thực phẩm đã được nấu chín hoàn toàn,"
+            "marker": "•",
+            "en": "**be done** = be finished. Food that is done is fully cooked.",
+            "vi": "**đã xong** = đã hoàn thành. Thức ăn đã xong là thức ăn đã được nấu chín hoàn toàn."
         }
     ],
     "25": [
         {
-            "marker": "*",
-            "en": "Paul spas",
-            "vi": "Paul spa"
+            "marker": "•",
+            "en": "**help yourself** = take something for yourself",
+            "vi": "**tự phục vụ** = lấy thứ gì đó cho chính mình"
+        },
+        {
+            "marker": "•",
+            "en": "In a meal, a **helping** is an amount you take to eat.",
+            "vi": "Trong một bữa ăn, một **helping** (suất ăn) là một lượng đồ ăn bạn lấy để ăn."
+        },
+        {
+            "marker": "•",
+            "en": "Your **lap** is the upper part of your legs when you are sitting down.",
+            "vi": "**Lòng** là phần phía trên của đôi chân khi bạn đang ngồi xuống."
         }
     ],
     "26": [
         {
-            "marker": "*",
-            "en": "If you offer to do something, you say you'll do it even though no one asked you to.",
-            "vi": "Nếu bạn đề nghị làm điều gì đó, bạn nói rằng bạn sẽ làm điều đó mặc dù không ai yêu cầu bạn làm."
+            "marker": "•",
+            "en": "If you **offer** to do something, you say you'll do it even though no one asked you to.",
+            "vi": "Nếu bạn **ngỏ lời** làm một việc gì đó, bạn nói rằng bạn sẽ làm việc đó mặc dù không ai yêu cầu bạn."
         },
         {
-            "marker": "*",
-            "en": "are amounts of food to keep after a dinner.",
-            "vi": "là lượng thức ăn cần giữ sau bữa tối."
+            "marker": "•",
+            "en": "**Leftovers** are amounts of food to keep after a dinner.",
+            "vi": "**Thức ăn thừa** là lượng thức ăn còn giữ lại sau bữa tối."
         },
         {
-            "marker": "*",
-            "en": "Crumbs (small:pieces of bread) and seraps are pieces of food to throw away after a dinner.",
-            "vi": "Mảnh vụn (nhỏ:những miếng bánh mì) và seraps là những miếng thức ăn để vứt đi sau bữa tối."
+            "marker": "•",
+            "en": "**Crumbs** (small pieces of bread) and **scraps** are pieces of food to throw away after a dinner.",
+            "vi": "**Vụn bánh** (những mẩu bánh mì nhỏ) và **thức ăn vụn** là những mẩu thức ăn để vứt đi sau bữa tối."
         },
         {
-            "marker": "*",
-            "en": "You stack things up by putting them on top of one another.",
-            "vi": "Bạn xếp chồng mọi thứ lên nhau bằng cách đặt chúng lên nhau."
+            "marker": "•",
+            "en": "You **stack things up** by putting them on top of one another.",
+            "vi": "Bạn **xếp chồng đồ đạc lên** bằng cách đặt chúng lên trên lẫn nhau."
         },
         {
-            "marker": "*",
-            "en": "You are done eating when you have finished your meal.",
-            "vi": "Bạn đã ăn xong khi kết thúc bữa ăn của mình."
+            "marker": "•",
+            "en": "You are **done eating** when you have finished your meal.",
+            "vi": "Bạn **ăn xong** khi bạn đã hoàn thành bữa ăn của mình."
         }
     ],
     "27": [
         {
-            "marker": "*",
-            "en": "Dish soap is also called You scrub something by rubbing very hard and for a long time as you wash it. Water that goes down the irain is gone, For that reason, ‘down the drain” is used to mean “wasted” or “gone:” “Andy lost his paper. He felt like all his hard work went down the drain.”",
-            "vi": "Xà phòng rửa chén cũng được gọi là Bạn chà xát một cái gì đó bằng cách chà xát rất mạnh và trong một thời gian dài khi bạn rửa nó. Nước chảy xuống ống thoát nước đã biến mất, Vì lý do đó, \"xuống cống\" được sử dụng để có nghĩa là \"lãng phí\" hoặc \"biến mất\": \"Andy bị mất giấy. Anh ấy cảm thấy như tất cả công việc khó khăn của mình đã đi xuống cống.\""
+            "marker": "•",
+            "en": "**Dish soap** is also called \"detergent.\"",
+            "vi": "**Nước rửa chén** cũng được gọi là \"chất tẩy rửa.\""
+        },
+        {
+            "marker": "•",
+            "en": "You **scrub** something by rubbing very hard and for a long time as you wash it.",
+            "vi": "Bạn **cọ rửa** thứ gì đó bằng cách chà xát rất mạnh và trong thời gian dài khi bạn rửa nó."
+        },
+        {
+            "marker": "•",
+            "en": "Water that goes **down the drain** is gone. For that reason, \"down the drain\" is used to mean \"wasted\" or \"gone:\" \"Andy lost his paper. He felt like all his hard work went down the drain.\"",
+            "vi": "Nước chảy **xuống cống** là mất đi. Vì lý do đó, \"đổ sông đổ biển\" (xuống cống) được dùng để chỉ sự \"lãng phí\" hoặc \"mất đi:\" \"Andy đã làm mất bài kiểm tra. Cậu ấy cảm thấy như bao công sức học tập của mình đã đổ sông đổ biển.\" (down the drain)"
         }
     ],
     "28": [
         {
-            "marker": "*",
-            "en": "For Special Attention",
-            "vi": "Sự chú ý đặc biệt"
+            "marker": "•",
+            "en": "A **remote** is also called a \"remote control.\"",
+            "vi": "Một cái **remote** cũng được gọi là một \"thiết bị điều khiển từ xa.\""
         },
         {
-            "marker": "*",
-            "en": "A remote is also called a “remote control.”",
-            "vi": "Điều khiển từ xa còn được gọi là “điều khiển từ xa”."
+            "marker": "•",
+            "en": "Each song or piece on a CD is a **track**. Each track has a **number**.",
+            "vi": "Mỗi bài hát hoặc bản nhạc trên một đĩa CD là một **track (bài)**. Mỗi bài đều có một **số thứ tự**."
         },
         {
-            "marker": "*",
-            "en": "song or piece ona CD is a track. Each track has a number.",
-            "vi": "bài hát hoặc đoạn ona CD là một bản nhạc. Mỗi bài hát có một số."
-        },
-        {
-            "marker": "*",
-            "en": "punch in the numbers, you press buttons with your finger.",
-            "vi": "đấm vào các con số, bạn nhấn các nút bằng ngón tay của mình."
+            "marker": "•",
+            "en": "To **punch in** the numbers, you press buttons with your finger.",
+            "vi": "Để **nhập** các con số, bạn dùng ngón tay ấn vào các nút bấm."
         }
     ],
     "29": [
         {
-            "marker": "*",
-            "en": "For Special Attenti",
-            "vi": "Dành cho sự chú ý đặc biệt"
+            "marker": "•",
+            "en": "One popular kind of **personal cassette player** is the Sony Walkman.",
+            "vi": "Một loại **máy nghe nhạc cassette cá nhân** phổ biến là Sony Walkman."
         },
         {
-            "marker": "*",
-            "en": "One popular kind of personal cassette player is the Sony Walkman.",
-            "vi": "Một loại máy nghe nhạc cassette cá nhân phổ biến là Sony Walkman."
+            "marker": "•",
+            "en": "When you speak of music, the opposite of **loud** is **soft**.",
+            "vi": "Khi nói về âm nhạc, từ trái nghĩa với **to (ồn)** là **nhỏ (êm dịu)**."
         },
         {
-            "marker": "*",
-            "en": "you speak of music, the opposite of loud is soft. * The volume of a sound is its loudness. A sound that has high volume is very loud.",
-            "vi": "bạn nói về âm nhạc, ngược lại với to là mềm mại. * Âm lượng của một âm thanh là độ lớn của nó. Một âm thanh có âm lượng lớn rất lớn."
+            "marker": "•",
+            "en": "The **volume** of a sound is its loudness. A sound that has high volume is very loud.",
+            "vi": "**Âm lượng** của một âm thanh chính là độ to của nó. Một âm thanh có âm lượng cao thì rất to."
         }
     ],
-    "30": [],
+    "30": [
+        {
+            "marker": "•",
+            "en": "If you **flip through** something, you turn its pages or parts quickly.",
+            "vi": "Nếu bạn **đọc lướt qua** thứ gì đó, bạn lật qua trang hoặc các phần của nó một cách nhanh chóng."
+        },
+        {
+            "marker": "•",
+            "en": "An **interesting** thing is one you want to see, hear, read, do, etc.",
+            "vi": "Một điều **thú vị** là điều mà bạn muốn thấy, nghe, đọc, làm, v.v."
+        },
+        {
+            "marker": "•",
+            "en": "**\"Ad\"** is a short form of \"advertisement.\"",
+            "vi": "**\"Ad\"** là dạng viết tắt của từ \"advertisement\" (quảng cáo)."
+        },
+        {
+            "marker": "•",
+            "en": "To **look up** a word, you find it in a dictionary and read its meaning.",
+            "vi": "Để **tra cứu** một từ, bạn tìm nó trong từ điển và đọc nghĩa của nó."
+        },
+        {
+            "marker": "•",
+            "en": "If a magazine comes out every month, each month there is a new **issue** of it — the January issue, February issue, March issue, etc.",
+            "vi": "Nếu một tờ tạp chí xuất bản hàng tháng, mỗi tháng sẽ có một **số báo** mới — số tháng Giêng, số tháng Hai, số tháng Ba, v.v."
+        }
+    ],
     "31": [],
     "32": [
         {
