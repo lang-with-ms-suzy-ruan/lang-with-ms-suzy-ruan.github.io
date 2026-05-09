@@ -6817,280 +6817,328 @@
         {
             "term": "bundle",
             "section": "VERBS",
-            "vi": "xếp lại",
-            "ipa": "/ˈbʌnd(ə)l/"
-        },
-        {
-            "term": "scrub",
-            "section": "VERBS",
-            "vi": "thuốc lá chất lượng thấp",
-            "ipa": "/skrʌb/"
+            "vi": "buộc thành bó",
+            "ipa": "/ˈbʌndl/"
         },
         {
             "term": "clean",
             "section": "VERBS",
-            "vi": "sạch sẽ",
-            "ipa": "/kleːn/"
-        },
-        {
-            "term": "set out",
-            "section": "VERBS",
-            "vi": "Bắt đầu",
-            "ipa": "/sɛt/"
+            "vi": "dọn dẹp, làm sạch",
+            "ipa": "/kliːn/"
         },
         {
             "term": "dust",
             "section": "VERBS",
-            "vi": "bụi, rác; quét bụi",
+            "vi": "phủi bụi",
             "ipa": "/dʌst/"
-        },
-        {
-            "term": "sweep",
-            "section": "VERBS",
-            "vi": "quét",
-            "ipa": "/swiːp/"
         },
         {
             "term": "empty",
             "section": "VERBS",
-            "vi": "trống, rỗng; uống, làm cạn",
-            "ipa": "/ˈɛmpti/"
+            "vi": "đổ (rác), làm trống",
+            "ipa": "/ˈempti/"
         },
         {
-            "term": "take out",
+            "term": "lie around",
             "section": "VERBS",
-            "vi": "vay phòng xa",
-            "ipa": "/teɪk/"
-        },
-        {
-            "term": "throw out",
-            "section": "VERBS",
-            "vi": "Vứt đi",
-            "ipa": "/θrəʊ/"
+            "vi": "nằm rải rác, bừa bộn",
+            "ipa": "/laɪ əˈraʊnd/"
         },
         {
             "term": "mop",
             "section": "VERBS",
-            "vi": "MOP",
+            "vi": "lau nhà (bằng cây lau)",
             "ipa": "/mɒp/"
-        },
-        {
-            "term": "vacuum",
-            "section": "VERBS",
-            "vi": "chân không",
-            "ipa": "/ˈvæ.kjuː.əm/"
         },
         {
             "term": "pick up",
             "section": "VERBS",
-            "vi": "bán tải",
-            "ipa": "/pɪk/"
-        },
-        {
-            "term": "wash",
-            "section": "VERBS",
-            "vi": "rửa, giặt",
-            "ipa": "/wɑʃ/"
+            "vi": "nhặt lên, thu dọn",
+            "ipa": "/pɪk ʌp/"
         },
         {
             "term": "put into",
             "section": "VERBS",
-            "vi": "nạp vào",
-            "ipa": "/pʊt/"
-        },
-        {
-            "term": "wipe",
-            "section": "VERBS",
-            "vi": "lau đi",
-            "ipa": "/waɪp/"
+            "vi": "cho vào, bỏ vào",
+            "ipa": "/pʊt ˈɪntə/"
         },
         {
             "term": "recycle",
             "section": "VERBS",
             "vi": "tái chế",
-            "ipa": "/riˈsaɪkəl/"
+            "ipa": "/ˌriːˈsaɪkl/"
+        },
+        {
+            "term": "scrub",
+            "section": "VERBS",
+            "vi": "cọ rửa, chà xát",
+            "ipa": "/skrʌb/"
+        },
+        {
+            "term": "set out",
+            "section": "VERBS",
+            "vi": "để ra ngoài",
+            "ipa": "/set aʊt/"
+        },
+        {
+            "term": "sweep",
+            "section": "VERBS",
+            "vi": "quét nhà",
+            "ipa": "/swiːp/"
+        },
+        {
+            "term": "take out",
+            "section": "VERBS",
+            "vi": "mang ra ngoài",
+            "ipa": "/teɪk aʊt/"
+        },
+        {
+            "term": "throw out",
+            "section": "VERBS",
+            "vi": "vứt đi",
+            "ipa": "/θrəʊ aʊt/"
+        },
+        {
+            "term": "vacuum",
+            "section": "VERBS",
+            "vi": "hút bụi",
+            "ipa": "/ˈvækjuːm/"
+        },
+        {
+            "term": "wash",
+            "section": "VERBS",
+            "vi": "rửa, giặt",
+            "ipa": "/wɒʃ/"
+        },
+        {
+            "term": "wipe",
+            "section": "VERBS",
+            "vi": "lau chùi",
+            "ipa": "/waɪp/"
         },
         {
             "term": "bag",
             "section": "NOUNS",
-            "vi": "bao, tủi, cặp xách",
-            "ipa": "/ˈbæːɡ/"
-        },
-        {
-            "term": "mop",
-            "section": "NOUNS",
-            "vi": "MOP",
-            "ipa": "/mɒp/"
+            "vi": "túi, bao tải",
+            "ipa": "/bæɡ/"
         },
         {
             "term": "bathroom",
             "section": "NOUNS",
-            "vi": "tắm, nhà vệ sinh",
-            "ipa": "/ˈbæθ.ruːm/"
+            "vi": "phòng tắm",
+            "ipa": "/ˈbɑːθruːm/"
         },
         {
             "term": "bathtub",
             "section": "NOUNS",
             "vi": "bồn tắm",
-            "ipa": "/ˈbæθtʊb/"
-        },
-        {
-            "term": "recycling",
-            "section": "NOUNS",
-            "vi": "tái chế",
-            "ipa": ""
+            "ipa": "/ˈbɑːθtʌb/"
         },
         {
             "term": "bottle",
             "section": "NOUNS",
-            "vi": "chai, lọ",
-            "ipa": "/ˈbɑ.təl/"
-        },
-        {
-            "term": "refrigerator",
-            "section": "NOUNS",
-            "vi": "tủ lạnh",
-            "ipa": "/rɪˈfrɪd͡ʒəˌreɪtə/"
+            "vi": "chai lọ",
+            "ipa": "/ˈbɒtl/"
         },
         {
             "term": "broom",
             "section": "NOUNS",
-            "vi": "Chổi",
+            "vi": "cái chổi",
             "ipa": "/bruːm/"
-        },
-        {
-            "term": "sink",
-            "section": "NOUNS",
-            "vi": "chìm, lún, đắm",
-            "ipa": "/sɪŋk/"
         },
         {
             "term": "brush",
             "section": "NOUNS",
-            "vi": "chải, quét",
+            "vi": "bàn chải",
             "ipa": "/brʌʃ/"
-        },
-        {
-            "term": "toilet",
-            "section": "NOUNS",
-            "vi": "nhà vệ sinh",
-            "ipa": "/ˈtɔɪ.lət/"
         },
         {
             "term": "bucket",
             "section": "NOUNS",
-            "vi": "thùng",
+            "vi": "cái xô",
             "ipa": "/ˈbʌkɪt/"
-        },
-        {
-            "term": "trash",
-            "section": "NOUNS",
-            "vi": "thùng rác",
-            "ipa": "/træʃ/"
         },
         {
             "term": "can",
             "section": "NOUNS",
-            "vi": "có thể",
-            "ipa": "/ˈkæn/"
-        },
-        {
-            "term": "vacuum",
-            "section": "NOUNS",
-            "vi": "chân không",
-            "ipa": "/ˈvæ.kjuː.əm/"
+            "vi": "cái lon, thùng thiếc",
+            "ipa": "/kæn/"
         },
         {
             "term": "carpet",
             "section": "NOUNS",
-            "vi": "tấm thảm",
-            "ipa": "/ˈkɑː(r)pɪt/"
-        },
-        {
-            "term": "cleaner",
-            "section": "NOUNS",
-            "vi": "dụng cụ làm sạch",
-            "ipa": "/ˈkliː.nə/"
+            "vi": "thảm trải sàn",
+            "ipa": "/ˈkɑːrpɪt/"
         },
         {
             "term": "countertop",
             "section": "NOUNS",
-            "vi": "mặt bàn",
-            "ipa": ""
-        },
-        {
-            "term": "wastebasket",
-            "section": "NOUNS",
-            "vi": "giỏ đựng rác",
-            "ipa": ""
+            "vi": "mặt bàn bếp",
+            "ipa": "/ˈkaʊntərtɒp/"
         },
         {
             "term": "dustpan",
             "section": "NOUNS",
-            "vi": "hót rác",
+            "vi": "cái hốt rác",
             "ipa": "/ˈdʌstpæn/"
-        },
-        {
-            "term": "woodwork",
-            "section": "NOUNS",
-            "vi": "Công tác gỗ",
-            "ipa": ""
         },
         {
             "term": "floor",
             "section": "NOUNS",
-            "vi": "sàn, tầng",
-            "ipa": "/flɔː/"
+            "vi": "sàn nhà",
+            "ipa": "/flɔːr/"
         },
         {
             "term": "food",
             "section": "NOUNS",
-            "vi": "đồ ăn, món ăn",
+            "vi": "đồ ăn",
             "ipa": "/fuːd/"
         },
         {
             "term": "furniture",
             "section": "NOUNS",
-            "vi": "đồ đạc",
-            "ipa": "/ˈfɜːnɪtʃə/"
+            "vi": "nội thất, đồ đạc",
+            "ipa": "/ˈfɜːrnɪtʃər/"
         },
         {
             "term": "garbage",
             "section": "NOUNS",
-            "vi": "rác",
-            "ipa": "/ˈɡɑːbɪd͡ʒ/"
+            "vi": "rác thải",
+            "ipa": "/ˈɡɑːrbɪdʒ/"
         },
         {
             "term": "house",
             "section": "NOUNS",
-            "vi": "nhà, căn nhà, toàn nhà",
-            "ipa": "/hʌʊs/"
+            "vi": "ngôi nhà",
+            "ipa": "/haʊs/"
         },
         {
             "term": "jar",
             "section": "NOUNS",
-            "vi": "vại",
-            "ipa": "/dʒɐː/"
+            "vi": "bình, lọ thủy tinh",
+            "ipa": "/dʒɑːr/"
         },
         {
             "term": "kitchen",
             "section": "NOUNS",
-            "vi": "bếp",
-            "ipa": "/ˈkɪt͡ʃən/"
+            "vi": "nhà bếp",
+            "ipa": "/ˈkɪtʃɪn/"
+        },
+        {
+            "term": "living room",
+            "section": "NOUNS",
+            "vi": "phòng khách",
+            "ipa": "/ˈlɪvɪŋ ruːm/"
+        },
+        {
+            "term": "medicine cabinet",
+            "section": "NOUNS",
+            "vi": "tủ thuốc",
+            "ipa": "/ˈmedsn ˈkæbɪnət/"
+        },
+        {
+            "term": "mirror",
+            "section": "NOUNS",
+            "vi": "cái gương",
+            "ipa": "/ˈmɪrər/"
+        },
+        {
+            "term": "mop",
+            "section": "NOUNS",
+            "vi": "cây lau nhà",
+            "ipa": "/mɒp/"
+        },
+        {
+            "term": "newspaper",
+            "section": "NOUNS",
+            "vi": "tờ báo",
+            "ipa": "/ˈnjuːzpeɪpər/"
+        },
+        {
+            "term": "recycling",
+            "section": "NOUNS",
+            "vi": "đồ tái chế",
+            "ipa": "/ˌriːˈsaɪklɪŋ/"
+        },
+        {
+            "term": "refrigerator",
+            "section": "NOUNS",
+            "vi": "tủ lạnh",
+            "ipa": "/rɪˈfrɪdʒəreɪtər/"
+        },
+        {
+            "term": "sink",
+            "section": "NOUNS",
+            "vi": "bồn rửa",
+            "ipa": "/sɪŋk/"
+        },
+        {
+            "term": "toilet",
+            "section": "NOUNS",
+            "vi": "nhà vệ sinh, bồn cầu",
+            "ipa": "/ˈtɔɪlət/"
+        },
+        {
+            "term": "trash",
+            "section": "NOUNS",
+            "vi": "rác",
+            "ipa": "/træʃ/"
+        },
+        {
+            "term": "vacuum cleaner",
+            "section": "NOUNS",
+            "vi": "máy hút bụi",
+            "ipa": "/ˈvækjuːm ˈkliːnər/"
+        },
+        {
+            "term": "wastebasket",
+            "section": "NOUNS",
+            "vi": "giỏ rác nhỏ",
+            "ipa": "/ˈweɪstbæskɪt/"
+        },
+        {
+            "term": "woodwork",
+            "section": "NOUNS",
+            "vi": "đồ gỗ, chi tiết bằng gỗ",
+            "ipa": "/ˈwʊdwɜːrk/"
+        },
+        {
+            "term": "big",
+            "section": "ADJECTIVES",
+            "vi": "to, lớn",
+            "ipa": "/bɪɡ/"
+        },
+        {
+            "term": "empty",
+            "section": "ADJECTIVES",
+            "vi": "trống rỗng",
+            "ipa": "/ˈempti/"
+        },
+        {
+            "term": "old",
+            "section": "ADJECTIVES",
+            "vi": "cũ, già",
+            "ipa": "/əʊld/"
+        },
+        {
+            "term": "spoiled",
+            "section": "ADJECTIVES",
+            "vi": "bị hỏng, bị thiu (đồ ăn)",
+            "ipa": "/spɔɪld/"
         }
     ],
     "37": [
         {
             "term": "clean",
             "section": "VERBS",
-            "vi": "sạch sẽ",
-            "ipa": "/kleːn/"
+            "vi": "dọn dẹp, làm sạch",
+            "ipa": "/kliːn/"
         },
         {
-            "term": "feed",
+            "term": "feed [fed]",
             "section": "VERBS",
-            "vi": "cho ăn, nuôi",
-            "ipa": "/ˈfiːd/"
+            "vi": "cho ăn",
+            "ipa": "/fiːd/ [/fed/]"
         },
         {
             "term": "move",
@@ -7101,668 +7149,638 @@
         {
             "term": "open",
             "section": "VERBS",
-            "vi": "mở, ngỏ; bắt đầu, khai mạc",
-            "ipa": "/ˈəʊ.pən/"
+            "vi": "mở",
+            "ipa": "/ˈəʊpən/"
         },
         {
             "term": "pet",
             "section": "VERBS",
-            "vi": "cơn nóng giận; vật cưng, người được yêu thích",
-            "ipa": "/pɛt/"
+            "vi": "vuốt ve, cưng nựng",
+            "ipa": "/pet/"
         },
         {
             "term": "play",
             "section": "VERBS",
-            "vi": "chơi ; trò chơi, trận đấu",
+            "vi": "chơi",
             "ipa": "/pleɪ/"
         },
         {
             "term": "pounce",
             "section": "VERBS",
-            "vi": "vồ lấy",
+            "vi": "vồ, chụp lấy",
             "ipa": "/paʊns/"
         },
         {
             "term": "purr",
             "section": "VERBS",
-            "vi": "purr",
+            "vi": "tiếng mèo kêu (kêu gừ gừ)",
             "ipa": "/pɜː(r)/"
         },
         {
-            "term": "put in",
+            "term": "put [put] in",
             "section": "VERBS",
-            "vi": "Tiền vào bàn:",
-            "ipa": "/pʊt/"
+            "vi": "đặt vào, để vào",
+            "ipa": "/pʊt ɪn/"
         },
         {
             "term": "rub",
             "section": "VERBS",
-            "vi": "cọ xát, xoa bóp, nghiền, tán",
+            "vi": "cọ xát, chà xát",
             "ipa": "/rʌb/"
         },
         {
-            "term": "take care of",
+            "term": "take [took] care of",
             "section": "VERBS",
-            "vi": "chăm sóc;xoa dịu",
-            "ipa": "/teɪk/"
+            "vi": "chăm sóc",
+            "ipa": "/teɪk keə(r) əv/ [/tʊk keə(r) əv/]"
         },
         {
             "term": "box",
             "section": "NOUNS",
-            "vi": "hộp, thùng",
+            "vi": "cái hộp, cái thùng",
             "ipa": "/bɒks/"
         },
         {
             "term": "can",
             "section": "NOUNS",
-            "vi": "có thể",
-            "ipa": "/ˈkæn/"
+            "vi": "cái lon, hộp thiếc",
+            "ipa": "/kæn/"
         },
         {
             "term": "cat",
             "section": "NOUNS",
             "vi": "con mèo",
-            "ipa": "/kat/"
+            "ipa": "/kæt/"
         },
         {
             "term": "dish",
             "section": "NOUNS",
-            "vi": "đĩa",
+            "vi": "cái đĩa (đựng thức ăn)",
             "ipa": "/dɪʃ/"
         },
         {
             "term": "food",
             "section": "NOUNS",
-            "vi": "đồ ăn, món ăn",
+            "vi": "thức ăn",
             "ipa": "/fuːd/"
         },
         {
             "term": "leg",
             "section": "NOUNS",
-            "vi": "chân",
-            "ipa": "/leɪɡ/"
+            "vi": "cái chân",
+            "ipa": "/leɡ/"
         },
         {
             "term": "litter",
             "section": "NOUNS",
-            "vi": "rác",
+            "vi": "cát vệ sinh (cho mèo)",
             "ipa": "/ˈlɪtə(r)/"
         },
         {
             "term": "(a) piece (of)",
             "section": "NOUNS",
-            "vi": "Một mẩu",
-            "ipa": "/æɪ/"
+            "vi": "một mẩu, một miếng",
+            "ipa": "/piːs/"
         },
         {
             "term": "string",
             "section": "NOUNS",
-            "vi": "văn bản",
+            "vi": "sợi dây",
             "ipa": "/strɪŋ/"
         },
         {
             "term": "water",
             "section": "NOUNS",
             "vi": "nước",
-            "ipa": "/ˈwoːtə/"
-        },
-        {
-            "term": "ADJECTIVE",
-            "section": "NOUNS",
-            "vi": "Tính từ",
-            "ipa": "/ˈæ.d͡ʒə(k).tɪv/"
+            "ipa": "/ˈwɔːtə(r)/"
         },
         {
             "term": "fresh",
-            "section": "NOUNS",
-            "vi": "tươi, tươi tắn",
-            "ipa": "/frɛʃ/"
+            "section": "ADJECTIVE",
+            "vi": "tươi, mới, trong lành",
+            "ipa": "/freʃ/"
         }
     ],
     "38": [
         {
             "term": "bark",
             "section": "VERBS",
-            "vi": "Vỏ cây",
-            "ipa": "/bɑːk/"
+            "vi": "sủa",
+            "ipa": "/bɑːrk/"
         },
         {
             "term": "call",
             "section": "VERBS",
             "vi": "gọi",
-            "ipa": "/kɔːɫ/"
+            "ipa": "/kɔːl/"
         },
         {
             "term": "clip",
             "section": "VERBS",
-            "vi": "Cắt Xén",
+            "vi": "kẹp, cắt tỉa",
             "ipa": "/klɪp/"
         },
         {
-            "term": "come",
+            "term": "come [came]",
             "section": "VERBS",
-            "vi": "đến, tới, đi đến, đi tới",
-            "ipa": "/kʌm/"
+            "vi": "đến",
+            "ipa": "/kʌm/ [/keɪm/]"
         },
         {
             "term": "fetch",
             "section": "VERBS",
-            "vi": "tìm về, đem về; làm bực mình; làm say mê, quyến rũ",
-            "ipa": "/fɛtʃ/"
+            "vi": "đi lấy, mang về",
+            "ipa": "/fetʃ/"
         },
         {
             "term": "fill",
             "section": "VERBS",
-            "vi": "tô phủ kín",
+            "vi": "làm đầy",
             "ipa": "/fɪl/"
         },
         {
             "term": "pet",
             "section": "VERBS",
-            "vi": "cơn nóng giận; vật cưng, người được yêu thích",
-            "ipa": "/pɛt/"
+            "vi": "vuốt ve",
+            "ipa": "/pet/"
         },
         {
-            "term": "put in",
+            "term": "put [put] in",
             "section": "VERBS",
-            "vi": "Tiền vào bàn:",
+            "vi": "đặt vào, bỏ vào",
             "ipa": "/pʊt/"
         },
         {
-            "term": "take care of",
+            "term": "take [took] care of",
             "section": "VERBS",
-            "vi": "chăm sóc;xoa dịu",
-            "ipa": "/teɪk/"
+            "vi": "chăm sóc",
+            "ipa": "/teɪk keə(r) əv/ [/tʊk keə(r) əv/]"
         },
         {
-            "term": "take",
+            "term": "take [took]",
             "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "cầm, lấy, đưa đi",
+            "ipa": "/teɪk/ [/tʊk/]"
         },
         {
-            "term": "throw",
+            "term": "throw [threw]",
             "section": "VERBS",
-            "vi": "vứt đi",
-            "ipa": "/θrəʊ/"
+            "vi": "ném",
+            "ipa": "/θrəʊ/ [/θruː/]"
         },
         {
             "term": "wag",
             "section": "VERBS",
-            "vi": "vẩy",
+            "vi": "vẫy (đuôi)",
             "ipa": "/wæɡ/"
         },
         {
             "term": "collar",
             "section": "NOUNS",
-            "vi": "vòng đai",
-            "ipa": "/ˈkɒl.ə/"
+            "vi": "vòng cổ",
+            "ipa": "/ˈkɒlər/"
         },
         {
             "term": "dish",
             "section": "NOUNS",
-            "vi": "đĩa",
+            "vi": "cái bát, cái đĩa",
             "ipa": "/dɪʃ/"
         },
         {
             "term": "dog",
             "section": "NOUNS",
             "vi": "con chó",
-            "ipa": "/dɑɡ/"
+            "ipa": "/dɒɡ/"
         },
         {
             "term": "food",
             "section": "NOUNS",
-            "vi": "đồ ăn, món ăn",
+            "vi": "thức ăn",
             "ipa": "/fuːd/"
         },
         {
             "term": "leash",
             "section": "NOUNS",
-            "vi": "dây xích",
+            "vi": "dây xích chó",
             "ipa": "/liːʃ/"
         },
         {
             "term": "stick",
             "section": "NOUNS",
-            "vi": "đạt được cái gì",
+            "vi": "cái gậy, que củi",
             "ipa": "/stɪk/"
         },
         {
             "term": "tail",
             "section": "NOUNS",
-            "vi": "đuôi, đoạn cuối",
+            "vi": "cái đuôi",
             "ipa": "/teɪl/"
         },
         {
             "term": "walk",
             "section": "NOUNS",
-            "vi": "đi bộ, đi dạo",
+            "vi": "cuộc đi bộ, việc dắt đi dạo",
             "ipa": "/wɔːk/"
         },
         {
             "term": "water",
             "section": "NOUNS",
             "vi": "nước",
-            "ipa": "/ˈwoːtə/"
-        },
-        {
-            "term": "ADVERB",
-            "section": "NOUNS",
-            "vi": "Trạng từ",
-            "ipa": "/ˈæd.vɜːb/"
+            "ipa": "/ˈwɔːtər/"
         },
         {
             "term": "later",
-            "section": "NOUNS",
-            "vi": "sau đó",
-            "ipa": "/ˈleɪtə/"
+            "section": "ADVERB",
+            "vi": "sau đó, lát nữa",
+            "ipa": "/ˈleɪtər/"
         }
     ],
     "39": [
         {
-            "term": "Key Vocabula",
-            "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "fill",
             "section": "VERBS",
-            "vi": "tô phủ kín",
+            "vi": "làm đầy, đổ đầy",
             "ipa": "/fɪl/"
-        },
-        {
-            "term": "trim",
-            "section": "VERBS",
-            "vi": "xoay theo hướng gió",
-            "ipa": "/trɪm/"
         },
         {
             "term": "mow",
             "section": "VERBS",
-            "vi": "máy cắt cỏ",
+            "vi": "cắt cỏ",
             "ipa": "/məʊ/"
-        },
-        {
-            "term": "water",
-            "section": "VERBS",
-            "vi": "nước",
-            "ipa": "/ˈwoːtə/"
         },
         {
             "term": "pull",
             "section": "VERBS",
-            "vi": "lôi, kéo, giật",
+            "vi": "kéo",
             "ipa": "/pʊl/"
         },
         {
             "term": "push",
             "section": "VERBS",
-            "vi": "xô đẩy",
-            "ipa": "[pʷʊʃ]"
+            "vi": "đẩy",
+            "ipa": "/pʊʃ/"
         },
         {
-            "term": "put on",
+            "term": "put [put] on",
             "section": "VERBS",
-            "vi": "tho vao",
-            "ipa": "/pʊt/"
+            "vi": "mặc vào, đeo vào",
+            "ipa": "/pʊt ɒn/"
         },
         {
             "term": "rake up",
             "section": "VERBS",
-            "vi": "cào",
-            "ipa": "/reɪk/"
+            "vi": "cào (lá, cỏ)",
+            "ipa": "/reɪk ʌp/"
         },
         {
             "term": "reach",
             "section": "VERBS",
-            "vi": "đến, đi đến, tới",
-            "ipa": "/riːt͡ʃ/"
+            "vi": "với tới, chạm tới",
+            "ipa": "/riːtʃ/"
         },
         {
-            "term": "spread",
+            "term": "spread [spread]",
             "section": "VERBS",
-            "vi": "trải, căng ra, bày ra; chênh lệch",
-            "ipa": "/sprɛd/"
+            "vi": "trải ra, rải",
+            "ipa": "/spred/ [/spred/]"
         },
         {
             "term": "start",
             "section": "VERBS",
-            "vi": "Khởi động",
+            "vi": "khởi động, bắt đầu",
             "ipa": "/stɑːt/"
         },
         {
-            "term": "take care of",
+            "term": "take [took] care of",
             "section": "VERBS",
-            "vi": "chăm sóc;xoa dịu",
-            "ipa": "/teɪk/"
+            "vi": "chăm sóc",
+            "ipa": "/teɪk keə(r) əv/ [/tʊk keə(r) əv/]"
+        },
+        {
+            "term": "trim",
+            "section": "VERBS",
+            "vi": "tỉa, xén",
+            "ipa": "/trɪm/"
+        },
+        {
+            "term": "water",
+            "section": "VERBS",
+            "vi": "tưới nước",
+            "ipa": "/ˈwɔːtə(r)/"
         },
         {
             "term": "clippers",
             "section": "NOUNS",
-            "vi": "Keo nhiệt rắn",
-            "ipa": "/ˈklɪpr̩z/"
-        },
-        {
-            "term": "mower",
-            "section": "NOUNS",
-            "vi": "Người cắt cỏ",
-            "ipa": "/ˈməʊ.ə(r)/"
+            "vi": "kéo tỉa, tông đơ",
+            "ipa": "/ˈklɪpəz/"
         },
         {
             "term": "clippings",
             "section": "NOUNS",
-            "vi": "cắt xén",
+            "vi": "phần cắt ra (cỏ, tóc)",
             "ipa": "/ˈklɪpɪŋz/"
-        },
-        {
-            "term": "nozzle",
-            "section": "NOUNS",
-            "vi": "vòi",
-            "ipa": "/ˈnɒzəl/"
         },
         {
             "term": "compost",
             "section": "NOUNS",
-            "vi": "Phân bón",
+            "vi": "phân hữu cơ, phân xanh",
             "ipa": "/ˈkɒmpɒst/"
-        },
-        {
-            "term": "pile",
-            "section": "NOUNS",
-            "vi": "đóng cọc, chất chồng",
-            "ipa": "/paɪl/"
         },
         {
             "term": "cord",
             "section": "NOUNS",
-            "vi": "dây",
+            "vi": "dây thừng nhỏ, dây điện",
             "ipa": "/kɔːd/"
-        },
-        {
-            "term": "rake",
-            "section": "NOUNS",
-            "vi": "cào",
-            "ipa": "/reɪk/"
         },
         {
             "term": "gas",
             "section": "NOUNS",
-            "vi": "khí, hơi đốt",
+            "vi": "xăng, khí gas",
             "ipa": "/ɡæs/"
-        },
-        {
-            "term": "seed",
-            "section": "NOUNS",
-            "vi": "hạt, hạt giống",
-            "ipa": "/siːd/"
         },
         {
             "term": "grass",
             "section": "NOUNS",
-            "vi": "cỏ; bãi cỏ, đồng cỏ",
-            "ipa": "[ɡr̠äːs]"
-        },
-        {
-            "term": "spot",
-            "section": "NOUNS",
-            "vi": "đốm, vết",
-            "ipa": "/spɒt/"
+            "vi": "cỏ",
+            "ipa": "/ɡrɑːs/"
         },
         {
             "term": "hose",
             "section": "NOUNS",
-            "vi": "ống mềm",
+            "vi": "vòi nước",
             "ipa": "/həʊz/"
+        },
+        {
+            "term": "lawn",
+            "section": "NOUNS",
+            "vi": "bãi cỏ",
+            "ipa": "/lɔːn/"
+        },
+        {
+            "term": "mower",
+            "section": "NOUNS",
+            "vi": "máy cắt cỏ",
+            "ipa": "/ˈməʊə(r)/"
+        },
+        {
+            "term": "nozzle",
+            "section": "NOUNS",
+            "vi": "vòi phun, đầu vòi",
+            "ipa": "/ˈnɒzl/"
+        },
+        {
+            "term": "pile",
+            "section": "NOUNS",
+            "vi": "chồng, đống",
+            "ipa": "/paɪl/"
+        },
+        {
+            "term": "rake",
+            "section": "NOUNS",
+            "vi": "cái cào",
+            "ipa": "/reɪk/"
+        },
+        {
+            "term": "seed",
+            "section": "NOUNS",
+            "vi": "hạt giống",
+            "ipa": "/siːd/"
+        },
+        {
+            "term": "spot",
+            "section": "NOUNS",
+            "vi": "đốm, vết, địa điểm",
+            "ipa": "/spɒt/"
         },
         {
             "term": "tank",
             "section": "NOUNS",
-            "vi": "xe tăng",
+            "vi": "bình chứa, xe tăng",
             "ipa": "/tæŋk/"
         },
         {
-            "term": "back and forth (adverbial)",
+            "term": "back and forth",
             "section": "OTHERS",
-            "vi": "qua lại (trạng từ)",
-            "ipa": "/bæk/"
+            "vi": "qua lại, tới lui",
+            "ipa": "/ˌbæk ənd ˈfɔːθ/"
         },
         {
-            "term": "bare (adj.)",
+            "term": "bare",
             "section": "OTHERS",
-            "vi": "trần (adj.)",
-            "ipa": "/bɛə(r)/"
+            "vi": "trần trụi, trọc",
+            "ipa": "/beə(r)/"
         },
         {
-            "term": "by hand (adverbial)",
+            "term": "by hand",
             "section": "OTHERS",
-            "vi": "bằng tay (trạng từ)",
-            "ipa": "/baɪ/"
+            "vi": "bằng tay",
+            "ipa": "/baɪ hænd/"
         }
     ],
     "40": [
         {
-            "term": "y Vocabula",
+            "term": "check",
             "section": "VERBS",
-            "vi": "y Vocabula",
-            "ipa": ""
+            "vi": "kiểm tra",
+            "ipa": "/tʃek/"
         },
         {
-            "term": "PI",
+            "term": "cover",
             "section": "VERBS",
-            "vi": "PI",
-            "ipa": "/paɪ/"
+            "vi": "che phủ, bao phủ",
+            "ipa": "/ˈkʌvər/"
         },
         {
-            "term": "ERBS",
+            "term": "pick",
             "section": "VERBS",
-            "vi": "ERBS",
-            "ipa": ""
+            "vi": "hái, nhặt",
+            "ipa": "/pɪk/"
+        },
+        {
+            "term": "plant",
+            "section": "VERBS",
+            "vi": "trồng",
+            "ipa": "/plɑːnt/"
+        },
+        {
+            "term": "prune",
+            "section": "VERBS",
+            "vi": "tỉa, xén (cành)",
+            "ipa": "/pruːn/"
+        },
+        {
+            "term": "put on",
+            "section": "VERBS",
+            "vi": "mặc vào, bón (phân)",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "spray",
+            "section": "VERBS",
+            "vi": "phun, xịt",
+            "ipa": "/spreɪ/"
         },
         {
             "term": "tie",
             "section": "VERBS",
-            "vi": "hòa",
+            "vi": "buộc, thắt",
             "ipa": "/taɪ/"
         },
         {
             "term": "take care of",
             "section": "VERBS",
-            "vi": "chăm sóc;xoa dịu",
-            "ipa": "/teɪk/"
-        },
-        {
-            "term": "SP",
-            "section": "VERBS",
-            "vi": "SP",
-            "ipa": ""
+            "vi": "chăm sóc",
+            "ipa": "/teɪk keər əv/"
         },
         {
             "term": "turn",
             "section": "VERBS",
-            "vi": "vòng quay",
-            "ipa": "/tɜːn/"
+            "vi": "xoay, lật (đất)",
+            "ipa": "/tɜːrn/"
         },
         {
             "term": "water",
             "section": "VERBS",
-            "vi": "nước",
-            "ipa": "/ˈwoːtə/"
+            "vi": "tưới nước",
+            "ipa": "/ˈwɔːtər/"
         },
         {
             "term": "weed",
             "section": "VERBS",
-            "vi": "Cỏ dại",
+            "vi": "nhổ cỏ",
             "ipa": "/wiːd/"
         },
         {
-            "term": "q",
-            "section": "VERBS",
-            "vi": "q",
-            "ipa": ""
-        },
-        {
-            "term": "on",
-            "section": "VERBS",
-            "vi": "ngày",
-            "ipa": "/ɒn/"
-        },
-        {
-            "term": "pray",
-            "section": "VERBS",
-            "vi": "cầu nguyện",
-            "ipa": "/preɪ/"
-        },
-        {
-            "term": "Te",
-            "section": "VERBS",
-            "vi": "TE!",
-            "ipa": "/tiː/"
-        },
-        {
-            "term": "wi",
-            "section": "VERBS",
-            "vi": "WI.",
-            "ipa": "/wɪ/"
-        },
-        {
-            "term": "ertilizer",
+            "term": "fertilizer",
             "section": "NOUNS",
-            "vi": "ertilizer",
-            "ipa": ""
+            "vi": "phân bón",
+            "ipa": "/ˈfɜːrtəlaɪzər/"
+        },
+        {
+            "term": "flower",
+            "section": "NOUNS",
+            "vi": "bông hoa",
+            "ipa": "/ˈflaʊər/"
+        },
+        {
+            "term": "garden",
+            "section": "NOUNS",
+            "vi": "khu vườn",
+            "ipa": "/ˈɡɑːrdn/"
+        },
+        {
+            "term": "gardening",
+            "section": "NOUNS",
+            "vi": "việc làm vườn",
+            "ipa": "/ˈɡɑːrdnɪŋ/"
+        },
+        {
+            "term": "hose",
+            "section": "NOUNS",
+            "vi": "vòi nước, ống dẫn",
+            "ipa": "/həʊz/"
+        },
+        {
+            "term": "house",
+            "section": "NOUNS",
+            "vi": "ngôi nhà",
+            "ipa": "/haʊs/"
+        },
+        {
+            "term": "insect",
+            "section": "NOUNS",
+            "vi": "côn trùng",
+            "ipa": "/ˈɪnsekt/"
+        },
+        {
+            "term": "insecticide",
+            "section": "NOUNS",
+            "vi": "thuốc trừ sâu",
+            "ipa": "/ɪnˈsektɪsaɪd/"
+        },
+        {
+            "term": "leaf [leaves]",
+            "section": "NOUNS",
+            "vi": "chiếc lá",
+            "ipa": "/liːf/ [/liːvz/]"
+        },
+        {
+            "term": "mound",
+            "section": "NOUNS",
+            "vi": "gò đất, đống đất",
+            "ipa": "/maʊnd/"
+        },
+        {
+            "term": "nozzle",
+            "section": "NOUNS",
+            "vi": "vòi phun, đầu vòi",
+            "ipa": "/ˈnɒzl/"
         },
         {
             "term": "plant",
             "section": "NOUNS",
-            "vi": "trồng, gieo",
-            "ipa": "/plænt/"
-        },
-        {
-            "term": "lower",
-            "section": "NOUNS",
-            "vi": "thấp hơn",
-            "ipa": "/ˈləʊə/"
+            "vi": "cây cối",
+            "ipa": "/plɑːnt/"
         },
         {
             "term": "seed",
             "section": "NOUNS",
-            "vi": "hạt, hạt giống",
+            "vi": "hạt giống",
             "ipa": "/siːd/"
-        },
-        {
-            "term": "zarden",
-            "section": "NOUNS",
-            "vi": "vườn",
-            "ipa": ""
         },
         {
             "term": "seedling",
             "section": "NOUNS",
-            "vi": "Cây con ",
+            "vi": "cây con",
             "ipa": "/ˈsiːdlɪŋ/"
         },
         {
             "term": "shears",
             "section": "NOUNS",
-            "vi": "chịu cắt:",
-            "ipa": "/ˈʃɪəz/"
-        },
-        {
-            "term": "nose",
-            "section": "NOUNS",
-            "vi": "mũi",
-            "ipa": "/nəʊz/"
+            "vi": "kéo tỉa cây",
+            "ipa": "/ʃɪərz/"
         },
         {
             "term": "soil",
             "section": "NOUNS",
-            "vi": "đất trồng; vết bẩn",
+            "vi": "đất trồng",
             "ipa": "/sɔɪl/"
-        },
-        {
-            "term": "nouse",
-            "section": "NOUNS",
-            "vi": "nouse",
-            "ipa": ""
         },
         {
             "term": "spade",
             "section": "NOUNS",
-            "vi": "dao lạng mỡ cá voi",
+            "vi": "cái xẻng",
             "ipa": "/speɪd/"
-        },
-        {
-            "term": "nsect",
-            "section": "NOUNS",
-            "vi": "nsect",
-            "ipa": ""
         },
         {
             "term": "stake",
             "section": "NOUNS",
-            "vi": "Ký gửi",
+            "vi": "cọc chống",
             "ipa": "/steɪk/"
         },
         {
-            "term": "nsecticide",
-            "section": "NOUNS",
-            "vi": "nsecticide",
-            "ipa": ""
-        },
-        {
-            "term": "He",
-            "section": "NOUNS",
-            "vi": "Anh ấy",
-            "ipa": "/hi/"
-        },
-        {
-            "term": "mound",
-            "section": "NOUNS",
-            "vi": "gò đất",
-            "ipa": "/maʊnd/"
-        },
-        {
-            "term": "se",
-            "section": "NOUNS",
-            "vi": "se",
-            "ipa": ""
-        },
-        {
-            "term": "nozzle",
-            "section": "NOUNS",
-            "vi": "vòi",
-            "ipa": "/ˈnɒzəl/"
-        },
-        {
-            "term": "extra (adj.)",
+            "term": "extra",
             "section": "OTHERS",
-            "vi": "thêm (adj.)",
-            "ipa": "/ˈɛkstrə/"
+            "vi": "thêm, dư ra",
+            "ipa": "/ˈekstrə/"
         },
         {
-            "term": "(adv.)",
+            "term": "finally",
             "section": "OTHERS",
-            "vi": "(adv)",
-            "ipa": ""
+            "vi": "cuối cùng",
+            "ipa": "/ˈfaɪnəli/"
         },
         {
-            "term": "Te",
+            "term": "harmful",
             "section": "OTHERS",
-            "vi": "TE!",
-            "ipa": "/tiː/"
+            "vi": "có hại",
+            "ipa": "/ˈhɑːrmfl/"
         },
         {
-            "term": "harmful (adj.)",
+            "term": "small",
             "section": "OTHERS",
-            "vi": "có hại (adj.)",
-            "ipa": "/ˈhɑːmfl̩/"
-        },
-        {
-            "term": "small (adj.)",
-            "section": "OTHERS",
-            "vi": "nhỏ (adj)",
-            "ipa": "/smoːl/"
+            "vi": "nhỏ",
+            "ipa": "/smɔːl/"
         }
     ],
     "41": [
