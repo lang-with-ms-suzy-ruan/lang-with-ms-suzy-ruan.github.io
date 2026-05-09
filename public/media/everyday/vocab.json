@@ -9533,570 +9533,528 @@
     ],
     "51": [
         {
-            "term": "Key Vocabular",
-            "section": "VERBS",
-            "vi": "Key Vocabular",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "answer",
             "section": "VERBS",
             "vi": "trả lời",
-            "ipa": "/ˈan.sə/"
+            "ipa": "/ˈænsər/"
         },
         {
             "term": "call",
             "section": "VERBS",
-            "vi": "gọi",
-            "ipa": "/kɔːɫ/"
+            "vi": "gọi điện",
+            "ipa": "/kɔːl/"
         },
         {
             "term": "dial",
             "section": "VERBS",
-            "vi": "mặt số",
-            "ipa": "/ˈdaɪəɫ/"
+            "vi": "quay số",
+            "ipa": "/ˈdaɪəl/"
         },
         {
-            "term": "hear",
+            "term": "hear [heard]",
             "section": "VERBS",
             "vi": "nghe",
-            "ipa": "/hɪə(r)/"
+            "ipa": "/hɪər/ [/hɜːrd/]"
         },
         {
             "term": "identify",
             "section": "VERBS",
-            "vi": "xác minh",
-            "ipa": "/aɪˈdɛn.tɪ.faɪ/"
+            "vi": "nhận diện, xác định",
+            "ipa": "/aɪˈdentɪfaɪ/"
         },
         {
             "term": "look up",
             "section": "VERBS",
-            "vi": "trở nên tốt hơn",
-            "ipa": ""
+            "vi": "tra cứu",
+            "ipa": "/lʊk ʌp/"
         },
         {
-            "term": "make",
+            "term": "make [made]",
             "section": "VERBS",
-            "vi": "làm thành, cấu thành, gộp thành",
-            "ipa": "/meɪk/"
+            "vi": "thực hiện (cuộc gọi)",
+            "ipa": "/meɪk/ [/meɪd/]"
         },
         {
             "term": "pick up",
             "section": "VERBS",
-            "vi": "bán tải",
-            "ipa": "/pɪk/"
+            "vi": "nhấc máy",
+            "ipa": "/pɪk ʌp/"
         },
         {
-            "term": "ring",
+            "term": "ring [rang]",
             "section": "VERBS",
-            "vi": "chiếc nhẫn, đeo nhẫn cho ai",
-            "ipa": "/rɪŋ/"
+            "vi": "reo chuông",
+            "ipa": "/rɪŋ/ [/ræŋ/]"
         },
         {
-            "term": "say",
+            "term": "say [said]",
             "section": "VERBS",
             "vi": "nói",
-            "ipa": "/seɪ/"
+            "ipa": "/seɪ/ [/sɛd/]"
         },
         {
-            "term": "say hello",
+            "term": "say [said] hello",
             "section": "VERBS",
-            "vi": "- Chào con.",
-            "ipa": "/seɪ/"
+            "vi": "chào hỏi",
+            "ipa": "/seɪ həˈləʊ/ [/sɛd həˈləʊ/]"
         },
         {
             "term": "dial tone",
             "section": "NOUNS",
-            "vi": "Xin chào?",
-            "ipa": "/ˈdaɪəɫ/"
+            "vi": "tín hiệu mời gọi số",
+            "ipa": "/ˈdaɪəl təʊn/"
         },
         {
             "term": "number",
             "section": "NOUNS",
-            "vi": "số:",
-            "ipa": "/ˈnʌmbə/"
+            "vi": "số điện thoại",
+            "ipa": "/ˈnʌmbər/"
         },
         {
             "term": "phone",
             "section": "NOUNS",
-            "vi": "số điện thoại",
-            "ipa": "/fəʊ̯n/"
+            "vi": "điện thoại",
+            "ipa": "/fəʊn/"
         },
         {
             "term": "phone book",
             "section": "NOUNS",
-            "vi": "Danh bạ",
-            "ipa": "/fəʊ̯n/"
+            "vi": "danh bạ điện thoại",
+            "ipa": "/fəʊn bʊk/"
         },
         {
             "term": "receiver",
             "section": "NOUNS",
-            "vi": "thùng chứa",
-            "ipa": "/rəˈsiːvə/"
+            "vi": "ống nghe",
+            "ipa": "/rɪˈsiːvər/"
         }
     ],
     "52": [
         {
-            "term": "Key Vocabula",
-            "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "answer",
             "section": "VERBS",
             "vi": "trả lời",
-            "ipa": "/ˈan.sə/"
+            "ipa": "/ˈænsər/"
         },
         {
             "term": "apologize",
             "section": "VERBS",
-            "vi": "lời xin lỗi",
-            "ipa": "/əˈpɒləd͡ʒaɪz/"
+            "vi": "xin lỗi",
+            "ipa": "/əˈpɒlədʒaɪz/"
         },
         {
             "term": "ask for",
             "section": "VERBS",
-            "vi": "Đòi",
-            "ipa": "/ˈask/"
+            "vi": "yêu cầu, hỏi xin",
+            "ipa": "/æsk fɔːr/"
         },
         {
-            "term": "hang up",
+            "term": "hang [hung] up",
             "section": "VERBS",
-            "vi": "treo máy",
-            "ipa": "[heɪŋ]"
+            "vi": "gác máy, cúp máy",
+            "ipa": "/hæŋ ʌp/ [/hʌŋ ʌp/]"
         },
         {
-            "term": "hear",
+            "term": "hear [heard]",
             "section": "VERBS",
             "vi": "nghe",
-            "ipa": "/hɪə(r)/"
+            "ipa": "/hɪər/ [/hɜːrd/]"
         },
         {
-            "term": "know",
+            "term": "know [knew]",
             "section": "VERBS",
             "vi": "biết",
-            "ipa": "/nəʊ/"
+            "ipa": "/nəʊ/ [/njuː/]"
         },
         {
-            "term": "let",
+            "term": "let [let]",
             "section": "VERBS",
-            "vi": "cho phép",
-            "ipa": "/lɛt/"
+            "vi": "để cho, cho phép",
+            "ipa": "/let/ [/let/]"
         },
         {
             "term": "pick up",
             "section": "VERBS",
-            "vi": "bán tải",
-            "ipa": "/pɪk/"
+            "vi": "nhấc máy",
+            "ipa": "/pɪk ʌp/"
         },
         {
-            "term": "ring",
+            "term": "ring [rang]",
             "section": "VERBS",
-            "vi": "chiếc nhẫn, đeo nhẫn cho ai",
-            "ipa": "/rɪŋ/"
+            "vi": "reo chuông",
+            "ipa": "/rɪŋ/ [/ræŋ/]"
         },
         {
-            "term": "say hello",
+            "term": "say [said] hello",
             "section": "VERBS",
-            "vi": "- Chào con.",
-            "ipa": "/seɪ/"
+            "vi": "chào hỏi",
+            "ipa": "/seɪ həˈləʊ/ [/sɛd həˈləʊ/]"
         },
         {
-            "term": "speak",
+            "term": "speak [spoke]",
             "section": "VERBS",
             "vi": "nói",
-            "ipa": "/spiːk/"
+            "ipa": "/spiːk/ [/spəʊk/]"
         },
         {
             "term": "talk",
             "section": "VERBS",
-            "vi": "cuộc thảo luận",
-            "ipa": "/toːk/"
+            "vi": "trò chuyện",
+            "ipa": "/tɔːk/"
         },
         {
-            "term": "tell",
+            "term": "tell [told]",
             "section": "VERBS",
-            "vi": "nói với",
-            "ipa": "/tɛl/"
+            "vi": "kể, bảo",
+            "ipa": "/tel/ [/təʊld/]"
         },
         {
             "term": "caller",
             "section": "NOUNS",
-            "vi": "Người gọi",
-            "ipa": "/ˈkɔːlə/"
+            "vi": "người gọi",
+            "ipa": "/ˈkɔːlər/"
         },
         {
             "term": "person",
             "section": "NOUNS",
-            "vi": "pháp nhân",
-            "ipa": "/ˈpɜːsən/"
+            "vi": "người",
+            "ipa": "/ˈpɜːrsn/"
         },
         {
             "term": "phone",
             "section": "NOUNS",
-            "vi": "số điện thoại",
-            "ipa": "/fəʊ̯n/"
+            "vi": "điện thoại",
+            "ipa": "/fəʊn/"
         },
         {
             "term": "receiver",
             "section": "NOUNS",
-            "vi": "thùng chứa",
-            "ipa": "/rəˈsiːvə/"
+            "vi": "ống nghe",
+            "ipa": "/rɪˈsiːvər/"
         },
         {
             "term": "telephone",
             "section": "NOUNS",
-            "vi": "điện thoại",
-            "ipa": "/ˈtɛləfəʊn/"
+            "vi": "máy điện thoại",
+            "ipa": "/ˈtelɪfəʊn/"
         },
         {
             "term": "wrong number",
             "section": "NOUNS",
-            "vi": "(MAN SPEAKING IN MIDDLE EASTERN DIALECT) Nhầm máy nhá. (CONTINUES SPEAKING)",
-            "ipa": "/rɒŋ/"
-        },
-        {
-            "term": "ADVERBIAL",
-            "section": "NOUNS",
-            "vi": "TRẠNG TỪ",
-            "ipa": "/ədˈvɜːbi.əl/"
+            "vi": "nhầm số",
+            "ipa": "/rɒŋ ˈnʌmbər/"
         },
         {
             "term": "for a while",
-            "section": "NOUNS",
-            "vi": "một lúc",
-            "ipa": ""
+            "section": "ADVERBIAL",
+            "vi": "trong một lát, một lúc",
+            "ipa": "/fɔːr ə waɪl/"
         }
     ],
     "53": [
         {
-            "term": "Key Vocabular",
-            "section": "VERBS",
-            "vi": "Key Vocabular",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "agree",
             "section": "VERBS",
-            "vi": "đồng ý, tán thành",
-            "ipa": "/əˈɡri/"
+            "vi": "đồng ý",
+            "ipa": "/əˈɡriː/"
         },
         {
             "term": "ask",
             "section": "VERBS",
-            "vi": "hỏi",
-            "ipa": "/ˈask/"
+            "vi": "hỏi, yêu cầu",
+            "ipa": "/æsk/"
         },
         {
             "term": "call",
             "section": "VERBS",
-            "vi": "gọi",
-            "ipa": "/kɔːɫ/"
+            "vi": "gọi điện",
+            "ipa": "/kɔːl/"
         },
         {
             "term": "call back",
             "section": "VERBS",
-            "vi": "Gọi lại",
-            "ipa": "/kɔːɫ/"
+            "vi": "gọi lại",
+            "ipa": "/kɔːl bæk/"
         },
         {
             "term": "identify",
             "section": "VERBS",
-            "vi": "xác minh",
-            "ipa": "/aɪˈdɛn.tɪ.faɪ/"
+            "vi": "nhận diện, xác định",
+            "ipa": "/aɪˈdentɪfaɪ/"
         },
         {
-            "term": "leave",
+            "term": "leave [left]",
             "section": "VERBS",
-            "vi": "thai sản",
-            "ipa": "/liːv/"
+            "vi": "để lại, rời đi",
+            "ipa": "/liːv/ [/left/]"
         },
         {
             "term": "repeat",
             "section": "VERBS",
             "vi": "nhắc lại, lặp lại",
-            "ipa": ""
+            "ipa": "/rɪˈpiːt/"
         },
         {
-            "term": "speak",
+            "term": "speak [spoke]",
             "section": "VERBS",
             "vi": "nói",
-            "ipa": "/spiːk/"
+            "ipa": "/spiːk/ [/spəʊk/]"
         },
         {
             "term": "spell",
             "section": "VERBS",
             "vi": "đánh vần",
-            "ipa": "/spɛl/"
+            "ipa": "/spel/"
         },
         {
-            "term": "take",
+            "term": "take [took]",
             "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "nhận, lấy (ví dụ: take a message)",
+            "ipa": "/teɪk/ [/tʊk/]"
         },
         {
             "term": "last name",
             "section": "NOUNS",
-            "vi": "Tên",
-            "ipa": "/last/"
+            "vi": "họ",
+            "ipa": "/lɑːst neɪm/"
         },
         {
             "term": "message",
             "section": "NOUNS",
-            "vi": "tin nhắn",
-            "ipa": "/ˈmɛsɪd͡ʒ/"
+            "vi": "tin nhắn, lời nhắn",
+            "ipa": "/ˈmesɪdʒ/"
         },
         {
             "term": "name",
             "section": "NOUNS",
-            "vi": "name",
+            "vi": "tên",
             "ipa": "/neɪm/"
         },
         {
             "term": "number",
             "section": "NOUNS",
-            "vi": "số:",
-            "ipa": "/ˈnʌmbə/"
+            "vi": "số (điện thoại)",
+            "ipa": "/ˈnʌmbər/"
         },
         {
-            "term": "available (adj.)",
-            "section": "OTHERS",
-            "vi": "có sẵn (adj)",
-            "ipa": "/əˈveɪləb(ə)l/"
+            "term": "available",
+            "section": "OTHER",
+            "vi": "có sẵn, rảnh (để nghe máy)",
+            "ipa": "/əˈveɪləbl/"
         }
     ],
     "54": [
         {
-            "term": "yy Vocabulary",
-            "section": "VERBS",
-            "vi": "yy Từ vựng",
-            "ipa": ""
-        },
-        {
             "term": "answer",
             "section": "VERBS",
             "vi": "trả lời",
-            "ipa": "/ˈan.sə/"
+            "ipa": "/ˈænsər/"
         },
         {
             "term": "ask for",
             "section": "VERBS",
-            "vi": "Đòi",
-            "ipa": "/ˈask/"
+            "vi": "yêu cầu, hỏi xin",
+            "ipa": "/æsk fɔːr/"
         },
         {
-            "term": "leave",
+            "term": "leave [left]",
             "section": "VERBS",
-            "vi": "thai sản",
-            "ipa": "/liːv/"
+            "vi": "để lại (lời nhắn), rời đi",
+            "ipa": "/liːv/ [/left/]"
         },
         {
             "term": "offer",
             "section": "VERBS",
-            "vi": "biếu, tặng, cho; sự trả giá",
-            "ipa": "/ˈɑfɚ/"
+            "vi": "đề nghị, đưa ra",
+            "ipa": "/ˈɔːfər/"
         },
         {
             "term": "return a call",
             "section": "VERBS",
-            "vi": "gọi lại",
-            "ipa": "/rɪˈtɜːn/"
+            "vi": "gọi điện lại",
+            "ipa": "/rɪˈtɜːrn ə kɔːl/"
         },
         {
-            "term": "take",
+            "term": "take [took]",
             "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "nhận (lời nhắn), cầm, lấy",
+            "ipa": "/teɪk/ [/tʊk/]"
         },
         {
-            "term": "write",
+            "term": "write [wrote]",
             "section": "VERBS",
             "vi": "viết",
-            "ipa": "/raɪt/"
+            "ipa": "/raɪt/ [/rəʊt/]"
         },
         {
             "term": "caller",
             "section": "NOUNS",
-            "vi": "Người gọi",
-            "ipa": "/ˈkɔːlə/"
+            "vi": "người gọi",
+            "ipa": "/ˈkɔːlər/"
         },
         {
             "term": "message",
             "section": "NOUNS",
-            "vi": "tin nhắn",
-            "ipa": "/ˈmɛsɪd͡ʒ/"
+            "vi": "tin nhắn, lời nhắn",
+            "ipa": "/ˈmesɪdʒ/"
         },
         {
             "term": "notepaper",
             "section": "NOUNS",
             "vi": "giấy ghi chú",
-            "ipa": ""
+            "ipa": "/ˈnəʊtpeɪpər/"
         },
         {
             "term": "phone",
             "section": "NOUNS",
-            "vi": "số điện thoại",
-            "ipa": "/fəʊ̯n/"
+            "vi": "điện thoại",
+            "ipa": "/fəʊn/"
         },
         {
-            "term": "available (adj.)",
+            "term": "available",
             "section": "OTHERS",
-            "vi": "có sẵn (adj)",
-            "ipa": "/əˈveɪləb(ə)l/"
+            "vi": "có sẵn, rảnh (để nghe máy)",
+            "ipa": "/əˈveɪləbl/"
         },
         {
-            "term": "later (adv.)",
+            "term": "later",
             "section": "OTHERS",
-            "vi": "sau (adv.)",
-            "ipa": "/ˈleɪtə/"
-        },
-        {
-            "term": "For Special Attention",
-            "section": "OTHERS",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": ""
-        },
-        {
-            "term": "says “He can’t come",
-            "section": "OTHERS",
-            "vi": "nói \"Anh ấy không thể đến",
-            "ipa": ""
+            "vi": "sau, lát nữa",
+            "ipa": "/ˈleɪtər/"
         }
     ],
     "55": [
         {
             "term": "call",
             "section": "VERBS",
-            "vi": "gọi",
-            "ipa": "/kɔːɫ/"
+            "vi": "gọi điện",
+            "ipa": "/kɔːl/"
         },
         {
             "term": "erase",
             "section": "VERBS",
             "vi": "xóa",
-            "ipa": "/ɪˈreɪz/"
+            "ipa": "/ɪˈreɪs/"
         },
         {
-            "term": "get home",
+            "term": "get [got] home",
             "section": "VERBS",
-            "vi": "Đi lạc / đi đi!",
-            "ipa": "/ɡɛt/"
+            "vi": "về nhà",
+            "ipa": "/ɡet həʊm/ [/ɡɒt həʊm/]"
         },
         {
-            "term": "have",
+            "term": "have [had]",
             "section": "VERBS",
             "vi": "có",
-            "ipa": ""
+            "ipa": "/hæv/ [/hæd/]"
         },
         {
-            "term": "hear",
+            "term": "hear [heard]",
             "section": "VERBS",
             "vi": "nghe",
-            "ipa": "/hɪə(r)/"
+            "ipa": "/hɪə(r)/ [/hɜːrd/]"
         },
         {
-            "term": "leave",
+            "term": "leave [left]",
             "section": "VERBS",
-            "vi": "thai sản",
-            "ipa": "/liːv/"
+            "vi": "để lại (lời nhắn), rời đi",
+            "ipa": "/liːv/ [/left/]"
         },
         {
             "term": "listen",
             "section": "VERBS",
-            "vi": "nghe, lắng nghe",
-            "ipa": "/ˈlɪs.ən/"
+            "vi": "lắng nghe",
+            "ipa": "/ˈlɪsn/"
         },
         {
             "term": "press",
             "section": "VERBS",
-            "vi": "ép, nén, bóp, ấn",
-            "ipa": "/prɛs/"
+            "vi": "nhấn, ấn",
+            "ipa": "/pres/"
         },
         {
             "term": "play",
             "section": "VERBS",
-            "vi": "chơi ; trò chơi, trận đấu",
+            "vi": "phát (bản ghi âm), chơi",
             "ipa": "/pleɪ/"
         },
         {
             "term": "record",
             "section": "VERBS",
-            "vi": "Danh mục của kỷ lục hiện tại",
-            "ipa": "/ˈrɛkɔːd/"
+            "vi": "ghi âm, thu âm",
+            "ipa": "/rɪˈkɔːd/"
         },
         {
-            "term": "see",
+            "term": "see [saw]",
             "section": "VERBS",
-            "vi": "nhìn, quan sát",
-            "ipa": "/siː/"
+            "vi": "nhìn thấy",
+            "ipa": "/siː/ [/sɔː/]"
         },
         {
             "term": "show",
             "section": "VERBS",
-            "vi": "hiện",
+            "vi": "cho xem, hiển thị",
             "ipa": "/ʃəʊ/"
         },
         {
-            "term": "take notes",
+            "term": "take [took] notes",
             "section": "VERBS",
             "vi": "ghi chép",
-            "ipa": "/teɪk/"
+            "ipa": "/teɪk nəʊts/ [/tʊk nəʊts/]"
         },
         {
             "term": "use",
             "section": "VERBS",
             "vi": "sử dụng",
-            "ipa": ""
+            "ipa": "/juːz/"
         },
         {
             "term": "answering machine",
             "section": "NOUNS",
-            "vi": "máy trả lời tự động (điện thoại)",
-            "ipa": "/ˈɑːn.sə.rɪŋ/"
+            "vi": "máy trả lời tự động",
+            "ipa": "/ˈɑːnsərɪŋ məˌʃiːn/"
         },
         {
             "term": "button",
             "section": "NOUNS",
-            "vi": "cái nút, cái khuy, cúc",
-            "ipa": "/ˈbʌtn̩/"
+            "vi": "nút bấm",
+            "ipa": "/ˈbʌtn/"
         },
         {
             "term": "light",
             "section": "NOUNS",
-            "vi": "ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng",
-            "ipa": "/lʌɪt/"
+            "vi": "đèn, ánh sáng",
+            "ipa": "/laɪt/"
         },
         {
             "term": "machine",
             "section": "NOUNS",
-            "vi": "máy móc&#10;",
-            "ipa": "/məˈʃin/"
+            "vi": "máy móc",
+            "ipa": "/məˈʃiːn/"
         },
         {
             "term": "message",
             "section": "NOUNS",
-            "vi": "tin nhắn",
-            "ipa": "/ˈmɛsɪd͡ʒ/"
+            "vi": "lời nhắn, tin nhắn",
+            "ipa": "/ˈmesɪdʒ/"
         },
         {
             "term": "notes",
             "section": "NOUNS",
-            "vi": "ghi chú",
+            "vi": "ghi chép, lời lưu ý",
             "ipa": "/nəʊts/"
         },
         {
             "term": "outgoing",
             "section": "ADJECTIVES",
-            "vi": "cuộc gọi đi",
-            "ipa": ""
+            "vi": "(cuộc gọi/lời nhắn) đi, cởi mở",
+            "ipa": "/ˈaʊtɡəʊɪŋ/"
         },
         {
             "term": "own",
             "section": "ADJECTIVES",
-            "vi": "của chính mình",
-            "ipa": "/ˈəʊn/"
+            "vi": "riêng, của chính mình",
+            "ipa": "/əʊn/"
         }
     ],
     "56": [
@@ -10104,153 +10062,141 @@
             "term": "answer",
             "section": "VERBS",
             "vi": "trả lời",
-            "ipa": "/ˈan.sə/"
+            "ipa": "/ˈænsər/"
         },
         {
             "term": "apologize",
             "section": "VERBS",
-            "vi": "lời xin lỗi",
-            "ipa": "/əˈpɒləd͡ʒaɪz/"
+            "vi": "xin lỗi",
+            "ipa": "/əˈpɑːlədʒaɪz/"
         },
         {
             "term": "ask",
             "section": "VERBS",
-            "vi": "hỏi",
-            "ipa": "/ˈask/"
+            "vi": "hỏi, yêu cầu",
+            "ipa": "/æsk/"
         },
         {
-            "term": "do [had been doing (past",
+            "term": "do",
             "section": "VERBS",
-            "vi": "do [had been doing (past",
-            "ipa": "/dʊː/"
+            "vi": "làm",
+            "ipa": "/duː/"
         },
         {
-            "term": "perfect progressive)]",
+            "term": "had been doing",
             "section": "VERBS",
-            "vi": "tiến bộ hoàn hảo)]",
-            "ipa": "/ˈpɜː.fɛkt/"
+            "vi": "làm (thì quá khứ hoàn thành tiếp diễn)",
+            "ipa": "/hæd bɪn ˈduːɪŋ/"
         },
         {
-            "term": "re-read",
+            "term": "re-read [re-read]",
             "section": "VERBS",
-            "vi": "### Đọc lại",
-            "ipa": "/riːˈriːd/"
+            "vi": "đọc lại",
+            "ipa": "/ˌriː ˈriːd/ [/ˌriː ˈred/]"
         },
         {
             "term": "sign",
             "section": "VERBS",
-            "vi": "đánh dấu, viết ký hiệu",
+            "vi": "ký tên",
             "ipa": "/saɪn/"
         },
         {
-            "term": "take out",
+            "term": "take [took] out",
             "section": "VERBS",
-            "vi": "vay phòng xa",
-            "ipa": "/teɪk/"
+            "vi": "lấy ra",
+            "ipa": "/teɪk aʊt/ [/tʊk aʊt/]"
         },
         {
-            "term": "write",
+            "term": "write [wrote]",
             "section": "VERBS",
             "vi": "viết",
-            "ipa": "/raɪt/"
+            "ipa": "/raɪt/ [/rəʊt/]"
         },
         {
             "term": "closing",
             "section": "NOUNS",
-            "vi": "Đang kết thúc",
+            "vi": "phần kết thúc (thư), sự đóng cửa",
             "ipa": "/ˈkləʊzɪŋ/"
         },
         {
             "term": "date",
             "section": "NOUNS",
-            "vi": "kỳ hạn, thời k",
+            "vi": "ngày tháng",
             "ipa": "/deɪt/"
         },
         {
             "term": "friend",
             "section": "NOUNS",
             "vi": "người bạn",
-            "ipa": "/frɛnd/"
+            "ipa": "/frend/"
         },
         {
             "term": "greeting",
             "section": "NOUNS",
-            "vi": "Lời chào ",
+            "vi": "lời chào hỏi",
             "ipa": "/ˈɡriːtɪŋ/"
         },
         {
             "term": "letter",
             "section": "NOUNS",
-            "vi": "thư; mẫu tự",
-            "ipa": "/-ɾə(r)/"
+            "vi": "lá thư, chữ cái",
+            "ipa": "/ˈletər/"
         },
         {
             "term": "paper",
             "section": "NOUNS",
             "vi": "giấy",
-            "ipa": "/ˈpeɪpə/"
+            "ipa": "/ˈpeɪpər/"
         },
         {
             "term": "question",
             "section": "NOUNS",
             "vi": "câu hỏi",
-            "ipa": "/ˈkwɛstjən/"
+            "ipa": "/ˈkwestʃən/"
         },
         {
             "term": "signature",
             "section": "NOUNS",
             "vi": "chữ ký",
-            "ipa": "/ˈsɪɡnətʃə/"
+            "ipa": "/ˈsɪɡnətʃər/"
         },
         {
             "term": "top",
             "section": "NOUNS",
-            "vi": "trên cùng",
-            "ipa": "/tɒp/"
+            "vi": "phần đỉnh, phía trên",
+            "ipa": "/tɑːp/"
         },
         {
-            "term": "last (adj.)",
+            "term": "last",
             "section": "OTHERS",
-            "vi": "cuối cùng (adj.)",
-            "ipa": "/last/"
+            "vi": "cuối cùng",
+            "ipa": "/læst/"
         },
         {
-            "term": "personal (adj.)",
+            "term": "personal",
             "section": "OTHERS",
-            "vi": "cá nhân (adj)",
-            "ipa": "/ˈpɜː.sən.əl/"
+            "vi": "cá nhân",
+            "ipa": "/ˈpɜːrsənl/"
         },
         {
-            "term": "soon (sooner)",
+            "term": "soon",
             "section": "OTHERS",
-            "vi": "sớm (sớm hơn)",
+            "vi": "sớm",
             "ipa": "/suːn/"
         },
         {
-            "term": "For Special Attention",
+            "term": "sooner",
             "section": "OTHERS",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": ""
+            "vi": "sớm hơn (so sánh hơn của soon)",
+            "ipa": "/ˈsuːnər/"
         }
     ],
     "57": [
         {
-            "term": "Key Vocabula",
-            "section": "VERBS",
-            "vi": "Key Vocabula",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "ask",
             "section": "VERBS",
-            "vi": "hỏi",
-            "ipa": "/ˈask/"
-        },
-        {
-            "term": "putin",
-            "section": "VERBS",
-            "vi": "putin",
-            "ipa": ""
+            "vi": "hỏi, yêu cầu",
+            "ipa": "/æsk/"
         },
         {
             "term": "buy",
@@ -10259,46 +10205,22 @@
             "ipa": "/baɪ/"
         },
         {
-            "term": "seal",
-            "section": "VERBS",
-            "vi": "hải cầu; săn hải cầu",
-            "ipa": "/siːl/"
-        },
-        {
             "term": "enclose",
             "section": "VERBS",
-            "vi": "gởi kèm theo (phong bì và thư)",
-            "ipa": "/ənˈkloʊz/"
-        },
-        {
-            "term": "stand in line",
-            "section": "VERBS",
-            "vi": "Đứng xếp hàng!",
-            "ipa": "/stænd/"
+            "vi": "đính kèm, bỏ kèm vào trong",
+            "ipa": "/ɪnˈkləʊz/"
         },
         {
             "term": "fold",
             "section": "VERBS",
-            "vi": "gấp, vén, xắn; nếp gấp",
+            "vi": "gấp, gấp lại",
             "ipa": "/fəʊld/"
-        },
-        {
-            "term": "stick",
-            "section": "VERBS",
-            "vi": "đạt được cái gì",
-            "ipa": "/stɪk/"
         },
         {
             "term": "go to",
             "section": "VERBS",
-            "vi": "chuyển đến",
-            "ipa": "/ɡəʊ/"
-        },
-        {
-            "term": "take",
-            "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "đi đến",
+            "ipa": "/ɡəʊ tuː/"
         },
         {
             "term": "know",
@@ -10307,28 +10229,64 @@
             "ipa": "/nəʊ/"
         },
         {
-            "term": "want",
-            "section": "VERBS",
-            "vi": "muốn",
-            "ipa": "/wɔnt/"
-        },
-        {
             "term": "lick",
             "section": "VERBS",
-            "vi": "Ngon",
+            "vi": "liếm",
             "ipa": "/lɪk/"
-        },
-        {
-            "term": "weigh",
-            "section": "VERBS",
-            "vi": "cân nặng",
-            "ipa": "/weɪ/"
         },
         {
             "term": "mail",
             "section": "VERBS",
-            "vi": "búa",
-            "ipa": "/meɪ̯l/"
+            "vi": "gửi thư",
+            "ipa": "/meɪl/"
+        },
+        {
+            "term": "need",
+            "section": "VERBS",
+            "vi": "cần",
+            "ipa": "/niːd/"
+        },
+        {
+            "term": "put in",
+            "section": "VERBS",
+            "vi": "đặt vào, bỏ vào",
+            "ipa": "/pʊt ɪn/"
+        },
+        {
+            "term": "seal",
+            "section": "VERBS",
+            "vi": "niêm phong, dán kín",
+            "ipa": "/siːl/"
+        },
+        {
+            "term": "stand in line",
+            "section": "VERBS",
+            "vi": "xếp hàng",
+            "ipa": "/stænd ɪn laɪn/"
+        },
+        {
+            "term": "stick",
+            "section": "VERBS",
+            "vi": "dán, dính",
+            "ipa": "/stɪk/"
+        },
+        {
+            "term": "take",
+            "section": "VERBS",
+            "vi": "cầm, lấy",
+            "ipa": "/teɪk/"
+        },
+        {
+            "term": "want",
+            "section": "VERBS",
+            "vi": "muốn",
+            "ipa": "/wɒnt/"
+        },
+        {
+            "term": "weigh",
+            "section": "VERBS",
+            "vi": "cân",
+            "ipa": "/weɪ/"
         },
         {
             "term": "write",
@@ -10337,132 +10295,120 @@
             "ipa": "/raɪt/"
         },
         {
-            "term": "need",
-            "section": "VERBS",
-            "vi": "cần, đòi hỏi",
-            "ipa": "/niːd/"
-        },
-        {
             "term": "address",
             "section": "NOUNS",
-            "vi": "tương tự",
-            "ipa": "/æˈdrɛs/"
-        },
-        {
-            "term": "postage",
-            "section": "NOUNS",
-            "vi": "tem thư",
-            "ipa": "/ˈpəʊstɪdʒ/"
+            "vi": "địa chỉ",
+            "ipa": "/əˈdres/"
         },
         {
             "term": "clerk",
             "section": "NOUNS",
-            "vi": "thư ký",
-            "ipa": "/klɐːk/"
-        },
-        {
-            "term": "post office",
-            "section": "NOUNS",
-            "vi": "trạm bưu điện",
-            "ipa": "/pəʊst/"
+            "vi": "nhân viên bán hàng, thư ký",
+            "ipa": "/klɑːrk/"
         },
         {
             "term": "envelope",
             "section": "NOUNS",
             "vi": "phong bì",
-            "ipa": "/ˈɒn.və.ləʊp/"
-        },
-        {
-            "term": "return address",
-            "section": "NOUNS",
-            "vi": "địa chỉ hồi âm",
-            "ipa": "/rɪˈtɜːn/"
+            "ipa": "/ˈenvələʊp/"
         },
         {
             "term": "friend",
             "section": "NOUNS",
             "vi": "người bạn",
-            "ipa": "/frɛnd/"
-        },
-        {
-            "term": "scale",
-            "section": "NOUNS",
-            "vi": "tỉ lệ",
-            "ipa": "/skeɪl/"
+            "ipa": "/frend/"
         },
         {
             "term": "letter",
             "section": "NOUNS",
-            "vi": "thư; mẫu tự",
-            "ipa": "/-ɾə(r)/"
-        },
-        {
-            "term": "stamp",
-            "section": "NOUNS",
-            "vi": "con dấu",
-            "ipa": "/stæmp/"
+            "vi": "lá thư",
+            "ipa": "/ˈletər/"
         },
         {
             "term": "mailbox",
             "section": "NOUNS",
-            "vi": "hộp thư",
-            "ipa": ""
-        },
-        {
-            "term": "turn",
-            "section": "NOUNS",
-            "vi": "vòng quay",
-            "ipa": "/tɜːn/"
+            "vi": "hòm thư",
+            "ipa": "/ˈmeɪlbɒks/"
         },
         {
             "term": "middle",
             "section": "NOUNS",
-            "vi": "ở giữa",
-            "ipa": "/ˈmɪdəl/"
-        },
-        {
-            "term": "window",
-            "section": "NOUNS",
-            "vi": "cửa số",
-            "ipa": "/ˈwɪndəʊ/"
+            "vi": "giữa, ở giữa",
+            "ipa": "/ˈmɪdl/"
         },
         {
             "term": "pictures",
             "section": "NOUNS",
-            "vi": "ảnh",
-            "ipa": "/ˈpɪktʃɚz/"
+            "vi": "những bức tranh/ảnh",
+            "ipa": "/ˈpɪktʃərz/"
+        },
+        {
+            "term": "postage",
+            "section": "NOUNS",
+            "vi": "cước phí bưu điện",
+            "ipa": "/ˈpəʊstɪdʒ/"
+        },
+        {
+            "term": "post office",
+            "section": "NOUNS",
+            "vi": "bưu điện",
+            "ipa": "/ˈpəʊst ɒfɪs/"
+        },
+        {
+            "term": "return address",
+            "section": "NOUNS",
+            "vi": "địa chỉ người gửi (để gửi trả lại)",
+            "ipa": "/rɪˈtɜːrn əˈdres/"
+        },
+        {
+            "term": "scale",
+            "section": "NOUNS",
+            "vi": "cái cân",
+            "ipa": "/skeɪl/"
+        },
+        {
+            "term": "stamp",
+            "section": "NOUNS",
+            "vi": "con tem",
+            "ipa": "/stæmp/"
+        },
+        {
+            "term": "turn",
+            "section": "NOUNS",
+            "vi": "lượt, vòng quay",
+            "ipa": "/tɜːrn/"
+        },
+        {
+            "term": "window",
+            "section": "NOUNS",
+            "vi": "cửa sổ",
+            "ipa": "/ˈwɪndəʊ/"
         },
         {
             "term": "enough",
             "section": "ADJECTIVES",
             "vi": "đủ",
-            "ipa": "/iˈnʌf/"
-        },
-        {
-            "term": "upper",
-            "section": "ADJECTIVES",
-            "vi": "cao hơn",
-            "ipa": "/ˈʌpə/"
+            "ipa": "/ɪˈnʌf/"
         },
         {
             "term": "left",
             "section": "ADJECTIVES",
-            "vi": "trái",
-            "ipa": "/lɛft/"
+            "vi": "bên trái",
+            "ipa": "/left/"
         },
         {
-            "term": "For Special Attention",
+            "term": "upper",
             "section": "ADJECTIVES",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": ""
+            "vi": "phía trên",
+            "ipa": "/ˈʌpər/"
         }
     ],
     "58": [
         {
             "term": "blow out",
             "section": "VERBS",
-            "vi": "sự phun trào",
-            "ipa": "/bləʊ/"
+            "vi": "thổi tắt",
+            "ipa": "/bləʊ aʊt/"
         },
         {
             "term": "eat",
@@ -10473,31 +10419,31 @@
         {
             "term": "give",
             "section": "VERBS",
-            "vi": "cho, biếu, tặng",
+            "vi": "cho, tặng",
             "ipa": "/ɡɪv/"
         },
         {
             "term": "go to",
             "section": "VERBS",
-            "vi": "chuyển đến",
-            "ipa": "/ɡəʊ/"
+            "vi": "đi đến",
+            "ipa": "/ɡəʊ tuː/"
         },
         {
             "term": "light",
             "section": "VERBS",
-            "vi": "ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng",
-            "ipa": "/lʌɪt/"
+            "vi": "thắp sáng, châm lửa",
+            "ipa": "/laɪt/"
         },
         {
             "term": "open",
             "section": "VERBS",
-            "vi": "mở, ngỏ; bắt đầu, khai mạc",
-            "ipa": "/ˈəʊ.pən/"
+            "vi": "mở",
+            "ipa": "/ˈəʊpən/"
         },
         {
             "term": "sign",
             "section": "VERBS",
-            "vi": "đánh dấu, viết ký hiệu",
+            "vi": "ký tên",
             "ipa": "/saɪn/"
         },
         {
@@ -10509,14 +10455,14 @@
         {
             "term": "wrap",
             "section": "VERBS",
-            "vi": "quấn",
+            "vi": "gói, bọc",
             "ipa": "/ræp/"
         },
         {
             "term": "birthday party",
             "section": "NOUNS",
-            "vi": "TIỆC SINH NHẬT",
-            "ipa": "/ˈbɜːθ.deɪ/"
+            "vi": "tiệc sinh nhật",
+            "ipa": "/ˈbɜːθdeɪ ˈpɑːti/"
         },
         {
             "term": "cake",
@@ -10527,88 +10473,82 @@
         {
             "term": "candle",
             "section": "NOUNS",
-            "vi": "nến",
-            "ipa": "/ˈkændl̩/"
+            "vi": "cây nến",
+            "ipa": "/ˈkændl/"
         },
         {
             "term": "card",
             "section": "NOUNS",
-            "vi": "thẻ, thiếp",
-            "ipa": "/kaːd/"
+            "vi": "tấm thiệp",
+            "ipa": "/kɑːd/"
         },
         {
             "term": "friend",
             "section": "NOUNS",
             "vi": "người bạn",
-            "ipa": "/frɛnd/"
+            "ipa": "/frend/"
         },
         {
             "term": "ice cream",
             "section": "NOUNS",
             "vi": "kem",
-            "ipa": "[ʌɪs]"
+            "ipa": "/ˌaɪs ˈkriːm/"
         },
         {
             "term": "match",
             "section": "NOUNS",
-            "vi": "trùng khớp",
-            "ipa": "/mæt͡ʃ/"
+            "vi": "que diêm",
+            "ipa": "/mætʃ/"
         },
         {
             "term": "present",
             "section": "NOUNS",
-            "vi": "có mặt",
-            "ipa": "/prəˈzɛnt/"
+            "vi": "món quà",
+            "ipa": "/ˈpreznt/"
         },
         {
             "term": "wrapping paper",
             "section": "NOUNS",
-            "vi": "giấy gói hàng",
-            "ipa": "/ˈræpɪŋ/"
-        },
-        {
-            "term": "ADJECTIVE",
-            "section": "NOUNS",
-            "vi": "Tính từ",
-            "ipa": "/ˈæ.d͡ʒə(k).tɪv/"
+            "vi": "giấy gói quà",
+            "ipa": "/ˈræpɪŋ ˈpeɪpər/"
         },
         {
             "term": "happy",
-            "section": "NOUNS",
-            "vi": "Vui",
-            "ipa": "/ˈhæpiː/"
+            "section": "ADJECTIVE",
+            "vi": "hạnh phúc, vui vẻ",
+            "ipa": "/ˈhæpi/"
         }
     ],
     "59": [
         {
             "term": "bring",
             "section": "VERBS",
-            "vi": "mang, cầm , xách lại",
-            "ipa": "/ˈbrɪŋ/"
+            "vi": "mang đến, đưa đến",
+            "ipa": "/brɪŋ/"
         },
         {
             "term": "give",
             "section": "VERBS",
-            "vi": "cho, biếu, tặng",
+            "vi": "cho, tặng",
             "ipa": "/ɡɪv/"
         },
         {
             "term": "greet",
             "section": "VERBS",
-            "vi": "Chào",
+            "vi": "chào hỏi",
             "ipa": "/ɡriːt/"
         },
         {
             "term": "go to",
             "section": "VERBS",
-            "vi": "chuyển đến",
-            "ipa": "/ɡəʊ/"
+            "vi": "đi đến",
+            "ipa": "/ɡəʊ tuː/"
         },
         {
             "term": "have",
             "section": "VERBS",
-            "vi": "có",
-            "ipa": ""
+            "vi": "có, ăn, uống",
+            "ipa": "/hæv/"
         },
         {
             "term": "introduce",
@@ -10619,244 +10559,220 @@
         {
             "term": "know",
             "section": "VERBS",
-            "vi": "biết",
+            "vi": "biết, quen biết",
             "ipa": "/nəʊ/"
         },
         {
             "term": "make",
             "section": "VERBS",
-            "vi": "làm thành, cấu thành, gộp thành",
+            "vi": "làm, chế tạo",
             "ipa": "/meɪk/"
         },
         {
             "term": "say goodnight",
             "section": "VERBS",
-            "vi": "chúc ngủ ngon",
-            "ipa": "/seɪ/"
+            "vi": "chào tạm biệt buổi tối/chúc ngủ ngon",
+            "ipa": "/seɪ ˌɡʊdˈnaɪt/"
         },
         {
             "term": "say hello",
             "section": "VERBS",
-            "vi": "- Chào con.",
-            "ipa": "/seɪ/"
+            "vi": "chào hỏi",
+            "ipa": "/seɪ həˈləʊ/"
         },
         {
             "term": "shake hands",
             "section": "VERBS",
-            "vi": "(music)",
-            "ipa": "/ˈʃeɪk/"
-        },
-        {
-            "term": "G",
-            "section": "VERBS",
-            "vi": "G",
-            "ipa": ""
+            "vi": "bắt tay",
+            "ipa": "/ʃeɪk hændz/"
         },
         {
             "term": "thank",
             "section": "VERBS",
             "vi": "cảm ơn",
-            "ipa": "[θaŋk]"
+            "ipa": "/θæŋk/"
         },
         {
             "term": "bottle",
             "section": "NOUNS",
-            "vi": "chai, lọ",
-            "ipa": "/ˈbɑ.təl/"
+            "vi": "cái chai, bình",
+            "ipa": "/ˈbɒtl/"
         },
         {
             "term": "dinner party",
             "section": "NOUNS",
-            "vi": "Đoàn ăn tối",
-            "ipa": "/ˈdɪnə/"
+            "vi": "tiệc tối",
+            "ipa": "/ˈdɪnə ˈpɑːti/"
         },
         {
             "term": "door",
             "section": "NOUNS",
-            "vi": "cửa ",
-            "ipa": "/dɔː/"
+            "vi": "cửa ra vào",
+            "ipa": "/dɔː(r)/"
         },
         {
             "term": "end",
             "section": "NOUNS",
-            "vi": "giới hạn; kết thúc, chấm dứt",
-            "ipa": "/ɛnd/"
+            "vi": "kết thúc",
+            "ipa": "/end/"
         },
         {
             "term": "evening",
             "section": "NOUNS",
-            "vi": "buổi chiều, tối",
-            "ipa": "/ˈivnɪŋ/"
+            "vi": "buổi tối",
+            "ipa": "/ˈiːvnɪŋ/"
         },
         {
             "term": "guest",
             "section": "NOUNS",
-            "vi": "khách",
-            "ipa": "/ɡɛst/"
+            "vi": "khách mời",
+            "ipa": "/ɡest/"
         },
         {
             "term": "host",
             "section": "NOUNS",
-            "vi": "vật chủ",
+            "vi": "chủ nhà (nam)",
             "ipa": "/həʊst/"
-        },
-        {
-            "term": "Ii",
-            "section": "NOUNS",
-            "vi": "II",
-            "ipa": ""
         },
         {
             "term": "people",
             "section": "NOUNS",
-            "vi": "người",
-            "ipa": "/ˈpiːpəl/"
+            "vi": "người, mọi người",
+            "ipa": "/ˈpiːpl/"
         },
         {
             "term": "small talk",
             "section": "NOUNS",
-            "vi": "Nói chuyện phiếm nhé.",
-            "ipa": "/smoːl/"
+            "vi": "chuyện phiếm, nói chuyện xã giao",
+            "ipa": "/ˈsmɔːl tɔːk/"
         },
         {
             "term": "snack",
             "section": "NOUNS",
-            "vi": "món ăn nhẹ",
+            "vi": "đồ ăn nhẹ, món ăn vặt",
             "ipa": "/snæk/"
         },
         {
             "term": "wine",
             "section": "NOUNS",
-            "vi": "rượu",
+            "vi": "rượu vang",
             "ipa": "/waɪn/"
-        },
-        {
-            "term": "(",
-            "section": "NOUNS",
-            "vi": "(",
-            "ipa": ""
         }
     ],
     "60": [
         {
-            "term": "Key Vocabul",
-            "section": "VERBS",
-            "vi": "Key Vocabul",
-            "ipa": "/kiː/"
-        },
-        {
-            "term": "buy",
+            "term": "buy [bought]",
             "section": "VERBS",
             "vi": "mua",
-            "ipa": "/baɪ/"
+            "ipa": "/baɪ/ [/bɔːt/]"
         },
         {
-            "term": "find out",
+            "term": "find [found] out",
             "section": "VERBS",
-            "vi": "phát hiện được.",
-            "ipa": "/faɪnd/"
+            "vi": "tìm ra, tìm hiểu",
+            "ipa": "/faɪnd aʊt/ [/faʊnd aʊt/]"
         },
         {
-            "term": "give back",
+            "term": "give [gave] back",
             "section": "VERBS",
-            "vi": "Trả lại",
-            "ipa": "/ɡɪv/"
+            "vi": "trả lại",
+            "ipa": "/ɡɪv bæk/ [/ɡeɪv bæk/]"
         },
         {
-            "term": "go to",
+            "term": "go [went] to",
             "section": "VERBS",
-            "vi": "chuyển đến",
-            "ipa": "/ɡəʊ/"
+            "vi": "đi đến",
+            "ipa": "/ɡəʊ tuː/ [/went tuː/]"
         },
         {
-            "term": "see",
+            "term": "see [saw]",
             "section": "VERBS",
-            "vi": "nhìn, quan sát",
-            "ipa": "/siː/"
+            "vi": "nhìn, xem",
+            "ipa": "/siː/ [/sɔː/]"
         },
         {
             "term": "show",
             "section": "VERBS",
-            "vi": "hiện",
+            "vi": "chỉ ra, cho xem",
             "ipa": "/ʃəʊ/"
         },
         {
-            "term": "tear",
+            "term": "tear [tore]",
             "section": "VERBS",
-            "vi": "xé,miếng xé; nước mắt",
-            "ipa": ""
+            "vi": "xé",
+            "ipa": "/teə(r)/ [/tɔː(r)/]"
         },
         {
             "term": "watch",
             "section": "VERBS",
-            "vi": "nhìn",
-            "ipa": "/wɒt͡ʃ/"
+            "vi": "theo dõi, xem",
+            "ipa": "/wɒtʃ/"
         },
         {
             "term": "box office",
             "section": "NOUNS",
-            "vi": "phòng vé (của rạp hát)",
-            "ipa": "/bɒks/"
+            "vi": "quầy bán vé",
+            "ipa": "/ˈbɒks ɒfɪs/"
         },
         {
-            "term": "popcorn",
+            "term": "coming attractions",
             "section": "NOUNS",
-            "vi": "ngô nở",
-            "ipa": "/ˈpɒp.kɔː(r)n/"
-        },
-        {
-            "term": "coming",
-            "section": "NOUNS",
-            "vi": "đến",
-            "ipa": "/ˈkʌmɪŋ/"
-        },
-        {
-            "term": "preview",
-            "section": "NOUNS",
-            "vi": "xem trước",
-            "ipa": "/ˈpriːvjʊː/"
-        },
-        {
-            "term": "attractions",
-            "section": "NOUNS",
-            "vi": "Du lịch",
-            "ipa": ""
-        },
-        {
-            "term": "seat",
-            "section": "NOUNS",
-            "vi": "ghế, chỗ ngồi",
-            "ipa": "/siːt/"
+            "vi": "phim sắp chiếu",
+            "ipa": "/ˌkʌmɪŋ əˈtrækʃnz/"
         },
         {
             "term": "credits",
             "section": "NOUNS",
-            "vi": "tín dụng",
-            "ipa": "/ˈkrɛdɪts/"
-        },
-        {
-            "term": "snack counter",
-            "section": "NOUNS",
-            "vi": "quầy bán đồ ăn nhẹ",
-            "ipa": "/snæk/"
+            "vi": "danh sách đoàn làm phim",
+            "ipa": "/ˈkredɪts/"
         },
         {
             "term": "end",
             "section": "NOUNS",
-            "vi": "giới hạn; kết thúc, chấm dứt",
-            "ipa": "/ɛnd/"
-        },
-        {
-            "term": "stub",
-            "section": "NOUNS",
-            "vi": "mẫu thuốc lá",
-            "ipa": "/stʌb/"
+            "vi": "kết thúc",
+            "ipa": "/end/"
         },
         {
             "term": "feature",
             "section": "NOUNS",
-            "vi": "đặc trưng",
-            "ipa": "/ˈfiːtʃə/"
+            "vi": "phim truyện chính",
+            "ipa": "/ˈfiːtʃə(r)/"
+        },
+        {
+            "term": "movie",
+            "section": "NOUNS",
+            "vi": "bộ phim",
+            "ipa": "/ˈmuːvi/"
+        },
+        {
+            "term": "popcorn",
+            "section": "NOUNS",
+            "vi": "bắp rang bơ",
+            "ipa": "/ˈpɒpkɔːrn/"
+        },
+        {
+            "term": "preview",
+            "section": "NOUNS",
+            "vi": "đoạn giới thiệu phim",
+            "ipa": "/ˈpriːvjuː/"
+        },
+        {
+            "term": "seat",
+            "section": "NOUNS",
+            "vi": "chỗ ngồi",
+            "ipa": "/siːt/"
+        },
+        {
+            "term": "snack counter",
+            "section": "NOUNS",
+            "vi": "quầy đồ ăn nhẹ",
+            "ipa": "/snæk ˈkaʊntə(r)/"
+        },
+        {
+            "term": "stub",
+            "section": "NOUNS",
+            "vi": "cuống vé",
+            "ipa": "/stʌb/"
         },
         {
             "term": "ticket",
@@ -10865,42 +10781,24 @@
             "ipa": "/ˈtɪkɪt/"
         },
         {
-            "term": "movie",
-            "section": "NOUNS",
-            "vi": "rạp chiếu phim",
-            "ipa": "/ˈmuːvi/"
-        },
-        {
             "term": "ticket-taker",
             "section": "NOUNS",
-            "vi": "người nhận vé",
-            "ipa": ""
-        },
-        {
-            "term": "ADJECTIVE",
-            "section": "NOUNS",
-            "vi": "Tính từ",
-            "ipa": "/ˈæ.d͡ʒə(k).tɪv/"
+            "vi": "người soát vé",
+            "ipa": "/ˈtɪkɪt teɪkə(r)/"
         },
         {
             "term": "main",
-            "section": "NOUNS",
-            "vi": "người đăng kí chính",
+            "section": "ADJECTIVE",
+            "vi": "chính, chủ yếu",
             "ipa": "/meɪn/"
-        },
-        {
-            "term": "For Special Attention",
-            "section": "NOUNS",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": ""
         }
     ],
     "61": [
         {
-            "term": "eat",
+            "term": "eat [ate]",
             "section": "VERBS",
             "vi": "ăn",
-            "ipa": "/iːt/"
+            "ipa": "/iːt/ [/eɪt/]"
         },
         {
             "term": "finish",
@@ -10909,190 +10807,160 @@
             "ipa": "/ˈfɪnɪʃ/"
         },
         {
-            "term": "get",
+            "term": "get [got]",
             "section": "VERBS",
-            "vi": "được, có được",
-            "ipa": "/ɡɛt/"
+            "vi": "lấy, được",
+            "ipa": "/ɡet/ [/ɡɒt/]"
         },
         {
             "term": "order",
             "section": "VERBS",
-            "vi": "đặt hàng",
-            "ipa": "/ˈɔːdə/"
+            "vi": "gọi món, đặt hàng",
+            "ipa": "/ˈɔːrdər/"
         },
         {
-            "term": "pay",
+            "term": "pay [paid]",
             "section": "VERBS",
-            "vi": "trả, thanh toán, nộp; tiền lương",
-            "ipa": "/peɪ/"
+            "vi": "thanh toán, trả tiền",
+            "ipa": "/peɪ/ [/peɪd/]"
         },
         {
-            "term": "put on",
+            "term": "put [put] on",
             "section": "VERBS",
-            "vi": "tho vao",
-            "ipa": "/pʊt/"
+            "vi": "đặt lên, để lên",
+            "ipa": "/pʊt ɒn/ [/pʊt ɒn/]"
         },
         {
-            "term": "Je",
-            "section": "VERBS",
-            "vi": "- Giesu ư?",
-            "ipa": ""
-        },
-        {
-            "term": "read",
+            "term": "read [read]",
             "section": "VERBS",
             "vi": "đọc",
-            "ipa": "/riːd/"
+            "ipa": "/riːd/ [/red/]"
         },
         {
-            "term": "stand in line",
+            "term": "stand [stood] in line",
             "section": "VERBS",
-            "vi": "Đứng xếp hàng!",
-            "ipa": "/stænd/"
+            "vi": "xếp hàng",
+            "ipa": "/stænd ɪn laɪn/ [/stʊd ɪn laɪn/]"
         },
         {
-            "term": "take",
+            "term": "take [took]",
             "section": "VERBS",
-            "vi": "chở; tiếp quản",
-            "ipa": "/teɪk/"
+            "vi": "cầm, lấy",
+            "ipa": "/teɪk/ [/tʊk/]"
         },
         {
-            "term": "throw",
+            "term": "throw [threw]",
             "section": "VERBS",
-            "vi": "vứt đi",
-            "ipa": "/θrəʊ/"
+            "vi": "ném, vứt",
+            "ipa": "/θrəʊ/ [/θruː/]"
         },
         {
             "term": "clerk",
             "section": "NOUNS",
-            "vi": "thư ký",
-            "ipa": "/klɐːk/"
-        },
-        {
-            "term": "napkin",
-            "section": "NOUNS",
-            "vi": "- Khăn ăn.",
-            "ipa": "/ˈnæp.kɪn/"
-        },
-        {
-            "term": "ar",
-            "section": "NOUNS",
-            "vi": "vi",
-            "ipa": "/ɔr/"
+            "vi": "nhân viên bán hàng",
+            "ipa": "/klɜːrk/"
         },
         {
             "term": "counter",
             "section": "NOUNS",
-            "vi": "quầy hàng, quầy thu tiền",
-            "ipa": "/ˈkaʊntə/"
+            "vi": "quầy hàng",
+            "ipa": "/ˈkaʊntər/"
+        },
+        {
+            "term": "dispenser",
+            "section": "NOUNS",
+            "vi": "máy rút (giấy/nước)",
+            "ipa": "/dɪˈspensər/"
+        },
+        {
+            "term": "drink",
+            "section": "NOUNS",
+            "vi": "đồ uống",
+            "ipa": "/drɪŋk/"
+        },
+        {
+            "term": "fast food",
+            "section": "NOUNS",
+            "vi": "thức ăn nhanh",
+            "ipa": "/ˌfæst ˈfuːd/"
+        },
+        {
+            "term": "food",
+            "section": "NOUNS",
+            "vi": "thức ăn",
+            "ipa": "/fuːd/"
+        },
+        {
+            "term": "lunch",
+            "section": "NOUNS",
+            "vi": "bữa trưa",
+            "ipa": "/lʌntʃ/"
+        },
+        {
+            "term": "menu",
+            "section": "NOUNS",
+            "vi": "thực đơn",
+            "ipa": "/ˈmenjuː/"
+        },
+        {
+            "term": "napkin",
+            "section": "NOUNS",
+            "vi": "khăn ăn",
+            "ipa": "/ˈnæpkɪn/"
         },
         {
             "term": "paper",
             "section": "NOUNS",
             "vi": "giấy",
-            "ipa": "/ˈpeɪpə/"
-        },
-        {
-            "term": "dispenser",
-            "section": "NOUNS",
-            "vi": "máy tự động rót",
-            "ipa": "/dɪˈspɛnsə/"
+            "ipa": "/ˈpeɪpər/"
         },
         {
             "term": "restaurant",
             "section": "NOUNS",
-            "vi": "nhà hàng , hiệu ăn",
-            "ipa": "/ˈrɛs.t(ə).r(ə)nt/"
-        },
-        {
-            "term": "For",
-            "section": "NOUNS",
-            "vi": "Cho",
-            "ipa": ""
-        },
-        {
-            "term": "drink",
-            "section": "NOUNS",
-            "vi": "đồ uống; uống",
-            "ipa": "/drɪŋk/"
+            "vi": "nhà hàng",
+            "ipa": "/ˈrestrɒnt/"
         },
         {
             "term": "straw",
             "section": "NOUNS",
-            "vi": "Màu vàng rơm",
+            "vi": "ống hút",
             "ipa": "/strɔː/"
-        },
-        {
-            "term": "ple",
-            "section": "NOUNS",
-            "vi": " mọi người ",
-            "ipa": ""
-        },
-        {
-            "term": "fast food",
-            "section": "NOUNS",
-            "vi": "đồ ăn nhanh",
-            "ipa": "/fɑːst/"
         },
         {
             "term": "table",
             "section": "NOUNS",
-            "vi": "bảng",
-            "ipa": "/ˈteɪbəl/"
-        },
-        {
-            "term": "food",
-            "section": "NOUNS",
-            "vi": "đồ ăn, món ăn",
-            "ipa": "/fuːd/"
+            "vi": "cái bàn",
+            "ipa": "/ˈteɪbl/"
         },
         {
             "term": "trash",
             "section": "NOUNS",
-            "vi": "thùng rác",
+            "vi": "rác",
             "ipa": "/træʃ/"
-        },
-        {
-            "term": "lunch",
-            "section": "NOUNS",
-            "vi": "bữa ăn trưa",
-            "ipa": "/lʌnt͡ʃ/"
         },
         {
             "term": "tray",
             "section": "NOUNS",
-            "vi": "xếp vào thùng",
+            "vi": "cái khay",
             "ipa": "/treɪ/"
-        },
-        {
-            "term": "menu",
-            "section": "NOUNS",
-            "vi": "menu",
-            "ipa": "/ˈmɛnju/"
         },
         {
             "term": "wrapper",
             "section": "NOUNS",
-            "vi": "Wrapper",
-            "ipa": "/ˈrapɚ/"
-        },
-        {
-            "term": "At",
-            "section": "ADJECTIVES",
-            "vi": "Lúc",
-            "ipa": ""
+            "vi": "giấy gói",
+            "ipa": "/ˈræpər/"
         },
         {
             "term": "empty",
             "section": "ADJECTIVES",
-            "vi": "trống, rỗng; uống, làm cạn",
-            "ipa": "/ˈɛmpti/"
+            "vi": "trống rỗng, cạn",
+            "ipa": "/ˈempti/"
         },
         {
-            "term": "he",
+            "term": "other",
             "section": "ADJECTIVES",
-            "vi": "ông ấy",
-            "ipa": "/hi/"
+            "vi": "khác",
+            "ipa": "/ˈʌðər/"
         }
     ]
 }
