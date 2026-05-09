@@ -166,229 +166,402 @@
             "vi": "Bạn làm phẳng ga giường bằng cách loại bỏ các nếp nhăn."
         }
     ],
-    "7": [],
-    "8": [],
-    "9": [
+    "7": [
         {
-            "marker": "*",
-            "en": "you throw something into the garbage, you throw it into a container for garbage.",
-            "vi": "bạn ném một cái gì đó vào thùng rác, bạn ném nó vào một thùng chứa rác."
+            "marker": "•",
+            "en": "A “filter” has very small holes in it. A liquid or gas can pass through the holes, but large pieces of a solid cannot. A “strainer” does the same thing, but its holes are larger and it probably has a handle.",
+            "vi": "Một “bộ lọc” có những lỗ rất nhỏ trong đó. Chất lỏng hoặc khí có thể đi qua các lỗ, nhưng các mảnh rắn lớn thì không thể. Một “cái rây” cũng làm điều tương tự, nhưng các lỗ của nó lớn hơn và có lẽ có tay cầm."
         },
         {
-            "marker": "*",
-            "en": "melt something is to heat it until it changes from solid to liquid.",
-            "vi": "làm tan chảy một cái gì đó là để làm nóng nó cho đến khi nó thay đổi từ rắn sang lỏng."
+            "marker": "•",
+            "en": "If you grind coffee beans, you get “ground coffee”.",
+            "vi": "Nếu bạn xay hạt cà phê, bạn sẽ có “cà phê xay”."
+        },
+        {
+            "marker": "•",
+            "en": "“scoop...coffee” = move it by using a scoop",
+            "vi": "“xúc...cà phê” = di chuyển nó bằng cách dùng muỗng xúc"
+        },
+        {
+            "marker": "•",
+            "en": "“heats up” = becomes hot",
+            "vi": "“nóng lên” = trở nên nóng"
+        },
+        {
+            "marker": "•",
+            "en": "When something “soaks”, it stays in water and becomes very wet.",
+            "vi": "Khi thứ gì đó “ngâm”, nó ở trong nước và trở nên rất ướt."
+        }
+    ],
+    "8": [
+        {
+            "marker": "•",
+            "en": "You “sprinkle” something by making small pieces of it fall over a wide area.",
+            "vi": "Bạn “rắc” thứ gì đó bằng cách làm cho những mảnh nhỏ của nó rơi trên một diện tích rộng."
+        },
+        {
+            "marker": "•",
+            "en": "Something that “pops up” comes up very quickly.",
+            "vi": "Thứ gì đó “bật lên” xuất hiện một cách rất nhanh chóng."
+        },
+        {
+            "marker": "•",
+            "en": "When you make something go down, you “lower” it; when you make something go up, you “raise” it.",
+            "vi": "Khi bạn làm cho thứ gì đó đi xuống, bạn hạ nó xuống (lower); khi bạn làm cho thứ gì đó đi lên, bạn nâng nó lên (raise)."
+        },
+        {
+            "marker": "•",
+            "en": "When you “peel” a fruit or vegetable, you take off its skin. Afterwards, the skin that has been taken off is called \"a peel\" or \"peelings.\"",
+            "vi": "Khi bạn “gọt” vỏ trái cây hoặc rau củ, bạn loại bỏ lớp vỏ của nó. Sau đó, lớp vỏ đã được gọt bỏ được gọi là \"vỏ\" hoặc \"vỏ bào\"."
+        },
+        {
+            "marker": "•",
+            "en": "“Slices” of bread are also called \"pieces\" of bread.",
+            "vi": "Những “lát” bánh mì cũng được gọi là những \"miếng\" bánh mì."
+        },
+        {
+            "marker": "•",
+            "en": "To “slice” something is to cut it into thin, flat pieces.",
+            "vi": "“Cắt lát” thứ gì đó là cắt nó thành những miếng mỏng và phẳng."
+        }
+    ],
+    "9": [
+        {
+            "marker": "•",
+            "en": "“The egg fries” and “Dan fries the egg” are both possible.",
+            "vi": "Cả câu “Quả trứng chiên” (The egg fries) và “Dan chiên quả trứng” (Dan fries the egg) đều có thể dùng được."
+        },
+        {
+            "marker": "•",
+            "en": "Dan has a “gas” stove. Some people have electric stoves.",
+            "vi": "Dan có bếp “ga”. Một số người có bếp điện."
+        },
+        {
+            "marker": "•",
+            "en": "When you “flip” something, you turn it upside down.",
+            "vi": "Khi bạn “lật” thứ gì đó, bạn xoay nó ngược lại."
+        },
+        {
+            "marker": "•",
+            "en": "When you “throw something into the garbage”, you throw it into a container for garbage.",
+            "vi": "Khi bạn “vứt thứ gì đó vào thùng rác” (throw something into the garbage), bạn ném nó vào một thùng để chứa rác. ((“garbage” có nghĩa là rác, nhưng có thể nói “throw something into the garbage” để nói là vứt vào thùng rác))"
+        },
+        {
+            "marker": "•",
+            "en": "To “melt” something is to heat it until it changes from solid to liquid.",
+            "vi": "“Làm tan chảy” thứ gì đó nghĩa là làm nóng nó cho đến khi nó chuyển từ thể rắn sang thể lỏng."
         }
     ],
     "10": [
         {
-            "marker": "*",
-            "en": "The paper means “the news- paper.”",
-            "vi": "Tờ báo có nghĩa là “tờ báo”."
+            "marker": "•",
+            "en": "**The paper** means \"the newspaper.\"",
+            "vi": "**The paper** có nghĩa là \"tờ báo.\""
         },
         {
-            "marker": "*",
-            "en": "A little bit = some, but not very much.",
-            "vi": "Một chút = một số, nhưng không nhiều lắm."
+            "marker": "•",
+            "en": "**A little bit** = some, but not very much.",
+            "vi": "**A little bit** = một ít, nhưng không nhiều lắm."
         },
         {
-            "marker": "*",
-            "en": "First you sit down; then you sit.",
-            "vi": "Đầu tiên bạn ngồi xuống; sau đó bạn ngồi."
+            "marker": "•",
+            "en": "First you **sit down**; then you sit.",
+            "vi": "Đầu tiên bạn **ngồi xuống**; sau đó bạn ngồi. (“sit down” có nghĩa là ngồi xuống, còn “sit” có nghĩa là ngồi.)"
         },
         {
-            "marker": "*",
-            "en": "mugis a large cup with a handle.",
-            "vi": "cốc lớn có tay cầm."
+            "marker": "•",
+            "en": "A **mug** is a large cup with a handle.",
+            "vi": "Một cái **mug** là một chiếc cốc lớn có tay cầm."
         },
         {
-            "marker": "*",
-            "en": "Pam and Dan sit at the table. They sit in or on chairs.",
-            "vi": "Pam và Dan ngồi vào bàn. Họ ngồi trong hoặc trên ghế."
+            "marker": "•",
+            "en": "Pam and Dan sit **at the table**. They sit **in** or **on** chairs.",
+            "vi": "Pam và Dan ngồi **tại bàn** (at the table). Họ ngồi **trong** (in) hoặc **trên** (on) ghế."
         },
         {
-            "marker": "+",
-            "en": "You dip a solid into a liquid by putting it in for only a short time. (See p.35 for “liquids and solids.”)",
-            "vi": "Bạn nhúng một chất rắn vào chất lỏng bằng cách cho nó vào chỉ trong một thời gian ngắn. (Xem tr.35 để biết “chất lỏng và chất rắn.”)"
+            "marker": "•",
+            "en": "You **dip** a solid into a liquid by putting it in for only a short time. (See p.35 for \"liquids and solids.\")",
+            "vi": "Bạn **nhúng** một chất rắn vào chất lỏng bằng cách cho nó vào chỉ trong một thời gian ngắn. (Xem trang 35 về \"chất lỏng và chất rắn.\")"
         }
     ],
     "11": [
         {
-            "marker": "*",
-            "en": "Some ways people say good- bye : “See you later.” “Bye,” “See you.” “Catch you later.” “Goodbye.” -“Leave home” can mean the same as leave the house. (For example, “He left home at seven o'clock this morning.”) + The opposite of zip up is “unzip.” * Shut the door means “close” the door.",
-            "vi": "Một số cách mọi người nói lời tạm biệt : “Hẹn gặp lại.\" Tạm biệt, \"\" Hẹn gặp lại. \"\" Hẹn gặp lại. ““ Tạm biệt ”-“ Rời khỏi nhà ”có thể có nghĩa giống như rời khỏi nhà. (Ví dụ:“ Anh ấy rời khỏi nhà lúc bảy giờ sáng nay. ”) + Ngược lại với zip up là“ unzip. \"* Đóng cửa có nghĩa là\" đóng \"cửa."
+            "marker": "•",
+            "en": "Some ways people **say goodbye** : \"See you later.\" \"Bye.\" \"See you.\" \"Catch you later.\" \"Goodbye.\"",
+            "vi": "Một số cách mọi người **chào tạm biệt** : \"Hẹn gặp lại sau.\" \"Tạm biệt.\" \"Gặp lại sau nhé.\" \"Hẹn gặp lại sau.\" \"Tạm biệt.\""
+        },
+        {
+            "marker": "•",
+            "en": "\"Leave home\" can mean the same as **leave the house**. (For example, \"He left home at seven o'clock this morning.\")",
+            "vi": "\"Rời nhà\" có thể có nghĩa tương tự như **rời khỏi ngôi nhà**. (Ví dụ, \"Anh ấy đã rời nhà vào lúc bảy giờ sáng nay.\")"
+        },
+        {
+            "marker": "•",
+            "en": "The opposite of **zip up** is \"unzip.\"",
+            "vi": "Từ trái nghĩa của **kéo khóa lên** là \"mở khóa.\""
+        },
+        {
+            "marker": "•",
+            "en": "**Shut** the door means \"close\" the door.",
+            "vi": "**Đóng** cửa có nghĩa là \"khép\" cửa lại."
         }
     ],
     "12": [
         {
-            "marker": "*",
-            "en": "For Special Attenti",
-            "vi": "Dành cho sự chú ý đặc biệt"
+            "marker": "•",
+            "en": "If a bus is NOT **on time**, it is late or early.",
+            "vi": "Nếu một chiếc xe buýt KHÔNG **đúng giờ**, nó sẽ đến trễ hoặc sớm."
         },
         {
-            "marker": "*",
-            "en": "If a bus is NOT on time, it is late or early.",
-            "vi": "Nếu xe buýt KHÔNG đúng giờ, đó là muộn hoặc sớm."
+            "marker": "•",
+            "en": "If Jenny **checked** her schedule, she looked at it for a short time to find some specific information.",
+            "vi": "Nếu Jenny **kiểm tra** lịch trình của mình, cô ấy đã xem nó trong một thời gian ngắn để tìm một số thông tin cụ thể."
         },
         {
-            "marker": "*",
-            "en": "If Jenny checked her schedule, she looked at it for a short time to find some specific information.",
-            "vi": "Nếu Jenny kiểm tra lịch trình của mình, cô ấy đã xem nó trong một thời gian ngắn để tìm một số thông tin cụ thể."
+            "marker": "•",
+            "en": "A **bus pass**:",
+            "vi": "Một chiếc **thẻ xe buýt**:"
+        },
+        {
+            "marker": "-",
+            "en": "is a card or a piece of paper.",
+            "vi": "là một chiếc thẻ hoặc một mảnh giấy."
+        },
+        {
+            "marker": "-",
+            "en": "means you can ride the bus without paying on the bus.",
+            "vi": "có nghĩa là bạn có thể đi xe buýt mà không cần trả tiền trên xe."
+        },
+        {
+            "marker": "-",
+            "en": "is good for a certain time (maybe one week, maybe one month, etc.).",
+            "vi": "có giá trị trong một thời gian nhất định (có thể là một tuần, có thể là một tháng, v.v.)."
         }
     ],
     "13": [
         {
-            "marker": "*",
-            "en": "You adjust something by moving it or changing it until it is right.",
-            "vi": "Bạn điều chỉnh một cái gì đó bằng cách di chuyển nó hoặc thay đổi nó cho đến khi nó đúng."
+            "marker": "•",
+            "en": "You **adjust** something by moving it or changing it until it is right.",
+            "vi": "Bạn **điều chỉnh** thứ gì đó bằng cách di chuyển hoặc thay đổi nó cho đến khi phù hợp."
         },
         {
-            "marker": "*",
-            "en": "A driveway leads from the road to a building ora parking lot.",
-            "vi": "Đường lái xe dẫn từ đường đến bãi đậu xe của tòa nhà."
+            "marker": "•",
+            "en": "A **driveway** leads from the road to a building or a parking lot.",
+            "vi": "Một **lối đi riêng** dẫn từ đường vào một tòa nhà hoặc bãi đậu xe."
         },
         {
-            "marker": "*",
-            "en": "The slot for a car’s key is called the ignition. In other cases, “ignition” means “starting to burn,” “The spark caused the ignition of the gas.”",
-            "vi": "Khe cắm chìa khóa xe được gọi là đánh lửa. Trong các trường hợp khác, \"đánh lửa\" có nghĩa là \"bắt đầu cháy\", \"Tia lửa gây ra sự đánh lửa của khí.\""
+            "marker": "•",
+            "en": "The slot for a car's key is called the **ignition**. In other cases, \"ignition\" means \"starting to burn,\" e.g., \"The spark caused the ignition of the gas.\"",
+            "vi": "Ổ cắm chìa khóa xe hơi được gọi là **ignition**. Trong các trường hợp khác, \"ignition\" có nghĩa là \"bắt đầu bốc cháy\", ví dụ: \"Tia lửa đã gây ra sự bốc cháy của khí gas.\""
         }
     ],
     "14": [
         {
-            "marker": "+",
-            "en": "Another way of saying press the accelerator is “step on the gas.”",
-            "vi": "Một cách khác để nói nhấn máy gia tốc là \"nhấn ga\"."
+            "marker": "•",
+            "en": "**speed up** = go faster",
+            "vi": "**tăng tốc** = đi nhanh hơn"
         },
         {
-            "marker": "*",
-            "en": "Let up on the accelerator",
-            "vi": "Thả lên trên máy gia tốc"
+            "marker": "•",
+            "en": "**slow down** = go slower",
+            "vi": "**giảm tốc** = đi chậm lại"
         },
         {
-            "marker": "*",
-            "en": "means “put less pressure on” it.",
-            "vi": "có nghĩa là \"giảm bớt áp lực lên nó\"."
+            "marker": "•",
+            "en": "Another way of saying **press the accelerator** is \"step on the gas.\"",
+            "vi": "Một cách khác để nói **nhấn ga** (press the accelerator) là \"đạp ga\" (step on the gas)."
         },
         {
-            "marker": "*",
-            "en": "Shifting gears is changing from one to another. + Gears: 1 = first 2 =second 3 R = reverse Between gears is neutral.",
-            "vi": "Chuyển số đang thay đổi từ số này sang số khác. + Bánh răng: 1 = thứ nhất 2 =thứ hai 3 R = đảo ngược Giữa các bánh răng là trung tính."
+            "marker": "•",
+            "en": "**Let up on** the accelerator means \"put less pressure on\" it.",
+            "vi": "**Nới lỏng** chân ga có nghĩa là \"giảm áp lực\" lên nó (đạp nhẹ lại)."
+        },
+        {
+            "marker": "•",
+            "en": "**Shifting gears** is changing from one to another.",
+            "vi": "**Sang số** là việc thay đổi từ số này sang số khác."
+        },
+        {
+            "marker": "•",
+            "en": "**Gears**:",
+            "vi": "**Các số**:"
+        },
+        {
+            "marker": "",
+            "en": "1 = first",
+            "vi": "1 = số một"
+        },
+        {
+            "marker": "",
+            "en": "2 = second",
+            "vi": "2 = số hai"
+        },
+        {
+            "marker": "",
+            "en": "3 = third",
+            "vi": "3 = số ba"
+        },
+        {
+            "marker": "",
+            "en": "4 = fourth",
+            "vi": "4 = số bốn"
+        },
+        {
+            "marker": "",
+            "en": "R = reverse",
+            "vi": "R = số lùi"
+        },
+        {
+            "marker": "",
+            "en": "Between gears is **neutral**.",
+            "vi": "Ở giữa các số là **số mo (số trung gian)**."
         }
     ],
     "15": [
         {
-            "marker": "*",
-            "en": "For Special Attention",
-            "vi": "Sự chú ý đặc biệt"
+            "marker": "•",
+            "en": "**turn red** = become red",
+            "vi": "**trở nên đỏ** = chuyển sang màu đỏ"
         },
         {
-            "marker": "*",
-            "en": "*turn red = become red When speaking of cars, buses, etc. pull in = drive in pull up = drive forward pull over = drive to the side of the road and stop * To go over a limit is to go faster or farther than you should.",
-            "vi": "*chuyển sang màu đỏ = trở thành màu đỏ Khi nói về ô tô, xe buýt, v.v. kéo vào = lái xe kéo lên = lái xe về phía trước kéo lên = lái xe sang một bên đường và dừng lại * Vượt quá giới hạn là đi nhanh hơn hoặc xa hơn bạn nên."
+            "marker": "•",
+            "en": "When speaking of cars, buses, etc.",
+            "vi": "Khi nói về xe hơi, xe buýt, v.v."
+        },
+        {
+            "marker": "",
+            "en": "**pull in** = drive in",
+            "vi": "**pull in** = lái xe vào"
+        },
+        {
+            "marker": "",
+            "en": "**pull up** = drive forward",
+            "vi": "**pull upn** = lái xe về phía trước"
+        },
+        {
+            "marker": "",
+            "en": "**pull over** = drive to the side of the road and stop",
+            "vi": "**pull over** (tấp vào lề) = lái xe vào lề đường và dừng lại"
+        },
+        {
+            "marker": "•",
+            "en": "To **go over** a limit is to go faster or farther than you should.",
+            "vi": "**Vượt quá** giới hạn là đi nhanh hơn hoặc xa hơn mức bạn nên đi"
         }
     ],
     "16": [
         {
-            "marker": "*",
-            "en": "For Special Att",
-            "vi": "Dành cho Att đặc biệt"
+            "marker": "•",
+            "en": "The train **was crowded**. There were very many people in a small place.",
+            "vi": "Chuyến tàu **đã rất đông** (crowded). Có rất nhiều người trong một không gian nhỏ."
         },
         {
-            "marker": "*",
-            "en": "The train was crowded. There were very many people in a small place.",
-            "vi": "Đoàn tàu đông đúc. Có rất nhiều người ở một nơi nhỏ."
+            "marker": "•",
+            "en": "When a **gate** with a **turnstile** opens, the turnstile rotates (turns).",
+            "vi": "Khi một **gate** (chiếc cổng) có **turnstile** (cửa xoay) mở ra thì cửa xoay đó sẽ quay."
         },
         {
-            "marker": "*",
-            "en": "» When a gate with a turnstile opens, the turnstile rotates (turns).",
-            "vi": "» Khi một cổng có cửa xoay mở ra, cửa xoay sẽ quay (quay)."
+            "marker": "•",
+            "en": "If he **had to stand**, he could not find a place to sit.",
+            "vi": "Nếu anh ấy **phải đứng**, nghĩa là anh ấy không thể tìm được chỗ ngồi."
         },
         {
-            "marker": "*",
-            "en": "«If he had to stand, he could not find a place to sit,",
-            "vi": "«Nếu phải đứng, ông không thể tìm được chỗ ngồi,"
+            "marker": "•",
+            "en": "His station **was announced**. This means someone announced his station.",
+            "vi": "Ga của anh ấy **đã được thông báo**. Điều này có nghĩa là ai đó đã thông báo về ga của anh ấy. (Loa trên tàu thường thông báo tên ga tiếp theo, nếu ga của Tom được thông báo, nghĩa là loa tàu đã phát thông báo tên ga của Tom.)"
         },
         {
-            "marker": "*",
-            "en": "His station was announced. This means someone announced his station.",
-            "vi": "Trạm của anh ta đã được thông báo. Điều này có nghĩa là ai đó đã thông báo vị trí của mình."
-        },
-        {
-            "marker": "*",
-            "en": "Other passengers are passengers who are not Tom.",
-            "vi": "Những hành khách khác là những hành khách không phải là Tom."
+            "marker": "•",
+            "en": "**Other passengers** are passengers who are **not** Tom.",
+            "vi": "**Những hành khách khác** là những hành khách **không phải** là Tom."
         }
     ],
-    "17": [],
+    "17": [
+        {
+            "marker": "•",
+            "en": "To **give directions** means to tell someone how to get somewhere or how to do something.",
+            "vi": "**Give directions** có nghĩa là chỉ ai đó cách đi đến một nơi nào đó hoặc cách làm một việc gì đó."
+        },
+        {
+            "marker": "•",
+            "en": "When you **give someone a tip**, you give them some extra money to thank them for good service.",
+            "vi": "Khi bạn **cho ai đó tiền típ**, bạn đưa cho họ thêm một ít tiền để cảm ơn họ vì dịch vụ tốt."
+        },
+        {
+            "marker": "•",
+            "en": "Other ways to say **hail a taxi** are: \"Wave for a taxi.\" \"Wave down a taxi.\" \"Flag down a taxi.\"",
+            "vi": "Các cách khác để nói **gọi taxi** là: \"Vẫy taxi.\" \"Vẫy tay dừng taxi.\" \"Ra hiệu dừng taxi.\""
+        },
+        {
+            "marker": "•",
+            "en": "Taxis that **pass by** go past someone without stopping.",
+            "vi": "Taxi **đi ngang qua** (pass by) là đi qua một ai đó mà không dừng lại."
+        },
+        {
+            "marker": "•",
+            "en": "To **check** the meter is to look quickly at it to see what it says.",
+            "vi": "**Kiểm tra** đồng hồ tính tiền là nhìn nhanh vào nó để xem nó hiển thị mức giá bao nhiêu."
+        }
+    ],
     "18": [
         {
-            "marker": "*",
-            "en": "A sidewalk is a paved (concrete) place for walking.",
-            "vi": "Vỉa hè là nơi trải nhựa (bê tông) để đi bộ."
+            "marker": "•",
+            "en": "A **sidewalk** is a paved (concrete) place for walking.",
+            "vi": "Một **vỉa hè** là một nơi được lát gạch (bê tông) dành cho việc đi bộ."
         },
         {
-            "marker": "*",
-            "en": "traffic = the group of cars, trucks, buses, bikes, etc., on a street,",
-            "vi": "giao thông = nhóm ô tô, xe tải, xe buýt, xe đạp, v.v., trên đường phố,"
+            "marker": "•",
+            "en": "**traffic** = the group of cars, trucks, buses, bikes, etc., on a street.",
+            "vi": "**traffic** (phương tiện giao thông) = nhóm các loại xe hơi, xe tải, xe buýt, xe đạp, v.v., trên đường."
         },
         {
-            "marker": "*",
-            "en": "When you take a shortcut, you use a shorter way than the usual way.",
-            "vi": "Khi bạn đi đường tắt, bạn sử dụng đường tắt ngắn hơn đường thông thường."
+            "marker": "•",
+            "en": "When you **take a shortcut**, you use a shorter way than the usual way.",
+            "vi": "Khi bạn **đi đường tắt**, bạn sử dụng một con đường ngắn hơn con đường thông thường."
         },
         {
-            "marker": "*",
-            "en": "pedestrian = someone who is walking.",
-            "vi": "người đi bộ = người đang đi bộ."
+            "marker": "•",
+            "en": "**a pedestrian** = someone who is walking.",
+            "vi": "**người đi bộ** = một người nào đó đang đi bộ."
         },
         {
-            "marker": "+",
-            "en": "An overpass is a bridge for passing over the street.",
-            "vi": "Cầu vượt là một cây cầu để đi qua đường phố."
+            "marker": "•",
+            "en": "An **overpass** is a bridge for passing over the street.",
+            "vi": "Một **cầu vượt** là một cây cầu để đi băng qua phía trên đường phố."
         }
     ],
     "19": [
         {
-            "marker": "*",
-            "en": "is a very hard hat that protects your head.",
-            "vi": "là một chiếc mũ rất cứng để bảo vệ đầu của bạn."
+            "marker": "•",
+            "en": "A **helmet** is a very hard hat that protects your head.",
+            "vi": "Một chiếc **mũ bảo hiểm** là một chiếc mũ rất cứng giúp bảo vệ đầu của bạn."
         },
         {
-            "marker": "*",
-            "en": "«The parts of a bike where your feet go are the pedals. You pedal the bike by pushing on the pedals.",
-            "vi": "«Các bộ phận của một chiếc xe đạp nơi bàn chân của bạn đi là bàn đạp. Bạn đạp xe đạp bằng cách nhấn vào bàn đạp."
+            "marker": "•",
+            "en": "The parts of a bike where your feet go are the **pedals**. You **pedal** the bike by pushing on the pedals.",
+            "vi": "Bộ phận của xe đạp nơi bạn đặt chân vào là **bàn đạp**. Bạn **đạp** xe bằng cách nhấn lên bàn đạp."
         },
         {
-            "marker": "+",
-            "en": "When you squeeze something, you grip it tightly.",
-            "vi": "Khi bạn siết chặt một cái gì đó, bạn nắm chặt nó."
+            "marker": "•",
+            "en": "When you **squeeze** something, you grip it tightly.",
+            "vi": "Khi bạn **bóp** thứ gì đó, bạn nắm chặt lấy nó."
         },
         {
-            "marker": "*",
-            "en": "+When you shift gears, you change from one to another.",
-            "vi": "+Khi bạn chuyển số, bạn thay đổi từ số này sang số khác."
+            "marker": "•",
+            "en": "When you **shift** gears, you change from one to another.",
+            "vi": "Khi bạn **sang** số, bạn thay đổi từ số này sang số khác."
         }
     ],
     "20": [
         {
-            "marker": "*",
-            "en": "casual (adj.) inside (adv.) home (ady.)",
-            "vi": "casual (adj.) inside (adv.) home (ady.)"
+            "marker": "•",
+            "en": "**get back** = return",
+            "vi": "**quay lại** = trở về"
         },
         {
-            "marker": "*",
-            "en": "For Special Attenti",
-            "vi": "Dành cho sự chú ý đặc biệt"
-        },
-        {
-            "marker": "*",
-            "en": "get back = return",
-            "vi": "lấy lại = return"
-        },
-        {
-            "marker": "*",
-            "en": "You take an elevator just as you take a bus; you use it to get somewhere.",
-            "vi": "Bạn đi thang máy giống như bạn đi xe buýt; bạn sử dụng nó để đến một nơi nào đó."
+            "marker": "•",
+            "en": "You **take an elevator** just as you **take a bus**; you use it to get somewhere.",
+            "vi": "Bạn **đi thang máy** cũng giống như khi bạn **đi xe buýt**; bạn sử dụng nó để đi đến một nơi nào đó."
         }
     ],
     "21": [],
