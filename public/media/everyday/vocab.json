@@ -1339,178 +1339,136 @@
     ],
     "7": [
         {
-            "term": "Vocabula",
-            "section": "VERBS",
-            "vi": "Từ vựng",
-            "ipa": ""
-        },
-        {
             "term": "add",
             "section": "VERBS",
-            "vi": "Thêm vào",
+            "vi": "thêm vào",
             "ipa": "/æd/"
-        },
-        {
-            "term": "scoop",
-            "section": "VERBS",
-            "vi": "vớ được (món lời lớn...)",
-            "ipa": "/skuːp/"
         },
         {
             "term": "become",
             "section": "VERBS",
-            "vi": "trở thành, trở nên",
-            "ipa": "/bəˈkʊm/"
-        },
-        {
-            "term": "soak",
-            "section": "VERBS",
-            "vi": "thời gian ngâm",
-            "ipa": "/səʊk/"
+            "vi": "trở thành",
+            "ipa": "/bɪˈkʌm/"
         },
         {
             "term": "boil",
             "section": "VERBS",
-            "vi": "sôi, luộc",
+            "vi": "đun sôi",
             "ipa": "/bɔɪl/"
-        },
-        {
-            "term": "stir",
-            "section": "VERBS",
-            "vi": "khuấy, đảo",
-            "ipa": "/stɜː/"
         },
         {
             "term": "drip",
             "section": "VERBS",
-            "vi": "thùng hứng conđensat",
+            "vi": "chảy nhỏ giọt",
             "ipa": "/drɪp/"
-        },
-        {
-            "term": "strain",
-            "section": "VERBS",
-            "vi": "căng thẳng",
-            "ipa": "/streɪ̯n/"
         },
         {
             "term": "heat up",
             "section": "VERBS",
-            "vi": "Nung",
-            "ipa": "/hit/"
-        },
-        {
-            "term": "turn on",
-            "section": "VERBS",
-            "vi": "Bật",
-            "ipa": "/tɜːn/"
+            "vi": "làm nóng",
+            "ipa": "/hiːt ʌp/"
         },
         {
             "term": "make",
             "section": "VERBS",
-            "vi": "làm thành, cấu thành, gộp thành",
+            "vi": "pha, làm",
             "ipa": "/meɪk/"
-        },
-        {
-            "term": "cc",
-            "section": "VERBS",
-            "vi": "cc",
-            "ipa": "/siːˈsiː/"
         },
         {
             "term": "pour",
             "section": "VERBS",
             "vi": "rót",
-            "ipa": "/pɔː/"
+            "ipa": "/pɔː(r)/"
         },
         {
             "term": "press",
             "section": "VERBS",
-            "vi": "ép, nén, bóp, ấn",
-            "ipa": "/prɛs/"
+            "vi": "nhấn, ép",
+            "ipa": "/pres/"
+        },
+        {
+            "term": "scoop",
+            "section": "VERBS",
+            "vi": "múc",
+            "ipa": "/skuːp/"
+        },
+        {
+            "term": "soak",
+            "section": "VERBS",
+            "vi": "ngâm",
+            "ipa": "/səʊk/"
+        },
+        {
+            "term": "stir",
+            "section": "VERBS",
+            "vi": "khuấy",
+            "ipa": "/stɜː(r)/"
+        },
+        {
+            "term": "strain",
+            "section": "VERBS",
+            "vi": "lọc (nước)",
+            "ipa": "/streɪn/"
+        },
+        {
+            "term": "turn on",
+            "section": "VERBS",
+            "vi": "bật (công tắc)",
+            "ipa": "/tɜːn ɒn/"
         },
         {
             "term": "coffee",
             "section": "NOUNS",
             "vi": "cà phê",
-            "ipa": "/ˈkɑ.fi/"
-        },
-        {
-            "term": "switch",
-            "section": "NOUNS",
-            "vi": "switch",
-            "ipa": "/swɪtʃ/"
+            "ipa": "/ˈkɒfi/"
         },
         {
             "term": "coffee maker",
             "section": "NOUNS",
-            "vi": "máy rang cà phê",
-            "ipa": "/ˈkɑ.fi/"
+            "vi": "máy pha cà phê",
+            "ipa": "/ˈkɒfi ˈmeɪkə(r)/"
         },
         {
             "term": "coffeepot",
             "section": "NOUNS",
-            "vi": "ấm cà phê",
-            "ipa": ""
-        },
-        {
-            "term": "teacup",
-            "section": "NOUNS",
-            "vi": "tách trà",
-            "ipa": "/tiː.kʌp/"
+            "vi": "bình pha cà phê",
+            "ipa": "/ˈkɒfipɒt/"
         },
         {
             "term": "filter",
             "section": "NOUNS",
             "vi": "bộ lọc",
-            "ipa": "/ˈfɪltə/"
-        },
-        {
-            "term": "teakettle",
-            "section": "NOUNS",
-            "vi": "ấm đun nước tếch",
-            "ipa": ""
+            "ipa": "/ˈfɪltə(r)/"
         },
         {
             "term": "leaves",
             "section": "NOUNS",
-            "vi": "lá",
+            "vi": "lá (trà)",
             "ipa": "/liːvz/"
-        },
-        {
-            "term": "teapot",
-            "section": "NOUNS",
-            "vi": "Ấm trà",
-            "ipa": ""
         },
         {
             "term": "milk",
             "section": "NOUNS",
             "vi": "sữa",
-            "ipa": "[mɛlk]"
-        },
-        {
-            "term": "water",
-            "section": "NOUNS",
-            "vi": "nước",
-            "ipa": "/ˈwoːtə/"
+            "ipa": "/mɪlk/"
         },
         {
             "term": "saucer",
             "section": "NOUNS",
-            "vi": "cái âu",
-            "ipa": "/ˈsɔː.sə/"
+            "vi": "đĩa lót tách",
+            "ipa": "/ˈsɔːsə(r)/"
         },
         {
             "term": "scoop",
             "section": "NOUNS",
-            "vi": "vớ được (món lời lớn...)",
+            "vi": "cái muôi, thìa múc",
             "ipa": "/skuːp/"
         },
         {
             "term": "strainer",
             "section": "NOUNS",
-            "vi": "thùng lọc",
-            "ipa": "/ˈstreɪnɚ/"
+            "vi": "cái lọc",
+            "ipa": "/ˈstreɪnə(r)/"
         },
         {
             "term": "sugar",
@@ -1519,15 +1477,51 @@
             "ipa": "/ˈʃʊɡə(r)/"
         },
         {
+            "term": "switch",
+            "section": "NOUNS",
+            "vi": "công tắc",
+            "ipa": "/swɪtʃ/"
+        },
+        {
+            "term": "tea",
+            "section": "NOUNS",
+            "vi": "trà",
+            "ipa": "/tiː/"
+        },
+        {
+            "term": "teacup",
+            "section": "NOUNS",
+            "vi": "tách trà",
+            "ipa": "/ˈtiːkʌp/"
+        },
+        {
+            "term": "teakettle",
+            "section": "NOUNS",
+            "vi": "ấm đun nước",
+            "ipa": "/ˈtiːketl/"
+        },
+        {
+            "term": "teapot",
+            "section": "NOUNS",
+            "vi": "ấm trà",
+            "ipa": "/ˈtiːpɒt/"
+        },
+        {
+            "term": "water",
+            "section": "NOUNS",
+            "vi": "nước",
+            "ipa": "/ˈwɔːtə(r)/"
+        },
+        {
             "term": "electric",
             "section": "ADJECTIVES",
-            "vi": "điện, có điện, phát điện",
-            "ipa": "/əˈlɛktrɪk/"
+            "vi": "chạy bằng điện",
+            "ipa": "/ɪˈlektrɪk/"
         },
         {
             "term": "ground",
             "section": "ADJECTIVES",
-            "vi": "mặt đất",
+            "vi": "được xay nhuyễn",
             "ipa": "/ɡraʊnd/"
         },
         {
@@ -1539,166 +1533,118 @@
     ],
     "8": [
         {
-            "term": "y Vocabula",
-            "section": "VERBS",
-            "vi": "y Vocabula",
-            "ipa": ""
-        },
-        {
             "term": "lower",
             "section": "VERBS",
-            "vi": "thấp hơn",
-            "ipa": "/ˈləʊə/"
-        },
-        {
-            "term": "slice",
-            "section": "VERBS",
-            "vi": "lát mỏng",
-            "ipa": "/slaɪs/"
+            "vi": "hạ xuống",
+            "ipa": "/ˈləʊə(r)/"
         },
         {
             "term": "make",
             "section": "VERBS",
-            "vi": "làm thành, cấu thành, gộp thành",
+            "vi": "làm, chế biến",
             "ipa": "/meɪk/"
-        },
-        {
-            "term": "spread",
-            "section": "VERBS",
-            "vi": "trải, căng ra, bày ra; chênh lệch",
-            "ipa": "/sprɛd/"
         },
         {
             "term": "peel",
             "section": "VERBS",
-            "vi": "vỏ",
+            "vi": "gọt vỏ, bóc vỏ",
             "ipa": "/piːl/"
-        },
-        {
-            "term": "sprinkle",
-            "section": "VERBS",
-            "vi": "phun màu",
-            "ipa": "/ˈsprɪŋkəl/"
         },
         {
             "term": "pop up",
             "section": "VERBS",
-            "vi": "Pop-up",
-            "ipa": "/pɒp/"
-        },
-        {
-            "term": "toast",
-            "section": "VERBS",
-            "vi": "nướng (bánh)",
-            "ipa": "/təʊst/"
+            "vi": "bật lên",
+            "ipa": "/pɒp ʌp/"
         },
         {
             "term": "pour",
             "section": "VERBS",
-            "vi": "rót",
-            "ipa": "/pɔː/"
+            "vi": "rót, đổ",
+            "ipa": "/pɔː(r)/"
         },
         {
             "term": "prepare",
             "section": "VERBS",
-            "vi": "sửa soạn, chuẩn bị",
-            "ipa": "/prɪˈpɛə/"
+            "vi": "chuẩn bị",
+            "ipa": "/prɪˈpeə(r)/"
         },
         {
             "term": "press",
             "section": "VERBS",
-            "vi": "ép, nén, bóp, ấn",
-            "ipa": "/prɛs/"
+            "vi": "nhấn, ấn",
+            "ipa": "/pres/"
         },
         {
             "term": "put on",
             "section": "VERBS",
-            "vi": "tho vao",
-            "ipa": "/pʊt/"
+            "vi": "đặt lên, mặc vào",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "slice",
+            "section": "VERBS",
+            "vi": "thái lát",
+            "ipa": "/slaɪs/"
+        },
+        {
+            "term": "spread",
+            "section": "VERBS",
+            "vi": "phết, trải rộng",
+            "ipa": "/spred/"
+        },
+        {
+            "term": "sprinkle",
+            "section": "VERBS",
+            "vi": "rắc",
+            "ipa": "/ˈsprɪŋkl/"
+        },
+        {
+            "term": "toast",
+            "section": "VERBS",
+            "vi": "nướng (bằng máy nướng bánh mì)",
+            "ipa": "/təʊst/"
         },
         {
             "term": "banana",
             "section": "NOUNS",
-            "vi": "quả chuối",
+            "vi": "chuối",
             "ipa": "/bəˈnɑːnə/"
-        },
-        {
-            "term": "piece",
-            "section": "NOUNS",
-            "vi": "số lượng",
-            "ipa": "/piːs/"
         },
         {
             "term": "bowl",
             "section": "NOUNS",
-            "vi": "cái bát",
-            "ipa": "/bəʊɫ/"
-        },
-        {
-            "term": "slice",
-            "section": "NOUNS",
-            "vi": "lát mỏng",
-            "ipa": "/slaɪs/"
+            "vi": "cái bát, tô",
+            "ipa": "/bəʊl/"
         },
         {
             "term": "box",
             "section": "NOUNS",
-            "vi": "hộp, thùng",
+            "vi": "cái hộp",
             "ipa": "/bɒks/"
-        },
-        {
-            "term": "starter",
-            "section": "NOUNS",
-            "vi": "Starter\nCầu dao khởi động",
-            "ipa": "/ˈstɑːtə(r)/"
         },
         {
             "term": "bread",
             "section": "NOUNS",
-            "vi": "bánh mỳ",
-            "ipa": "/breːd/"
-        },
-        {
-            "term": "sugar",
-            "section": "NOUNS",
-            "vi": "đường",
-            "ipa": "/ˈʃʊɡə(r)/"
+            "vi": "bánh mì",
+            "ipa": "/bred/"
         },
         {
             "term": "butter",
             "section": "NOUNS",
             "vi": "bơ",
-            "ipa": "/ˈbʊtə/"
-        },
-        {
-            "term": "toast",
-            "section": "NOUNS",
-            "vi": "nướng (bánh)",
-            "ipa": "/təʊst/"
+            "ipa": "/ˈbʌtə(r)/"
         },
         {
             "term": "cereal",
             "section": "NOUNS",
-            "vi": "thuộc ngũ cốc",
-            "ipa": "[ˈsɪəriːəɫ]"
-        },
-        {
-            "term": "toaster",
-            "section": "NOUNS",
-            "vi": "máy nướng bánh",
-            "ipa": "/ˈtəʊstə/"
+            "vi": "ngũ cốc",
+            "ipa": "/ˈsɪəriəl/"
         },
         {
             "term": "jam",
             "section": "NOUNS",
             "vi": "mứt",
-            "ipa": "/ˈdʒæːm/"
-        },
-        {
-            "term": "wire",
-            "section": "NOUNS",
-            "vi": "dây",
-            "ipa": "/waɪə(r)/"
+            "ipa": "/dʒæm/"
         },
         {
             "term": "knife",
@@ -1710,94 +1656,226 @@
             "term": "milk",
             "section": "NOUNS",
             "vi": "sữa",
-            "ipa": "[mɛlk]"
+            "ipa": "/mɪlk/"
+        },
+        {
+            "term": "piece",
+            "section": "NOUNS",
+            "vi": "miếng, mẩu",
+            "ipa": "/piːs/"
+        },
+        {
+            "term": "slice",
+            "section": "NOUNS",
+            "vi": "lát mỏng",
+            "ipa": "/slaɪs/"
+        },
+        {
+            "term": "starter",
+            "section": "NOUNS",
+            "vi": "nút khởi động/món khai vị",
+            "ipa": "/ˈstɑːtə(r)/"
+        },
+        {
+            "term": "sugar",
+            "section": "NOUNS",
+            "vi": "đường",
+            "ipa": "/ˈʃʊɡə(r)/"
+        },
+        {
+            "term": "toast",
+            "section": "NOUNS",
+            "vi": "bánh mì nướng",
+            "ipa": "/təʊst/"
+        },
+        {
+            "term": "toaster",
+            "section": "NOUNS",
+            "vi": "máy nướng bánh mì",
+            "ipa": "/ˈtəʊstə(r)/"
+        },
+        {
+            "term": "wire",
+            "section": "NOUNS",
+            "vi": "dây điện",
+            "ipa": "/ˈwaɪə(r)/"
         },
         {
             "term": "cold",
             "section": "ADJECTIVES",
-            "vi": "lạnh lẽo, lạnh nhạt",
-            "ipa": "/kɔʊld/"
+            "vi": "lạnh",
+            "ipa": "/kəʊld/"
+        },
+        {
+            "term": "done",
+            "section": "ADJECTIVES",
+            "vi": "xong, hoàn thành",
+            "ipa": "/dʌn/"
         },
         {
             "term": "hot",
             "section": "ADJECTIVES",
             "vi": "nóng",
             "ipa": "/hɒt/"
-        },
-        {
-            "term": "done",
-            "section": "ADJECTIVES",
-            "vi": "hoàn tất",
-            "ipa": "/dʌn/"
-        },
-        {
-            "term": "For Special Attentio",
-            "section": "ADJECTIVES",
-            "vi": "Dành cho sự chú ý đặc biệt",
-            "ipa": ""
         }
     ],
     "9": [
         {
-            "term": "white",
+            "term": "crack",
             "section": "VERBS",
-            "vi": "trắng",
+            "vi": "đập (trứng)",
+            "ipa": "/kræk/"
+        },
+        {
+            "term": "flip over",
+            "section": "VERBS",
+            "vi": "lật ngược lại",
+            "ipa": "/flɪp ˈəʊvə(r)/"
+        },
+        {
+            "term": "fry",
+            "section": "VERBS",
+            "vi": "chiên, rán",
+            "ipa": "/fraɪ/"
+        },
+        {
+            "term": "light",
+            "section": "VERBS",
+            "vi": "thắp, đốt, châm lửa",
+            "ipa": "/laɪt/"
+        },
+        {
+            "term": "melt",
+            "section": "VERBS",
+            "vi": "làm tan chảy",
+            "ipa": "/melt/"
+        },
+        {
+            "term": "put on",
+            "section": "VERBS",
+            "vi": "đặt lên",
+            "ipa": "/pʊt ɒn/"
+        },
+        {
+            "term": "take out",
+            "section": "VERBS",
+            "vi": "lấy ra",
+            "ipa": "/teɪk aʊt/"
+        },
+        {
+            "term": "throw",
+            "section": "VERBS",
+            "vi": "ném, vứt",
+            "ipa": "/θrəʊ/"
+        },
+        {
+            "term": "turn on",
+            "section": "VERBS",
+            "vi": "bật (bếp)",
+            "ipa": "/tɜːn ɒn/"
+        },
+        {
+            "term": "burner",
+            "section": "NOUNS",
+            "vi": "đầu đốt (bếp ga)",
+            "ipa": "/ˈbɜːnə(r)/"
+        },
+        {
+            "term": "butter",
+            "section": "NOUNS",
+            "vi": "bơ",
+            "ipa": "/ˈbʌtə(r)/"
+        },
+        {
+            "term": "egg",
+            "section": "NOUNS",
+            "vi": "trứng",
+            "ipa": "/eɡ/"
+        },
+        {
+            "term": "flame",
+            "section": "NOUNS",
+            "vi": "ngọn lửa",
+            "ipa": "/fleɪm/"
+        },
+        {
+            "term": "frying pan",
+            "section": "NOUNS",
+            "vi": "chảo chiên",
+            "ipa": "/ˈfraɪɪŋ pæn/"
+        },
+        {
+            "term": "garbage",
+            "section": "NOUNS",
+            "vi": "rác",
+            "ipa": "/ˈɡɑːbɪdʒ/"
+        },
+        {
+            "term": "gas",
+            "section": "NOUNS",
+            "vi": "khí ga",
+            "ipa": "/ɡæs/"
+        },
+        {
+            "term": "pan",
+            "section": "NOUNS",
+            "vi": "cái chảo/xoong",
+            "ipa": "/pæn/"
+        },
+        {
+            "term": "plate",
+            "section": "NOUNS",
+            "vi": "cái đĩa",
+            "ipa": "/pleɪt/"
+        },
+        {
+            "term": "shell",
+            "section": "NOUNS",
+            "vi": "vỏ (trứng)",
+            "ipa": "/ʃel/"
+        },
+        {
+            "term": "spatula",
+            "section": "NOUNS",
+            "vi": "dụng cụ lật thức ăn",
+            "ipa": "/ˈspætʃələ/"
+        },
+        {
+            "term": "stove",
+            "section": "NOUNS",
+            "vi": "cái bếp",
+            "ipa": "/stəʊv/"
+        },
+        {
+            "term": "white",
+            "section": "NOUNS",
+            "vi": "lòng trắng trứng",
             "ipa": "/waɪt/"
         },
         {
             "term": "yolk",
-            "section": "VERBS",
-            "vi": "Noãn hoàng",
+            "section": "NOUNS",
+            "vi": "lòng đỏ trứng",
             "ipa": "/jəʊk/"
         },
         {
-            "term": "Special Attentio",
-            "section": "VERBS",
-            "vi": "Sự chú ý đặc biệt",
-            "ipa": "/ˈspɛ.ʃəl/"
-        },
-        {
-            "term": "bur",
-            "section": "VERBS",
-            "vi": "mũi khoan xoay",
-            "ipa": ""
-        },
-        {
-            "term": "Th",
-            "section": "VERBS",
-            "vi": "T5",
-            "ipa": ""
-        },
-        {
-            "term": "on",
-            "section": "VERBS",
-            "vi": "ngày",
-            "ipa": "/ɒn/"
-        },
-        {
-            "term": "He",
-            "section": "VERBS",
-            "vi": "Anh ấy",
-            "ipa": "/hi/"
-        },
-        {
-            "term": "on",
-            "section": "VERBS",
-            "vi": "ngày",
-            "ipa": "/ɒn/"
+            "term": "once",
+            "section": "ADVERB",
+            "vi": "một lần",
+            "ipa": "/wʌns/"
         }
     ],
     "10": [
         {
             "term": "dip",
             "section": "VERBS",
-            "vi": "quãng trũng",
+            "vi": "nhúng",
             "ipa": "/dɪp/"
         },
         {
             "term": "drink",
             "section": "VERBS",
-            "vi": "đồ uống; uống",
+            "vi": "uống",
             "ipa": "/drɪŋk/"
         },
         {
@@ -1809,13 +1887,13 @@
         {
             "term": "have",
             "section": "VERBS",
-            "vi": "có",
-            "ipa": ""
+            "vi": "có, ăn/uống",
+            "ipa": "/hæv/"
         },
         {
             "term": "leave",
             "section": "VERBS",
-            "vi": "thai sản",
+            "vi": "rời đi, để lại",
             "ipa": "/liːv/"
         },
         {
@@ -1827,74 +1905,56 @@
         {
             "term": "sit down",
             "section": "VERBS",
-            "vi": "ngồỉ xuống",
-            "ipa": "/sɪt/"
+            "vi": "ngồi xuống",
+            "ipa": "/sɪt daʊn/"
         },
         {
             "term": "talk",
             "section": "VERBS",
-            "vi": "cuộc thảo luận",
-            "ipa": "/toːk/"
+            "vi": "nói chuyện",
+            "ipa": "/tɔːk/"
         },
         {
             "term": "wipe",
             "section": "VERBS",
-            "vi": "lau đi",
+            "vi": "lau chùi",
             "ipa": "/waɪp/"
         },
         {
             "term": "bacon",
             "section": "NOUNS",
             "vi": "thịt lợn muối xông khói",
-            "ipa": "/ˈbeɪ.kən/"
-        },
-        {
-            "term": "tea",
-            "section": "NOUNS",
-            "vi": "cây trà",
-            "ipa": "/tiː/"
+            "ipa": "/ˈbeɪkən/"
         },
         {
             "term": "bowl",
             "section": "NOUNS",
-            "vi": "cái bát",
-            "ipa": "/bəʊɫ/"
-        },
-        {
-            "term": "toast",
-            "section": "NOUNS",
-            "vi": "nướng (bánh)",
-            "ipa": "/təʊst/"
+            "vi": "cái bát/tô",
+            "ipa": "/bəʊl/"
         },
         {
             "term": "breakfast",
             "section": "NOUNS",
-            "vi": "bữa điếm tâm, bữa sáng",
-            "ipa": "/ˈbrɛkfəst/"
-        },
-        {
-            "term": "yolk",
-            "section": "NOUNS",
-            "vi": "Noãn hoàng",
-            "ipa": "/jəʊk/"
+            "vi": "bữa sáng",
+            "ipa": "/ˈbrekfəst/"
         },
         {
             "term": "cereal",
             "section": "NOUNS",
-            "vi": "thuộc ngũ cốc",
-            "ipa": "[ˈsɪəriːəɫ]"
+            "vi": "ngũ cốc",
+            "ipa": "/ˈsɪəriəl/"
         },
         {
             "term": "coffee",
             "section": "NOUNS",
             "vi": "cà phê",
-            "ipa": "/ˈkɑ.fi/"
+            "ipa": "/ˈkɒfi/"
         },
         {
             "term": "egg",
             "section": "NOUNS",
             "vi": "trứng",
-            "ipa": "/eɪɡ/"
+            "ipa": "/eɡ/"
         },
         {
             "term": "fork",
@@ -1917,44 +1977,62 @@
         {
             "term": "mug",
             "section": "NOUNS",
-            "vi": "doi ",
+            "vi": "cái ca/ly có tay cầm",
             "ipa": "/mʌɡ/"
         },
         {
             "term": "napkin",
             "section": "NOUNS",
-            "vi": "- Khăn ăn.",
-            "ipa": "/ˈnæp.kɪn/"
+            "vi": "khăn ăn",
+            "ipa": "/ˈnæpkɪn/"
         },
         {
             "term": "paper",
             "section": "NOUNS",
-            "vi": "giấy",
-            "ipa": "/ˈpeɪpə/"
+            "vi": "giấy (báo)",
+            "ipa": "/ˈpeɪpə(r)/"
         },
         {
             "term": "spoon",
             "section": "NOUNS",
-            "vi": "cái thìa",
+            "vi": "cái thìa/muỗng",
             "ipa": "/spuːn/"
         },
         {
             "term": "table",
             "section": "NOUNS",
-            "vi": "bảng",
-            "ipa": "/ˈteɪbəl/"
+            "vi": "cái bàn",
+            "ipa": "/ˈteɪbl/"
         },
         {
-            "term": "sometimes (adv.)",
-            "section": "OTHERS",
-            "vi": "đôi khi (adv)",
+            "term": "tea",
+            "section": "NOUNS",
+            "vi": "trà",
+            "ipa": "/tiː/"
+        },
+        {
+            "term": "toast",
+            "section": "NOUNS",
+            "vi": "bánh mì nướng",
+            "ipa": "/təʊst/"
+        },
+        {
+            "term": "yolk",
+            "section": "NOUNS",
+            "vi": "lòng đỏ trứng",
+            "ipa": "/jəʊk/"
+        },
+        {
+            "term": "sometimes",
+            "section": "ADVERB",
+            "vi": "thỉnh thoảng",
             "ipa": "/ˈsʌmtaɪmz/"
         },
         {
-            "term": "a little bit (adverbial)",
-            "section": "OTHERS",
-            "vi": "một chút (trạng từ)",
-            "ipa": "/æɪ/"
+            "term": "a little bit",
+            "section": "ADVERBIAL",
+            "vi": "một ít, một chút",
+            "ipa": "/ə ˈlɪtl bɪt/"
         }
     ],
     "11": [
