@@ -3989,76 +3989,106 @@
     ],
     "21": [
         {
-            "term": "Vocabulary",
-            "section": "VERBS",
-            "vi": "Từ vựng",
-            "ipa": "/vəʊˈkabjʊlərɪ/"
-        },
-        {
             "term": "drain",
             "section": "VERBS",
-            "vi": "mương, rãnh",
+            "vi": "làm ráo nước, tháo nước",
             "ipa": "/dreɪn/"
         },
         {
             "term": "grate",
             "section": "VERBS",
-            "vi": "vỉ lò",
+            "vi": "mài, bào",
             "ipa": "/ɡreɪt/"
         },
         {
-            "term": "lay",
+            "term": "lay [laid]",
             "section": "VERBS",
-            "vi": "xếp, đặt, bố tri",
-            "ipa": "/leɪ/"
+            "vi": "đặt, để",
+            "ipa": "/leɪ/ [/leɪd/]"
         },
         {
-            "term": "make",
+            "term": "make [made]",
             "section": "VERBS",
-            "vi": "làm thành, cấu thành, gộp thành",
-            "ipa": "/meɪk/"
+            "vi": "làm, chế biến",
+            "ipa": "/meɪk/ [/meɪd/]"
         },
         {
             "term": "mix",
             "section": "VERBS",
-            "vi": "pha, trộn lẫn",
-            "ipa": "/ˈmɪks/"
+            "vi": "trộn, lẫn",
+            "ipa": "/mɪks/"
         },
         {
             "term": "pour",
             "section": "VERBS",
-            "vi": "rót",
-            "ipa": "/pɔː/"
+            "vi": "rót, đổ",
+            "ipa": "/pɔːr/"
         },
         {
             "term": "rinse",
             "section": "VERBS",
-            "vi": "rửa",
-            "ipa": "/rɛns/"
+            "vi": "rửa sạch, xả",
+            "ipa": "/rɪns/"
         },
         {
-            "term": "run {ran] (water over)",
+            "term": "run [ran] (water over)",
             "section": "VERBS",
-            "vi": "run {ran] (tràn nước)",
-            "ipa": "/rʊn/"
+            "vi": "cho nước chảy qua",
+            "ipa": "/rʌn/ [/ræn/] (/ˈwɔːtər ˈəʊvər/)"
         },
         {
             "term": "slice",
             "section": "VERBS",
-            "vi": "lát mỏng",
+            "vi": "thái lát",
             "ipa": "/slaɪs/"
         },
         {
             "term": "sprinkle",
             "section": "VERBS",
-            "vi": "phun màu",
-            "ipa": "/ˈsprɪŋkəl/"
+            "vi": "rắc, rải",
+            "ipa": "/ˈsprɪŋkl/"
         },
         {
             "term": "bowl",
             "section": "NOUNS",
-            "vi": "cái bát",
-            "ipa": "/bəʊɫ/"
+            "vi": "cái bát, tô",
+            "ipa": "/bəʊl/"
+        },
+        {
+            "term": "cheese",
+            "section": "NOUNS",
+            "vi": "phô mai",
+            "ipa": "/tʃiːz/"
+        },
+        {
+            "term": "colander",
+            "section": "NOUNS",
+            "vi": "cái rổ có lỗ thoát nước",
+            "ipa": "/ˈkʌləndər/"
+        },
+        {
+            "term": "cucumber",
+            "section": "NOUNS",
+            "vi": "dưa chuột",
+            "ipa": "/ˈkjuːkʌmbər/"
+        },
+        {
+            "term": "cutting board",
+            "section": "NOUNS",
+            "vi": "cái thớt",
+            "ipa": "/ˈkʌtɪŋ bɔːrd/"
+        },
+        {
+            "term": "dressing",
+            "section": "NOUNS",
+            "vi": "nước sốt (trộn salad)",
+            "ipa": "/ˈdresɪŋ/"
+        },
+        {
+            "term": "grater",
+            "section": "NOUNS",
+            "vi": "cái bàn mài, bào",
+            "ipa": "/ˈɡreɪtər/"
         },
         {
             "term": "knife",
@@ -4067,296 +4097,272 @@
             "ipa": "/naɪf/"
         },
         {
-            "term": "cheese",
-            "section": "NOUNS",
-            "vi": "phô mai",
-            "ipa": "/t͡ʃiz/"
-        },
-        {
             "term": "lettuce",
             "section": "NOUNS",
-            "vi": "rau diếp",
-            "ipa": "/ˈlɛtəs/"
-        },
-        {
-            "term": "colander",
-            "section": "NOUNS",
-            "vi": "cái lưới chao",
-            "ipa": "/ˈkɑləndər/"
+            "vi": "rau xà lách",
+            "ipa": "/ˈletɪs/"
         },
         {
             "term": "salad",
             "section": "NOUNS",
-            "vi": "món rau trộn",
+            "vi": "món salad",
             "ipa": "/ˈsæləd/"
-        },
-        {
-            "term": "cucumber",
-            "section": "NOUNS",
-            "vi": "dưa chuột",
-            "ipa": "/ˈkjuːˌkʌmbə/"
         },
         {
             "term": "slice",
             "section": "NOUNS",
-            "vi": "lát mỏng",
+            "vi": "lát thái",
             "ipa": "/slaɪs/"
-        },
-        {
-            "term": "cutting board",
-            "section": "NOUNS",
-            "vi": "Thớt ",
-            "ipa": "/ˈkʌtɪŋ/"
         },
         {
             "term": "tomato",
             "section": "NOUNS",
-            "vi": "cà chua",
-            "ipa": "[tʰə̥ˈmɐːtʰɐʊ]"
-        },
-        {
-            "term": "dressing",
-            "section": "NOUNS",
-            "vi": "sửa chữa",
-            "ipa": "/ˈdrɛsɪŋ/"
+            "vi": "quả cà chua",
+            "ipa": "/təˈmeɪtəʊ/"
         },
         {
             "term": "water",
             "section": "NOUNS",
             "vi": "nước",
-            "ipa": "/ˈwoːtə/"
+            "ipa": "/ˈwɔːtər/"
         },
         {
-            "term": "grater",
-            "section": "NOUNS",
-            "vi": "lớn hơn",
-            "ipa": "/ˈɡreɪtə/"
-        },
-        {
-            "term": "on top (adverbial)",
-            "section": "OTHERS",
-            "vi": "ở trên cùng (trạng từ)",
-            "ipa": "/ɒn/"
-        },
-        {
-            "term": "For Special",
-            "section": "OTHERS",
-            "vi": "Dành cho đặc biệt",
-            "ipa": ""
-        },
-        {
-            "term": "Attenti",
-            "section": "OTHERS",
-            "vi": "Attenti",
-            "ipa": ""
+            "term": "on top",
+            "section": "OTHER",
+            "vi": "ở phía trên (adverbial)",
+            "ipa": "/ɒn tɒp/"
         }
     ],
     "22": [
         {
-            "term": "Key Vocabular",
-            "section": "VERBS",
-            "vi": "Key Vocabular",
-            "ipa": "/kiː/"
-        },
-        {
             "term": "boil",
             "section": "VERBS",
-            "vi": "sôi, luộc",
+            "vi": "đun sôi, luộc",
             "ipa": "/bɔɪl/"
         },
         {
             "term": "chop up",
             "section": "VERBS",
-            "vi": "chặt nhỏ",
-            "ipa": "/tʃɒp/"
+            "vi": "chặt nhỏ, băm nhỏ",
+            "ipa": "/tʃɒp ʌp/"
         },
         {
-            "term": "light",
+            "term": "light [lit]",
             "section": "VERBS",
-            "vi": "ánh sáng; nhẹ, nhẹ nhàng; đốt, thắp sáng",
-            "ipa": "/lʌɪt/"
+            "vi": "thắp, đốt, châm (lửa)",
+            "ipa": "/laɪt/ [/lɪt/]"
         },
         {
             "term": "peel",
             "section": "VERBS",
-            "vi": "vỏ",
+            "vi": "gọt vỏ, bóc vỏ",
             "ipa": "/piːl/"
         },
         {
             "term": "prepare",
             "section": "VERBS",
-            "vi": "sửa soạn, chuẩn bị",
-            "ipa": "/prɪˈpɛə/"
+            "vi": "chuẩn bị",
+            "ipa": "/prɪˈpeər/"
         },
         {
             "term": "rinse",
             "section": "VERBS",
-            "vi": "rửa",
-            "ipa": "/rɛns/"
+            "vi": "rửa sạch, xả nước",
+            "ipa": "/rɪns/"
         },
         {
             "term": "slice",
             "section": "VERBS",
-            "vi": "lát mỏng",
+            "vi": "thái lát",
             "ipa": "/slaɪs/"
         },
         {
             "term": "steam",
             "section": "VERBS",
-            "vi": "hơi nước",
+            "vi": "hấp",
             "ipa": "/stiːm/"
         },
         {
-            "term": "throw away",
+            "term": "throw [threw] away",
             "section": "VERBS",
-            "vi": "Vứt bỏ!",
-            "ipa": "/θrəʊ/"
+            "vi": "vứt đi",
+            "ipa": "/θrəʊ əˈweɪ/ [/θruː əˈweɪ/]"
         },
         {
             "term": "basket",
             "section": "NOUNS",
-            "vi": "rổ",
-            "ipa": "/ˈbaːskət/"
+            "vi": "cái giỏ, cái rổ",
+            "ipa": "/ˈbɑːskɪt/"
         },
         {
-            "term": "roccoli",
+            "term": "broccoli",
             "section": "NOUNS",
-            "vi": "bông cải xanh",
-            "ipa": ""
+            "vi": "súp lơ xanh",
+            "ipa": "/ˈbrɒkəli/"
         },
         {
             "term": "burner",
             "section": "NOUNS",
-            "vi": "sự thiêu",
-            "ipa": "/ˈbɜːnə/"
+            "vi": "đầu đốt (bếp gas), bếp",
+            "ipa": "/ˈbɜːrnər/"
         },
         {
             "term": "carrot",
             "section": "NOUNS",
             "vi": "củ cà rốt",
-            "ipa": "/ˈkær.ət/"
+            "ipa": "/ˈkærət/"
+        },
+        {
+            "term": "floret",
+            "section": "NOUNS",
+            "vi": "nhánh bông cải nhỏ",
+            "ipa": "/ˈflɔːrət/"
+        },
+        {
+            "term": "lid",
+            "section": "NOUNS",
+            "vi": "cái nắp, vung",
+            "ipa": "/lɪd/"
+        },
+        {
+            "term": "saucepan",
+            "section": "NOUNS",
+            "vi": "cái xoong, chảo sâu lòng",
+            "ipa": "/ˈsɔːspən/"
         },
         {
             "term": "stalk",
             "section": "NOUNS",
-            "vi": "thân",
+            "vi": "cuống, thân cây",
             "ipa": "/stɔːk/"
         },
         {
-            "term": "(adj.)",
-            "section": "OTHERS",
-            "vi": "(tính từ)",
-            "ipa": ""
+            "term": "steam",
+            "section": "NOUNS",
+            "vi": "hơi nước",
+            "ipa": "/stiːm/"
         },
         {
-            "term": "inside (adv.)",
+            "term": "steamer",
+            "section": "NOUNS",
+            "vi": "nồi hấp, xửng hấp",
+            "ipa": "/ˈstiːmər/"
+        },
+        {
+            "term": "vegetable",
+            "section": "NOUNS",
+            "vi": "rau củ",
+            "ipa": "/ˈvedʒtəbl/"
+        },
+        {
+            "term": "water",
+            "section": "NOUNS",
+            "vi": "nước",
+            "ipa": "/ˈwɔːtər/"
+        },
+        {
+            "term": "boiling",
+            "section": "OTHERS",
+            "vi": "đang sôi (adj.)",
+            "ipa": "/ˈbɔɪlɪŋ/"
+        },
+        {
+            "term": "inside",
             "section": "OTHERS",
             "vi": "bên trong (adv.)",
-            "ipa": "/ɪnˈsaɪd/"
-        },
-        {
-            "term": "Kal",
-            "section": "OTHERS",
-            "vi": "Kal",
-            "ipa": ""
-        },
-        {
-            "term": "She",
-            "section": "OTHERS",
-            "vi": "Cô ấy",
-            "ipa": "/ʃiː/"
+            "ipa": "/ˌɪnˈsaɪd/"
         }
     ],
     "23": [
         {
             "term": "add",
             "section": "VERBS",
-            "vi": "Thêm vào",
+            "vi": "thêm vào",
             "ipa": "/æd/"
         },
         {
             "term": "boil",
             "section": "VERBS",
-            "vi": "sôi, luộc",
+            "vi": "đun sôi, luộc",
             "ipa": "/bɔɪl/"
         },
         {
             "term": "dice",
             "section": "VERBS",
-            "vi": "xúc xắc",
+            "vi": "thái hạt lựu",
             "ipa": "/daɪs/"
         },
         {
             "term": "drain",
             "section": "VERBS",
-            "vi": "mương, rãnh",
+            "vi": "làm ráo nước, tháo nước",
             "ipa": "/dreɪn/"
         },
         {
             "term": "fry",
             "section": "VERBS",
-            "vi": "rán, chiên; thịt rán",
+            "vi": "chiên, rán",
             "ipa": "/fraɪ/"
         },
         {
             "term": "heat",
             "section": "VERBS",
-            "vi": "hơi nóng, sức nóng",
-            "ipa": "/hit/"
+            "vi": "đun nóng, làm nóng",
+            "ipa": "/hiːt/"
         },
         {
             "term": "ladle",
             "section": "VERBS",
-            "vi": "cái môi",
-            "ipa": "/ˈleɪ.dəl/"
+            "vi": "múc bằng muôi",
+            "ipa": "/ˈleɪdl/"
         },
         {
-            "term": "let",
+            "term": "let [let]",
             "section": "VERBS",
-            "vi": "cho phép",
-            "ipa": "/lɛt/"
+            "vi": "để cho, cho phép",
+            "ipa": "/let/"
         },
         {
             "term": "pour off",
             "section": "VERBS",
-            "vi": "trút bỏ",
-            "ipa": "/pɔː/"
+            "vi": "chắt nước, đổ bớt chất lỏng",
+            "ipa": "/pɔːr ɔːf/"
         },
         {
-            "term": "put",
+            "term": "put [put]",
             "section": "VERBS",
-            "vi": "tắt, dập tắt",
+            "vi": "đặt, để",
             "ipa": "/pʊt/"
         },
         {
             "term": "simmer",
             "section": "VERBS",
-            "vi": "trạng thái sắp sôi",
-            "ipa": "/ˈsɪmə/"
+            "vi": "ninh nhỏ lửa, rim",
+            "ipa": "/ˈsɪmər/"
         },
         {
             "term": "start",
             "section": "VERBS",
-            "vi": "Khởi động",
-            "ipa": "/stɑːt/"
+            "vi": "bắt đầu",
+            "ipa": "/stɑːrt/"
         },
         {
-            "term": "sur",
+            "term": "stir",
             "section": "VERBS",
-            "vi": "sur",
-            "ipa": ""
+            "vi": "khuấy, đảo",
+            "ipa": "/stɜːr/"
         },
         {
             "term": "turn down",
             "section": "VERBS",
-            "vi": "bác bỏ",
-            "ipa": "/tɜːn/"
+            "vi": "vặn nhỏ (lửa/nhiệt độ)",
+            "ipa": "/tɜːrn daʊn/"
         },
         {
             "term": "turn off",
             "section": "VERBS",
-            "vi": "Tắt",
-            "ipa": "/tɜːn/"
+            "vi": "tắt (bếp)",
+            "ipa": "/tɜːrn ɔːf/"
         },
         {
             "term": "beef",
@@ -4367,61 +4373,61 @@
         {
             "term": "burner",
             "section": "NOUNS",
-            "vi": "sự thiêu",
-            "ipa": "/ˈbɜːnə/"
+            "vi": "đầu đốt (bếp gas), họng bếp",
+            "ipa": "/ˈbɜːrnər/"
         },
         {
             "term": "butter",
             "section": "NOUNS",
             "vi": "bơ",
-            "ipa": "/ˈbʊtə/"
+            "ipa": "/ˈbʌtər/"
         },
         {
             "term": "can",
             "section": "NOUNS",
-            "vi": "có thể",
-            "ipa": "/ˈkæn/"
+            "vi": "cái lon, hộp thiếc",
+            "ipa": "/kæn/"
         },
         {
             "term": "colander",
             "section": "NOUNS",
-            "vi": "cái lưới chao",
-            "ipa": "/ˈkɑləndər/"
+            "vi": "cái rổ có lỗ thoát nước",
+            "ipa": "/ˈkʌləndər/"
         },
         {
             "term": "fat",
             "section": "NOUNS",
-            "vi": "béo",
+            "vi": "mỡ, chất béo",
             "ipa": "/fæt/"
         },
         {
             "term": "frying pan",
             "section": "NOUNS",
             "vi": "chảo rán",
-            "ipa": "/ˈfraɪ.ɪŋ/"
+            "ipa": "/ˈfraɪɪŋ pæn/"
         },
         {
             "term": "ground beef",
             "section": "NOUNS",
-            "vi": "Thịt bò xay",
-            "ipa": "/ɡraʊnd/"
+            "vi": "thịt bò xay",
+            "ipa": "/ɡraʊnd biːf/"
         },
         {
             "term": "heat",
             "section": "NOUNS",
-            "vi": "hơi nóng, sức nóng",
-            "ipa": "/hit/"
+            "vi": "nhiệt độ, sức nóng",
+            "ipa": "/hiːt/"
         },
         {
             "term": "ladle",
             "section": "NOUNS",
-            "vi": "cái môi",
-            "ipa": "/ˈleɪ.dəl/"
+            "vi": "cái muôi, cái vá",
+            "ipa": "/ˈleɪdl/"
         },
         {
             "term": "liquid",
             "section": "NOUNS",
-            "vi": "dạng lỏng",
+            "vi": "chất lỏng",
             "ipa": "/ˈlɪkwɪd/"
         },
         {
@@ -4429,26 +4435,134 @@
             "section": "NOUNS",
             "vi": "thịt",
             "ipa": "/miːt/"
+        },
+        {
+            "term": "mixture",
+            "section": "NOUNS",
+            "vi": "hỗn hợp",
+            "ipa": "/ˈmɪkstʃər/"
+        },
+        {
+            "term": "onion",
+            "section": "NOUNS",
+            "vi": "hành tây",
+            "ipa": "/ˈʌnjən/"
+        },
+        {
+            "term": "pan",
+            "section": "NOUNS",
+            "vi": "cái xoong, chảo",
+            "ipa": "/pæn/"
+        },
+        {
+            "term": "(a) piece",
+            "section": "NOUNS",
+            "vi": "một miếng, một mẩu",
+            "ipa": "/piːs/"
+        },
+        {
+            "term": "plate",
+            "section": "NOUNS",
+            "vi": "cái đĩa",
+            "ipa": "/pleɪt/"
+        },
+        {
+            "term": "sauce",
+            "section": "NOUNS",
+            "vi": "nước sốt",
+            "ipa": "/sɔːs/"
+        },
+        {
+            "term": "saucepan",
+            "section": "NOUNS",
+            "vi": "cái xoong (có tay cầm)",
+            "ipa": "/ˈsɔːspən/"
+        },
+        {
+            "term": "solid",
+            "section": "NOUNS",
+            "vi": "chất rắn, thể rắn",
+            "ipa": "/ˈsɑːlɪd/"
+        },
+        {
+            "term": "spaghetti",
+            "section": "NOUNS",
+            "vi": "mì Ý",
+            "ipa": "/spəˈɡeti/"
+        },
+        {
+            "term": "spatula",
+            "section": "NOUNS",
+            "vi": "xẻng nấu ăn, bàn xẻng",
+            "ipa": "/ˈspætʃələ/"
+        },
+        {
+            "term": "spice",
+            "section": "NOUNS",
+            "vi": "gia vị",
+            "ipa": "/spaɪs/"
+        },
+        {
+            "term": "sugar",
+            "section": "NOUNS",
+            "vi": "đường",
+            "ipa": "/ˈʃʊɡər/"
+        },
+        {
+            "term": "tomato sauce",
+            "section": "NOUNS",
+            "vi": "sốt cà chua",
+            "ipa": "/təˈmeɪtəʊ sɔːs/"
+        },
+        {
+            "term": "water",
+            "section": "NOUNS",
+            "vi": "nước",
+            "ipa": "/ˈwɔːtər/"
+        },
+        {
+            "term": "another",
+            "section": "ADJECTIVES",
+            "vi": "khác, nữa",
+            "ipa": "/əˈnʌðər/"
+        },
+        {
+            "term": "brown",
+            "section": "ADJECTIVES",
+            "vi": "màu nâu / chiên vàng nâu",
+            "ipa": "/braʊn/"
+        },
+        {
+            "term": "melted",
+            "section": "ADJECTIVES",
+            "vi": "đã tan chảy",
+            "ipa": "/ˈmeltɪd/"
+        },
+        {
+            "term": "tender",
+            "section": "ADJECTIVES",
+            "vi": "mềm (thức ăn)",
+            "ipa": "/ˈtendər/"
         }
     ],
     "24": [
         {
             "term": "boil",
             "section": "VERBS",
-            "vi": "sôi, luộc",
+            "vi": "đun sôi, luộc",
             "ipa": "/bɔɪl/"
         },
         {
             "term": "check",
             "section": "VERBS",
-            "vi": "kiếm tra",
-            "ipa": "/t͡ʃɛk/"
+            "vi": "kiểm tra",
+            "ipa": "/tʃek/"
         },
         {
             "term": "cook",
             "section": "VERBS",
-            "vi": "nấu ăn, người nấu ăn",
-            "ipa": "/kuːk/"
+            "vi": "nấu ăn",
+            "ipa": "/kʊk/"
         },
         {
             "term": "decide",
@@ -4459,68 +4573,68 @@
         {
             "term": "eat (ate)",
             "section": "VERBS",
-            "vi": "eat (ate)",
-            "ipa": "/iːt/"
+            "vi": "ăn",
+            "ipa": "/iːt/ [/eɪt/]"
         },
         {
             "term": "get (got) rid of",
             "section": "VERBS",
-            "vi": "loại bỏ (khỏi)",
-            "ipa": "/ɡɛt/"
+            "vi": "loại bỏ, vứt bỏ",
+            "ipa": "/ɡet rɪd əv/ [/ɡɒt rɪd əv/]"
         },
         {
             "term": "heat",
             "section": "VERBS",
-            "vi": "hơi nóng, sức nóng",
-            "ipa": "/hit/"
+            "vi": "đun nóng, làm nóng",
+            "ipa": "/hiːt/"
         },
         {
             "term": "measure out",
             "section": "VERBS",
-            "vi": "đo độ sâu khi rút ống",
-            "ipa": "/ˈmɛʒə/"
+            "vi": "đong, đo lường",
+            "ipa": "/ˈmeʒər aʊt/"
         },
         {
             "term": "pour",
             "section": "VERBS",
-            "vi": "rót",
-            "ipa": "/pɔː/"
+            "vi": "rót, đổ",
+            "ipa": "/pɔːr/"
         },
         {
             "term": "pour off",
             "section": "VERBS",
-            "vi": "trút bỏ",
-            "ipa": "/pɔː/"
+            "vi": "chắt nước, đổ bớt",
+            "ipa": "/pɔːr ɔːf/"
         },
         {
             "term": "rinse",
             "section": "VERBS",
-            "vi": "rửa",
-            "ipa": "/rɛns/"
+            "vi": "rửa sạch, xả nước",
+            "ipa": "/rɪns/"
         },
         {
             "term": "start",
             "section": "VERBS",
-            "vi": "Khởi động",
-            "ipa": "/stɑːt/"
+            "vi": "bắt đầu",
+            "ipa": "/stɑːrt/"
         },
         {
             "term": "turn down",
             "section": "VERBS",
-            "vi": "bác bỏ",
-            "ipa": "/tɜːn/"
+            "vi": "vặn nhỏ (lửa/âm lượng)",
+            "ipa": "/tɜːrn daʊn/"
         },
         {
             "term": "cup",
             "section": "NOUNS",
-            "vi": "tách, chén",
+            "vi": "cái chén, tách, cốc",
             "ipa": "/kʌp/"
         },
         {
             "term": "dirt",
             "section": "NOUNS",
-            "vi": "đồ bần thỉu, vật rác rưởi",
-            "ipa": "/dɜːt/"
+            "vi": "bụi bẩn, chất bẩn",
+            "ipa": "/dɜːrt/"
         },
         {
             "term": "flame",
@@ -4531,13 +4645,13 @@
         {
             "term": "husk",
             "section": "NOUNS",
-            "vi": ")",
+            "vi": "vỏ (hạt, trái cây)",
             "ipa": "/hʌsk/"
         },
         {
             "term": "lid",
             "section": "NOUNS",
-            "vi": "nắp vung; mi mắt (eyelid)",
+            "vi": "cái nắp, vung",
             "ipa": "/lɪd/"
         },
         {
@@ -4549,124 +4663,124 @@
         {
             "term": "pot",
             "section": "NOUNS",
-            "vi": "can, bình, lọ...",
+            "vi": "cái nồi",
             "ipa": "/pɒt/"
         },
         {
             "term": "rice",
             "section": "NOUNS",
-            "vi": "gạo",
+            "vi": "gạo, cơm",
             "ipa": "/raɪs/"
         },
         {
             "term": "water",
             "section": "NOUNS",
             "vi": "nước",
-            "ipa": "/ˈwoːtə/"
+            "ipa": "/ˈwɔːtər/"
         },
         {
             "term": "clean",
             "section": "ADJECTIVES",
             "vi": "sạch sẽ",
-            "ipa": "/kleːn/"
+            "ipa": "/kliːn/"
         },
         {
             "term": "ready",
             "section": "ADJECTIVES",
             "vi": "sẵn sàng",
-            "ipa": "/ˈrɛdi/"
+            "ipa": "/ˈredi/"
         }
     ],
     "25": [
         {
-            "term": "eat",
+            "term": "eat [ate]",
             "section": "VERBS",
             "vi": "ăn",
-            "ipa": "/iːt/"
+            "ipa": "/iːt/ [/eɪt/]"
         },
         {
-            "term": "have",
+            "term": "have [had]",
             "section": "VERBS",
-            "vi": "có",
-            "ipa": ""
+            "vi": "có / ăn, uống",
+            "ipa": "/hæv/ [/hæd/]"
         },
         {
             "term": "help oneself",
             "section": "VERBS",
-            "vi": "Tự phục vụ",
-            "ipa": "/hɛlp/"
+            "vi": "tự phục vụ",
+            "ipa": "/help wʌnˈself/"
         },
         {
-            "term": "Dass",
+            "term": "pass",
             "section": "VERBS",
-            "vi": "Điểm Dass/",
-            "ipa": ""
+            "vi": "đưa cho, chuyển cho",
+            "ipa": "/pɑːs/"
         },
         {
-            "term": "put",
+            "term": "put [put]",
             "section": "VERBS",
-            "vi": "tắt, dập tắt",
+            "vi": "đặt, để",
             "ipa": "/pʊt/"
         },
         {
-            "term": "set [a table}",
+            "term": "set [set] [a table]",
             "section": "VERBS",
-            "vi": "set [a table}",
-            "ipa": "/sɛt/"
+            "vi": "bày bàn ăn",
+            "ipa": "/set/"
         },
         {
-            "term": "sit down",
+            "term": "sit [sat] down",
             "section": "VERBS",
-            "vi": "ngồỉ xuống",
-            "ipa": "/sɪt/"
+            "vi": "ngồi xuống",
+            "ipa": "/sɪt daʊn/"
         },
         {
             "term": "talk",
             "section": "VERBS",
-            "vi": "cuộc thảo luận",
-            "ipa": "/toːk/"
+            "vi": "nói chuyện",
+            "ipa": "/tɔːk/"
         },
         {
             "term": "coffee cup",
             "section": "NOUNS",
-            "vi": "cốc cà phê",
-            "ipa": "/ˈkɑ.fi/"
+            "vi": "tách cà phê",
+            "ipa": "/ˈkɒfi kʌp/"
         },
         {
             "term": "dessert",
             "section": "NOUNS",
-            "vi": "Và món tráng miệng",
-            "ipa": "/dɪˈzɜːt/"
+            "vi": "món tráng miệng",
+            "ipa": "/dɪˈzɜːrt/"
         },
         {
             "term": "dinner",
             "section": "NOUNS",
-            "vi": "bữa trưa",
-            "ipa": "/ˈdɪnə/"
+            "vi": "bữa tối",
+            "ipa": "/ˈdɪnər/"
         },
         {
             "term": "food",
             "section": "NOUNS",
-            "vi": "đồ ăn, món ăn",
+            "vi": "thức ăn",
             "ipa": "/fuːd/"
         },
         {
             "term": "fork",
             "section": "NOUNS",
             "vi": "cái nĩa",
-            "ipa": "/fɔːk/"
+            "ipa": "/fɔːrk/"
         },
         {
             "term": "glass",
             "section": "NOUNS",
-            "vi": "kính, thủy tinh, cái ly",
-            "ipa": "/ɡlɑːs/"
+            "vi": "cái ly",
+            "ipa": "/ɡlæs/"
         },
         {
             "term": "helping",
             "section": "NOUNS",
-            "vi": "suất ăn",
-            "ipa": "/ˈhɛlpɪŋ/"
+            "vi": "phần ăn",
+            "ipa": "/ˈhelpɪŋ/"
         },
         {
             "term": "knife",
@@ -4675,64 +4789,70 @@
             "ipa": "/naɪf/"
         },
         {
+            "term": "lap",
+            "section": "NOUNS",
+            "vi": "đùi, lòng (khi ngồi)",
+            "ipa": "/læp/"
+        },
+        {
             "term": "main course",
             "section": "NOUNS",
-            "vi": "Món chính ",
-            "ipa": "/meɪn/"
+            "vi": "món chính",
+            "ipa": "/meɪn kɔːrs/"
         },
         {
             "term": "napkin",
             "section": "NOUNS",
-            "vi": "- Khăn ăn.",
-            "ipa": "/ˈnæp.kɪn/"
+            "vi": "khăn ăn",
+            "ipa": "/ˈnæpkɪn/"
         },
         {
             "term": "plate",
             "section": "NOUNS",
-            "vi": "bản, tấm kim loại",
+            "vi": "cái đĩa",
             "ipa": "/pleɪt/"
         },
         {
             "term": "salad",
             "section": "NOUNS",
-            "vi": "món rau trộn",
+            "vi": "món salad",
             "ipa": "/ˈsæləd/"
         },
         {
             "term": "salad bowl",
             "section": "NOUNS",
-            "vi": "Bát salad",
-            "ipa": "/ˈsæləd/"
+            "vi": "tô trộn salad",
+            "ipa": "/ˈsæləd bəʊl/"
         },
         {
             "term": "saucer",
             "section": "NOUNS",
-            "vi": "cái âu",
-            "ipa": "/ˈsɔː.sə/"
+            "vi": "đĩa lót tách",
+            "ipa": "/ˈsɔːsər/"
         },
         {
             "term": "serving dish",
             "section": "NOUNS",
-            "vi": "phục vụ món ăn",
-            "ipa": "/ˈsɜːvɪŋ/"
+            "vi": "đĩa phục vụ (đĩa lớn)",
+            "ipa": "/ˈsɜːrvɪŋ dɪʃ/"
         },
         {
             "term": "spaghetti",
             "section": "NOUNS",
-            "vi": "ống kính nhỏ",
-            "ipa": "[spəˈɡɛɾi]"
+            "vi": "mì Ý",
+            "ipa": "/spəˈɡeti/"
         },
         {
             "term": "spoon",
             "section": "NOUNS",
-            "vi": "cái thìa",
+            "vi": "cái thìa, muỗng",
             "ipa": "/spuːn/"
         },
         {
             "term": "table",
             "section": "NOUNS",
-            "vi": "bảng",
-            "ipa": "/ˈteɪbəl/"
+            "vi": "cái bàn",
+            "ipa": "/ˈteɪbl/"
         }
     ],
     "26": [
