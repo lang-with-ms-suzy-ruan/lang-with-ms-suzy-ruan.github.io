@@ -814,152 +814,276 @@
             "vi": "Nếu một tờ tạp chí xuất bản hàng tháng, mỗi tháng sẽ có một **số báo** mới — số tháng Giêng, số tháng Hai, số tháng Ba, v.v."
         }
     ],
-    "31": [],
+    "31": [
+        {
+            "marker": "•",
+            "en": "**TV** is a short way of saying \"television.\"",
+            "vi": "**TV** là cách nói ngắn gọn của từ \"television.\""
+        },
+        {
+            "marker": "•",
+            "en": "Tom says a show is **boring**. That means it is not interesting.",
+            "vi": "Tom nói rằng một chương trình truyền hình thật **nhàm chán**. Điều đó có nghĩa là nó không thú vị."
+        },
+        {
+            "marker": "•",
+            "en": "A **commercial** is advertising on TV or radio.",
+            "vi": "Một **mẩu quảng cáo** là sự quảng cáo trên TV hoặc đài phát thanh."
+        },
+        {
+            "marker": "•",
+            "en": "The **news** is a report about what has happened. It always has an \"s\" at the end.",
+            "vi": "**Tin tức** là một bản báo cáo về những gì đã xảy ra. Nó luôn luôn có chữ \"s\" ở cuối (news)."
+        },
+        {
+            "marker": "•",
+            "en": "TVs have **channels** while radios have **stations**.",
+            "vi": "TV thì có các **kênh** trong khi đài phát thanh thì có các **đài**."
+        },
+        {
+            "marker": "•",
+            "en": "A remote is also called a **remote control**.",
+            "vi": "Một thiết bị điều khiển từ xa cũng được gọi là **bộ điều khiển từ xa**."
+        }
+    ],
     "32": [
         {
-            "marker": "*",
-            "en": "«When you rent something, you pay money to use it for a short time. After you use it, you return it to the store.",
-            "vi": "«Khi bạn thuê một cái gì đó, bạn trả tiền để sử dụng nó trong một thời gian ngắn. Sau khi bạn sử dụng, bạn trả lại cho cửa hàng."
+            "marker": "•",
+            "en": "When you **rent** something, you pay money to use it for a short time. After you use it, you **return** it to the store.",
+            "vi": "Khi bạn **thuê** một thứ gì đó, bạn trả tiền để sử dụng nó trong một thời gian ngắn. Sau khi sử dụng xong, bạn **trả** lại cho cửa hàng."
         },
         {
-            "marker": "*",
-            "en": "and “tape” are short ways of saying “videotape.”",
-            "vi": "và \"tape\" là những cách nói ngắn gọn của \"videotape\"."
+            "marker": "•",
+            "en": "**\"Video\"** and **\"tape\"** are short ways of saying \"videotape.\"",
+            "vi": "**\"Video\"** và **\"băng\"** là những cách gọi ngắn gọn của \"băng video.\""
         },
         {
-            "marker": "+",
-            "en": "A VCR is what people usually call a Video Cassette Recorder.",
-            "vi": "VCR là thứ mà mọi người thường gọi là Máy ghi băng video."
+            "marker": "•",
+            "en": "A **VCR** is what people usually call a **V**ideo **C**assette **R**ecorder.",
+            "vi": "**VCR** là cách mọi người thường gọi **máy ghi băng video**."
         },
         {
-            "marker": "*",
-            "en": "«When you pause a tape, you stop it, but a picture stays on the TV. The picture does not move.",
-            "vi": "«Khi bạn tạm dừng một băng, bạn dừng nó, nhưng một hình ảnh vẫn còn trên TV. Hình ảnh không di chuyển."
+            "marker": "•",
+            "en": "When you **pause** a tape, you stop it, but a picture stays on the TV. The picture does not move.",
+            "vi": "Khi bạn **tạm dừng** một cuộn băng, bạn dừng nó lại, nhưng một hình ảnh vẫn còn trên TV. Hình ảnh đó không chuyển động."
         }
     ],
     "33": [
         {
-            "marker": "*",
-            "en": "“Kids” is an informal word for children.",
-            "vi": "“Trẻ em” là một từ không chính thức dành cho trẻ em."
+            "marker": "•",
+            "en": "\"Kids\" is an informal word for **children**.",
+            "vi": "\"Kids\" là một từ thân mật để chỉ **trẻ em, con cái**."
         },
         {
-            "marker": "*",
-            "en": "¢Tom’s aunt is his father’s sister. His uncle is married to her. His cousins are the children of his aunt and uncle.",
-            "vi": "Dì của ¢Tom là em gái của bố anh ấy. Chú của anh ấy đã kết hôn với cô ấy. Anh em họ của anh ta là con của dì và chú của anh ta."
+            "marker": "•",
+            "en": "Tom's **aunt** is his father's sister. His **uncle** is married to her. His **cousins** are the children of his aunt and uncle.",
+            "vi": "**Cô/Dì/Bác gái** của Tom là chị hoặc em gái của bố anh ấy. **Chú/Cậu/Bác trai** của anh ấy kết hôn với bà ấy. Những người **anh chị em họ** của anh ấy là con của cô và chú anh ấy."
         },
         {
-            "marker": "*",
-            "en": "Your parents are your mother and father.",
-            "vi": "Cha mẹ của bạn là cha mẹ của bạn."
+            "marker": "•",
+            "en": "Your **parents** are your mother and father.",
+            "vi": "**Cha mẹ** của bạn là mẹ và cha của bạn. (Parents (song thân) là số nhiều của parent (hoặc ba hoặc mẹ - chỉ 1 người).)"
         },
         {
-            "marker": "*",
-            "en": "A crayon is made of wax.",
-            "vi": "Một cây bút chì màu được làm bằng sáp."
+            "marker": "•",
+            "en": "A **crayon** is made of wax.",
+            "vi": "Một chiếc **bút màu sáp** được làm từ sáp."
         },
         {
-            "marker": "*",
-            "en": "A cartoon has drawings of Te people or animals, not real people or animals.",
-            "vi": "Một bộ phim hoạt hình có hình vẽ người Te hoặc động vật, không phải người thật hay động vật."
+            "marker": "•",
+            "en": "A **cartoon** has drawings of people or animals, not real people or animals.",
+            "vi": "Một bộ **phim hoạt hình** có các hình vẽ về con người hoặc động vật, không phải người hay động vật thật."
         }
     ],
     "34": [
         {
-            "marker": "*",
-            "en": "When she set her alarm clock, she turned the alarm to the time for it to ring in the morning.",
-            "vi": "Khi cô đặt đồng hồ báo thức, cô vặn chuông báo thức vào thời gian để chuông reo vào buổi sáng."
+            "marker": "•",
+            "en": "When she **set** her alarm clock, she turned the alarm to the time for it to ring in the morning.",
+            "vi": "Khi cô ấy **đặt** đồng hồ báo thức, cô ấy đã xoay chuông báo thức đến thời điểm để nó reo vào buổi sáng."
         },
         {
-            "marker": "*",
-            "en": "The covers are a topsheet, blanket, bedspread, and anything else that someone sleeps under.",
-            "vi": "Bìa là một bảng trên cùng, chăn, ga trải giường và bất cứ thứ gì khác mà ai đó ngủ dưới."
+            "marker": "•",
+            "en": "The **covers** are a topsheet, blanket, bedspread, and anything else that someone sleeps under.",
+            "vi": "**Chăn mền** là khăn trải giường, chăn, ga phủ giường và bất cứ thứ gì khác mà một người đắp khi ngủ."
         },
         {
-            "marker": "*",
-            "en": "A nightstand is also called a bedside table.",
-            "vi": "Bàn đầu giường còn được gọi là bàn cạnh giường ngủ."
+            "marker": "•",
+            "en": "A **nightstand** is also called a bedside table.",
+            "vi": "Một chiếc **tủ đầu giường** cũng được gọi là bàn để cạnh giường."
         },
         {
-            "marker": "+",
-            "en": "A bedside lamp is next to a bed.",
-            "vi": "Đèn ngủ nằm cạnh giường."
+            "marker": "•",
+            "en": "A **bedside lamp** is next to a bed.",
+            "vi": "Một chiếc **đèn ngủ (đèn đầu giường)** nằm cạnh giường."
         }
     ],
     "35": [
         {
-            "marker": "*",
-            "en": "load of laundry is the amount you do at one time.",
-            "vi": "số lượng đồ giặt là số tiền bạn thực hiện cùng một lúc."
+            "marker": "•",
+            "en": "A **load** of laundry is the amount you do at one time.",
+            "vi": "Một **mẻ** đồ giặt là số lượng bạn giặt trong một lần."
         },
         {
-            "marker": "*",
-            "en": "laundry = a bunch of clothes to be (or being) washed.",
-            "vi": "giặt là = một đống quần áo cần (hoặc đang) giặt."
+            "marker": "•",
+            "en": "**laundry** = a bunch of clothes to be (or being) washed.",
+            "vi": "**đồ giặt** = một đống quần áo cần được (hoặc đang được) giặt."
         },
         {
-            "marker": "*",
-            "en": "= To sort something is to divide it into different groups.",
-            "vi": "= Để sắp xếp một cái gì đó là chia nó thành các nhóm khác nhau."
+            "marker": "•",
+            "en": "To **sort** something is to divide it into different groups.",
+            "vi": "**Phân loại** thứ gì đó là chia nó thành các nhóm khác nhau."
         },
         {
-            "marker": "+",
-            "en": "A dryer tumbles clothes by",
-            "vi": "Một máy sấy quần áo lật đổ bởi"
-        },
-        {
-            "marker": "*",
-            "en": "turning them over and over many times.",
-            "vi": "lật đi lật lại nhiều lần."
+            "marker": "•",
+            "en": "A dryer **tumbles** clothes by turning them over and over many times.",
+            "vi": "Máy sấy **làm khô theo kiểu nhào lộn** quần áo bằng cách lật chúng đi lật lại nhiều lần."
         }
     ],
     "36": [
         {
-            "marker": "*",
-            "en": "ADJECTIVES big",
-            "vi": "TÍNH TỪ LỚN"
-        },
-        {
-            "marker": "*",
-            "en": "For Special Attention",
-            "vi": "Sự chú ý đặc biệt"
-        },
-        {
-            "marker": "*",
-            "en": "» When you dust furniture, you remove dust from it. Dust is a very light kind of dirt that makes a thin layer on furniture.",
-            "vi": "» Khi bạn hút bụi đồ đạc, bạn loại bỏ bụi khỏi nó. Bụi là một loại bụi bẩn rất nhẹ tạo ra một lớp mỏng trên đồ nội thất."
+            "marker": "•",
+            "en": "When you **dust** furniture, you remove dust from it. Dust is a very light kind of dirt that makes a thin layer on furniture.",
+            "vi": "Khi bạn **phủi bụi** đồ nội thất, bạn loại bỏ bụi bẩn bám trên đó. Bụi là một loại chất bẩn rất nhẹ tạo thành một lớp mỏng trên đồ nội thất."
         }
     ],
     "37": [
         {
-            "marker": "+",
-            "en": "litter box is where a cat “goes to the bathroom.”",
-            "vi": "hộp xả rác là nơi một con mèo \"đi vào phòng tắm.\""
+            "marker": "•",
+            "en": "A **litter box** is where a cat \"goes to the bathroom.\"",
+            "vi": "Một chiếc **khay vệ sinh** là nơi mèo \"đi vệ sinh.\""
         },
         {
-            "marker": "*",
-            "en": "«When a Cat pounces, it jumps quickly on something.",
-            "vi": "«Khi một con mèo vồ lấy, nó sẽ nhanh chóng nhảy lên một cái gì đó."
+            "marker": "•",
+            "en": "When a cat **pounces**, it jumps quickly on something.",
+            "vi": "Khi một con mèo **vồ**, nó nhảy nhanh lên một thứ gì đó."
         },
         {
-            "marker": "*",
-            "en": "Most people call their own cats “he” or “she,” not “it.”",
-            "vi": "Hầu hết mọi người gọi những con mèo của họ là \"anh ấy\" hoặc \"cô ấy\", không phải là \"nó\"."
+            "marker": "•",
+            "en": "Most people call their own cats \"he\" or \"she,\" not \"it.\"",
+            "vi": "Hầu hết mọi người gọi mèo của mình là \"anh ấy\" hoặc \"cô ấy\" chứ không phải là \"nó.\""
         },
         {
-            "marker": "*",
-            "en": "The noise a cat usually makes is called “meowing.” When a cat is calm and happy, it “purrs.” When a cat is fighting, it might “hiss.”",
-            "vi": "Tiếng ồn mà một con mèo thường tạo ra được gọi là \"meowing\". \"Khi một con mèo bình tĩnh và vui vẻ, nó sẽ rên rỉ.\" Khi một con mèo đang đánh nhau, nó có thể \"rít lên\"."
+            "marker": "•",
+            "en": "The noise a cat usually makes is called \"meowing.\" When a cat is calm and happy, it \"purrs.\" When a cat is fighting, it might \"hiss.\"",
+            "vi": "Tiếng kêu mà mèo thường tạo ra được gọi là \"tiếng mèo kêu (meo meo) (\"meowing\").\" Khi một con mèo bình tĩnh và vui vẻ, nó sẽ \"kêu gừ gừ\" (\"purrs\"). Khi một con mèo đang đánh nhau, nó có thể \"rít lên\" (\"hiss\")"
         }
     ],
-    "38": [],
-    "39": [],
-    "40": [],
+    "38": [
+        {
+            "marker": "•",
+            "en": "A dog's **collar** goes around his neck.",
+            "vi": "Chiếc **vòng cổ** của một con chó quấn quanh cổ nó."
+        },
+        {
+            "marker": "•",
+            "en": "A dog **fetches** something by picking it up in his mouth and taking it back to the person who threw it.",
+            "vi": "Một con chó **nhặt đồ vật** bằng cách dùng miệng ngậm nó lên và mang trả lại cho người đã ném nó."
+        },
+        {
+            "marker": "•",
+            "en": "Most people call their own dogs \"he\" or \"she,\" not \"it.\"",
+            "vi": "Hầu hết mọi người gọi chó của mình là \"anh ấy\" hoặc \"cô ấy\" chứ không phải là \"nó.\""
+        },
+        {
+            "marker": "•",
+            "en": "A dog **wags** his tail by moving it back and forth.",
+            "vi": "Một con chó **vẫy** đuôi bằng cách cử động đuôi qua lại."
+        },
+        {
+            "marker": "•",
+            "en": "Usually a dog's noise is called **barking**. If a dog is hurt, it \"yelps\" (suddenly) or \"whines\" (for a longer time). A dog might also \"howl.\"",
+            "vi": "Thông thường tiếng kêu của chó được gọi là **sủa**. Nếu một con chó bị đau, nó sẽ \"ẳng lên\" (\"yelps\") (bất thình lình) hoặc \"rên rỉ\" (\"whines\") (trong thời gian dài hơn). Một con chó cũng có thể \"hú lên\" (\"howl\")."
+        }
+    ],
+    "39": [
+        {
+            "marker": "•",
+            "en": "**mow the lawn** = cut the grass",
+            "vi": "**cắt cỏ (bằng máy)** = cắt cỏ"
+        },
+        {
+            "marker": "•",
+            "en": "Notice **by hand**: no \"a,\" no \"the,\" no \"her.\"",
+            "vi": "Lưu ý cụm từ **bằng tay (thủ công)**: không dùng \"a,\" không dùng \"the,\" không dùng \"her\""
+        },
+        {
+            "marker": "•",
+            "en": "A **compost pile** contains old leaves, grass, twigs, etc.",
+            "vi": "Một **đống phân hữu cơ (phân xanh)** chứa lá khô, cỏ, cành cây nhỏ, v.v."
+        },
+        {
+            "marker": "•",
+            "en": "\"Clip\" as in **clippers** and **clippings** means \"cut.\"",
+            "vi": "\"Clip\" như trong từ **kéo tỉa** và **cỏ vụn (sau khi cắt)** có nghĩa là \"cắt\"."
+        },
+        {
+            "marker": "•",
+            "en": "**Grass seed** grows to become grass.",
+            "vi": "**Hạt giống cỏ** nảy mầm để trở thành cỏ."
+        },
+        {
+            "marker": "•",
+            "en": "To **water the lawn** is to put water on it. This is also called \"sprinkling\" the lawn.",
+            "vi": "**Tưới cỏ** là việc tưới nước lên bãi cỏ. Việc này còn được gọi là \"tưới phun\" bãi cỏ"
+        },
+        {
+            "marker": "•",
+            "en": "A **lawn** is an area of land, near a house, where grass grows.",
+            "vi": "Một **bãi cỏ** là một khu vực đất gần nhà, nơi có cỏ mọc"
+        }
+    ],
+    "40": [
+        {
+            "marker": "•",
+            "en": "A **seedling** is a very young plant. The ones you plant in your garden started growing somewhere else first.",
+            "vi": "**Cây con** là một loại cây rất non. Những cây bạn trồng trong vườn vốn đã bắt đầu phát triển ở một nơi khác trước đó."
+        },
+        {
+            "marker": "•",
+            "en": "You **weed** a garden by pulling out the weeds—unwanted plants.",
+            "vi": "Bạn **nhổ cỏ** cho vườn bằng cách kéo các loại cỏ dại—những loại cây không mong muốn—ra ngoài."
+        },
+        {
+            "marker": "•",
+            "en": "**Harmful insects** are those that are bad for plants.",
+            "vi": "**Côn trùng có hại** là những loại gây hại cho cây trồng."
+        },
+        {
+            "marker": "•",
+            "en": "**Fertilizer** adds useful chemicals to soil.",
+            "vi": "**Phân bón** bổ sung các hóa chất hữu ích cho đất."
+        },
+        {
+            "marker": "•",
+            "en": "To **check for** harmful insects is to look at something for a short time trying to find the insects.",
+            "vi": "Để **kiểm tra** côn trùng có hại là quan sát thứ gì đó trong một thời gian ngắn để cố gắng tìm thấy chúng."
+        }
+    ],
     "41": [
         {
-            "marker": "*",
-            "en": "«You rinse a car to remove soapy water.",
-            "vi": "«Bạn rửa xe để loại bỏ nước xà phòng."
+            "marker": "•",
+            "en": "A **rag** is a kind of cloth used for cleaning. Many rags come from old clothing. A **sponge** has a lot of holes in it. It holds water and can be squeezed to a small size.",
+            "vi": "Một miếng **giẻ** là một loại vải được dùng để làm sạch. Nhiều loại giẻ lau có nguồn gốc từ quần áo cũ. Một miếng **bọt biển** có rất nhiều lỗ nhỏ. Nó giữ nước và có thể bị nén lại thành kích thước nhỏ."
+        },
+        {
+            "marker": "•",
+            "en": "You **buff** something by moving a cloth quickly back and forth.",
+            "vi": "Bạn **đánh bóng** thứ gì đó bằng cách di chuyển một miếng vải nhanh chóng qua lại."
+        },
+        {
+            "marker": "•",
+            "en": "You **spray** a car with a widely-spread stream of water.",
+            "vi": "Bạn **xịt/phun** nước vào xe ô tô bằng một dòng nước lan tỏa rộng."
+        },
+        {
+            "marker": "•",
+            "en": "**Wax** makes a car shine.",
+            "vi": "**Sáp** giúp xe ô tô sáng bóng."
+        },
+        {
+            "marker": "•",
+            "en": "You **rinse** a car to remove soapy water.",
+            "vi": "Bạn **xả/rửa sạch** xe ô tô để loại bỏ nước xà phòng."
         }
     ],
     "42": [],
