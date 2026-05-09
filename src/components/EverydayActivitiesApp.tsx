@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { X, ChevronLeft, ChevronRight, BookOpen, Volume2, FileText } from "lucide-react";
+import { X, ChevronLeft, ChevronRight, BookOpen, Volume2, FileText, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -100,8 +100,8 @@ interface NoteBullet {
   vi: string;
 }
 
-function pdfUrl(page: number) {
-  return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=0`;
+function pdfUrl(page: number, zoom: number) {
+  return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=${zoom > 100 ? 1 : 0}&zoom=${zoom}`;
 }
 
 function audioUrl(num: number) {
@@ -118,11 +118,7 @@ function speakTTS(text: string) {
 
 function speak(text: string) {
   const word = text.trim().toLowerCase();
-  // Multi-word phrases: use TTS directly
-  if (word.includes(" ")) {
-    speakTTS(text);
-    return;
-  }
+  if (word.includes(" ")) { speakTTS(text); return; }
   const prefix1 = word[0];
   const prefix3 = word.slice(0, 3);
   const url = `https://www.oxfordlearnersdictionaries.com/media/english/us_pron/${prefix1}/${prefix3}/${word}/${word}__us_1.mp3`;
@@ -154,6 +150,10 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const [lessonMd, setLessonMd] = useState<Record<number, string>>({});
   const [showLessonNote, setShowLessonNote] = useState(false);
   const [selectedTerm, setSelectedTerm] = useState<VocabItem | null>(null);
+  const [showList, setShowList] = useState(true);
+  const [showVocab, setShowVocab] = useState(true);
+  const [pdfZoom, setPdfZoom] = useState(100);
+  const [vocabFontSize, setVocabFontSize] = useState(11);
   const audioRef = useRef<HTMLAudioElement>(null);
   const chapterRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
@@ -161,6 +161,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   const chapterVocab = vocab[chapter.num] ?? [];
   const chapterNotes = notes[chapter.num] ?? [];
   const chapterLessonMd = lessonMd[chapter.num] ?? "";
+  const hasVocab = chapterVocab.length > 0 || chapterNotes.length > 0 || !!chapterLessonMd;
 
   useEffect(() => {
     fetch("/media/everyday/vocab.json")
@@ -173,7 +174,6 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
       .catch(() => {});
   }, []);
 
-  // Load lesson markdown for the current chapter on demand (cached)
   useEffect(() => {
     const num = chapter.num;
     if (lessonMd[num] !== undefined) return;
@@ -213,7 +213,6 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
     audioRef.current?.load();
   }, [idx]);
 
-  // Group vocab by section
   const vocabBySec = chapterVocab.reduce<Record<string, VocabItem[]>>((acc, item) => {
     (acc[item.section] ??= []).push(item);
     return acc;
@@ -223,18 +222,39 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
   return (
     <div className="relative h-screen bg-white flex flex-col overflow-hidden font-sans">
       {/* Header */}
-      <header className="h-14 bg-white border-b-2 border-ink/10 flex items-center justify-between px-4 shrink-0">
-        <div className="flex items-center gap-3">
+      <header className="h-14 bg-white border-b-2 border-ink/10 flex items-center justify-between px-4 shrink-0 gap-3">
+        <div className="flex items-center gap-2 min-w-0">
           <div className="w-8 h-8 bg-brand-primary rounded-lg border-2 border-ink flex items-center justify-center shrink-0">
             <BookOpen className="w-4 h-4 text-ink" />
           </div>
-          <div className="min-w-0">
+          <div className="min-w-0 hidden sm:block">
             <h1 className="font-black text-sm tracking-tight leading-none uppercase">Everyday Activities</h1>
             <p className="text-[10px] font-bold text-ink/40 leading-none mt-0.5 truncate">
               {chapter.num}. {chapter.title}
             </p>
           </div>
+
+          {/* Drawer toggles */}
+          <div className="flex items-center gap-1 sm:ml-2">
+            <button
+              onClick={() => setShowList(v => !v)}
+              title="Toggle lesson list"
+              className={`flex items-center gap-1 h-7 px-2 rounded-lg border-2 transition-colors ${showList ? 'bg-brand-primary border-ink' : 'border-ink/10 text-ink/30 hover:border-ink/30'}`}
+            >
+              <List className="w-3.5 h-3.5" />
+              <span className="hidden md:inline text-[9px] font-black uppercase tracking-wide">Lessons</span>
+            </button>
+            <button
+              onClick={() => setShowVocab(v => !v)}
+              title="Toggle vocabulary"
+              className={`flex items-center gap-1 h-7 px-2 rounded-lg border-2 transition-colors ${showVocab ? 'bg-brand-primary border-ink' : 'border-ink/10 text-ink/30 hover:border-ink/30'}`}
+            >
+              <Volume2 className="w-3.5 h-3.5" />
+              <span className="hidden md:inline text-[9px] font-black uppercase tracking-wide">Vocab</span>
+            </button>
+          </div>
         </div>
+
         <div className="flex items-center gap-3 shrink-0">
           <span className="text-xs font-bold text-ink/30">{idx + 1} / {CHAPTERS.length}</span>
           <Button
@@ -249,88 +269,108 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
 
       {/* Body */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Left sidebar — chapter list */}
-        <aside className="w-52 shrink-0 border-r-2 border-ink/10 overflow-y-auto bg-ink/[0.015]">
-          {SECTIONS.map(section => (
-            <div key={section}>
-              <p className="px-3 pt-4 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30">
-                {section}
-              </p>
-              {CHAPTERS.filter(c => c.section === section).map(c => {
-                const i = c.num - 1;
-                const active = i === idx;
-                return (
-                  <button
-                    key={c.num}
-                    ref={el => { chapterRefs.current[i] = el; }}
-                    onClick={() => goTo(i)}
-                    className={`w-full text-left px-3 py-2 flex items-start gap-2 transition-colors ${
-                      active
-                        ? "bg-brand-primary border-r-4 border-ink"
-                        : "hover:bg-ink/5"
-                    }`}
-                  >
-                    <span className={`text-[10px] font-black shrink-0 w-5 text-right mt-px ${active ? "text-ink" : "text-ink/30"}`}>
-                      {c.num}
-                    </span>
-                    <span className={`text-[11px] font-bold leading-tight ${active ? "text-ink" : "text-ink/60"}`}>
-                      {c.title}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-          ))}
+
+        {/* Left drawer — chapter list */}
+        <aside className={`shrink-0 border-r-2 border-ink/10 overflow-hidden bg-ink/[0.015] transition-all duration-200 ${showList ? 'w-52' : 'w-0 border-r-0'}`}>
+          <div className="w-52 h-full overflow-y-auto">
+            {SECTIONS.map(section => (
+              <div key={section}>
+                <p className="px-3 pt-4 pb-1 text-[9px] font-black uppercase tracking-widest text-ink/30">
+                  {section}
+                </p>
+                {CHAPTERS.filter(c => c.section === section).map(c => {
+                  const i = c.num - 1;
+                  const active = i === idx;
+                  return (
+                    <button
+                      key={c.num}
+                      ref={el => { chapterRefs.current[i] = el; }}
+                      onClick={() => goTo(i)}
+                      className={`w-full text-left px-3 py-2 flex items-start gap-2 transition-colors ${
+                        active ? "bg-brand-primary border-r-4 border-ink" : "hover:bg-ink/5"
+                      }`}
+                    >
+                      <span className={`text-[10px] font-black shrink-0 w-5 text-right mt-px ${active ? "text-ink" : "text-ink/30"}`}>
+                        {c.num}
+                      </span>
+                      <span className={`text-[11px] font-bold leading-tight ${active ? "text-ink" : "text-ink/60"}`}>
+                        {c.title}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
         </aside>
 
-        {/* Main */}
+        {/* Main — PDF + audio/nav */}
         <main className="flex-1 flex flex-col overflow-hidden min-w-0">
           {/* PDF pages */}
-          <div className="flex-1 flex gap-2 p-3 min-h-0">
+          <div className="flex-1 flex gap-2 p-3 min-h-0 overflow-auto">
             {chapter.pages.map(page => (
               <iframe
-                key={`${chapter.num}-${page}`}
-                src={pdfUrl(page)}
+                key={`${chapter.num}-${page}-${pdfZoom}`}
+                src={pdfUrl(page, pdfZoom)}
                 className="flex-1 h-full border-2 border-ink/10 rounded-2xl bg-white"
+                style={{ minWidth: pdfZoom > 100 ? `${pdfZoom}%` : undefined }}
                 title={`Chapter ${chapter.num} page ${page}`}
               />
             ))}
           </div>
 
-          {/* Audio + nav */}
+          {/* Audio + nav + pdf zoom */}
           <div className="shrink-0 border-t-2 border-ink/10 px-4 py-3 flex items-center gap-3">
             <Button
               variant="ghost" size="icon"
               className="w-9 h-9 rounded-full border-2 border-ink/10 hover:border-ink transition-all disabled:opacity-30"
-              onClick={prev}
-              disabled={idx === 0}
-              title="Previous (←)"
+              onClick={prev} disabled={idx === 0} title="Previous (←)"
             >
               <ChevronLeft className="w-4 h-4" />
             </Button>
 
-            <audio
-              ref={audioRef}
-              controls
-              className="flex-1 h-9"
-              src={audioUrl(chapter.num)}
-            />
+            <audio ref={audioRef} controls className="flex-1 h-9" src={audioUrl(chapter.num)} />
+
+            {/* PDF zoom */}
+            <div className="flex items-center gap-1 shrink-0">
+              <button
+                onClick={() => setPdfZoom(z => Math.max(75, z - 25))}
+                disabled={pdfZoom <= 75}
+                className="w-7 h-7 flex items-center justify-center rounded-lg border-2 border-ink/10 hover:border-ink font-black text-xs text-ink/50 hover:text-ink transition-all disabled:opacity-30"
+              >A-</button>
+              <span className="text-[10px] font-black text-ink/30 w-8 text-center">{pdfZoom}%</span>
+              <button
+                onClick={() => setPdfZoom(z => Math.min(200, z + 25))}
+                disabled={pdfZoom >= 200}
+                className="w-7 h-7 flex items-center justify-center rounded-lg border-2 border-ink/10 hover:border-ink font-black text-xs text-ink/50 hover:text-ink transition-all disabled:opacity-30"
+              >A+</button>
+            </div>
 
             <Button
               variant="ghost" size="icon"
               className="w-9 h-9 rounded-full border-2 border-ink/10 hover:border-ink transition-all disabled:opacity-30"
-              onClick={next}
-              disabled={idx === CHAPTERS.length - 1}
-              title="Next (→)"
+              onClick={next} disabled={idx === CHAPTERS.length - 1} title="Next (→)"
             >
               <ChevronRight className="w-4 h-4" />
             </Button>
           </div>
         </main>
 
-        {/* Right panel — vocabulary + notes */}
-        {(chapterVocab.length > 0 || chapterNotes.length > 0 || chapterLessonMd) && (
-          <aside className="w-44 shrink-0 border-l-2 border-ink/10 flex flex-col overflow-hidden bg-ink/[0.015]">
+        {/* Right drawer — vocabulary + notes */}
+        <aside className={`shrink-0 border-l-2 border-ink/10 overflow-hidden bg-ink/[0.015] transition-all duration-200 ${showVocab ? 'w-52' : 'w-0 border-l-0'}`}>
+          <div className="w-52 h-full flex flex-col overflow-hidden">
+
+            {/* Vocab font size slider */}
+            <div className="shrink-0 px-3 pt-3 pb-2 border-b-2 border-ink/5 flex items-center gap-2">
+              <span className="text-[9px] font-black uppercase tracking-widest text-ink/30 shrink-0">A</span>
+              <input
+                type="range" min={9} max={18} value={vocabFontSize}
+                onChange={e => setVocabFontSize(+e.target.value)}
+                className="flex-1 accent-[#FFD93D] h-1 cursor-pointer"
+              />
+              <span className="text-[9px] font-black uppercase tracking-widest text-ink/30 shrink-0 text-base leading-none">A</span>
+            </div>
+
             {/* Scrollable content */}
             <div className="flex-1 overflow-y-auto">
               {/* Vocabulary */}
@@ -347,21 +387,17 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                       {vocabBySec[sec].map(item => {
                         const active = selectedTerm?.term === item.term;
                         return (
-                          <div key={item.term} className={`flex items-center group transition-colors ${active ? "bg-brand-primary" : "hover:bg-ink/5"}`}>
-                            <button
-                              onClick={() => setSelectedTerm(active ? null : item)}
-                              className={`flex-1 text-left px-3 py-1.5 text-[11px] leading-tight ${active ? "font-bold text-ink" : "font-medium text-ink/70"}`}
-                            >
-                              {item.term}
-                            </button>
-                            <button
-                              onClick={e => { e.stopPropagation(); speak(item.term); }}
-                              className="pr-2 py-1.5 text-ink/20 hover:text-ink/60 transition-colors shrink-0"
-                              title="Listen"
-                            >
-                              <Volume2 className="w-3 h-3" />
-                            </button>
-                          </div>
+                          <button
+                            key={item.term}
+                            onClick={() => { speak(item.term); setSelectedTerm(active ? null : item); }}
+                            className={`w-full text-left px-3 py-1.5 flex items-center gap-1.5 transition-colors ${
+                              active ? "bg-brand-primary font-bold text-ink" : "font-medium text-ink/70 hover:bg-ink/5"
+                            }`}
+                            style={{ fontSize: `${vocabFontSize}px` }}
+                          >
+                            <Volume2 className={`shrink-0 ${active ? 'text-ink/50' : 'text-ink/20'}`} style={{ width: `${Math.max(10, vocabFontSize - 2)}px`, height: `${Math.max(10, vocabFontSize - 2)}px` }} />
+                            {item.term}
+                          </button>
                         );
                       })}
                     </div>
@@ -403,6 +439,12 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                   </button>
                 </div>
               )}
+
+              {!hasVocab && (
+                <div className="flex items-center justify-center h-24 text-ink/20 font-black text-[10px] uppercase tracking-widest">
+                  No vocabulary
+                </div>
+              )}
             </div>
 
             {/* Vocab detail card */}
@@ -428,8 +470,8 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                 )}
               </div>
             )}
-          </aside>
-        )}
+          </div>
+        </aside>
       </div>
 
       {/* Lesson notes modal */}
@@ -442,7 +484,6 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
             className="bg-white border-4 border-ink rounded-3xl shadow-[8px_8px_0px_0px_rgba(45,52,54,1)] w-full max-w-2xl max-h-full flex flex-col"
             onClick={e => e.stopPropagation()}
           >
-            {/* Modal header */}
             <div className="flex items-center justify-between px-6 py-4 border-b-2 border-ink/10 shrink-0">
               <div className="flex items-center gap-2">
                 <FileText className="w-4 h-4" />
@@ -457,8 +498,6 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                 <X className="w-4 h-4" />
               </button>
             </div>
-
-            {/* Modal body — rendered markdown */}
             <div className="overflow-y-auto px-6 py-5 prose prose-sm max-w-none
               [&_h1]:text-xl [&_h1]:font-black [&_h1]:mt-0 [&_h1]:mb-3
               [&_h2]:text-base [&_h2]:font-black [&_h2]:mt-5 [&_h2]:mb-2
