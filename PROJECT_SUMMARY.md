@@ -43,7 +43,6 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 | MoversLetsTalkApp | `src/components/MoversLetsTalkApp.tsx` | PDF slides (1–8) for speaking practice with arrow-key navigation + fullscreen. |
 | MoversQuizApp | `src/components/MoversQuizApp.tsx` | Multiple-choice quiz over vocabulary CSVs. Modes: picture / word→VI / VI→word. |
 | KanjiApp | `src/components/KanjiApp.tsx` | Browse kanji with vocabulary + phrases. Data from `KanjiData.json`. Displays `pinyin` and `hanViet` below the character if present. Shows only Vietnamese meanings. |
-| KanjiQuizApp | `src/components/KanjiQuizApp.tsx` | Flashcard quiz over all KanjiData vocab (2900+ cards). Fisher-Yates shuffle, 3D flip animation, keyboard navigation. |
 | EverydayActivitiesApp | `src/components/EverydayActivitiesApp.tsx` | 61-chapter picture-process book with PDF viewer, audio player, vocabulary sidebar, and lesson notes. See details below. |
 | StudentManagerApp | `src/components/StudentManagerApp.tsx` | Admin only. Add/remove students. Changes must be downloaded and committed. |
 
@@ -66,9 +65,14 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 
 **Audio:** Oxford Learner's Dictionary male US pronunciation (`us_pron` MP3s) with Web Speech API TTS fallback for multi-word phrases or missing entries. Same pattern used in VocabularyApp and MoversQuizApp.
 
-**Right panel features:**
-1. **Key Vocabulary** — clickable terms, speaker button per term, detail card shows IPA + Vietnamese when selected
-2. **Special Attention** — OCR'd explanatory notes with English + Vietnamese
+**UI layout:** Two collapsible drawers (both open by default), toggled from the header on any screen size.
+- **Lessons drawer** (left, w-52) — chapter list grouped by section
+- **Vocabulary drawer** (right, w-52) — font size slider (9–18px, affects vocab + Special Attention), key vocabulary, special attention notes, lesson notes button
+- **PDF area** (centre) — A-/A+ zoom controls (75–200%) in the bottom bar alongside audio player and prev/next nav
+
+**Vocabulary drawer features:**
+1. **Key Vocabulary** — clicking a term plays Oxford audio and opens a detail card (IPA + Vietnamese); small speaker icon is a visual cue only
+2. **Special Attention** — OCR'd notes with English + Vietnamese; supports `**bold**` markdown in the source text
 3. **Lesson Notes** — yellow button appears when `lesson-notes-{N}.md` exists; opens a modal with rendered Markdown (tables, headings supported via `react-markdown` + `remark-gfm`)
 
 **Generation script** (`scripts/generate-everyday-vocab.mjs`):
@@ -91,9 +95,10 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 
 **File:** `public/media/kanji/KanjiData.json`
 - 1130 kanji, ~2929 vocab+phrase entries
-- Each kanji entry: `{ char, related[], phrases[], vocabulary[], pinyin?, hanViet? }`
+- Each kanji entry: `{ char, pinyin, hanViet, related[], phrases[], vocabulary[] }` — field order is fixed
+- `pinyin` populated for all 1130 entries via `scripts/add-pinyin.mjs`; `hanViet` present on all entries (empty string until filled manually)
 - Each vocab/phrase item: `{ word, reading, meaning, meaningVi? }`
-- `pinyin` and `hanViet` are added manually by editing the JSON directly
+- Edit `pinyin` and `hanViet` directly in the JSON file
 - Vietnamese coverage: ~2070/2929 (70%) — remaining items are untranslatable Japanese-specific terms
 
 **Script:** `scripts/add-vietnamese.mjs`
