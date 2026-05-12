@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-const PDF_PATH = "/media/everyday/english-for-everyday-activities-pdf-free.pdf";
 const AUDIO_DIR =
   "/media/everyday/english_for_everyday_activities_a_picture_process_dictionary_cd";
 
@@ -105,8 +104,8 @@ function renderBold(text: string): React.ReactNode {
   return parts.map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part);
 }
 
-function pdfUrl(page: number, zoom: number) {
-  return `${PDF_PATH}#page=${page}&toolbar=0&navpanes=0&scrollbar=${zoom > 100 ? 1 : 0}&zoom=${zoom}`;
+function pdfUrl(chapterNum: number, zoom: number) {
+  return `/media/everyday/pdf/${chapterNum}.pdf#page=1&toolbar=0&navpanes=0&scrollbar=1&zoom=${zoom}`;
 }
 
 function audioUrl(num: number) {
@@ -313,15 +312,13 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
         <main className="flex-1 flex flex-col overflow-hidden min-w-0">
           {/* PDF pages */}
           <div className="flex-1 flex gap-2 p-3 min-h-0 overflow-auto">
-            {chapter.pages.map(page => (
-              <iframe
-                key={`${chapter.num}-${page}-${pdfZoom}`}
-                src={pdfUrl(page, pdfZoom)}
-                className="flex-1 h-full border-2 border-ink/10 rounded-2xl bg-white"
-                style={{ minWidth: pdfZoom > 100 ? `${pdfZoom}%` : undefined }}
-                title={`Chapter ${chapter.num} page ${page}`}
-              />
-            ))}
+            <iframe
+              key={`${chapter.num}-${pdfZoom}`}
+              src={pdfUrl(chapter.num, pdfZoom)}
+              className="flex-1 h-full border-2 border-ink/10 rounded-2xl bg-white"
+              style={{ minWidth: pdfZoom > 100 ? `${pdfZoom}%` : undefined }}
+              title={`Chapter ${chapter.num}`}
+            />
           </div>
 
           {/* Audio + nav + pdf zoom */}
@@ -456,7 +453,7 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
             {selectedTerm && (
               <div className="shrink-0 border-t-2 border-ink/10 p-3 bg-white">
                 <div className="flex items-center gap-1.5">
-                  <p className="text-[11px] font-black text-ink leading-tight flex-1">{selectedTerm.term}</p>
+                  <p className="font-black text-ink leading-tight flex-1" style={{ fontSize: `${vocabFontSize}px` }}>{selectedTerm.term}</p>
                   <button
                     onClick={() => speak(selectedTerm.term)}
                     className="text-ink/30 hover:text-ink/70 transition-colors"
@@ -466,10 +463,10 @@ export const EverydayActivitiesApp: React.FC<Props> = ({ onBack }) => {
                   </button>
                 </div>
                 {selectedTerm.ipa && (
-                  <p className="text-[10px] text-ink/40 font-medium mt-0.5">{selectedTerm.ipa}</p>
+                  <p className="text-ink/40 font-medium mt-0.5" style={{ fontSize: `${Math.max(9, vocabFontSize - 1)}px` }}>{selectedTerm.ipa}</p>
                 )}
                 {selectedTerm.vi && (
-                  <p className="text-[11px] text-ink font-semibold mt-1 leading-snug">
+                  <p className="text-ink font-semibold mt-1 leading-snug" style={{ fontSize: `${vocabFontSize}px` }}>
                     {decodeHtml(selectedTerm.vi)}
                   </p>
                 )}
