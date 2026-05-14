@@ -1,0 +1,147 @@
+{
+  "unit": "Unit 1: Present Simple Tense",
+  "tasks": [
+    {
+      "task": "Task 1: Affirmative Sentences",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She play tennis every morning.",
+            "She plays tennis every morning.",
+            "She playing tennis every morning.",
+            "She played tennis every morning."
+          ],
+          "answer": "She plays tennis every morning.",
+          "explanation": "In present simple, third person singular (he/she/it) adds -s or -es to the base verb."
+        },
+        {
+          "type": "true_false",
+          "question": "We add -s to the verb when the subject is 'I'.",
+          "answer": "false",
+          "explanation": "We only add -s/-es for he/she/it. With I/you/we/they the verb stays in its base form."
+        },
+        {
+          "type": "fill_blank",
+          "question": "Tom _____ (go) to school every day.",
+          "answer": "goes",
+          "explanation": "Verbs ending in -o, -ch, -sh, -x, or -ss take -es in the third person singular: go → goes."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which verb form is correct? 'He _____ English well.'",
+          "options": ["speak", "speaks", "speaking", "spoken"],
+          "answer": "speaks",
+          "explanation": "Third person singular (he) requires -s: speak → speaks."
+        },
+        {
+          "type": "true_false",
+          "question": "The verb 'have' becomes 'haves' for he/she/it.",
+          "answer": "false",
+          "explanation": "'Have' is irregular — for he/she/it we say 'has', not 'haves'."
+        },
+        {
+          "type": "fill_blank",
+          "question": "My sister _____ (study) very hard.",
+          "answer": "studies",
+          "explanation": "Verbs ending in consonant + y change y to i and add -es: study → studies."
+        }
+      ]
+    },
+    {
+      "task": "Task 2: Negative Sentences",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative form: 'He _____ like coffee.'",
+          "options": [
+            "don't",
+            "doesn't",
+            "isn't",
+            "aren't"
+          ],
+          "answer": "doesn't",
+          "explanation": "Use 'doesn't' (does not) with he/she/it in negative present simple sentences."
+        },
+        {
+          "type": "true_false",
+          "question": "In a negative sentence, we write: 'She doesn't plays piano.'",
+          "answer": "false",
+          "explanation": "After 'doesn't', the main verb returns to its base form: 'She doesn't play piano.'"
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (not/watch) TV in the morning.",
+          "answer": "don't watch",
+          "explanation": "Use 'don't' (do not) with I/you/we/they in negative present simple sentences."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "I doesn't eat meat.",
+            "I don't eat meat.",
+            "I not eat meat.",
+            "I am not eat meat."
+          ],
+          "answer": "I don't eat meat.",
+          "explanation": "Use 'don't' (not 'doesn't') with I/you/we/they."
+        },
+        {
+          "type": "true_false",
+          "question": "'We don't goes to the gym' is a correct sentence.",
+          "answer": "false",
+          "explanation": "After 'don't', use the base form: 'We don't go to the gym.'"
+        }
+      ]
+    },
+    {
+      "task": "Task 3: Yes/No Questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Do she live here?",
+            "Does she lives here?",
+            "Does she live here?",
+            "Is she live here?"
+          ],
+          "answer": "Does she live here?",
+          "explanation": "Use 'Does' for he/she/it questions, and keep the main verb in base form."
+        },
+        {
+          "type": "true_false",
+          "question": "'Do you like music?' is a correct present simple question.",
+          "answer": "true",
+          "explanation": "Correct! Use 'Do' with I/you/we/they and keep the verb in base form."
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ your parents speak English?",
+          "answer": "Do",
+          "explanation": "Use 'Do' for yes/no questions with I/you/we/they/plural nouns."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the correct short answer to: 'Does he work here?'",
+          "options": [
+            "Yes, he do.",
+            "Yes, he does.",
+            "Yes, he works.",
+            "Yes, does he."
+          ],
+          "answer": "Yes, he does.",
+          "explanation": "Short answers to 'Does' questions use: Yes, he/she/it does. / No, he/she/it doesn't."
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ they play football on weekends?",
+          "answer": "Do",
+          "explanation": "Use 'Do' for questions with they (and I/you/we)."
+        }
+      ]
+    }
+  ]
+}

@@ -48,6 +48,14 @@
     "access": "student"
   },
   {
+    "id": "practice_quiz",
+    "name": "Practice Quiz",
+    "desc": "Grammar and language exercises with instant feedback.",
+    "icon": "CheckSquare",
+    "bg": "secondary",
+    "access": "student"
+  },
+  {
     "id": "student_manager",
     "name": "Student Manager",
     "desc": "Add and remove student accounts.",

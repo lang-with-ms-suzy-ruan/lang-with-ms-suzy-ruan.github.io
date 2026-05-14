@@ -16,6 +16,7 @@ import { MoversQuizApp } from "./MoversQuizApp";
 import { KanjiApp } from "./KanjiApp";
 import { KanjiQuizApp } from "./KanjiQuizApp";
 import { EverydayActivitiesApp } from "./EverydayActivitiesApp";
+import { PracticeQuizApp } from "./PracticeQuizApp";
 import studentsData from "../data/students.json";
 import appsConfig from "../data/apps.json";
 import testimonialsData from "../data/testimonials.json";
@@ -1617,6 +1618,7 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   Laptop:       <Laptop className="w-6 h-6 text-ink" />,
   Calendar:     <Calendar className="w-6 h-6 text-ink" />,
   Briefcase:    <Briefcase className="w-6 h-6 text-ink" />,
+  CheckSquare:  <CheckSquare className="w-6 h-6 text-ink" />,
 };
 
 const BG_MAP: Record<string, string> = {
@@ -1656,6 +1658,9 @@ const AppStoreView = () => {
     }
     if (launchedApp.id === "everyday_activities") {
       return <EverydayActivitiesApp onBack={() => setLaunchedApp(null)} />;
+    }
+    if (launchedApp.id === "practice_quiz") {
+      return <PracticeQuizApp onBack={() => setLaunchedApp(null)} />;
     }
     return <VocabularyApp
       appId={launchedApp.id}
