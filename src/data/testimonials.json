@@ -1,0 +1,62 @@
+[
+  {
+    "avatar": "student-1.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "Highschool student", "vi": "Học sinh Cấp 3" },
+    "location": "Binh Dinh",
+    "text": {
+      "en": "Ms. Suzy's classes are so engaging! I went from being afraid to speak to leading presentations in English.",
+      "vi": "Các lớp học của cô Suzy rất lôi cuốn! Từ một người sợ nói, em đã có thể tự tin thuyết trình bằng Tiếng Anh."
+    }
+  },
+  {
+    "avatar": "student-2.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "R&D department", "vi": "Phòng nghiên cứu & phát triển (R&D)" },
+    "location": "Dong Nai",
+    "text": {
+      "en": "I started from nothing to being able to pass the interview to this international company and able to work with Taiwan customers.",
+      "vi": "Tôi bắt đầu từ con số không và giờ đã có thể vượt qua vòng phỏng vấn vào công ty quốc tế này, cũng như làm việc trực tiếp với khách hàng Đài Loan."
+    }
+  },
+  {
+    "avatar": "student-3.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "IELTS Candidate", "vi": "Thí sinh IELTS" },
+    "location": "California",
+    "text": {
+      "en": "I achieved my target score of 7.5 thanks to the personalized feedback and rigorous practice sessions.",
+      "vi": "Em đã đạt được điểm mục tiêu 7.5 nhờ những phản hồi chi tiết và các buổi luyện tập nghiêm túc."
+    }
+  },
+  {
+    "avatar": "student-4.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "Marketing Manager", "vi": "Trưởng phòng Marketing" },
+    "location": "Ho Chi Minh City",
+    "text": {
+      "en": "The business English course helped me communicate effectively with my international colleagues and move up in my career.",
+      "vi": "Khóa học tiếng Anh thương mại đã giúp tôi giao tiếp hiệu quả với đồng nghiệp quốc tế và thăng tiến trong sự nghiệp."
+    }
+  },
+  {
+    "avatar": "student-5.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "College Student", "vi": "Sinh viên Đại học" },
+    "location": "Seattle",
+    "text": {
+      "en": "Teacher Suzy is very patient and the lessons are tailored to my specific weaknesses. I highly recommend her!",
+      "vi": "Cô Suzy rất kiên nhẫn và các bài học được thiết kế riêng cho những điểm yếu cụ thể của em. Em rất tiến bộ!"
+    }
+  },
+  {
+    "avatar": "student-6.png",
+    "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+    "role": { "en": "Business Owner", "vi": "Chủ doanh nghiệp" },
+    "location": "Dong Nai",
+    "text": {
+      "en": "Effective communication is key in business. Ms. Suzy taught me not just language, but also cultural nuances.",
+      "vi": "Giao tiếp hiệu quả là chìa khóa trong kinh doanh. Cô Suzy không chỉ dạy ngôn ngữ mà còn cả những sắc thái văn hóa."
+    }
+  }
+]

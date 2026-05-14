@@ -246,50 +246,6 @@ export const translations = {
     testimonials: {
       title: "What our students say.",
       accent: "",
-      items: [
-        { 
-          name: "Anonymous", 
-          role: "Highschool student", 
-          location: "Binh Dinh", 
-          text: "Ms. Suzy's classes are so engaging! I went from being afraid to speak to leading presentations in English.",
-          avatarUrl: "/testimonials/student-1.png" 
-        },
-        { 
-          name: "Anonymous", 
-          role: "R&D department", 
-          location: "Dong Nai", 
-          text: "I started from nothing to being able to pass the interview to this international company and able to work with Taiwan customers.",
-          avatarUrl: "/testimonials/student-2.png"
-        },
-        { 
-          name: "Anonymous", 
-          role: "IELTS Candidate", 
-          location: "California", 
-          text: "I achieved my target score of 7.5 thanks to the personalized feedback and rigorous practice sessions.",
-          avatarUrl: "/testimonials/student-3.png"
-        },
-        { 
-          name: "Anonymous", 
-          role: "Marketing Manager", 
-          location: "Ho Chi Minh City", 
-          text: "The business English course helped me communicate effectively with my international colleagues and move up in my career.",
-          avatarUrl: "/testimonials/student-4.png"
-        },
-        { 
-          name: "Anonymous", 
-          role: "College Student", 
-          location: "Seattle", 
-          text: "Teacher Suzy is very patient and the lessons are tailored to my specific weaknesses. I highly recommend her!",
-          avatarUrl: "/testimonials/student-5.png"
-        },
-        { 
-          name: "Anonymous", 
-          role: "Business Owner", 
-          location: "Dong Nai", 
-          text: "Effective communication is key in business. Ms. Suzy taught me not just language, but also cultural nuances.",
-          avatarUrl: "/testimonials/student-6.png"
-        }
-      ],
     },
     contact: {
       title: "Start your",
@@ -713,50 +669,6 @@ export const translations = {
     testimonials: {
       title: "Học viên nói gì về chúng tôi.",
       accent: "",
-      items: [
-        { 
-          name: "Ẩn danh", 
-          role: "Học sinh Cấp 3", 
-          location: "Bình Định", 
-          text: "Các lớp học của cô Suzy rất lôi cuốn! Từ một người sợ nói, em đã có thể tự tin thuyết trình bằng Tiếng Anh.",
-          avatarUrl: "/testimonials/student-1.png"
-        },
-        { 
-          name: "Ẩn danh", 
-          role: "Phòng nghiên cứu & phát triển (R&D)", 
-          location: "Đồng Nai", 
-          text: "Tôi bắt đầu từ con số không và giờ đã có thể vượt qua vòng phỏng vấn vào công ty quốc tế này, cũng như làm việc trực tiếp với khách hàng Đài Loan.",
-          avatarUrl: "/testimonials/student-2.png"
-        },
-        { 
-          name: "Ẩn danh", 
-          role: "Thí sinh IELTS", 
-          location: "California", 
-          text: "Em đã đạt được điểm mục tiêu 7.5 nhờ những phản hồi chi tiết và các buổi luyện tập nghiêm túc.",
-          avatarUrl: "/testimonials/student-3.png"
-        },
-        { 
-          name: "Ẩn danh", 
-          role: "Trưởng phòng Marketing", 
-          location: "TP. Hồ Chí Minh", 
-          text: "Khóa học tiếng Anh thương mại đã giúp tôi giao tiếp hiệu quả với đồng nghiệp quốc tế và thăng tiến trong sự nghiệp.",
-          avatarUrl: "/testimonials/student-4.png"
-        },
-        { 
-          name: "Ẩn danh", 
-          role: "Sinh viên Đại học", 
-          location: "Seattle", 
-          text: "Cô Suzy rất kiên nhẫn và các bài học được thiết kế riêng cho những điểm yếu cụ thể của em. Em rất tiến bộ!",
-          avatarUrl: "/testimonials/student-5.png"
-        },
-        { 
-          name: "Ẩn danh", 
-          role: "Chủ doanh nghiệp", 
-          location: "Đồng Nai", 
-          text: "Giao tiếp hiệu quả là chìa khóa trong kinh doanh. Cô Suzy không chỉ dạy ngôn ngữ mà còn cả những sắc thái văn hóa.",
-          avatarUrl: "/testimonials/student-6.png"
-        }
-      ],
     },
     contact: {
       title: "Bắt đầu hành trình",

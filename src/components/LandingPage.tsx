@@ -18,6 +18,7 @@ import { KanjiQuizApp } from "./KanjiQuizApp";
 import { EverydayActivitiesApp } from "./EverydayActivitiesApp";
 import studentsData from "../data/students.json";
 import appsConfig from "../data/apps.json";
+import testimonialsData from "../data/testimonials.json";
 
 type Language = "en" | "vi";
 const LanguageContext = createContext<{ 
@@ -852,10 +853,29 @@ const CareerRecruitment = () => {
   );
 };
 
+const TestimonialAvatar = ({ avatar }: { avatar: string }) => {
+  const [imgError, setImgError] = useState(false);
+  if (!avatar || imgError) {
+    return (
+      <div className="w-full h-full bg-brand-primary/20 flex items-center justify-center">
+        <User className="w-6 h-6 text-brand-primary" />
+      </div>
+    );
+  }
+  return (
+    <img
+      src={`/testimonials/${avatar}`}
+      className="w-full h-full object-cover"
+      alt="Student Avatar"
+      onError={() => setImgError(true)}
+    />
+  );
+};
+
 const Testimonials = () => {
-  const { t } = useTranslation();
+  const { t, lang } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const items = t.testimonials.items;
+  const items = testimonialsData;
   const [itemsToShow, setItemsToShow] = useState(3);
 
   useEffect(() => {
@@ -921,15 +941,15 @@ const Testimonials = () => {
               animate={{ x: `calc(-${currentIndex * (100 / itemsToShow)}% - ${currentIndex * (24 / itemsToShow)}px)` }}
               transition={{ type: "spring", damping: 28, stiffness: 100 }}
             >
-              {items.map((testimonial: any, i: number) => (
-                <div 
-                  key={i} 
+              {items.map((testimonial, i) => (
+                <div
+                  key={i}
                   className="shrink-0"
                   style={{ width: `calc((100% - ${(itemsToShow - 1) * 24}px) / ${itemsToShow})` }}
                 >
                   <Card className="p-5 h-full rounded-[24px] border-4 border-ink shadow-[5px_5px_0px_0px_rgba(45,52,54,1)] flex flex-col justify-between bg-white relative overflow-hidden group max-w-[280px] mx-auto min-h-[360px]">
                     <div className="absolute top-0 right-0 w-16 h-16 bg-brand-primary/10 rounded-bl-[60px]" />
-                    
+
                     <div className="mb-6 relative z-10">
                       <div className="flex gap-1 mb-4">
                         {[...Array(5)].map((_, starIdx) => (
@@ -937,28 +957,17 @@ const Testimonials = () => {
                         ))}
                       </div>
                       <p className="text-ink font-bold text-base md:text-lg leading-relaxed italic line-clamp-6">
-                        "{testimonial.text}"
+                        "{testimonial.text[lang as 'en' | 'vi']}"
                       </p>
                     </div>
-                    
+
                     <div className="flex items-center gap-3 pt-5 border-t-2 border-ink/5 mt-auto">
                       <div className="w-10 h-10 bg-brand-secondary rounded-xl overflow-hidden border-2 border-ink shadow-sm shrink-0 flex items-center justify-center">
-                        {testimonial.avatarUrl && !testimonial.avatarUrl.includes('student-') ? (
-                          <img 
-                            src={testimonial.avatarUrl} 
-                            className="w-full h-full object-cover" 
-                            referrerPolicy="no-referrer" 
-                            alt="Student Avatar"
-                          />
-                        ) : (
-                          <div className="w-full h-full bg-brand-primary/20 flex items-center justify-center">
-                            <User className="w-6 h-6 text-brand-primary" />
-                          </div>
-                        )}
+                        <TestimonialAvatar avatar={testimonial.avatar} />
                       </div>
                       <div className="min-w-0">
-                        <div className="font-black text-sm leading-tight text-ink truncate">{testimonial.name}</div>
-                        <div className="text-[9px] text-brand-primary uppercase tracking-widest font-black mb-0.5 truncate">{testimonial.role}</div>
+                        <div className="font-black text-sm leading-tight text-ink truncate">{testimonial.name[lang as 'en' | 'vi']}</div>
+                        <div className="text-[9px] text-brand-primary uppercase tracking-widest font-black mb-0.5 truncate">{testimonial.role[lang as 'en' | 'vi']}</div>
                         <div className="flex items-center gap-1 text-[9px] text-ink/40 font-bold truncate">
                           <MapPin className="w-2 h-2" />
                           {testimonial.location}
