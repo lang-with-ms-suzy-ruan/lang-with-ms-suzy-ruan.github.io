@@ -8,7 +8,7 @@ For coding conventions, see `CLAUDE.md`.
 ## What This Is
 
 A classroom English (and some Japanese) learning web app for Ms. Suzy Ruan's students.
-Deployed as a static site on **GitHub Pages**. No backend — all data is in `public/`.
+Deployed as a static site on **GitHub Pages**. No backend — all data is in `public/` or `src/data/`.
 
 - **Live URL:** https://lang-with-ms-suzy-ruan.github.io/
 - **Repo:** https://github.com/lang-with-ms-suzy-ruan/lang-with-ms-suzy-ruan.github.io
@@ -44,6 +44,7 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 | MoversQuizApp | `src/components/MoversQuizApp.tsx` | Multiple-choice quiz over vocabulary CSVs. Modes: picture / word→VI / VI→word. |
 | KanjiApp | `src/components/KanjiApp.tsx` | Browse kanji with vocabulary + phrases. Data from `KanjiData.json`. Displays `pinyin` and `hanViet` below the character if present. Shows only Vietnamese meanings. |
 | EverydayActivitiesApp | `src/components/EverydayActivitiesApp.tsx` | 61-chapter picture-process book with PDF viewer, audio player, vocabulary sidebar, and lesson notes. See details below. |
+| PracticeQuizApp | `src/components/PracticeQuizApp.tsx` | Multi-unit grammar/language quiz. Units are JSON files in `src/data/practice_quiz/`. See details below. |
 | StudentManagerApp | `src/components/StudentManagerApp.tsx` | Admin only. Add/remove students. Changes must be downloaded and committed. |
 
 ---
@@ -88,6 +89,49 @@ Routing is **state-based** — no router library. `LandingPage` owns all top-lev
 1. Create `public/media/everyday/lesson-notes-{N}.md`
 2. Write standard Markdown (headings, bold, tables all render)
 3. Commit and push — the "Lesson Notes" button appears automatically
+
+---
+
+## Practice Quiz App
+
+**Data:** `src/data/practice_quiz/*.json` — one JSON file per unit, loaded at build time via `import.meta.glob`.
+
+**Question types:** `multiple_choice`, `true_false`, `fill_blank` (case-insensitive exact match).
+
+**Each question shape:**
+```json
+{
+  "type": "multiple_choice",
+  "question": "...",
+  "options": ["A", "B", "C", "D"],
+  "answer": "B",
+  "explanation": { "en": "...", "vi": "..." }
+}
+```
+`options` is only required for `multiple_choice`. `explanation` is bilingual — shown in whichever language the user has selected.
+
+**To add a new unit:** create a new JSON file in `src/data/practice_quiz/` following the same structure as `unit-1.json`, commit and push.
+
+**Flow:** unit list → task list → question count (5 / 10 / 20 / All) → quiz (one question at a time with instant feedback + explanation) → score summary.
+
+---
+
+## Testimonials
+
+**Data:** `src/data/testimonials.json` — single file, array of 6 entries.
+
+**Each entry shape:**
+```json
+{
+  "avatar": "student-1.png",
+  "name": { "en": "Anonymous", "vi": "Ẩn danh" },
+  "role": { "en": "Highschool student", "vi": "Học sinh Cấp 3" },
+  "location": "Binh Dinh",
+  "text": { "en": "...", "vi": "..." }
+}
+```
+
+Avatar images go in `public/testimonials/`. If a file is missing, a default icon is shown automatically.
 
 ---
 
