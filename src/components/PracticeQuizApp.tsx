@@ -12,7 +12,7 @@ interface Question {
   question: string;
   options?: string[];
   answer: string;
-  explanation: string;
+  explanation: { en: string; vi: string };
 }
 
 interface Task {
@@ -43,7 +43,7 @@ function shuffled<T>(arr: T[]): T[] {
 
 const NEO_BTN = "border-4 border-ink font-black transition-all shadow-[4px_4px_0px_0px_rgba(45,52,54,1)] hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-none";
 
-export const PracticeQuizApp = ({ onBack }: { onBack: () => void }) => {
+export const PracticeQuizApp = ({ onBack, lang }: { onBack: () => void; lang: "en" | "vi" }) => {
   const [phase, setPhase] = useState<Phase>("units");
   const [selectedUnit, setSelectedUnit] = useState<Unit | null>(null);
   const [selectedTask, setSelectedTask] = useState<Task | null>(null);
@@ -341,7 +341,7 @@ export const PracticeQuizApp = ({ onBack }: { onBack: () => void }) => {
                       </span>
                     </div>
                     <p className="text-ink/70 font-bold text-sm leading-relaxed pl-7">
-                      {currentQuestion.explanation}
+                      {currentQuestion.explanation[lang]}
                     </p>
                     <button
                       onClick={next}

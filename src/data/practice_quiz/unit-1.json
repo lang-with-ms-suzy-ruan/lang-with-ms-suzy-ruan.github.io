@@ -14,38 +14,56 @@
             "She played tennis every morning."
           ],
           "answer": "She plays tennis every morning.",
-          "explanation": "In present simple, third person singular (he/she/it) adds -s or -es to the base verb."
+          "explanation": {
+            "en": "In present simple, third person singular (he/she/it) adds -s or -es to the base verb.",
+            "vi": "Trong thì hiện tại đơn, chủ ngữ ngôi thứ ba số ít (he/she/it) thêm -s hoặc -es vào sau động từ nguyên thể."
+          }
         },
         {
           "type": "true_false",
           "question": "We add -s to the verb when the subject is 'I'.",
           "answer": "false",
-          "explanation": "We only add -s/-es for he/she/it. With I/you/we/they the verb stays in its base form."
+          "explanation": {
+            "en": "We only add -s/-es for he/she/it. With I/you/we/they the verb stays in its base form.",
+            "vi": "Chỉ thêm -s/-es cho he/she/it. Với I/you/we/they, động từ giữ nguyên dạng nguyên thể."
+          }
         },
         {
           "type": "fill_blank",
           "question": "Tom _____ (go) to school every day.",
           "answer": "goes",
-          "explanation": "Verbs ending in -o, -ch, -sh, -x, or -ss take -es in the third person singular: go → goes."
+          "explanation": {
+            "en": "Verbs ending in -o, -ch, -sh, -x, or -ss take -es in the third person singular: go → goes.",
+            "vi": "Động từ kết thúc bằng -o, -ch, -sh, -x hoặc -ss thêm -es ở ngôi thứ ba số ít: go → goes."
+          }
         },
         {
           "type": "multiple_choice",
           "question": "Which verb form is correct? 'He _____ English well.'",
           "options": ["speak", "speaks", "speaking", "spoken"],
           "answer": "speaks",
-          "explanation": "Third person singular (he) requires -s: speak → speaks."
+          "explanation": {
+            "en": "Third person singular (he) requires -s: speak → speaks.",
+            "vi": "Chủ ngữ ngôi thứ ba số ít (he) yêu cầu thêm -s: speak → speaks."
+          }
         },
         {
           "type": "true_false",
           "question": "The verb 'have' becomes 'haves' for he/she/it.",
           "answer": "false",
-          "explanation": "'Have' is irregular — for he/she/it we say 'has', not 'haves'."
+          "explanation": {
+            "en": "'Have' is irregular — for he/she/it we say 'has', not 'haves'.",
+            "vi": "'Have' là động từ bất quy tắc — với he/she/it ta dùng 'has', không phải 'haves'."
+          }
         },
         {
           "type": "fill_blank",
           "question": "My sister _____ (study) very hard.",
           "answer": "studies",
-          "explanation": "Verbs ending in consonant + y change y to i and add -es: study → studies."
+          "explanation": {
+            "en": "Verbs ending in consonant + y change y to i and add -es: study → studies.",
+            "vi": "Động từ kết thúc bằng phụ âm + y đổi y thành i rồi thêm -es: study → studies."
+          }
         }
       ]
     },
@@ -55,26 +73,30 @@
         {
           "type": "multiple_choice",
           "question": "Choose the correct negative form: 'He _____ like coffee.'",
-          "options": [
-            "don't",
-            "doesn't",
-            "isn't",
-            "aren't"
-          ],
+          "options": ["don't", "doesn't", "isn't", "aren't"],
           "answer": "doesn't",
-          "explanation": "Use 'doesn't' (does not) with he/she/it in negative present simple sentences."
+          "explanation": {
+            "en": "Use 'doesn't' (does not) with he/she/it in negative present simple sentences.",
+            "vi": "Dùng 'doesn't' (does not) với he/she/it trong câu phủ định thì hiện tại đơn."
+          }
         },
         {
           "type": "true_false",
           "question": "In a negative sentence, we write: 'She doesn't plays piano.'",
           "answer": "false",
-          "explanation": "After 'doesn't', the main verb returns to its base form: 'She doesn't play piano.'"
+          "explanation": {
+            "en": "After 'doesn't', the main verb returns to its base form: 'She doesn't play piano.'",
+            "vi": "Sau 'doesn't', động từ chính trở về dạng nguyên thể: 'She doesn't play piano.'"
+          }
         },
         {
           "type": "fill_blank",
           "question": "They _____ (not/watch) TV in the morning.",
           "answer": "don't watch",
-          "explanation": "Use 'don't' (do not) with I/you/we/they in negative present simple sentences."
+          "explanation": {
+            "en": "Use 'don't' (do not) with I/you/we/they in negative present simple sentences.",
+            "vi": "Dùng 'don't' (do not) với I/you/we/they trong câu phủ định thì hiện tại đơn."
+          }
         },
         {
           "type": "multiple_choice",
@@ -86,13 +108,19 @@
             "I am not eat meat."
           ],
           "answer": "I don't eat meat.",
-          "explanation": "Use 'don't' (not 'doesn't') with I/you/we/they."
+          "explanation": {
+            "en": "Use 'don't' (not 'doesn't') with I/you/we/they.",
+            "vi": "Dùng 'don't' (không phải 'doesn't') với I/you/we/they."
+          }
         },
         {
           "type": "true_false",
           "question": "'We don't goes to the gym' is a correct sentence.",
           "answer": "false",
-          "explanation": "After 'don't', use the base form: 'We don't go to the gym.'"
+          "explanation": {
+            "en": "After 'don't', use the base form: 'We don't go to the gym.'",
+            "vi": "Sau 'don't', dùng động từ nguyên thể: 'We don't go to the gym.'"
+          }
         }
       ]
     },
@@ -109,19 +137,28 @@
             "Is she live here?"
           ],
           "answer": "Does she live here?",
-          "explanation": "Use 'Does' for he/she/it questions, and keep the main verb in base form."
+          "explanation": {
+            "en": "Use 'Does' for he/she/it questions, and keep the main verb in base form.",
+            "vi": "Dùng 'Does' cho câu hỏi với he/she/it, và giữ động từ chính ở dạng nguyên thể."
+          }
         },
         {
           "type": "true_false",
           "question": "'Do you like music?' is a correct present simple question.",
           "answer": "true",
-          "explanation": "Correct! Use 'Do' with I/you/we/they and keep the verb in base form."
+          "explanation": {
+            "en": "Correct! Use 'Do' with I/you/we/they and keep the verb in base form.",
+            "vi": "Đúng! Dùng 'Do' với I/you/we/they và giữ động từ ở dạng nguyên thể."
+          }
         },
         {
           "type": "fill_blank",
           "question": "_____ your parents speak English?",
           "answer": "Do",
-          "explanation": "Use 'Do' for yes/no questions with I/you/we/they/plural nouns."
+          "explanation": {
+            "en": "Use 'Do' for yes/no questions with I/you/we/they/plural nouns.",
+            "vi": "Dùng 'Do' cho câu hỏi yes/no với I/you/we/they và danh từ số nhiều."
+          }
         },
         {
           "type": "multiple_choice",
@@ -133,13 +170,19 @@
             "Yes, does he."
           ],
           "answer": "Yes, he does.",
-          "explanation": "Short answers to 'Does' questions use: Yes, he/she/it does. / No, he/she/it doesn't."
+          "explanation": {
+            "en": "Short answers to 'Does' questions use: Yes, he/she/it does. / No, he/she/it doesn't.",
+            "vi": "Câu trả lời ngắn cho câu hỏi 'Does' dùng: Yes, he/she/it does. / No, he/she/it doesn't."
+          }
         },
         {
           "type": "fill_blank",
           "question": "_____ they play football on weekends?",
           "answer": "Do",
-          "explanation": "Use 'Do' for questions with they (and I/you/we)."
+          "explanation": {
+            "en": "Use 'Do' for questions with they (and I/you/we).",
+            "vi": "Dùng 'Do' cho câu hỏi với they (và I/you/we)."
+          }
         }
       ]
     }

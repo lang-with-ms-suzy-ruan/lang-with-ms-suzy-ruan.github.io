@@ -1628,7 +1628,7 @@ const BG_MAP: Record<string, string> = {
 };
 
 const AppStoreView = () => {
-  const { t, setView } = useTranslation();
+  const { t, setView, lang } = useTranslation();
   const [user, setUser] = useState<null | "admin" | "student" | "guest">(null);
   const [loggedInId, setLoggedInId] = useState("");
   const [username, setUsername] = useState("");
@@ -1660,7 +1660,7 @@ const AppStoreView = () => {
       return <EverydayActivitiesApp onBack={() => setLaunchedApp(null)} />;
     }
     if (launchedApp.id === "practice_quiz") {
-      return <PracticeQuizApp onBack={() => setLaunchedApp(null)} />;
+      return <PracticeQuizApp onBack={() => setLaunchedApp(null)} lang={lang} />;
     }
     return <VocabularyApp
       appId={launchedApp.id}
