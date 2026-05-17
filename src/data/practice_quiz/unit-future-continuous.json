@@ -907,7 +907,7 @@
       ]
     },
     {
-      "task": "Task 2: Choose between Simple Future and Future Continuous",
+      "task": "Task 2: Choose between Simple Future and Future Continuous (Chọn thì Tương lai đơn hoặc Tương lai tiếp diễn)",
       "questions": [
         {
           "type": "fill_blank",
@@ -915,7 +915,7 @@
           "answer": "will call",
           "explanation": {
             "en": "There is no in-progress time marker; the sentence describes a complete future action, so use Simple Future: will + V. Answer: 'will call'.",
-            "vi": "Câu không có dấu hiệu hành động đang diễn ra, mà diễn tả một hành động tương lai trọn vẹn, nên dùng Tương lai đơn: will + V. Đáp án: 'will call'."
+            "vi": "Câu không có thời điểm cụ thể hành động đang diễn ra, mà diễn tả một hành động tương lai trọn vẹn, nên dùng Tương lai đơn: will + V. Đáp án: 'will call'."
           }
         },
         {
@@ -1154,15 +1154,6 @@
         },
         {
           "type": "fill_blank",
-          "question": "The shop _____ (open) at 9 AM tomorrow.",
-          "answer": "will be opening",
-          "explanation": {
-            "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'open' → 'opening', giving 'will be opening'.",
-            "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'open' → 'opening', đáp án là 'will be opening'."
-          }
-        },
-        {
-          "type": "fill_blank",
           "question": "At 10 AM, customers _____ (shop) inside.",
           "answer": "will be shopping",
           "explanation": {
@@ -1258,15 +1249,6 @@
           "explanation": {
             "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'work' → 'working', giving 'will be working'.",
             "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'work' → 'working', đáp án là 'will be working'."
-          }
-        },
-        {
-          "type": "fill_blank",
-          "question": "The concert _____ (start) at 8 PM.",
-          "answer": "will be starting",
-          "explanation": {
-            "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'start' → 'starting', giving 'will be starting'.",
-            "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'start' → 'starting', đáp án là 'will be starting'."
           }
         },
         {
@@ -1645,24 +1627,6 @@
           "explanation": {
             "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'work' → 'working', giving 'will be working'.",
             "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'work' → 'working', đáp án là 'will be working'."
-          }
-        },
-        {
-          "type": "fill_blank",
-          "question": "Mr. Scott _____ (publish) a textbook in 2028.",
-          "answer": "will be publishing",
-          "explanation": {
-            "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'publish' → 'publishing', giving 'will be publishing'.",
-            "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'publish' → 'publishing', đáp án là 'will be publishing'."
-          }
-        },
-        {
-          "type": "fill_blank",
-          "question": "In 2028, Mr. Scott _____ (promote) his new textbook.",
-          "answer": "will be promoting",
-          "explanation": {
-            "en": "Time markers in this sentence point to an action in progress at a future moment, so use Future Continuous: will be + V-ing. 'promote' → 'promoting', giving 'will be promoting'.",
-            "vi": "Các dấu hiệu thời gian trong câu chỉ một hành động đang diễn ra tại một thời điểm tương lai, nên dùng Tương lai tiếp diễn: will be + V-ing. 'promote' → 'promoting', đáp án là 'will be promoting'."
           }
         },
         {
