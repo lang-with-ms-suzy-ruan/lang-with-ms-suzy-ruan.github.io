@@ -78,15 +78,6 @@
         },
         {
           "type": "fill_blank",
-          "question": "She _____ (sleep) when you call her at midnight.",
-          "answer": "will be sleeping",
-          "explanation": {
-            "en": "Future Continuous: subject + will be + V-ing. Here 'sleep' becomes 'sleeping', so the full form is 'will be sleeping'.",
-            "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'sleep' chuyển thành 'sleeping', nên dạng đầy đủ là 'will be sleeping'."
-          }
-        },
-        {
-          "type": "fill_blank",
           "question": "At noon tomorrow, I _____ (eat) lunch with my family.",
           "answer": "will be eating",
           "explanation": {
@@ -234,8 +225,8 @@
           "question": "I _____ (wait) for you at the kopitiam at 4 PM.",
           "answer": "will be waiting",
           "explanation": {
-            "en": "Future Continuous: subject + will be + V-ing. Here 'wait' becomes 'waiting', so the full form is 'will be waiting'.",
-            "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'wait' chuyển thành 'waiting', nên dạng đầy đủ là 'will be waiting'."
+            "en": "Future Continuous: subject + will be + V-ing. Here, 'wait' becomes 'waiting', so the full form is 'will be waiting'. Culture note: A kopitiam is a traditional Southeast Asian coffee shop, especially common in Malaysia and Singapore, known for serving local coffee, tea, and simple meals.",
+            "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'wait' chuyển thành 'waiting', nên dạng đầy đủ là 'will be waiting'. Giới thiệu văn hoá: Kopitiam là quán cà phê truyền thống ở Đông Nam Á, đặc biệt phổ biến tại Malaysia và Singapore, nổi tiếng với cà phê địa phương, trà và các món ăn đơn giản."
           }
         },
         {
@@ -344,15 +335,6 @@
           "explanation": {
             "en": "Future Continuous: subject + will be + V-ing. Here 'look' becomes 'looking', so the full form is 'will be looking'.",
             "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'look' chuyển thành 'looking', nên dạng đầy đủ là 'will be looking'."
-          }
-        },
-        {
-          "type": "fill_blank",
-          "question": "The Singapore River _____ (flow) past Boat Quay tomorrow.",
-          "answer": "will be flowing",
-          "explanation": {
-            "en": "Future Continuous: subject + will be + V-ing. Here 'flow' becomes 'flowing', so the full form is 'will be flowing'.",
-            "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'flow' chuyển thành 'flowing', nên dạng đầy đủ là 'will be flowing'."
           }
         },
         {
