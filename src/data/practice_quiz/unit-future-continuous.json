@@ -225,7 +225,7 @@
           "question": "I _____ (wait) for you at the kopitiam at 4 PM.",
           "answer": "will be waiting",
           "explanation": {
-            "en": "Future Continuous: subject + will be + V-ing. Here, 'wait' becomes 'waiting', so the full form is 'will be waiting'. Culture note: A kopitiam is a traditional Southeast Asian coffee shop, especially common in Malaysia and Singapore, known for serving local coffee, tea, and simple meals.",
+            "en": "Future Continuous: subject + will be + V-ing. Here, 'wait' becomes 'waiting', so the full form is 'will be waiting'. Note: A kopitiam is a traditional Southeast Asian coffee shop, especially common in Malaysia and Singapore, known for serving local coffee, tea, and simple meals.",
             "vi": "Tương lai tiếp diễn: chủ ngữ + will be + V-ing. Động từ 'wait' chuyển thành 'waiting', nên dạng đầy đủ là 'will be waiting'. Giới thiệu văn hoá: Kopitiam là quán cà phê truyền thống ở Đông Nam Á, đặc biệt phổ biến tại Malaysia và Singapore, nổi tiếng với cà phê địa phương, trà và các món ăn đơn giản."
           }
         },
@@ -1834,15 +1834,6 @@
         },
         {
           "type": "fill_blank",
-          "question": "Rewrite in negative (--) and interrogative (?) form: \"Tony will be studying at NUS next year.\"",
-          "answer": "(--) Tony won't be studying at NUS next year. (?) Will Tony be studying at NUS next year?",
-          "explanation": {
-            "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
-            "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
-          }
-        },
-        {
-          "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"It will be raining when we arrive.\"",
           "answer": "(--) It won't be raining when we arrive. (?) Will it be raining when we arrive?",
           "explanation": {
@@ -1880,7 +1871,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The students will be taking the Chemistry exam at 10 AM.\"",
-          "answer": "(--) The students won't be taking the Chemistry exam at 10 AM. (?) Will The students be taking the Chemistry exam at 10 AM?",
+          "answer": "(--) The students won't be taking the Chemistry exam at 10 AM. (?) Will the students be taking the Chemistry exam at 10 AM?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -1906,8 +1897,8 @@
         },
         {
           "type": "fill_blank",
-          "question": "Rewrite in negative (--) and interrogative (?) form: \"She will be writing her novel this summer.\"",
-          "answer": "(--) She won't be writing her novel this summer. (?) Will she be writing her novel this summer?",
+          "question": "Rewrite in negative (--) and interrogative (?) form: \"She will be writing her novel all summer.\"",
+          "answer": "(--) She won't be writing her novel all summer. (?) Will she be writing her novel all summer?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -1934,7 +1925,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The musicians will be rehearsing at 7 PM.\"",
-          "answer": "(--) The musicians won't be rehearsing at 7 PM. (?) Will The musicians be rehearsing at 7 PM?",
+          "answer": "(--) The musicians won't be rehearsing at 7 PM. (?) Will the musicians be rehearsing at 7 PM?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -1960,17 +1951,8 @@
         },
         {
           "type": "fill_blank",
-          "question": "Rewrite in negative (--) and interrogative (?) form: \"Ms. Suzy will be writing a new book next year.\"",
-          "answer": "(--) Ms. Suzy won't be writing a new book next year. (?) Will Ms. Suzy be writing a new book next year?",
-          "explanation": {
-            "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
-            "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
-          }
-        },
-        {
-          "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The plane will be flying over Tokyo at midnight.\"",
-          "answer": "(--) The plane won't be flying over Tokyo at midnight. (?) Will The plane be flying over Tokyo at midnight?",
+          "answer": "(--) The plane won't be flying over Tokyo at midnight. (?) Will the plane be flying over Tokyo at midnight?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -1997,7 +1979,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The children will be playing at Sentosa.\"",
-          "answer": "(--) The children won't be playing at Sentosa. (?) Will The children be playing at Sentosa?",
+          "answer": "(--) The children won't be playing at Sentosa. (?) Will the children be playing at Sentosa?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2051,7 +2033,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The team will be training all morning.\"",
-          "answer": "(--) The team won't be training all morning. (?) Will The team be training all morning?",
+          "answer": "(--) The team won't be training all morning. (?) Will the team be training all morning?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2071,8 +2053,8 @@
           "question": "Rewrite in negative (--) and interrogative (?) form: \"Ms. Suzy will be drinking kopi at the kopitiam.\"",
           "answer": "(--) Ms. Suzy won't be drinking kopi at the kopitiam. (?) Will Ms. Suzy be drinking kopi at the kopitiam?",
           "explanation": {
-            "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
-            "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
+            "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark. Note: A kopitiam is a traditional Southeast Asian coffee shop, especially common in Malaysia and Singapore, known for serving local coffee, tea, and simple meals. “Kopi” means “coffee” in Malay/Indonesian languages.",
+            "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi. Giới thiệu văn hoá: Kopitiam là quán cà phê truyền thống ở Đông Nam Á, đặc biệt phổ biến tại Malaysia và Singapore, nổi tiếng với cà phê địa phương, trà và các món ăn đơn giản. “Kopi” là cà phê trong tiếng Malay."
           }
         },
         {
@@ -2087,7 +2069,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The chefs will be preparing chili crab at the restaurant.\"",
-          "answer": "(--) The chefs won't be preparing chili crab at the restaurant. (?) Will The chefs be preparing chili crab at the restaurant?",
+          "answer": "(--) The chefs won't be preparing chili crab at the restaurant. (?) Will the chefs be preparing chili crab at the restaurant?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2195,7 +2177,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The orchestra will be rehearsing when the soloist arrives.\"",
-          "answer": "(--) The orchestra won't be rehearsing when the soloist arrives. (?) Will The orchestra be rehearsing when the soloist arrives?",
+          "answer": "(--) The orchestra won't be rehearsing when the soloist arrives. (?) Will the orchestra be rehearsing when the soloist arrives?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2267,7 +2249,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The students will be working on group projects.\"",
-          "answer": "(--) The students won't be working on group projects. (?) Will The students be working on group projects?",
+          "answer": "(--) The students won't be working on group projects. (?) Will the students be working on group projects?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2348,7 +2330,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The chef will be preparing chicken rice when guests arrive.\"",
-          "answer": "(--) The chef won't be preparing chicken rice when guests arrive. (?) Will The chef be preparing chicken rice when guests arrive?",
+          "answer": "(--) The chef won't be preparing chicken rice when guests arrive. (?) Will the chef be preparing chicken rice when guests arrive?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2384,7 +2366,7 @@
         {
           "type": "fill_blank",
           "question": "Rewrite in negative (--) and interrogative (?) form: \"The cleaners will be washing windows all morning.\"",
-          "answer": "(--) The cleaners won't be washing windows all morning. (?) Will The cleaners be washing windows all morning?",
+          "answer": "(--) The cleaners won't be washing windows all morning. (?) Will the cleaners be washing windows all morning?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
@@ -2392,8 +2374,8 @@
         },
         {
           "type": "fill_blank",
-          "question": "Rewrite in negative (--) and interrogative (?) form: \"Tony will be interviewing Mr. Scott.\"",
-          "answer": "(--) Tony won't be interviewing Mr. Scott. (?) Will Tony be interviewing Mr. Scott?",
+          "question": "Rewrite in negative (--) and interrogative (?) form: \"Prof. Tony will be interviewing Mr. Scott.\"",
+          "answer": "(--) Prof. Tony won't be interviewing Mr. Scott. (?) Will Prof. Tony be interviewing Mr. Scott?",
           "explanation": {
             "en": "Negative: change 'will be' to 'won't be' (will not be). Interrogative: move 'will' to the front, keeping 'be + V-ing' after the subject and ending with a question mark.",
             "vi": "Phủ định: đổi 'will be' thành 'won't be' (will not be). Nghi vấn: đưa 'will' ra đầu câu, giữ 'be + V-ing' sau chủ ngữ và kết thúc bằng dấu chấm hỏi."
