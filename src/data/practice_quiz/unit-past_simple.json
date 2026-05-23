@@ -1,0 +1,3332 @@
+{
+  "unit": "Unit 2: Past Simple Tense",
+  "tasks": [
+    {
+      "task": "Task 1: Affirmative Sentences",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Ms. Suzy visit her parents last weekend.",
+            "Ms. Suzy visits her parents last weekend.",
+            "Ms. Suzy visited her parents last weekend.",
+            "Ms. Suzy visiting her parents last weekend."
+          ],
+          "answer": "Ms. Suzy visited her parents last weekend.",
+          "explanation": {
+            "en": "Regular verbs add -ed in the past simple: visit → visited. 'Last weekend' signals past time.",
+            "vi": "Động từ có quy tắc thêm -ed ở thì quá khứ đơn: visit → visited. 'Last weekend' báo hiệu thời gian quá khứ."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "Mr. Scott work in Singapore last year.",
+            "Mr. Scott worked in Singapore last year.",
+            "Mr. Scott working in Singapore last year.",
+            "Mr. Scott works in Singapore last year."
+          ],
+          "answer": "Mr. Scott worked in Singapore last year.",
+          "explanation": {
+            "en": "Use the past simple form 'worked' for an action in the past: work → worked.",
+            "vi": "Dùng dạng quá khứ đơn 'worked' cho hành động trong quá khứ: work → worked."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct past simple sentence.",
+          "options": [
+            "They walked to the park yesterday.",
+            "They walk to the park yesterday.",
+            "They walks to the park yesterday.",
+            "They walking to the park yesterday."
+          ],
+          "answer": "They walked to the park yesterday.",
+          "explanation": {
+            "en": "Regular verb 'walk' becomes 'walked' in the past simple.",
+            "vi": "Động từ có quy tắc 'walk' trở thành 'walked' ở thì quá khứ đơn."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy _____ English to her students last week.",
+          "options": [
+            "teach",
+            "teaches",
+            "teached",
+            "taught"
+          ],
+          "answer": "taught",
+          "explanation": {
+            "en": "'Teach' is irregular. Its past simple form is 'taught'.",
+            "vi": "'Teach' là động từ bất quy tắc. Dạng quá khứ đơn của nó là 'taught'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ at Washington University in Seattle.",
+          "options": [
+            "study",
+            "studies",
+            "studied",
+            "studying"
+          ],
+          "answer": "studied",
+          "explanation": {
+            "en": "Verbs ending in consonant + y change y to i and add -ed: study → studied. Mr. Scott studied at Washington University.",
+            "vi": "Động từ kết thúc bằng phụ âm + y đổi y thành i rồi thêm -ed: study → studied. Thầy Scott học tại Đại học Washington."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "We watch a movie last night.",
+            "We watched a movie last night.",
+            "We watches a movie last night.",
+            "We watching a movie last night."
+          ],
+          "answer": "We watched a movie last night.",
+          "explanation": {
+            "en": "Past simple of 'watch' is 'watched'. 'Last night' is a past time marker.",
+            "vi": "Quá khứ đơn của 'watch' là 'watched'. 'Last night' là cụm từ chỉ thời gian quá khứ."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct past form of 'go'.",
+          "options": [
+            "goed",
+            "gone",
+            "going",
+            "went"
+          ],
+          "answer": "went",
+          "explanation": {
+            "en": "'Go' is irregular. Past simple: went. (Past participle: gone.)",
+            "vi": "'Go' là động từ bất quy tắc. Quá khứ đơn: went. (Quá khứ phân từ: gone.)"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy and Mr. Scott _____ abroad before moving to Singapore.",
+          "options": [
+            "study",
+            "studies",
+            "studied",
+            "studying"
+          ],
+          "answer": "studied",
+          "explanation": {
+            "en": "Both teachers studied abroad. Past simple: studied.",
+            "vi": "Cả hai giáo viên đã học ở nước ngoài. Quá khứ đơn: studied."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She cook dinner an hour ago.",
+            "She cooks dinner an hour ago.",
+            "She cooking dinner an hour ago.",
+            "She cooked dinner an hour ago."
+          ],
+          "answer": "She cooked dinner an hour ago.",
+          "explanation": {
+            "en": "'An hour ago' signals past time. Use 'cooked'.",
+            "vi": "'An hour ago' báo hiệu thời gian quá khứ. Dùng 'cooked'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ a sandwich for lunch yesterday.",
+          "options": [
+            "eat",
+            "eats",
+            "ate",
+            "eating"
+          ],
+          "answer": "ate",
+          "explanation": {
+            "en": "'Eat' is irregular. Past simple: ate.",
+            "vi": "'Eat' là động từ bất quy tắc. Quá khứ đơn: ate."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I see Ms. Suzy at the market yesterday.",
+            "I saw Ms. Suzy at the market yesterday.",
+            "I seen Ms. Suzy at the market yesterday.",
+            "I sees Ms. Suzy at the market yesterday."
+          ],
+          "answer": "I saw Ms. Suzy at the market yesterday.",
+          "explanation": {
+            "en": "'See' is irregular. Past simple: saw.",
+            "vi": "'See' là động từ bất quy tắc. Quá khứ đơn: saw."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy _____ a beautiful dress to the party.",
+          "options": [
+            "wear",
+            "wears",
+            "wore",
+            "worn"
+          ],
+          "answer": "wore",
+          "explanation": {
+            "en": "'Wear' is irregular. Past simple: wore.",
+            "vi": "'Wear' là động từ bất quy tắc. Quá khứ đơn: wore."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "They _____ a new house last year.",
+          "options": [
+            "buy",
+            "buys",
+            "bought",
+            "buyed"
+          ],
+          "answer": "bought",
+          "explanation": {
+            "en": "'Buy' is irregular. Past simple: bought.",
+            "vi": "'Buy' là động từ bất quy tắc. Quá khứ đơn: bought."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He drinked coffee this morning.",
+            "He drinks coffee this morning.",
+            "He drank coffee this morning.",
+            "He drink coffee this morning."
+          ],
+          "answer": "He drank coffee this morning.",
+          "explanation": {
+            "en": "'Drink' is irregular. Past simple: drank.",
+            "vi": "'Drink' là động từ bất quy tắc. Quá khứ đơn: drank."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ to Singapore many years ago.",
+          "options": [
+            "come",
+            "comes",
+            "came",
+            "coming"
+          ],
+          "answer": "came",
+          "explanation": {
+            "en": "'Come' is irregular. Past simple: came.",
+            "vi": "'Come' là động từ bất quy tắc. Quá khứ đơn: came."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Last year, Ms. Suzy _____ a new bike.",
+          "options": [
+            "get",
+            "gets",
+            "got",
+            "getted"
+          ],
+          "answer": "got",
+          "explanation": {
+            "en": "'Get' is irregular. Past simple: got.",
+            "vi": "'Get' là động từ bất quy tắc. Quá khứ đơn: got."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "We _____ a great time on vacation last summer.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "having"
+          ],
+          "answer": "had",
+          "explanation": {
+            "en": "'Have' is irregular. Past simple: had.",
+            "vi": "'Have' là động từ bất quy tắc. Quá khứ đơn: had."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She maked a cake yesterday.",
+            "She made a cake yesterday.",
+            "She makes a cake yesterday.",
+            "She making a cake yesterday."
+          ],
+          "answer": "She made a cake yesterday.",
+          "explanation": {
+            "en": "'Make' is irregular. Past simple: made.",
+            "vi": "'Make' là động từ bất quy tắc. Quá khứ đơn: made."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ the door when I arrived.",
+          "options": [
+            "open",
+            "opens",
+            "opened",
+            "opening"
+          ],
+          "answer": "opened",
+          "explanation": {
+            "en": "Regular verb 'open' adds -ed: opened.",
+            "vi": "Động từ có quy tắc 'open' thêm -ed: opened."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct past simple sentence.",
+          "options": [
+            "She played the piano last night.",
+            "She plays the piano last night.",
+            "She play the piano last night.",
+            "She playing the piano last night."
+          ],
+          "answer": "She played the piano last night.",
+          "explanation": {
+            "en": "Verbs ending in vowel + y just add -ed: play → played.",
+            "vi": "Động từ kết thúc bằng nguyên âm + y chỉ cần thêm -ed: play → played."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "They stoped at the red light.",
+            "They stopped at the red light.",
+            "They stops at the red light.",
+            "They stopping at the red light."
+          ],
+          "answer": "They stopped at the red light.",
+          "explanation": {
+            "en": "Short verbs ending in consonant-vowel-consonant double the final consonant: stop → stopped.",
+            "vi": "Động từ ngắn kết thúc bằng phụ âm-nguyên âm-phụ âm gấp đôi phụ âm cuối: stop → stopped."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ his keys this morning.",
+          "options": [
+            "lose",
+            "loses",
+            "lost",
+            "losed"
+          ],
+          "answer": "lost",
+          "explanation": {
+            "en": "'Lose' is irregular. Past simple: lost.",
+            "vi": "'Lose' là động từ bất quy tắc. Quá khứ đơn: lost."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy _____ a letter to her grandmother last week.",
+          "options": [
+            "write",
+            "writes",
+            "wrote",
+            "writed"
+          ],
+          "answer": "wrote",
+          "explanation": {
+            "en": "'Write' is irregular. Past simple: wrote.",
+            "vi": "'Write' là động từ bất quy tắc. Quá khứ đơn: wrote."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I sleeped well last night.",
+            "I sleep well last night.",
+            "I slept well last night.",
+            "I sleeping well last night."
+          ],
+          "answer": "I slept well last night.",
+          "explanation": {
+            "en": "'Sleep' is irregular. Past simple: slept.",
+            "vi": "'Sleep' là động từ bất quy tắc. Quá khứ đơn: slept."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "She _____ to school by bus when she was young.",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "going"
+          ],
+          "answer": "went",
+          "explanation": {
+            "en": "Past habitual action — use past simple. 'Go' → 'went'.",
+            "vi": "Hành động thói quen trong quá khứ — dùng quá khứ đơn. 'Go' → 'went'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (study) at Washington University in Seattle.",
+          "answer": "studied",
+          "explanation": {
+            "en": "Consonant + y → drop y, add -ied: study → studied.",
+            "vi": "Phụ âm + y → bỏ y, thêm -ied: study → studied."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (teach) English to many students last year.",
+          "answer": "taught",
+          "explanation": {
+            "en": "'Teach' is irregular. Past simple: taught.",
+            "vi": "'Teach' là động từ bất quy tắc. Quá khứ đơn: taught."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Last weekend, Ms. Suzy and Mr. Scott _____ (travel) to Malaysia.",
+          "answer": "travelled",
+          "explanation": {
+            "en": "'Travel' → 'travelled' (British) or 'traveled' (American).",
+            "vi": "'Travel' → 'travelled' (Anh-Anh) hoặc 'traveled' (Anh-Mỹ)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (watch) TV last night.",
+          "answer": "watched",
+          "explanation": {
+            "en": "Regular verb 'watch' adds -ed: watched.",
+            "vi": "Động từ có quy tắc 'watch' thêm -ed: watched."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (go) to the beach yesterday.",
+          "answer": "went",
+          "explanation": {
+            "en": "'Go' is irregular. Past simple: went.",
+            "vi": "'Go' là động từ bất quy tắc. Quá khứ đơn: went."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "She _____ (cook) dinner for her family.",
+          "answer": "cooked",
+          "explanation": {
+            "en": "Regular verb 'cook' adds -ed: cooked.",
+            "vi": "Động từ có quy tắc 'cook' thêm -ed: cooked."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (live) in the United States before moving to Singapore.",
+          "answer": "lived",
+          "explanation": {
+            "en": "Verbs ending in -e just add -d: live → lived.",
+            "vi": "Động từ kết thúc bằng -e chỉ thêm -d: live → lived."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Yesterday, we _____ (play) football in the park.",
+          "answer": "played",
+          "explanation": {
+            "en": "Vowel + y → just add -ed: play → played.",
+            "vi": "Nguyên âm + y → chỉ thêm -ed: play → played."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (buy) some flowers at the market.",
+          "answer": "bought",
+          "explanation": {
+            "en": "'Buy' is irregular. Past simple: bought.",
+            "vi": "'Buy' là động từ bất quy tắc. Quá khứ đơn: bought."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (eat) noodles for breakfast.",
+          "answer": "ate",
+          "explanation": {
+            "en": "'Eat' is irregular. Past simple: ate.",
+            "vi": "'Eat' là động từ bất quy tắc. Quá khứ đơn: ate."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (drink) two cups of coffee this morning.",
+          "answer": "drank",
+          "explanation": {
+            "en": "'Drink' is irregular. Past simple: drank.",
+            "vi": "'Drink' là động từ bất quy tắc. Quá khứ đơn: drank."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (see) a beautiful sunset yesterday evening.",
+          "answer": "saw",
+          "explanation": {
+            "en": "'See' is irregular. Past simple: saw.",
+            "vi": "'See' là động từ bất quy tắc. Quá khứ đơn: saw."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (visit) Singapore last summer.",
+          "answer": "visited",
+          "explanation": {
+            "en": "Regular verb 'visit' adds -ed: visited.",
+            "vi": "Động từ có quy tắc 'visit' thêm -ed: visited."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (write) a beautiful poem.",
+          "answer": "wrote",
+          "explanation": {
+            "en": "'Write' is irregular. Past simple: wrote.",
+            "vi": "'Write' là động từ bất quy tắc. Quá khứ đơn: wrote."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (come) to class on time yesterday.",
+          "answer": "came",
+          "explanation": {
+            "en": "'Come' is irregular. Past simple: came.",
+            "vi": "'Come' là động từ bất quy tắc. Quá khứ đơn: came."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (have) a wonderful time at the party.",
+          "answer": "had",
+          "explanation": {
+            "en": "'Have' is irregular. Past simple: had.",
+            "vi": "'Have' là động từ bất quy tắc. Quá khứ đơn: had."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "She _____ (sing) a beautiful song at the concert.",
+          "answer": "sang",
+          "explanation": {
+            "en": "'Sing' is irregular. Past simple: sang.",
+            "vi": "'Sing' là động từ bất quy tắc. Quá khứ đơn: sang."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (make) a delicious cake last weekend.",
+          "answer": "made",
+          "explanation": {
+            "en": "'Make' is irregular. Past simple: made.",
+            "vi": "'Make' là động từ bất quy tắc. Quá khứ đơn: made."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "The children _____ (run) in the playground.",
+          "answer": "ran",
+          "explanation": {
+            "en": "'Run' is irregular. Past simple: ran.",
+            "vi": "'Run' là động từ bất quy tắc. Quá khứ đơn: ran."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (study) hard for my exam last week.",
+          "answer": "studied",
+          "explanation": {
+            "en": "Consonant + y → -ied: study → studied.",
+            "vi": "Phụ âm + y → -ied: study → studied."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy and Mr. Scott _____ (meet) when they studied abroad.",
+          "answer": "met",
+          "explanation": {
+            "en": "'Meet' is irregular. Past simple: met.",
+            "vi": "'Meet' là động từ bất quy tắc. Quá khứ đơn: met."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (stop) at the supermarket on the way home.",
+          "answer": "stopped",
+          "explanation": {
+            "en": "Short verbs ending in consonant-vowel-consonant double the consonant: stop → stopped.",
+            "vi": "Động từ ngắn phụ âm-nguyên âm-phụ âm gấp đôi phụ âm: stop → stopped."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (take) a taxi to the airport.",
+          "answer": "took",
+          "explanation": {
+            "en": "'Take' is irregular. Past simple: took.",
+            "vi": "'Take' là động từ bất quy tắc. Quá khứ đơn: took."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Yesterday, she _____ (give) me a beautiful gift.",
+          "answer": "gave",
+          "explanation": {
+            "en": "'Give' is irregular. Past simple: gave.",
+            "vi": "'Give' là động từ bất quy tắc. Quá khứ đơn: gave."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (speak) Chinese with our neighbors yesterday.",
+          "answer": "spoke",
+          "explanation": {
+            "en": "'Speak' is irregular. Past simple: spoke.",
+            "vi": "'Speak' là động từ bất quy tắc. Quá khứ đơn: spoke."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'study' is 'studyed'.",
+          "answer": "false",
+          "explanation": {
+            "en": "Consonant + y → drop y, add -ied: study → studied.",
+            "vi": "Phụ âm + y → bỏ y, thêm -ied: study → studied."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'go' is 'went'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Go' is irregular: go → went.",
+            "vi": "Đúng! 'Go' là động từ bất quy tắc: go → went."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'walk' is 'walked'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Regular verb 'walk' adds -ed: walked.",
+            "vi": "Đúng! Động từ có quy tắc 'walk' thêm -ed: walked."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'eat' is 'eated'.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Eat' is irregular. The correct past simple form is 'ate'.",
+            "vi": "'Eat' là động từ bất quy tắc. Dạng quá khứ đơn đúng là 'ate'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Mr. Scott studied at Washington University in Seattle.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Mr. Scott studied at Washington University in Seattle before moving to Singapore.",
+            "vi": "Đúng! Thầy Scott đã học tại Đại học Washington ở Seattle trước khi chuyển đến Singapore."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'play' is 'plaied'.",
+          "answer": "false",
+          "explanation": {
+            "en": "Vowel + y just adds -ed (no spelling change): play → played.",
+            "vi": "Nguyên âm + y chỉ thêm -ed (không đổi chính tả): play → played."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'see' is 'saw'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'See' is irregular: see → saw.",
+            "vi": "Đúng! 'See' là động từ bất quy tắc: see → saw."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We add -ed to all verbs in the past simple, with no exceptions.",
+          "answer": "false",
+          "explanation": {
+            "en": "Only regular verbs add -ed. Many common verbs (go, eat, see, take, etc.) are irregular.",
+            "vi": "Chỉ động từ có quy tắc thêm -ed. Nhiều động từ phổ biến (go, eat, see, take, v.v.) là bất quy tắc."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'buy' is 'buyed'.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Buy' is irregular. Past simple: bought.",
+            "vi": "'Buy' là động từ bất quy tắc. Quá khứ đơn: bought."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'drink' is 'drank'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Drink' is irregular: drink → drank.",
+            "vi": "Đúng! 'Drink' là động từ bất quy tắc: drink → drank."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Verbs ending in -e just add -d in the past simple.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Live → lived, love → loved, dance → danced.",
+            "vi": "Đúng! Live → lived, love → loved, dance → danced."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'stop' is 'stoped'.",
+          "answer": "false",
+          "explanation": {
+            "en": "Short verbs ending in consonant-vowel-consonant double the consonant: stop → stopped.",
+            "vi": "Động từ ngắn phụ âm-nguyên âm-phụ âm gấp đôi phụ âm: stop → stopped."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Ms. Suzy and Mr. Scott studied abroad.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Both teachers studied abroad before settling in Singapore.",
+            "vi": "Đúng! Cả hai giáo viên đã học ở nước ngoài trước khi định cư ở Singapore."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'come' is 'comed'.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Come' is irregular. Past simple: came.",
+            "vi": "'Come' là động từ bất quy tắc. Quá khứ đơn: came."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'have' is 'had'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Have' is irregular: have → had.",
+            "vi": "Đúng! 'Have' là động từ bất quy tắc: have → had."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'I visited Singapore last summer' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Visit' is regular: visited. 'Last summer' signals past time.",
+            "vi": "Đúng! 'Visit' là động từ có quy tắc: visited. 'Last summer' báo hiệu thời gian quá khứ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'make' is 'maked'.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Make' is irregular. Past simple: made.",
+            "vi": "'Make' là động từ bất quy tắc. Quá khứ đơn: made."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'She runned to school' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Run' is irregular. Past simple: ran. Correct: 'She ran to school.'",
+            "vi": "'Run' là động từ bất quy tắc. Quá khứ đơn: ran. Đúng: 'She ran to school.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'teach' is 'taught'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Teach' is irregular: teach → taught. Ms. Suzy taught English last year.",
+            "vi": "Đúng! 'Teach' là động từ bất quy tắc: teach → taught. Cô Suzy đã dạy tiếng Anh năm ngoái."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'speak' is 'spoke'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Speak' is irregular: speak → spoke.",
+            "vi": "Đúng! 'Speak' là động từ bất quy tắc: speak → spoke."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Past simple is used for actions happening right now.",
+          "answer": "false",
+          "explanation": {
+            "en": "Past simple is used for completed actions in the past, not actions happening now.",
+            "vi": "Thì quá khứ đơn dùng cho hành động đã hoàn thành trong quá khứ, không dùng cho hành động đang xảy ra."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'try' is 'tried'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Consonant + y → -ied: try → tried.",
+            "vi": "Đúng! Phụ âm + y → -ied: try → tried."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple form of 'write' is 'wrote'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Write' is irregular: write → wrote.",
+            "vi": "Đúng! 'Write' là động từ bất quy tắc: write → wrote."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We use past simple with words like 'yesterday', 'last week', and 'in 2010'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! These time markers signal completed past actions.",
+            "vi": "Đúng! Các cụm từ chỉ thời gian này báo hiệu hành động đã hoàn thành trong quá khứ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'I goed to school yesterday' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Go' is irregular. The correct form is 'went': 'I went to school yesterday.'",
+            "vi": "'Go' là động từ bất quy tắc. Dạng đúng là 'went': 'I went to school yesterday.'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Mr. Scott bring his laptop to class.",
+            "Mr. Scott brought his laptop to class.",
+            "Mr. Scott brings his laptop to class yesterday.",
+            "Mr. Scott bringed his laptop to class."
+          ],
+          "answer": "Mr. Scott brought his laptop to class.",
+          "explanation": {
+            "en": "'Bring' is irregular. Past simple: brought.",
+            "vi": "'Bring' là động từ bất quy tắc. Quá khứ đơn: brought."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (read) a great novel last weekend.",
+          "answer": "read",
+          "explanation": {
+            "en": "'Read' is irregular. The past form is spelled the same but pronounced /red/.",
+            "vi": "'Read' là động từ bất quy tắc. Dạng quá khứ viết giống nhưng phát âm là /red/."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'find' is 'found'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Find' is irregular: find → found.",
+            "vi": "Đúng! 'Find' là động từ bất quy tắc: find → found."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct past simple form: 'I _____ a beautiful song on the radio.'",
+          "options": [
+            "hear",
+            "heared",
+            "hears",
+            "heard"
+          ],
+          "answer": "heard",
+          "explanation": {
+            "en": "'Hear' is irregular. Past simple: heard.",
+            "vi": "'Hear' là động từ bất quy tắc. Quá khứ đơn: heard."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (drive) to work yesterday morning.",
+          "answer": "drove",
+          "explanation": {
+            "en": "'Drive' is irregular. Past simple: drove.",
+            "vi": "'Drive' là động từ bất quy tắc. Quá khứ đơn: drove."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'sit' is 'sat'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Sit' is irregular: sit → sat.",
+            "vi": "Đúng! 'Sit' là động từ bất quy tắc: sit → sat."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ a new book last week.",
+          "options": [
+            "finish",
+            "finished",
+            "finishes",
+            "finishing"
+          ],
+          "answer": "finished",
+          "explanation": {
+            "en": "Regular verb 'finish' adds -ed: finished.",
+            "vi": "Động từ có quy tắc 'finish' thêm -ed: finished."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (fly) to Singapore in 2015.",
+          "answer": "flew",
+          "explanation": {
+            "en": "'Fly' is irregular. Past simple: flew.",
+            "vi": "'Fly' là động từ bất quy tắc. Quá khứ đơn: flew."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'feel' is 'felt'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Feel' is irregular: feel → felt.",
+            "vi": "Đúng! 'Feel' là động từ bất quy tắc: feel → felt."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She tells me an interesting story yesterday.",
+            "She told me an interesting story yesterday.",
+            "She telled me an interesting story yesterday.",
+            "She telling me an interesting story yesterday."
+          ],
+          "answer": "She told me an interesting story yesterday.",
+          "explanation": {
+            "en": "'Tell' is irregular. Past simple: told.",
+            "vi": "'Tell' là động từ bất quy tắc. Quá khứ đơn: told."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (think) about her family this morning.",
+          "answer": "thought",
+          "explanation": {
+            "en": "'Think' is irregular. Past simple: thought.",
+            "vi": "'Think' là động từ bất quy tắc. Quá khứ đơn: thought."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'leave' is 'left'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Leave' is irregular: leave → left.",
+            "vi": "Đúng! 'Leave' là động từ bất quy tắc: leave → left."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ his bike to the park yesterday.",
+          "options": [
+            "ride",
+            "rides",
+            "rode",
+            "ridden"
+          ],
+          "answer": "rode",
+          "explanation": {
+            "en": "'Ride' is irregular. Past simple: rode.",
+            "vi": "'Ride' là động từ bất quy tắc. Quá khứ đơn: rode."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (begin) the lesson at 9 a.m.",
+          "answer": "began",
+          "explanation": {
+            "en": "'Begin' is irregular. Past simple: began.",
+            "vi": "'Begin' là động từ bất quy tắc. Quá khứ đơn: began."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'know' is 'knew'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Know' is irregular: know → knew.",
+            "vi": "Đúng! 'Know' là động từ bất quy tắc: know → knew."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "She _____ a book at the bookstore yesterday.",
+          "options": [
+            "chose",
+            "choosed",
+            "choose",
+            "chosen"
+          ],
+          "answer": "chose",
+          "explanation": {
+            "en": "'Choose' is irregular. Past simple: chose.",
+            "vi": "'Choose' là động từ bất quy tắc. Quá khứ đơn: chose."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Yesterday, Ms. Suzy _____ (help) her students with homework.",
+          "answer": "helped",
+          "explanation": {
+            "en": "Regular verb 'help' adds -ed: helped.",
+            "vi": "Động từ có quy tắc 'help' thêm -ed: helped."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'forget' is 'forgot'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Forget' is irregular: forget → forgot.",
+            "vi": "Đúng! 'Forget' là động từ bất quy tắc: forget → forgot."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ a beautiful picture yesterday.",
+          "options": [
+            "draw",
+            "draws",
+            "drew",
+            "drawed"
+          ],
+          "answer": "drew",
+          "explanation": {
+            "en": "'Draw' is irregular. Past simple: drew.",
+            "vi": "'Draw' là động từ bất quy tắc. Quá khứ đơn: drew."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (clean) the classroom after school.",
+          "answer": "cleaned",
+          "explanation": {
+            "en": "Regular verb 'clean' adds -ed: cleaned.",
+            "vi": "Động từ có quy tắc 'clean' thêm -ed: cleaned."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The past simple of 'become' is 'became'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Become' is irregular: become → became.",
+            "vi": "Đúng! 'Become' là động từ bất quy tắc: become → became."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy _____ to music while cooking dinner.",
+          "options": [
+            "listen",
+            "listens",
+            "listened",
+            "listening"
+          ],
+          "answer": "listened",
+          "explanation": {
+            "en": "Regular verb 'listen' adds -ed: listened.",
+            "vi": "Động từ có quy tắc 'listen' thêm -ed: listened."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (swim) in the ocean last summer.",
+          "answer": "swam",
+          "explanation": {
+            "en": "'Swim' is irregular. Past simple: swam.",
+            "vi": "'Swim' là động từ bất quy tắc. Quá khứ đơn: swam."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Mr. Scott teached at Washington University.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Teach' is irregular: teach → taught. Also, Mr. Scott studied (was a student) at Washington University, not taught there.",
+            "vi": "'Teach' là động từ bất quy tắc: teach → taught. Ngoài ra, thầy Scott đã học (là sinh viên) tại Đại học Washington, không phải dạy ở đó."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "We arrived at the airport at 6 a.m.",
+            "We arrive at the airport at 6 a.m.",
+            "We arriving at the airport at 6 a.m.",
+            "We arrives at the airport at 6 a.m."
+          ],
+          "answer": "We arrived at the airport at 6 a.m.",
+          "explanation": {
+            "en": "Past simple: 'arrive' → 'arrived'. The verb ends in -e so we just add -d.",
+            "vi": "Quá khứ đơn: 'arrive' → 'arrived'. Động từ kết thúc bằng -e nên chỉ thêm -d."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Task 2: Negative Sentences",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative form: 'Mr. Scott _____ live in Singapore as a child.'",
+          "options": [
+            "doesn't",
+            "didn't",
+            "wasn't",
+            "isn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Use 'didn't' (did not) for past simple negatives with any subject.",
+            "vi": "Dùng 'didn't' (did not) cho câu phủ định thì quá khứ đơn với mọi chủ ngữ."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "We didn't went to school yesterday.",
+            "We don't went to school yesterday.",
+            "We didn't go to school yesterday.",
+            "We not went to school yesterday."
+          ],
+          "answer": "We didn't go to school yesterday.",
+          "explanation": {
+            "en": "Use 'didn't' + base form: didn't go (not 'didn't went').",
+            "vi": "Dùng 'didn't' + dạng nguyên thể: didn't go (không phải 'didn't went')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy _____ visit her parents last weekend.",
+          "options": [
+            "doesn't",
+            "didn't",
+            "isn't",
+            "wasn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative uses 'didn't' for all subjects.",
+            "vi": "Phủ định thì quá khứ đơn dùng 'didn't' cho mọi chủ ngữ."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He didn't ate breakfast.",
+            "He didn't eat breakfast.",
+            "He don't eat breakfast.",
+            "He doesn't ate breakfast."
+          ],
+          "answer": "He didn't eat breakfast.",
+          "explanation": {
+            "en": "After 'didn't', use the base form of the verb: didn't eat.",
+            "vi": "Sau 'didn't', dùng động từ nguyên thể: didn't eat."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is the correct past simple negative?",
+          "options": [
+            "I didn't saw him yesterday.",
+            "I didn't see him yesterday.",
+            "I don't see him yesterday.",
+            "I doesn't see him yesterday."
+          ],
+          "answer": "I didn't see him yesterday.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't see.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't see."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ speak Chinese before he moved to Singapore.",
+          "options": [
+            "didn't",
+            "doesn't",
+            "isn't",
+            "wasn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form.",
+            "vi": "Phủ định thì quá khứ đơn: didn't + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "She didn't bought a new dress.",
+            "She didn't buy a new dress.",
+            "She don't buy a new dress.",
+            "She not buy a new dress."
+          ],
+          "answer": "She didn't buy a new dress.",
+          "explanation": {
+            "en": "After 'didn't' use the base form: buy (not 'bought').",
+            "vi": "Sau 'didn't' dùng dạng nguyên thể: buy (không phải 'bought')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "They didn't watched the movie last night.",
+            "They don't watch the movie last night.",
+            "They didn't watch the movie last night.",
+            "They aren't watch the movie last night."
+          ],
+          "answer": "They didn't watch the movie last night.",
+          "explanation": {
+            "en": "'Didn't' + base verb 'watch'.",
+            "vi": "'Didn't' + động từ nguyên thể 'watch'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative form: 'Ms. Suzy _____ go to the gym yesterday.'",
+          "options": [
+            "doesn't",
+            "isn't",
+            "didn't",
+            "wasn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative: didn't.",
+            "vi": "Phủ định thì quá khứ đơn: didn't."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "Mr. Scott didn't studied in Singapore.",
+            "Mr. Scott didn't study in Singapore.",
+            "Mr. Scott don't study in Singapore.",
+            "Mr. Scott not study in Singapore."
+          ],
+          "answer": "Mr. Scott didn't study in Singapore.",
+          "explanation": {
+            "en": "Mr. Scott studied in Seattle, not Singapore. 'Didn't' + base form: didn't study.",
+            "vi": "Thầy Scott đã học ở Seattle, không phải Singapore. 'Didn't' + dạng nguyên thể: didn't study."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "We _____ enjoy the food at the restaurant.",
+          "options": [
+            "didn't",
+            "doesn't",
+            "isn't",
+            "weren't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative uses 'didn't' for all subjects.",
+            "vi": "Phủ định quá khứ đơn dùng 'didn't' cho mọi chủ ngữ."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I didn't went home early.",
+            "I didn't go home early.",
+            "I don't went home early.",
+            "I doesn't go home early."
+          ],
+          "answer": "I didn't go home early.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't go.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't go."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Mr. Scott didn't taught us yesterday.",
+            "Mr. Scott didn't teach us yesterday.",
+            "Mr. Scott not teach us yesterday.",
+            "Mr. Scott don't teach us yesterday."
+          ],
+          "answer": "Mr. Scott didn't teach us yesterday.",
+          "explanation": {
+            "en": "After 'didn't', use base verb 'teach' (not 'taught').",
+            "vi": "Sau 'didn't', dùng động từ nguyên thể 'teach' (không phải 'taught')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "She didn't came to the party.",
+            "She didn't come to the party.",
+            "She don't come to the party.",
+            "She not come to the party."
+          ],
+          "answer": "She didn't come to the party.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't come.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't come."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "We didn't finished the project.",
+            "We didn't finish the project.",
+            "We don't finish the project.",
+            "We not finish the project."
+          ],
+          "answer": "We didn't finish the project.",
+          "explanation": {
+            "en": "After 'didn't', the main verb is in base form: finish.",
+            "vi": "Sau 'didn't', động từ chính ở dạng nguyên thể: finish."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the correct negative form?",
+          "options": [
+            "He didn't write the letter.",
+            "He didn't wrote the letter.",
+            "He don't write the letter.",
+            "He doesn't write the letter."
+          ],
+          "answer": "He didn't write the letter.",
+          "explanation": {
+            "en": "'Didn't' + base form 'write' (not 'wrote').",
+            "vi": "'Didn't' + dạng nguyên thể 'write' (không phải 'wrote')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Ms. Suzy didn't drove to school yesterday.",
+            "Ms. Suzy didn't drive to school yesterday.",
+            "Ms. Suzy doesn't drive to school yesterday.",
+            "Ms. Suzy not drive to school yesterday."
+          ],
+          "answer": "Ms. Suzy didn't drive to school yesterday.",
+          "explanation": {
+            "en": "After 'didn't', use base form 'drive' (not 'drove').",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể 'drive' (không phải 'drove')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "They don't visited Singapore last year.",
+            "They didn't visit Singapore last year.",
+            "They didn't visited Singapore last year.",
+            "They not visit Singapore last year."
+          ],
+          "answer": "They didn't visit Singapore last year.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't visit.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't visit."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative form of: 'She made a cake.'",
+          "options": [
+            "She didn't made a cake.",
+            "She didn't make a cake.",
+            "She don't make a cake.",
+            "She doesn't make a cake."
+          ],
+          "answer": "She didn't make a cake.",
+          "explanation": {
+            "en": "After 'didn't', use base form 'make'.",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể 'make'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is grammatically correct?",
+          "options": [
+            "I didn't understand the lesson.",
+            "I didn't understood the lesson.",
+            "I don't understand the lesson yesterday.",
+            "I not understand the lesson."
+          ],
+          "answer": "I didn't understand the lesson.",
+          "explanation": {
+            "en": "After 'didn't', use base form 'understand'.",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể 'understand'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Mr. Scott didn't like the food in the restaurant.",
+            "Mr. Scott didn't liked the food in the restaurant.",
+            "Mr. Scott don't like the food in the restaurant.",
+            "Mr. Scott not like the food in the restaurant."
+          ],
+          "answer": "Mr. Scott didn't like the food in the restaurant.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't like.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't like."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "The children didn't play in the garden.",
+            "The children didn't played in the garden.",
+            "The children don't play in the garden yesterday.",
+            "The children not play in the garden."
+          ],
+          "answer": "The children didn't play in the garden.",
+          "explanation": {
+            "en": "'Didn't' + base verb 'play'.",
+            "vi": "'Didn't' + động từ nguyên thể 'play'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Ms. Suzy and Mr. Scott _____ meet in Singapore — they met abroad.",
+          "options": [
+            "didn't",
+            "don't",
+            "weren't",
+            "doesn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "They met while studying abroad. Past simple negative: didn't meet.",
+            "vi": "Họ gặp nhau khi du học ở nước ngoài. Phủ định quá khứ đơn: didn't meet."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "He didn't slept well last night.",
+            "He didn't sleep well last night.",
+            "He don't sleep well last night.",
+            "He doesn't sleep well last night."
+          ],
+          "answer": "He didn't sleep well last night.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't sleep.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't sleep."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "We didn't told the truth.",
+            "We didn't tell the truth.",
+            "We don't tell the truth yesterday.",
+            "We not tell the truth."
+          ],
+          "answer": "We didn't tell the truth.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't tell.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't tell."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/study) in Seattle; she studied in a different city.",
+          "answer": "didn't study",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form.",
+            "vi": "Phủ định quá khứ đơn: didn't + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (not/live) in Singapore as a child.",
+          "answer": "didn't live",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form 'live'.",
+            "vi": "Phủ định quá khứ đơn: didn't + dạng nguyên thể 'live'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (not/go) to the concert last night.",
+          "answer": "didn't go",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't go.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't go."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (not/see) Ms. Suzy at the meeting yesterday.",
+          "answer": "didn't see",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't see (not 'didn't saw').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't see (không phải 'didn't saw')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (not/eat) lunch at school.",
+          "answer": "didn't eat",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't eat.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't eat."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "She _____ (not/finish) her homework on time.",
+          "answer": "didn't finish",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form.",
+            "vi": "Phủ định quá khứ đơn: didn't + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (not/teach) English in the United States.",
+          "answer": "didn't teach",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't teach.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't teach."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (not/come) to the party last weekend.",
+          "answer": "didn't come",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't come.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't come."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "The students _____ (not/understand) the lesson.",
+          "answer": "didn't understand",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't understand.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't understand."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Yesterday, I _____ (not/watch) TV.",
+          "answer": "didn't watch",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't watch.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't watch."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/cook) dinner last night.",
+          "answer": "didn't cook",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't cook.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't cook."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "They _____ (not/buy) anything at the store.",
+          "answer": "didn't buy",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't buy (not 'didn't bought').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't buy (không phải 'didn't bought')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (not/drink) coffee this morning.",
+          "answer": "didn't drink",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't drink.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't drink."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (not/travel) to Japan last year.",
+          "answer": "didn't travel",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't travel.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't travel."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "She _____ (not/play) tennis yesterday.",
+          "answer": "didn't play",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't play.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't play."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (not/write) the report.",
+          "answer": "didn't write",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't write.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't write."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy and Mr. Scott _____ (not/meet) in Singapore — they met abroad.",
+          "answer": "didn't meet",
+          "explanation": {
+            "en": "They met while studying abroad. Past simple negative: didn't meet.",
+            "vi": "Họ gặp nhau khi du học. Phủ định quá khứ đơn: didn't meet."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (not/like) the food at that restaurant.",
+          "answer": "didn't like",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't like.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't like."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "The teacher _____ (not/give) us homework yesterday.",
+          "answer": "didn't give",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't give.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't give."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "My family _____ (not/move) to a new house last year.",
+          "answer": "didn't move",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't move.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't move."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Mr. Scott _____ (not/take) the bus to work this morning.",
+          "answer": "didn't take",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't take (not 'didn't took').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't take (không phải 'didn't took')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "She _____ (not/answer) my message.",
+          "answer": "didn't answer",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't answer.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't answer."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (not/have) any lessons last Friday.",
+          "answer": "didn't have",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't have (not 'didn't had').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't have (không phải 'didn't had')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/forget) her umbrella.",
+          "answer": "didn't forget",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't forget.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't forget."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "The children _____ (not/sleep) well last night.",
+          "answer": "didn't sleep",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't sleep.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't sleep."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "In a past simple negative, we say: 'She didn't visited her family.'",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use the base form: 'She didn't visit her family.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'She didn't visit her family.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Mr. Scott didn't speak Chinese when he arrived in Singapore' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'speak'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'speak'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We use 'doesn't' for past simple negatives.",
+          "answer": "false",
+          "explanation": {
+            "en": "Use 'didn't' for past simple, not 'doesn't' (which is for present simple).",
+            "vi": "Dùng 'didn't' cho quá khứ đơn, không phải 'doesn't' (dành cho hiện tại đơn)."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'I didn't went to school' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', the verb must be in base form: 'I didn't go to school.'",
+            "vi": "Sau 'didn't', động từ phải ở dạng nguyên thể: 'I didn't go to school.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Didn't' is the contracted form of 'did not'.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' = 'did not'.",
+            "vi": "Đúng! 'Didn't' = 'did not'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Ms. Suzy didn't teach yesterday' is a correct past simple negative.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'teach'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'teach'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We use 'didn't' only with he/she/it.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Didn't' is used with all subjects: I, you, he, she, it, we, they.",
+            "vi": "'Didn't' dùng với mọi chủ ngữ: I, you, he, she, it, we, they."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'They didn't ate dinner' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use the base form: 'They didn't eat dinner.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'They didn't eat dinner.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'He didn't call me yesterday' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'call'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'call'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'We not went to the park' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "Past simple negative needs 'didn't': 'We didn't go to the park.'",
+            "vi": "Phủ định quá khứ đơn cần 'didn't': 'We didn't go to the park.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Mr. Scott didn't studied at Washington University' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form 'study'. Also, this sentence would be factually wrong — Mr. Scott did study at Washington University.",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể 'study'. Ngoài ra, câu này sai về mặt thực tế — thầy Scott đã học tại Đại học Washington."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "After 'didn't', the verb must be in its past form.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use the base form, not the past form.",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể, không phải dạng quá khứ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'She didn't watch the movie last night' is grammatically correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'watch'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'watch'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'I don't go to school yesterday' is correct past simple negative.",
+          "answer": "false",
+          "explanation": {
+            "en": "Use 'didn't' for past, not 'don't': 'I didn't go to school yesterday.'",
+            "vi": "Dùng 'didn't' cho quá khứ, không phải 'don't': 'I didn't go to school yesterday.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Ms. Suzy didn't grow up in Singapore.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Ms. Suzy studied abroad and later moved to Singapore. She didn't grow up there.",
+            "vi": "Đúng! Cô Suzy đã du học và sau đó chuyển đến Singapore. Cô không lớn lên ở đó."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'We didn't have any homework yesterday' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'have'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'have'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We need both 'didn't' AND the past form of the verb in negatives.",
+          "answer": "false",
+          "explanation": {
+            "en": "Only use 'didn't' + base form. The 'didn't' already shows past time.",
+            "vi": "Chỉ dùng 'didn't' + dạng nguyên thể. 'Didn't' đã thể hiện thời gian quá khứ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Mr. Scott didn't lived in Seattle' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'Mr. Scott didn't live in Seattle.' (Note: he actually did live in Seattle while studying.)",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'Mr. Scott didn't live in Seattle.' (Lưu ý: thực tế thầy đã sống ở Seattle khi học.)"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'They didn't enjoy the movie' is grammatically correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'enjoy'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'enjoy'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'She didn't called me' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'She didn't call me.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'She didn't call me.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We can shorten 'did not' to 'didn't' in negative sentences.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did not' and 'didn't' have the same meaning; 'didn't' is more common in spoken English.",
+            "vi": "Đúng! 'Did not' và 'didn't' có cùng nghĩa; 'didn't' thông dụng hơn trong văn nói."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'He didn't bought a new car' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'He didn't buy a new car.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'He didn't buy a new car.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Ms. Suzy didn't bring her umbrella' is grammatically correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'bring'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'bring'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Past simple negatives never use 'didn't'.",
+          "answer": "false",
+          "explanation": {
+            "en": "Past simple negatives almost always use 'didn't' (except with 'be': wasn't / weren't).",
+            "vi": "Phủ định quá khứ đơn hầu như luôn dùng 'didn't' (trừ với 'be': wasn't / weren't)."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'We didn't met them yesterday' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'We didn't meet them yesterday.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'We didn't meet them yesterday.'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "Mr. Scott didn't read the email.",
+            "Mr. Scott didn't read the email yesterday.",
+            "Both A and B are correct.",
+            "Mr. Scott don't read the email."
+          ],
+          "answer": "Both A and B are correct.",
+          "explanation": {
+            "en": "Both are correct past simple negatives. A time marker is optional.",
+            "vi": "Cả hai đều là câu phủ định quá khứ đơn đúng. Cụm từ chỉ thời gian là tùy chọn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/work) on Saturday.",
+          "answer": "didn't work",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't work.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't work."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did not' and 'didn't' mean the same thing.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' is just the contracted (shortened) form.",
+            "vi": "Đúng! 'Didn't' chỉ là dạng rút gọn."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "She didn't dance at the party.",
+            "She didn't danced at the party.",
+            "She don't dance at the party.",
+            "She not dance at the party."
+          ],
+          "answer": "She didn't dance at the party.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't dance.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't dance."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (not/swim) in the ocean last summer.",
+          "answer": "didn't swim",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't swim (not 'didn't swam').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't swim (không phải 'didn't swam')."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ celebrate his birthday last year.",
+          "options": [
+            "didn't",
+            "doesn't",
+            "isn't",
+            "weren't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form.",
+            "vi": "Phủ định quá khứ đơn: didn't + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (not/feel) well yesterday.",
+          "answer": "didn't feel",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't feel (not 'didn't felt').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't feel (không phải 'didn't felt')."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'They didn't finished their meal' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'They didn't finish their meal.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'They didn't finish their meal.'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Ms. Suzy didn't sang at the karaoke.",
+            "Ms. Suzy didn't sing at the karaoke.",
+            "Ms. Suzy don't sing at the karaoke.",
+            "Ms. Suzy not sing at the karaoke."
+          ],
+          "answer": "Ms. Suzy didn't sing at the karaoke.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't sing.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't sing."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "He _____ (not/answer) the phone yesterday.",
+          "answer": "didn't answer",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't answer.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't answer."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Mr. Scott didn't speak Mandarin when he first moved to Singapore' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'speak'. He learned Mandarin later.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'speak'. Thầy ấy học tiếng Quan thoại sau này."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which sentence is correct?",
+          "options": [
+            "They didn't met at university.",
+            "They didn't meet at university.",
+            "They don't met at university.",
+            "They not meet at university."
+          ],
+          "answer": "They didn't meet at university.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't meet (not 'didn't met').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't meet (không phải 'didn't met')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/wear) a coat yesterday.",
+          "answer": "didn't wear",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't wear.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't wear."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'I didn't drink coffee this morning' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'drink'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'drink'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Mr. Scott _____ enjoy the movie last night.",
+          "options": [
+            "didn't",
+            "doesn't",
+            "isn't",
+            "wasn't"
+          ],
+          "answer": "didn't",
+          "explanation": {
+            "en": "Past simple negative: didn't + base form.",
+            "vi": "Phủ định quá khứ đơn: didn't + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "The students _____ (not/listen) to the teacher.",
+          "answer": "didn't listen",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't listen.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't listen."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'We didn't sang together' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'We didn't sing together.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'We didn't sing together.'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "Ms. Suzy didn't gave the test yesterday.",
+            "Ms. Suzy didn't give the test yesterday.",
+            "Ms. Suzy don't give the test yesterday.",
+            "Ms. Suzy not give the test yesterday."
+          ],
+          "answer": "Ms. Suzy didn't give the test yesterday.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't give (not 'didn't gave').",
+            "vi": "'Didn't' + dạng nguyên thể: didn't give (không phải 'didn't gave')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "I _____ (not/sleep) well last night.",
+          "answer": "didn't sleep",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't sleep.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't sleep."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'He didn't run in the marathon' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Didn't' + base form 'run'.",
+            "vi": "Đúng! 'Didn't' + dạng nguyên thể 'run'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Mr. Scott didn't grew up in Singapore.",
+            "Mr. Scott didn't grow up in Singapore.",
+            "Mr. Scott don't grow up in Singapore.",
+            "Mr. Scott not grow up in Singapore."
+          ],
+          "answer": "Mr. Scott didn't grow up in Singapore.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't grow. Mr. Scott actually grew up in the United States.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't grow. Thầy Scott thực ra lớn lên ở Mỹ."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "We _____ (not/travel) abroad last year.",
+          "answer": "didn't travel",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't travel.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't travel."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'She didn't asked any questions' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'didn't', use base form: 'She didn't ask any questions.'",
+            "vi": "Sau 'didn't', dùng dạng nguyên thể: 'She didn't ask any questions.'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the negative form of 'I went to bed early'?",
+          "options": [
+            "I didn't went to bed early.",
+            "I didn't go to bed early.",
+            "I don't go to bed early.",
+            "I not went to bed early."
+          ],
+          "answer": "I didn't go to bed early.",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't go.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't go."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Ms. Suzy _____ (not/forget) the appointment.",
+          "answer": "didn't forget",
+          "explanation": {
+            "en": "'Didn't' + base form: didn't forget.",
+            "vi": "'Didn't' + dạng nguyên thể: didn't forget."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Task 3: Yes/No Questions",
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did Mr. Scott studied at Washington University?",
+            "Does Mr. Scott studied at Washington University?",
+            "Did Mr. Scott study at Washington University?",
+            "Was Mr. Scott study at Washington University?"
+          ],
+          "answer": "Did Mr. Scott study at Washington University?",
+          "explanation": {
+            "en": "Use 'Did' + subject + base form for past simple questions.",
+            "vi": "Dùng 'Did' + chủ ngữ + dạng nguyên thể cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the correct short answer to: 'Did Mr. Scott study in Seattle?'",
+          "options": [
+            "Yes, he did.",
+            "Yes, he do.",
+            "Yes, he studied.",
+            "Yes, did he."
+          ],
+          "answer": "Yes, he did.",
+          "explanation": {
+            "en": "Short answer to 'Did' questions: Yes, [subject] did. / No, [subject] didn't.",
+            "vi": "Trả lời ngắn cho câu hỏi 'Did': Yes, [chủ ngữ] did. / No, [chủ ngữ] didn't."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question form.",
+          "options": [
+            "Did you went to school yesterday?",
+            "Did you go to school yesterday?",
+            "Do you went to school yesterday?",
+            "Are you went to school yesterday?"
+          ],
+          "answer": "Did you go to school yesterday?",
+          "explanation": {
+            "en": "After 'Did', use the base form: go (not went).",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: go (không phải went)."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did Ms. Suzy taught English yesterday?",
+            "Did Ms. Suzy teach English yesterday?",
+            "Does Ms. Suzy teach English yesterday?",
+            "Was Ms. Suzy taught English yesterday?"
+          ],
+          "answer": "Did Ms. Suzy teach English yesterday?",
+          "explanation": {
+            "en": "'Did' + base form 'teach'.",
+            "vi": "'Did' + dạng nguyên thể 'teach'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How do you answer 'Did they visit Singapore?' (No)",
+          "options": [
+            "No, they didn't.",
+            "No, they don't.",
+            "No, they not.",
+            "No, they aren't."
+          ],
+          "answer": "No, they didn't.",
+          "explanation": {
+            "en": "Negative short answer: No, [subject] didn't.",
+            "vi": "Trả lời ngắn phủ định: No, [chủ ngữ] didn't."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Did Mr. Scott and Ms. Suzy met abroad?",
+            "Did Mr. Scott and Ms. Suzy meet abroad?",
+            "Does Mr. Scott and Ms. Suzy meet abroad?",
+            "Was Mr. Scott and Ms. Suzy met abroad?"
+          ],
+          "answer": "Did Mr. Scott and Ms. Suzy meet abroad?",
+          "explanation": {
+            "en": "'Did' + base form 'meet'. Yes, they did meet while studying abroad!",
+            "vi": "'Did' + dạng nguyên thể 'meet'. Đúng vậy, họ đã gặp nhau khi du học!"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did she eat dinner?",
+            "Did she ate dinner?",
+            "Does she ate dinner?",
+            "Was she eat dinner?"
+          ],
+          "answer": "Did she eat dinner?",
+          "explanation": {
+            "en": "'Did' + base form 'eat'.",
+            "vi": "'Did' + dạng nguyên thể 'eat'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did you bought a new phone?",
+            "Did you buy a new phone?",
+            "Do you bought a new phone?",
+            "Are you bought a new phone?"
+          ],
+          "answer": "Did you buy a new phone?",
+          "explanation": {
+            "en": "'Did' + base form 'buy'.",
+            "vi": "'Did' + dạng nguyên thể 'buy'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the correct short answer to 'Did Ms. Suzy study abroad?' (Yes)",
+          "options": [
+            "Yes, she did.",
+            "Yes, she does.",
+            "Yes, she studied.",
+            "Yes, did she."
+          ],
+          "answer": "Yes, she did.",
+          "explanation": {
+            "en": "Yes, she did. (Both Ms. Suzy and Mr. Scott studied abroad.)",
+            "vi": "Yes, she did. (Cả cô Suzy và thầy Scott đều đã du học.)"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct form.",
+          "options": [
+            "Did they played football?",
+            "Did they play football?",
+            "Do they played football?",
+            "Was they play football?"
+          ],
+          "answer": "Did they play football?",
+          "explanation": {
+            "en": "'Did' + base form 'play'.",
+            "vi": "'Did' + dạng nguyên thể 'play'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did Mr. Scott came to class on time?",
+            "Did Mr. Scott come to class on time?",
+            "Does Mr. Scott came to class on time?",
+            "Was Mr. Scott come to class on time?"
+          ],
+          "answer": "Did Mr. Scott come to class on time?",
+          "explanation": {
+            "en": "'Did' + base form 'come'.",
+            "vi": "'Did' + dạng nguyên thể 'come'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How do you ask: 'You / see / the movie?'",
+          "options": [
+            "Did you saw the movie?",
+            "Did you see the movie?",
+            "Do you saw the movie?",
+            "Are you see the movie?"
+          ],
+          "answer": "Did you see the movie?",
+          "explanation": {
+            "en": "'Did' + base form 'see'.",
+            "vi": "'Did' + dạng nguyên thể 'see'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did Ms. Suzy cooked dinner?",
+            "Did Ms. Suzy cook dinner?",
+            "Does Ms. Suzy cooked dinner?",
+            "Was Ms. Suzy cook dinner?"
+          ],
+          "answer": "Did Ms. Suzy cook dinner?",
+          "explanation": {
+            "en": "'Did' + base form 'cook'.",
+            "vi": "'Did' + dạng nguyên thể 'cook'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did he wrote a letter?",
+            "Did he write a letter?",
+            "Does he wrote a letter?",
+            "Was he write a letter?"
+          ],
+          "answer": "Did he write a letter?",
+          "explanation": {
+            "en": "'Did' + base form 'write'.",
+            "vi": "'Did' + dạng nguyên thể 'write'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What's the correct answer to 'Did Mr. Scott live in the United States?' (Yes)",
+          "options": [
+            "Yes, he did.",
+            "Yes, he does.",
+            "Yes, he lived.",
+            "Yes, did he."
+          ],
+          "answer": "Yes, he did.",
+          "explanation": {
+            "en": "Yes, he did. Mr. Scott lived in the United States while studying at Washington University.",
+            "vi": "Yes, he did. Thầy Scott đã sống ở Mỹ khi học tại Đại học Washington."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Did we won the game?",
+            "Did we win the game?",
+            "Do we won the game?",
+            "Was we win the game?"
+          ],
+          "answer": "Did we win the game?",
+          "explanation": {
+            "en": "'Did' + base form 'win'.",
+            "vi": "'Did' + dạng nguyên thể 'win'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did your parents visited Singapore?",
+            "Did your parents visit Singapore?",
+            "Do your parents visited Singapore?",
+            "Was your parents visit Singapore?"
+          ],
+          "answer": "Did your parents visit Singapore?",
+          "explanation": {
+            "en": "'Did' + base form 'visit'.",
+            "vi": "'Did' + dạng nguyên thể 'visit'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did Ms. Suzy and Mr. Scott studied abroad?",
+            "Did Ms. Suzy and Mr. Scott study abroad?",
+            "Do Ms. Suzy and Mr. Scott studied abroad?",
+            "Was Ms. Suzy and Mr. Scott study abroad?"
+          ],
+          "answer": "Did Ms. Suzy and Mr. Scott study abroad?",
+          "explanation": {
+            "en": "'Did' + base form 'study'. Yes, they did study abroad!",
+            "vi": "'Did' + dạng nguyên thể 'study'. Đúng vậy, họ đã du học!"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "How do you ask: 'She / drink / tea / this morning?'",
+          "options": [
+            "Did she drank tea this morning?",
+            "Did she drink tea this morning?",
+            "Does she drank tea this morning?",
+            "Was she drink tea this morning?"
+          ],
+          "answer": "Did she drink tea this morning?",
+          "explanation": {
+            "en": "'Did' + base form 'drink'.",
+            "vi": "'Did' + dạng nguyên thể 'drink'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did the students finished their homework?",
+            "Did the students finish their homework?",
+            "Do the students finished their homework?",
+            "Was the students finish their homework?"
+          ],
+          "answer": "Did the students finish their homework?",
+          "explanation": {
+            "en": "'Did' + base form 'finish'.",
+            "vi": "'Did' + dạng nguyên thể 'finish'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Did Mr. Scott took the bus?",
+            "Did Mr. Scott take the bus?",
+            "Does Mr. Scott took the bus?",
+            "Was Mr. Scott take the bus?"
+          ],
+          "answer": "Did Mr. Scott take the bus?",
+          "explanation": {
+            "en": "'Did' + base form 'take'.",
+            "vi": "'Did' + dạng nguyên thể 'take'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did he understood the lesson?",
+            "Did he understand the lesson?",
+            "Does he understood the lesson?",
+            "Was he understand the lesson?"
+          ],
+          "answer": "Did he understand the lesson?",
+          "explanation": {
+            "en": "'Did' + base form 'understand'.",
+            "vi": "'Did' + dạng nguyên thể 'understand'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did you slept early last night?",
+            "Did you sleep early last night?",
+            "Do you slept early last night?",
+            "Are you sleep early last night?"
+          ],
+          "answer": "Did you sleep early last night?",
+          "explanation": {
+            "en": "'Did' + base form 'sleep'.",
+            "vi": "'Did' + dạng nguyên thể 'sleep'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct form.",
+          "options": [
+            "Did Ms. Suzy gave you the book?",
+            "Did Ms. Suzy give you the book?",
+            "Does Ms. Suzy gave you the book?",
+            "Was Ms. Suzy give you the book?"
+          ],
+          "answer": "Did Ms. Suzy give you the book?",
+          "explanation": {
+            "en": "'Did' + base form 'give'.",
+            "vi": "'Did' + dạng nguyên thể 'give'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Did your sister come home?",
+            "Did your sister came home?",
+            "Does your sister came home?",
+            "Was your sister came home?"
+          ],
+          "answer": "Did your sister come home?",
+          "explanation": {
+            "en": "'Did' + base form 'come'.",
+            "vi": "'Did' + dạng nguyên thể 'come'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ you visit Singapore last summer?",
+          "answer": "Did",
+          "explanation": {
+            "en": "Use 'Did' for past simple yes/no questions with any subject.",
+            "vi": "Dùng 'Did' cho câu hỏi yes/no quá khứ đơn với mọi chủ ngữ."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Ms. Suzy and Mr. Scott meet at university?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions with plural subjects too.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn với cả chủ ngữ số nhiều."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Mr. Scott study at Washington University in Seattle?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions. Yes, he did!",
+            "vi": "'Did' cho câu hỏi quá khứ đơn. Đúng vậy!"
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ she eat breakfast this morning?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ they go to the beach last weekend?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ he buy a new car last year?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Ms. Suzy teach English yesterday?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ you watch TV last night?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ your friends come to your party?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did you _____ (see) the new movie last weekend?",
+          "answer": "see",
+          "explanation": {
+            "en": "After 'Did', use base form 'see' (not 'saw').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'see' (không phải 'saw')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Mr. Scott _____ (live) in Seattle?",
+          "answer": "live",
+          "explanation": {
+            "en": "After 'Did', use base form 'live'. Yes, he lived in Seattle while studying!",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'live'. Đúng vậy, thầy sống ở Seattle khi học!"
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did she _____ (study) hard for the exam?",
+          "answer": "study",
+          "explanation": {
+            "en": "After 'Did', use base form 'study'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'study'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did they _____ (eat) at the restaurant?",
+          "answer": "eat",
+          "explanation": {
+            "en": "After 'Did', use base form 'eat' (not 'ate').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'eat' (không phải 'ate')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Mr. Scott _____ (teach) you Mandarin?",
+          "answer": "teach",
+          "explanation": {
+            "en": "After 'Did', use base form 'teach' (not 'taught').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'teach' (không phải 'taught')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did you _____ (go) to school yesterday?",
+          "answer": "go",
+          "explanation": {
+            "en": "After 'Did', use base form 'go' (not 'went').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'go' (không phải 'went')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did he _____ (write) the email?",
+          "answer": "write",
+          "explanation": {
+            "en": "After 'Did', use base form 'write' (not 'wrote').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'write' (không phải 'wrote')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Ms. Suzy _____ (cook) dinner last night?",
+          "answer": "cook",
+          "explanation": {
+            "en": "After 'Did', use base form 'cook'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'cook'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did we _____ (have) a meeting yesterday?",
+          "answer": "have",
+          "explanation": {
+            "en": "After 'Did', use base form 'have' (not 'had').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'have' (không phải 'had')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Mr. Scott _____ (come) to the party?",
+          "answer": "come",
+          "explanation": {
+            "en": "After 'Did', use base form 'come' (not 'came').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'come' (không phải 'came')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did the students _____ (understand) the lesson?",
+          "answer": "understand",
+          "explanation": {
+            "en": "After 'Did', use base form 'understand'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'understand'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Ms. Suzy travel to Vietnam last year?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did your parents _____ (meet) when they were young?",
+          "answer": "meet",
+          "explanation": {
+            "en": "After 'Did', use base form 'meet' (not 'met').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'meet' (không phải 'met')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did he _____ (drive) to work?",
+          "answer": "drive",
+          "explanation": {
+            "en": "After 'Did', use base form 'drive' (not 'drove').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'drive' (không phải 'drove')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did you _____ (read) the book?",
+          "answer": "read",
+          "explanation": {
+            "en": "After 'Did', use base form 'read'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'read'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Ms. Suzy _____ (wear) a dress to the party?",
+          "answer": "wear",
+          "explanation": {
+            "en": "After 'Did', use base form 'wear' (not 'wore').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'wear' (không phải 'wore')."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Ms. Suzy and Mr. Scott live abroad?' is a correct past simple question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'live'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'live'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We use 'Does' for past simple yes/no questions.",
+          "answer": "false",
+          "explanation": {
+            "en": "Use 'Did' for past simple, not 'Does' (which is for present simple).",
+            "vi": "Dùng 'Did' cho quá khứ đơn, không phải 'Does' (dành cho hiện tại đơn)."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did you went to school yesterday?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did you go to school yesterday?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did you go to school yesterday?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The correct short answer to 'Did he study?' is 'Yes, he did.'",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Short answer pattern: Yes, [subject] did.",
+            "vi": "Đúng! Mẫu trả lời ngắn: Yes, [chủ ngữ] did."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did' is used with all subjects in past simple questions.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Unlike 'Do/Does', 'Did' is used with all subjects.",
+            "vi": "Đúng! Khác với 'Do/Does', 'Did' dùng với mọi chủ ngữ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Mr. Scott studied at Washington University?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did Mr. Scott study at Washington University?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did Mr. Scott study at Washington University?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did you eat lunch?' is a correct past simple question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'eat'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'eat'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The correct short answer to 'Did they meet?' (No) is 'No, they didn't.'",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Negative short answer: No, [subject] didn't.",
+            "vi": "Đúng! Trả lời ngắn phủ định: No, [chủ ngữ] didn't."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Was you in Singapore last year?' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "With 'you', use 'Were': 'Were you in Singapore last year?' (Note: 'was' is for I/he/she/it.)",
+            "vi": "Với 'you', dùng 'Were': 'Were you in Singapore last year?' (Lưu ý: 'was' dành cho I/he/she/it.)"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Past simple questions begin with 'Did' (except with 'be' and modals).",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Past simple yes/no questions: Did + subject + base form.",
+            "vi": "Đúng! Câu hỏi yes/no quá khứ đơn: Did + chủ ngữ + dạng nguyên thể."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Ms. Suzy taught the lesson?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did Ms. Suzy teach the lesson?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did Ms. Suzy teach the lesson?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did she finish her homework?' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'finish'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'finish'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The answer 'Yes, she does' is correct for 'Did she go to school?'",
+          "answer": "false",
+          "explanation": {
+            "en": "Past simple short answer uses 'did', not 'does': 'Yes, she did.'",
+            "vi": "Trả lời ngắn quá khứ đơn dùng 'did', không phải 'does': 'Yes, she did.'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Mr. Scott live in Singapore as a child?' is a grammatically correct question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Grammatically correct! (Factually, Mr. Scott didn't grow up in Singapore.)",
+            "vi": "Đúng ngữ pháp! (Trên thực tế, thầy Scott không lớn lên ở Singapore.)"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We always use 'Did' before the past form of the verb in questions.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use the base form, not the past form.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể, không phải dạng quá khứ."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did you watched the movie?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did you watch the movie?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did you watch the movie?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Ms. Suzy and Mr. Scott did meet while studying abroad.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! They met while studying abroad and later moved to Singapore as a married couple.",
+            "vi": "Đúng! Họ gặp nhau khi du học và sau đó cùng chuyển đến Singapore với tư cách là vợ chồng."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did they play tennis yesterday?' is correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'play'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'play'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Do you went home early?' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "Use 'Did' for past: 'Did you go home early?'",
+            "vi": "Dùng 'Did' cho quá khứ: 'Did you go home early?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "The short answer to 'Did Mr. Scott teach in Seattle?' could be 'No, he didn't.'",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Mr. Scott studied in Seattle but didn't teach there.",
+            "vi": "Đúng! Thầy Scott học ở Seattle nhưng không dạy ở đó."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did you have a good time?' is a correct past simple question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'have'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'have'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Ms. Suzy and Mr. Scott studied abroad?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did Ms. Suzy and Mr. Scott study abroad?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did Ms. Suzy and Mr. Scott study abroad?'"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did' can be used to ask both about the past and the future.",
+          "answer": "false",
+          "explanation": {
+            "en": "'Did' is only for past time. For future, use 'Will' or 'Are you going to...'.",
+            "vi": "'Did' chỉ dành cho quá khứ. Cho tương lai, dùng 'Will' hoặc 'Are you going to...'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did your sister come home?' is a correct past simple question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'come'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'come'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "We can answer 'Did he eat lunch?' with 'No, he didn't.'",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! Negative short answer: No, he didn't.",
+            "vi": "Đúng! Trả lời ngắn phủ định: No, he didn't."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What's the correct answer to 'Did Ms. Suzy and Mr. Scott meet abroad?' (Yes)",
+          "options": [
+            "Yes, they did.",
+            "Yes, they do.",
+            "Yes, they met.",
+            "Yes, did they."
+          ],
+          "answer": "Yes, they did.",
+          "explanation": {
+            "en": "Yes, they did! Ms. Suzy and Mr. Scott met while studying abroad.",
+            "vi": "Yes, they did! Cô Suzy và thầy Scott gặp nhau khi du học."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did the children _____ (play) outside?",
+          "answer": "play",
+          "explanation": {
+            "en": "After 'Did', use base form 'play'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'play'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did he forgot his keys?' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did he forget his keys?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did he forget his keys?'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did your team won the match?",
+            "Did your team win the match?",
+            "Does your team won the match?",
+            "Was your team win the match?"
+          ],
+          "answer": "Did your team win the match?",
+          "explanation": {
+            "en": "'Did' + base form 'win'.",
+            "vi": "'Did' + dạng nguyên thể 'win'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Mr. Scott speak English well when he came to Singapore?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple yes/no questions.",
+            "vi": "'Did' cho câu hỏi yes/no quá khứ đơn."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What's the correct short answer to 'Did you study English yesterday?' (No)",
+          "options": [
+            "No, I didn't.",
+            "No, I don't.",
+            "No, I not.",
+            "No, I won't."
+          ],
+          "answer": "No, I didn't.",
+          "explanation": {
+            "en": "Negative short answer: No, I didn't.",
+            "vi": "Trả lời ngắn phủ định: No, I didn't."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did your sister _____ (call) you yesterday?",
+          "answer": "call",
+          "explanation": {
+            "en": "After 'Did', use base form 'call'.",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'call'."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "Pattern for past simple yes/no questions: Did + subject + base verb.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! That's the standard pattern.",
+            "vi": "Đúng! Đó là mẫu chuẩn."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which question is correct?",
+          "options": [
+            "Did Ms. Suzy taught you English?",
+            "Did Ms. Suzy teach you English?",
+            "Does Ms. Suzy taught you English?",
+            "Was Ms. Suzy teach you English?"
+          ],
+          "answer": "Did Ms. Suzy teach you English?",
+          "explanation": {
+            "en": "'Did' + base form 'teach'.",
+            "vi": "'Did' + dạng nguyên thể 'teach'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ they have lunch together?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Mr. Scott studied in Seattle?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did Mr. Scott study in Seattle?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did Mr. Scott study in Seattle?'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did you read the news today?",
+            "Did you read the news today, yesterday?",
+            "Do you read the news yesterday?",
+            "Are you read the news yesterday?"
+          ],
+          "answer": "Did you read the news today?",
+          "explanation": {
+            "en": "'Did' + base form 'read'.",
+            "vi": "'Did' + dạng nguyên thể 'read'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Mr. Scott _____ (move) to Singapore many years ago?",
+          "answer": "move",
+          "explanation": {
+            "en": "After 'Did', use base form 'move'. Yes, he did!",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'move'. Đúng vậy!"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Ms. Suzy travel last year?' is a correct past simple question.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'travel'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'travel'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What is the question form of: 'They visited Singapore.'?",
+          "options": [
+            "Did they visited Singapore?",
+            "Did they visit Singapore?",
+            "Do they visit Singapore?",
+            "Was they visit Singapore?"
+          ],
+          "answer": "Did they visit Singapore?",
+          "explanation": {
+            "en": "'Did' + base form 'visit'.",
+            "vi": "'Did' + dạng nguyên thể 'visit'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did the teacher _____ (give) you homework?",
+          "answer": "give",
+          "explanation": {
+            "en": "After 'Did', use base form 'give' (not 'gave').",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'give' (không phải 'gave')."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Mr. Scott learn Mandarin in Singapore?' is grammatically correct.",
+          "answer": "true",
+          "explanation": {
+            "en": "Correct! 'Did' + base form 'learn'.",
+            "vi": "Đúng! 'Did' + dạng nguyên thể 'learn'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Choose the correct question.",
+          "options": [
+            "Did he sleep well?",
+            "Did he slept well?",
+            "Does he slept well?",
+            "Was he slept well?"
+          ],
+          "answer": "Did he sleep well?",
+          "explanation": {
+            "en": "'Did' + base form 'sleep'.",
+            "vi": "'Did' + dạng nguyên thể 'sleep'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ your friends enjoy the trip?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did Ms. Suzy got married before moving to Singapore?' is grammatically correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did Ms. Suzy get married before moving to Singapore?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did Ms. Suzy get married before moving to Singapore?'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "Which is correct?",
+          "options": [
+            "Did your mother cooked dinner?",
+            "Did your mother cook dinner?",
+            "Does your mother cooked dinner?",
+            "Was your mother cook dinner?"
+          ],
+          "answer": "Did your mother cook dinner?",
+          "explanation": {
+            "en": "'Did' + base form 'cook'.",
+            "vi": "'Did' + dạng nguyên thể 'cook'."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "Did Mr. Scott _____ (study) abroad?",
+          "answer": "study",
+          "explanation": {
+            "en": "After 'Did', use base form 'study'. Yes, he studied at Washington University in Seattle!",
+            "vi": "Sau 'Did', dùng dạng nguyên thể 'study'. Đúng vậy, thầy học tại Đại học Washington ở Seattle!"
+          }
+        },
+        {
+          "type": "true_false",
+          "question": "'Did she came home late?' is correct.",
+          "answer": "false",
+          "explanation": {
+            "en": "After 'Did', use base form: 'Did she come home late?'",
+            "vi": "Sau 'Did', dùng dạng nguyên thể: 'Did she come home late?'"
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What's a correct answer to 'Did they swim in the ocean?' (No)",
+          "options": [
+            "No, they didn't.",
+            "No, they don't.",
+            "No, they not.",
+            "No, didn't they."
+          ],
+          "answer": "No, they didn't.",
+          "explanation": {
+            "en": "Negative short answer: No, they didn't.",
+            "vi": "Trả lời ngắn phủ định: No, they didn't."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "question": "_____ Mr. Scott take Chinese classes when he moved to Singapore?",
+          "answer": "Did",
+          "explanation": {
+            "en": "'Did' for past simple questions.",
+            "vi": "'Did' cho câu hỏi quá khứ đơn."
+          }
+        }
+      ]
+    }
+  ]
+}
