@@ -8,6 +8,14 @@
     "access": "all"
   },
   {
+    "id": "flyers",
+    "name": "Flyers Vocabulary",
+    "desc": "Master Flyers words with pictures and audio.",
+    "icon": "Rocket",
+    "bg": "primary",
+    "access": "all"
+  },
+  {
     "id": "ielts",
     "name": "IELTS Vocabulary",
     "desc": "Curated word lists for IELTS high-score success.",
