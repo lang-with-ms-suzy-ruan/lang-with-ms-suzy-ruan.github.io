@@ -57,13 +57,13 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Bây giờ tớ đang bận; tớ có thể gọi lại cho bạn sau được không?)"
 29,August,n,/ˈɔːɡəst/,tháng Tám,"It is very hot in August. 
 (Trời rất nóng vào tháng Tám.)"
-30,autumn (US fall),n,/ˈɔːtəm/ (fɔːl,Mùa thu,"In autumn, the leaves change color and fall from the trees. 
+30,autumn (US fall),n,/ˈɔːtəm/ (fɔːl),Mùa thu,"In autumn, the leaves change color and fall from the trees. 
 (Vào mùa thu, lá cây đổi màu và rụng xuống khỏi cây.)"
 31,away,adv,/əˈweɪ/,"Xa, đi xa","The bird flew away when I tried to touch it. 
 (Con chim đã bay đi mất khi tớ cố gắng chạm vào nó.)"
 32,backpack (UK rucksack),n,/ˈbækpæk/,Ba lô,"I put my books and lunchbox into my new backpack. 
 (Tớ để sách và hộp cơm trưa vào trong chiếc ba lô mới của mình.)"
-33,bandage,n,/ˈbændɪdʒ/,Băng gạc (y tế,"The nurse put a bandage on my knee because I fell down. 
+33,bandage,n,/ˈbændɪdʒ/,Băng gạc (y tế),"The nurse put a bandage on my knee because I fell down. 
 (Cô y tá đã quấn băng gạc lên đầu gối của tớ vì tớ bị ngã.)"
 34,bank,n,/bæŋk/,Ngân hàng,"My mom goes to the bank to save some money every month. 
 (Mẹ tớ đến ngân hàng để tiết kiệm tiền mỗi tháng.)"
@@ -167,7 +167,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Cửa hàng đồ chơi nằm ở góc đường.)"
 84,costume,n,/ˈkɑːstuːm/,Trang phục hóa trang,"She wore a beautiful princess costume for the party. 
 (Cô ấy đã mặc một bộ đồ hóa trang công chúa xinh đẹp cho bữa tiệc.)"
-85,could (for possibility),modal v,/kʊd/,Có thể (khả năng,"It's cloudy; it could rain this afternoon. 
+85,could (for possibility),modal v,/kʊd/,Có thể (khả năng),"It's cloudy; it could rain this afternoon. 
 (Trời nhiều mây; chiều nay có thể sẽ mưa đấy.)"
 86,creature,n,/ˈkriːtʃər/,Sinh vật,"The forest is home to many strange and colorful creatures. 
 (Khu rừng là nhà của nhiều sinh vật lạ lẫm và đầy màu sắc.)"
@@ -211,7 +211,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Mặt trời sẽ sớm biến mất sau những đám mây đen.)"
 106,drum,n,/drʌm/,Cái trống,"My brother plays the drums in the school band. 
 (Anh trai tớ chơi trống trong ban nhạc của trường.)"
-107,during,prep,/ˈdʊrɪŋ/,Trong suốt (một khoảng thời gian,"It rained heavily during the football match yesterday. 
+107,during,prep,/ˈdʊrɪŋ/,Trong suốt (một khoảng thời gian),"It rained heavily during the football match yesterday. 
 (Trời đã mưa rất to trong suốt trận bóng đá ngày hôm qua.)"
 108,each,det/pron,/iːtʃ/,Mỗi,"Each student in my class has a new blue backpack. 
 (Mỗi học sinh trong lớp tớ đều có một chiếc ba lô màu xanh mới.)"
@@ -219,8 +219,8 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Con đại bàng đã bay cao trên những ngọn núi để tìm thức ăn.)"
 110,early,adj/adv,/ˈɜːrli/,Sớm,"I woke up early today to see the sunrise. 
 (Hôm nay tớ dậy sớm để ngắm bình minh.)"
-111,Earth,n,/ɜːrθ/,Trái đất," 
-()"
+111,Earth,n,/ɜːrθ/,Trái đất,"The earth is covered with green forests and blue oceans.
+(Trái Đất được bao phủ bởi những khu rừng xanh và các đại dương xanh thẳm.)"
 112,east,n/adj/adv,/iːst/,Hướng đông,"The sun rises in the east and sets in the west. 
 (Mặt trời mọc ở hướng đông và lặn ở hướng tây.)"
 113,elbow,n,/ˈelboʊ/,Khuỷu tay,"She hurt her elbow when she fell off her bicycle. 
@@ -241,7 +241,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Cá voi là một loài động vật khổng lồ sống ở dưới biển.)"
 121,enough,det/adv,/ɪˈnʌf/,Đủ,"I have enough money to buy this cool comic book. 
 (Tớ có đủ tiền để mua cuốn truyện tranh ngầu này.)"
-122,enter (a competition,v,/ˈentər/,"Tham gia, đi vào","Many students want to enter the school art competition. 
+122,enter (a competition),v,/ˈentər/,"Tham gia, đi vào","Many students want to enter the school art competition. 
 (Nhiều học sinh muốn tham gia cuộc thi mỹ thuật của trường.)"
 123,entrance,n,/ˈentrəns/,Lối vào,"Wait for me at the main entrance of the cinema. 
 (Hãy đợi tớ ở lối vào chính của rạp chiếu phim nhé.)"
@@ -277,13 +277,13 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Thư viện có cách xa đây không? Không, nó rất gần.)"
 139,fast,adj/adv,/fæst/,Nhanh,"The cheetah is the fastest animal in the world. 
 (Báo săn là loài động vật nhanh nhất thế giới.)"
-140,February,n,/ˈfebrueri/,Tháng 2," 
-()"
+140,February,n,/ˈfebrueri/,Tháng 2,"February is the shortest month of the year.
+(Tháng Hai là tháng ngắn nhất trong năm.)"
 141,feel,v,/fiːl/,Cảm thấy,"I feel very happy when I play with my puppy. 
 (Tớ thấy rất hạnh phúc khi chơi cùng chú chó con của mình.)"
 142,festival,n,/ˈfestɪvl/,Lễ hội,"Mid-Autumn Festival is a special time for children. 
 (Tết Trung Thu là một khoảng thời gian đặc biệt đối với trẻ em.)"
-143,fetch,v,/fetʃ/,Đi lấy (vật gì về,"Can you fetch your coat from the bedroom, please? 
+143,fetch,v,/fetʃ/,Đi lấy (vật gì về),"Can you fetch your coat from the bedroom, please? 
 (Con có thể vào phòng ngủ lấy áo khoác của con ra đây được không?)"
 144,a few,det,/ə fjuː/,Một vài,"There are a few apples left in the basket. 
 (Còn một vài quả táo ở trong giỏ.)"
@@ -333,7 +333,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Nhà của tớ có một khu vườn nhỏ ở phía trước.)"
 167,full,adj,/fʊl/,Đầy,"The bus is full of people going to the city center. 
 (Xe buýt đã đầy nghẹt người đi đến trung tâm thành phố.)"
-168,fur,n,/fɜːr/,Lông (thú,"The rabbit has very soft and white fur. 
+168,fur,n,/fɜːr/,Lông (thú),"The rabbit has very soft and white fur. 
 (Con thỏ có bộ lông rất trắng và mềm mại.)"
 169,furry,adj,/ˈfɜːri/,"Nhiều lông, mịn","I love my furry teddy bear; it feels so cozy. 
 (Tớ yêu chú gấu bông mịn màng của mình; cảm giác rất ấm áp.)"
@@ -437,7 +437,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Cảm ơn bạn vì lời mời đến bữa tiệc sinh nhật nhé!)"
 219,jam,n,/dʒæm/,Mứt,"I like to spread sweet strawberry jam on my bread. 
 (Tớ thích phết mứt dâu tây ngọt ngào lên bánh mì của mình.)"
-220,join (a club,v,/dʒɔɪn/,Tham gia (câu lạc bộ,"Would you like to join our school football club this term? 
+220,join (a club),v,/dʒɔɪn/,Tham gia (câu lạc bộ),"Would you like to join our school football club this term? 
 (Cậu có muốn tham gia câu lạc bộ bóng đá của trường mình học kỳ này không?)"
 221,July,n,/dʒuˈlaɪ/,tháng Bảy,"We go on holiday in July every year. 
 (Chúng tôi đi nghỉ hè vào tháng Bảy mỗi năm.)"
@@ -487,11 +487,11 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Hãy rẽ trái ở góc đường để tìm cửa hàng bánh kẹo.)"
 244,let,v,/let/,"Cho phép, để cho","Please let me use your colorful markers to color this picture. 
 (Làm ơn cho phép tớ dùng bút màu của cậu để tô bức tranh này nhé.)"
-245,letter (as in mail,n,/ˈletər/,"Thư, lá thư / Chữ cái","I wrote a long letter to my penfriend in Canada. 
+245,letter (as in mail),n,/ˈletər/,"Thư, lá thư / Chữ cái","I wrote a long letter to my penfriend in Canada. 
 (Tớ đã viết một lá thư dài gửi cho người bạn qua thư ở Canada.)"
 246,lie (as in lie down),v,/laɪ/,Nằm xuống,"I love to lie down on the soft green grass and look at the sky. 
 (Tớ thích nằm xuống bãi cỏ xanh mềm mại và ngắm nhìn bầu trời.)"
-247,lift (ride,n,/lɪft/,Đi nhờ xe,"My dad gave my teacher a lift to the train station yesterday. 
+247,lift (ride),n,/lɪft/,Đi nhờ xe,"My dad gave my teacher a lift to the train station yesterday. 
 (Bố tớ đã cho cô giáo đi nhờ xe đến ga tàu hỏa vào ngày hôm qua.)"
 248,lift,v/n,/lɪft/,Nâng lên / Thang máy,"Can you help me lift this heavy box onto the table, please? 
 (Cậu có thể giúp tớ nâng chiếc hộp nặng này lên bàn được không?)"
@@ -521,13 +521,13 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Hoa bắt đầu nở vào tháng Ba.)"
 261,married,adj,/ˈmærid/,Đã kết hôn,"My aunt and uncle have been married for ten years. 
 (Dì và chú của tớ đã kết hôn được mười năm rồi.)"
-262,match (football),n,/mætʃ/,Trận đấu (bóng đá,"Are you going to watch the football match on TV tonight? 
+262,match (football),n,/mætʃ/,Trận đấu (bóng đá),"Are you going to watch the football match on TV tonight? 
 (Cậu có định xem trận đấu bóng đá trên ti vi tối nay không?)"
 263,maths (US math),n,/mæθ/,Môn Toán,"I like math because solving puzzles is very fun. 
 (Tớ thích môn toán vì việc giải các câu đố rất vui.)"
 264,May,n,/meɪ/,tháng Năm,"The weather is warm and sunny in May. 
 (Thời tiết ấm áp và nắng vào tháng Năm.)"
-265,may,modal v,/meɪ/,Có thể (xin phép/khả năng,"May I go out to get a glass of water, please? 
+265,may,modal v,/meɪ/,Có thể (xin phép/khả năng),"May I go out to get a glass of water, please? 
 (Em thưa thầy/cô, em có thể ra ngoài xin cốc nước được không ạ?)"
 266,meal,n,/miːl/,Bữa ăn,"Breakfast is the most important meal of the day. 
 (Bữa sáng là bữa ăn quan trọng nhất trong ngày.)"
@@ -545,11 +545,11 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Con rô-bốt mạnh mẽ này được làm bằng kim loại màu bạc sáng lấp lánh.)"
 273,Michael,n,/ˈmaɪkl/,Mai-cơn,"Michael won first prize in the art competition. 
 (Mai-cơn đã giành giải nhất trong cuộc thi vẽ.)"
-274,midday,n,/ˌmɪdˈdeɪ/,Trưa (12 giờ trưa,"The sun is very hot and bright at midday. 
+274,midday,n,/ˌmɪdˈdeɪ/,Trưa (12 giờ trưa),"The sun is very hot and bright at midday. 
 (Mặt trời rất nóng và sáng chói vào lúc giữa trưa.)"
 275,middle,n/adj,/ˈmɪdl/,Ở giữa,"There is a big round table in the middle of the room. 
 (Có một chiếc bàn tròn lớn ở ngay giữa căn phòng.)"
-276,midnight,n,/ˈmɪdnaɪt/,Nửa đêm (12 giờ đêm,"We stayed up until midnight to celebrate the New Year. 
+276,midnight,n,/ˈmɪdnaɪt/,Nửa đêm (12 giờ đêm),"We stayed up until midnight to celebrate the New Year. 
 (Chúng tớ đã thức đến tận nửa đêm để đón mừng năm mới.)"
 277,might,modal v,/maɪt/,"Có lẽ, có thể","Take an umbrella; it might rain later this afternoon. 
 (Hãy mang theo ô nhé; chiều muộn hôm nay có thể trời sẽ mưa đấy.)"
@@ -619,13 +619,13 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Cẩn thận nhé! Lò nướng đang rất nóng vì mẹ đang nướng bánh quy.)"
 310,over,prep,/ˈoʊvər/,"Qua, phía trên / Hết","The brave dog jumped over the small garden wall. 
 (Chú chó dũng cảm đã nhảy qua bức tường vườn nhỏ.)"
-311,p.m. (for time - post meridiem,phrase,/ˌpiː ˈem/,Giờ chiều/tối,"Our school football match starts at 4 p.m. this Friday. 
+311,p.m. (for time - post meridiem),phrase,/ˌpiː ˈem/,Giờ chiều/tối,"Our school football match starts at 4 p.m. this Friday. 
 (Trận bóng đá của trường chúng tớ bắt đầu lúc 4 giờ chiều Thứ Sáu này.)"
 312,pajamas (UK pyjamas),n,/pəˈdʒæməz/,Bộ đồ ngủ,"I always put on my favorite blue pajamas before going to bed. 
 (Tớ luôn mặc bộ đồ ngủ màu xanh yêu thích trước khi đi ngủ.)"
 313,passenger,n,/ˈpæsɪndʒər/,Hành khách,"There are many passengers waiting for the train on the platform. 
 (Có rất nhiều hành khách đang đợi tàu hỏa trên sân ga.)"
-314,past,prep/n/adj,/pæst/,Qua (giờ / Quá khứ,"It's half past seven, so it's time to get ready for school. 
+314,past,prep/n/adj,/pæst/,Qua (giờ / Quá khứ),"It's half past seven, so it's time to get ready for school. 
 (Bây giờ là bảy giờ rưỡi rồi, nên đã đến lúc chuẩn bị đi học.)"
 315,path,n,/pæθ/,"Đường mòn, lối đi","Follow the small stone path to find the secret garden. 
 (Hãy đi theo lối đi nhỏ bằng đá này để tìm khu vườn bí mật.)"
@@ -691,7 +691,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Tớ luôn mặc bộ đồ ngủ màu xanh yêu thích trước khi đi ngủ.)"
 346,pyramid,n,/ˈpɪrəmɪd/,Hình chóp / Kim tự tháp,"We saw pictures of the ancient stone pyramids in Egypt. 
 (Chúng tớ đã nhìn thấy những bức ảnh về các kim tự tháp bằng đá cổ xưa ở Ai Cập.)"
-347,quarter,n,/ˈkwɔːrtər/,Một phần tư (15 phút,"It is a quarter past ten, so let's finish our game. 
+347,quarter,n,/ˈkwɔːrtər/,Một phần tư (15 phút),"It is a quarter past ten, so let's finish our game. 
 (Bây giờ là mười giờ mười lăm rồi, chúng mình dừng trò chơi thôi nào.)"
 348,queen,n/v,/kwiːn/,Nữ hoàng,"The queen waved kindly to everyone from her golden carriage. 
 (Nữ hoàng đã vẫy tay chào mọi người một cách thân thiện từ chiếc xe ngựa bằng vàng.)"
@@ -701,7 +701,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Sáng nay cô giáo đã cho chúng tớ làm một bài trắc nghiệm từ vựng rất vui.)"
 351,race,n/v,/reɪs/,Cuộc đua / Đua tốc độ,"The children had a running race in the school yard. 
 (Lũ trẻ đã có một cuộc đua chạy bộ ở sân trường.)"
-352,racing (car; bike,n,/ˈreɪsɪŋ/,Đua (xe ô tô; xe đạp,"My brother loves watching exciting car racing on TV. 
+352,racing (car); bike,n,/ˈreɪsɪŋ/,Đua (xe ô tô; xe đạp),"My brother loves watching exciting car racing on TV. 
 (Anh trai tớ rất thích xem đua xe ô tô đầy kịch tính trên ti vi.)"
 353,railway,n,/ˈreɪlweɪ/,"Đường ray, đường sắt","The train is moving fast along the railway. 
 (Đoàn tàu đang di chuyển nhanh trên đường ray.)"
@@ -815,7 +815,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Mẹ đã nướng một chiếc bánh sô-cô-la đặc biệt cho bữa tiệc sinh nhật của tớ.)"
 408,snowman,n,/ˈsnoʊmæn/,Người tuyết,"The children built a happy snowman with a carrot nose. 
 (Lũ trẻ đã làm một người tuyết vui vẻ có chiếc mũi bằng cà rốt.)"
-409,spend,v,/spend/,Dành (thời gian / Tiêu (tiền,"We like to spend our weekends playing at Changi Beach Park. 
+409,spend,v,/spend/,Dành (thời gian) / Tiêu (tiền),"We like to spend our weekends playing at Changi Beach Park. 
 (Chúng tớ thích dành những ngày cuối tuần để vui chơi ở công viên bãi biển Changi.)"
 410,straight on,adv/phrase,/streɪt ɑːn/,Đi thẳng,"Go straight on for two blocks to find the big museum. 
 (Hãy đi thẳng hai dãy nhà nữa để tìm thấy bảo tàng lớn.)"
@@ -863,7 +863,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Đó quả là một cuốn sách thú vị đến nỗi tớ đã đọc nó tận hai lần.)"
 432,suddenly,adv,/ˈsʌdənli/,"Đột nhiên, bỗng nhiên","Suddenly, a fluffy grey rabbit jumped out of the green bush. 
 (Bỗng nhiên, một chú thỏ xám bồng bềnh nhảy ra khỏi bụi cây xanh.)"
-433,sugar,n,/ˈʃʊɡər/,Đường (ăn,"Add a little sugar to the strawberry smoothie to make it sweet. 
+433,sugar,n,/ˈʃʊɡər/,Đường (ăn),"Add a little sugar to the strawberry smoothie to make it sweet. 
 (Hãy thêm một ít đường vào sinh tố dâu tây để làm nó ngọt nhé.)"
 434,suitcase,n,/ˈsuːtkeɪs/,Vali hành lý,"She packed her colorful clothes into a large suitcase for the trip. 
 (Cô ấy đã xếp quần áo rực rỡ của mình vào một chiếc vali lớn cho chuyến đi.)"
@@ -873,7 +873,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Con nên đeo kính râm để bảo vệ đôi mắt khỏi ánh mặt trời chói chang.)"
 437,sure,adj/adv,/ʃʊr/,Chắc chắn,"Make sure you bring your backpack before leaving the house. 
 (Hãy chắc chắn rằng con đã mang theo ba lô trước khi rời khỏi nhà.)"
-438,surname,n,/ˈsɜːrneɪm/,Họ (tên họ,"Write your first name and your surname on the exam paper. 
+438,surname,n,/ˈsɜːrneɪm/,Họ (tên họ),"Write your first name and your surname on the exam paper. 
 (Hãy viết tên và họ của con lên trên tờ giấy thi.)"
 439,surprise,n/v,/sərˈpraɪz/,Sự ngạc nhiên / Làm bất ngờ,"The secret birthday party was a wonderful surprise for him. 
 (Bữa tiệc sinh nhật bí mật quả là một sự bất ngờ tuyệt vời dành cho cậu ấy.)"
@@ -917,7 +917,7 @@ No,Word,Parts of Speech,IPA,Vietnamese,Example
 (Tối nay mẹ sẽ chuẩn bị một chiếc bánh pizza thơm ngon cho bữa tối.)"
 459,torch (US flashlight),n,/tɔːrtʃ/,Đèn pin,"We used a flashlight to see in the dark cave. 
 (Chúng tớ đã dùng đèn pin để nhìn trong hang động tối.)"
-460,tortoise,n,/ˈtɔːrtəs/,Con rùa (trên cạn,"The slow tortoise walked gently along the stone path. 
+460,tortoise,n,/ˈtɔːrtəs/,Con rùa (trên cạn),"The slow tortoise walked gently along the stone path. 
 (Chú rùa chậm chạp đi lại nhẹ nhàng dọc theo lối đi bằng đá.)"
 461,touch,v/n,/tʌtʃ/,"Chạm vào, sờ","Please do not touch the colorful paintings in the art room. 
 (Làm ơn không chạm vào những bức tranh đầy màu sắc trong phòng mỹ thuật.)"
